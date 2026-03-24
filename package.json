@@ -1,0 +1,44 @@
+{
+  "name": "awesome-geo",
+  "description": "Curated GEO platforms, repositories, and verification scripts for AI-era discoverability.",
+  "license": "CC0-1.0",
+  "private": true,
+  "homepage": "https://github.com/deeflect/awesome-geo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deeflect/awesome-geo.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "scripts": {
+    "check-site": "tsx scripts/check-site.ts",
+    "check-data": "tsx scripts/check-data.ts",
+    "add-site": "tsx scripts/add-site.ts",
+    "bulk-add": "tsx scripts/bulk-add.ts",
+    "verify-all": "tsx scripts/verify-all.ts",
+    "verify-pr": "tsx scripts/verify-pr.ts",
+    "verify-repo-pr": "tsx scripts/verify-repo-pr.ts",
+    "fill-sample-profiles": "tsx scripts/fill-sample-profiles.ts",
+    "refresh-ai-access": "tsx scripts/refresh-ai-access.ts",
+    "refresh-authority": "tsx scripts/refresh-authority.ts",
+    "score-sites": "tsx scripts/score-sites.ts",
+    "generate-readme": "tsx scripts/generate-readme.ts",
+    "split-data": "tsx scripts/split-data.ts",
+    "typecheck": "tsc --noEmit",
+    "validate": "npm run typecheck && npm run check-data && npm run generate-readme"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "commander": "^14.0.1",
+    "csv-parse": "^6.1.0",
+    "robots-parser": "^3.0.1",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,171 @@
+name,url,category,sampleProfile,description
+GitHub,https://github.com,developer-profiles,https://github.com/deeflect,Profile README + pinned repos. Tier 1 developer asset.
+GitLab,https://gitlab.com,developer-profiles,https://gitlab.com/deeflect,Alternative git platform with profile pages.
+Bitbucket,https://bitbucket.org,developer-profiles,,Atlassian git hosting with public profiles.
+DEV.to,https://dev.to,developer-profiles,https://dev.to/deeflect,Developer blog platform with canonical URL support.
+Hashnode,https://hashnode.com,developer-profiles,https://hashnode.com/@deeflect,Dev blog with custom domain support.
+Stack Overflow,https://stackoverflow.com,developer-profiles,,Q&A platform with developer profiles.
+npm,https://www.npmjs.com,developer-profiles,,Node.js package registry with author pages.
+PyPI,https://pypi.org,developer-profiles,,Python package index with project URLs.
+crates.io,https://crates.io,developer-profiles,,Rust package registry.
+RubyGems,https://rubygems.org,developer-profiles,,Ruby package registry with profile pages.
+Packagist,https://packagist.org,developer-profiles,,PHP/Composer package registry.
+NuGet,https://www.nuget.org,developer-profiles,,.NET package registry.
+Docker Hub,https://hub.docker.com,developer-profiles,,Container image registry with profiles.
+CodePen,https://codepen.io,developer-profiles,,Frontend demo platform with profiles.
+CodeSandbox,https://codesandbox.io,developer-profiles,,Online IDE with public projects.
+Replit,https://replit.com,developer-profiles,,Online IDE with project profiles.
+Glitch,https://glitch.com,developer-profiles,,Web app platform with project pages.
+JSFiddle,https://jsfiddle.net,developer-profiles,,JavaScript playground with user profiles.
+SourceForge,https://sourceforge.net,developer-profiles,,Open source project hosting.
+Google Developers,https://g.dev,developer-profiles,https://g.dev/deeflect,Google developer profile.
+HuggingFace,https://huggingface.co,developer-profiles,,AI/ML model hosting with profiles.
+Kaggle,https://www.kaggle.com,developer-profiles,,Data science competition platform.
+Observable,https://observablehq.com,developer-profiles,,Data visualization notebooks.
+Exercism,https://exercism.org,developer-profiles,,Coding exercises with public profiles.
+LeetCode,https://leetcode.com,developer-profiles,,Coding challenge platform.
+HackerRank,https://www.hackerrank.com,developer-profiles,,Developer skills platform.
+Launchpad,https://launchpad.net,developer-profiles,,Ubuntu/Canonical project hosting.
+Read the Docs,https://readthedocs.org,developer-profiles,,Documentation hosting platform.
+Gitea,https://gitea.com,developer-profiles,,Self-hosted git with public instances.
+Codeberg,https://codeberg.org,developer-profiles,,Non-profit git hosting.
+Crunchbase,https://crunchbase.com,business-directories,https://www.crunchbase.com/person/dmitry-kargaev,Startup/person profiles for fundraising ecosystem.
+AngelList / Wellfound,https://wellfound.com,business-directories,https://wellfound.com/u/dmitry-kargaev,Startup ecosystem profiles.
+F6S,https://f6s.com,business-directories,https://www.f6s.com/deeflectcom,Startup directory with founder profiles.
+Product Hunt,https://producthunt.com,business-directories,https://www.producthunt.com/@dkargaev,Product launch platform with maker profiles.
+Google Business,https://business.google.com,business-directories,,Local business listing in Google.
+LinkedIn,https://linkedin.com,business-directories,https://linkedin.com/in/dkargaev,Professional network with company pages.
+Clutch,https://clutch.co,business-directories,,Agency and service provider reviews.
+GoodFirms,https://goodfirms.co,business-directories,,Service provider review directory.
+G2,https://www.g2.com,business-directories,,Software review platform.
+Capterra,https://www.capterra.com,business-directories,,Software comparison directory.
+TrustPilot,https://www.trustpilot.com,business-directories,,Consumer review platform.
+Yelp,https://www.yelp.com,business-directories,,Local business reviews.
+Glassdoor,https://www.glassdoor.com,business-directories,,Company reviews and salaries.
+DesignRush,https://www.designrush.com,business-directories,,Agency directory for design/dev.
+Sortlist,https://www.sortlist.com,business-directories,,Agency matching platform.
+AppFutura,https://www.appfutura.com,business-directories,,App development directory.
+TopDevelopers,https://www.topdevelopers.co,business-directories,,Developer company directory.
+Alignable,https://www.alignable.com,business-directories,,Small business networking.
+BizSugar,https://bizsugar.com,business-directories,,Small business content sharing.
+Manta,https://www.manta.com,business-directories,,Small business directory.
+Kompass,https://www.kompass.com,business-directories,,International business directory.
+Yellow Pages,https://www.yellowpages.com,business-directories,,Classic business directory.
+Better Business Bureau,https://www.bbb.org,business-directories,,Business accreditation directory.
+Chamber of Commerce,https://www.chamberofcommerce.com,business-directories,,Business membership directory.
+Foursquare,https://foursquare.com,business-directories,,Location-based business listings.
+Apple Maps Connect,https://mapsconnect.apple.com,business-directories,,Apple Maps business listings.
+Bing Places,https://www.bingplaces.com,business-directories,,Bing business listings.
+Medium,https://medium.com,content-syndication,,Blogging platform with canonical URL support.
+Substack,https://substack.com,content-syndication,,Newsletter platform with web presence.
+LinkedIn Articles,https://linkedin.com,content-syndication,,Long-form content on LinkedIn.
+Hacker News,https://news.ycombinator.com,content-syndication,,Tech news aggregator. Very high impact.
+Thinkers360,https://thinkers360.com,content-syndication,,Thought leadership platform.
+Vocal.media,https://vocal.media,content-syndication,,General content platform with payouts.
+Blogger,https://www.blogger.com,content-syndication,,Google blogging platform.
+WordPress.com,https://wordpress.com,content-syndication,,Hosted WordPress blogs.
+Ghost,https://ghost.org,content-syndication,,Modern publishing platform.
+Tumblr,https://www.tumblr.com,content-syndication,,Microblogging platform.
+Quora Spaces,https://www.quora.com,content-syndication,,Q&A platform with content spaces.
+Notion,https://notion.so,content-syndication,,Published Notion pages.
+Telegraph,https://telegra.ph,content-syndication,,Instant publishing by Telegram.
+HubPages,https://hubpages.com,content-syndication,,Content network with niche sites.
+Newsbreak,https://www.newsbreak.com,content-syndication,,Local news content platform.
+ArticleBiz,https://www.articlebiz.com,content-syndication,,Article directory.
+EzineArticles,https://ezinearticles.com,content-syndication,,Long-running article directory.
+SlideShare,https://www.slideshare.net,content-syndication,,Presentation sharing platform.
+Issuu,https://issuu.com,content-syndication,,Digital publication platform.
+Scribd,https://www.scribd.com,content-syndication,,Document sharing platform.
+Reddit,https://reddit.com,community-platforms,,Community forums with profile links.
+IndieHackers,https://www.indiehackers.com,community-platforms,,Builder community with product listings.
+Quora,https://www.quora.com,q-and-a-platforms,,Q&A with profile and answer links.
+Lobsters,https://lobste.rs,community-platforms,,Invite-only tech link aggregator.
+SitePoint,https://community.sitepoint.com,community-platforms,,Web dev community forums.
+DZone,https://dzone.com,community-platforms,,Developer content zone.
+Warrior Forum,https://www.warriorforum.com,community-platforms,,Digital marketing forum.
+Digital Point,https://www.digitalpoint.com,community-platforms,,Webmaster forum.
+WebmasterWorld,https://www.webmasterworld.com,community-platforms,,SEO and webmaster forum.
+Spiceworks,https://community.spiceworks.com,community-platforms,,IT professional community.
+Dev.to Discussions,https://dev.to,community-platforms,,Developer discussion threads.
+Hashnode Discussions,https://hashnode.com,community-platforms,,Developer Q&A and discussions.
+GrowthHackers,https://growthhackers.com,community-platforms,,Growth marketing community.
+CNET Forums,https://www.cnet.com/forums,community-platforms,,Tech discussion forums.
+XenForo Community,https://xenforo.com/community,community-platforms,,Forum software community.
+X / Twitter,https://x.com,social-profiles,https://x.com/deeflectcom,Microblogging with bio link.
+Gravatar,https://gravatar.com,social-profiles,,Universal avatar with verified links.
+About.me,https://about.me,social-profiles,,Personal landing page.
+Behance,https://behance.net,social-profiles,https://behance.net/dkargaev,Adobe design portfolio.
+Dribbble,https://dribbble.com,social-profiles,,Design showcase platform.
+YouTube,https://youtube.com,social-profiles,,Video platform with channel links.
+Pinterest,https://pinterest.com,social-profiles,,Visual bookmarking with profile links.
+Flickr,https://flickr.com,social-profiles,,Photo sharing with profile links.
+Vimeo,https://vimeo.com,social-profiles,,Video hosting with profiles.
+Mastodon,https://mastodon.social,social-profiles,,Decentralized social network.
+Bluesky,https://bsky.app,social-profiles,,Decentralized microblogging.
+Threads,https://www.threads.net,social-profiles,,Meta microblogging platform.
+TikTok,https://tiktok.com,social-profiles,,Short video with bio link.
+Instagram,https://instagram.com,social-profiles,,Photo/video with bio link.
+Linktree,https://linktr.ee,social-profiles,,Link-in-bio platform.
+Bio.link,https://bio.link,social-profiles,,Link-in-bio alternative.
+Carrd,https://carrd.co,social-profiles,,One-page personal sites.
+Bento,https://bento.me,social-profiles,,Developer link-in-bio.
+Peerlist,https://peerlist.io,social-profiles,,Professional profiles for devs.
+Polywork,https://www.polywork.com,social-profiles,,Professional identity platform.
+Read.cv,https://read.cv,social-profiles,,Minimal professional profiles.
+Daily.dev,https://daily.dev,social-profiles,,Developer news with profiles.
+Wikidata,https://wikidata.org,knowledge-bases,,Structured data — feeds AI knowledge graphs directly.
+Wikimedia Commons,https://commons.wikimedia.org,knowledge-bases,,Image hosting with attribution.
+Wikipedia,https://wikipedia.org,knowledge-bases,,Highest impact. Requires notability.
+ORCID,https://orcid.org,knowledge-bases,,Researcher identifier system.
+Google Scholar,https://scholar.google.com,knowledge-bases,,Academic profile with citations.
+ResearchGate,https://www.researchgate.net,knowledge-bases,,Academic social network.
+Academia.edu,https://www.academia.edu,knowledge-bases,,Academic paper sharing.
+Semantic Scholar,https://www.semanticscholar.org,knowledge-bases,,AI-powered research tool.
+Figma Community,https://figma.com/community,design-portfolios,,Design file sharing.
+Awwwards,https://www.awwwards.com,design-portfolios,,Web design awards directory.
+CSS Design Awards,https://www.cssdesignawards.com,design-portfolios,,CSS/web design awards.
+SiteInspire,https://www.siteinspire.com,design-portfolios,,Web design showcase.
+Muzli,https://muz.li,design-portfolios,,Design inspiration platform.
+Coroflot,https://www.coroflot.com,design-portfolios,,Design portfolio and jobs.
+Carbonmade,https://carbonmade.com,design-portfolios,,Online portfolio builder.
+Dunked,https://dunked.com,design-portfolios,,Portfolio hosting for creatives.
+Cargo,https://cargo.site,design-portfolios,,Designer portfolio platform.
+Featured.com,https://featured.com,niche-directories,https://featured.com/p/dmitry-kargaev,Expert source for journalists.
+Qwoted,https://app.qwoted.com,niche-directories,https://app.qwoted.com/sources/dmitry-kargaev,Expert quote platform.
+HARO / Connectively,https://www.connectively.us,niche-directories,,Journalist source requests.
+SourceBottle,https://www.sourcebottle.com,niche-directories,,Journalist query platform.
+Help a B2B Writer,https://helpab2bwriter.com,niche-directories,,B2B content expert matching.
+MuckRack,https://muckrack.com,niche-directories,,PR and journalist platform.
+Clarity.fm,https://clarity.fm,niche-directories,,Expert call marketplace.
+Maven,https://maven.com,niche-directories,,Expert teaching platform.
+Contra,https://contra.com,niche-directories,,Freelance portfolio platform.
+Toptal,https://www.toptal.com,niche-directories,,Top freelancer network.
+Gun.io,https://gun.io,niche-directories,,Developer freelance platform.
+Arc.dev,https://arc.dev,niche-directories,,Remote developer jobs.
+Working Not Working,https://workingnotworking.com,niche-directories,,Creative freelancer directory.
+Clay,https://clay.earth,social-profiles,,Personal CRM with public profile.
+StumbleUpon / Mix,https://mix.com,social-bookmarking,,Content discovery platform.
+Pocket,https://getpocket.com,social-bookmarking,,Save and share articles.
+Flipboard,https://flipboard.com,social-bookmarking,,Content curation magazines.
+Diigo,https://www.diigo.com,social-bookmarking,,Social bookmarking and annotation.
+Raindrop.io,https://raindrop.io,social-bookmarking,,Bookmark manager with public collections.
+Pearltrees,https://www.pearltrees.com,social-bookmarking,,Visual bookmarking platform.
+Start.me,https://start.me,social-bookmarking,,Start page with public bookmarks.
+Wakelet,https://wakelet.com,social-bookmarking,,Content curation platform.
+Scoop.it,https://www.scoop.it,social-bookmarking,,Content curation for marketing.
+Paper.li,https://paper.li,social-bookmarking,,Automated content curation.
+Slashdot,https://slashdot.org,community-platforms,,Tech news discussion.
+Digg,https://digg.com,social-bookmarking,,News aggregator.
+Hacker Noon,https://hackernoon.com,content-syndication,,Tech blog platform with author profiles.
+freeCodeCamp,https://www.freecodecamp.org,content-syndication,,Coding education with contributor profiles.
+Smashing Magazine,https://www.smashingmagazine.com,content-syndication,,Web dev publication accepting articles.
+CSS-Tricks,https://css-tricks.com,content-syndication,,Frontend dev resource.
+LogRocket Blog,https://blog.logrocket.com,content-syndication,,Frontend monitoring blog accepting posts.
+SitePoint,https://www.sitepoint.com,content-syndication,,Web dev articles platform.
+Twitch,https://twitch.tv,social-profiles,,Streaming platform with bio links.
+Discord,https://discord.com,social-profiles,,Community platform with server listings.
+Telegram,https://t.me,social-profiles,,Messaging with public channels.
+WhatsApp Channels,https://whatsapp.com/channel,social-profiles,,Meta messaging channels.
+Spotify for Podcasters,https://podcasters.spotify.com,social-profiles,,Podcast hosting with profiles.
+Goodreads,https://www.goodreads.com,social-profiles,,Book reviews with author profiles.
+Letterboxd,https://letterboxd.com,social-profiles,,Film reviews with profiles.

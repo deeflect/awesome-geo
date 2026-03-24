@@ -1,0 +1,405 @@
+# Niche Directories — Specialized expert and industry directories
+# To add a new site, append an entry and submit a PR.
+
+- name: Arc.dev
+  url: https://arc.dev
+  category: niche-directories
+  sampleProfile: ""
+  dr: 42
+  linkType: mixed
+  effort: medium
+  description: Remote developer jobs.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 73
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 8
+    queryFitScore: 15
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 147846
+- name: Clarity.fm
+  url: https://clarity.fm
+  category: niche-directories
+  sampleProfile: https://clarity.fm/sahil-lavingia
+  dr: 46
+  linkType: mixed
+  effort: medium
+  description: Expert call marketplace.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 73
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 8
+    queryFitScore: 15
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 144472
+- name: Contra
+  url: https://contra.com
+  category: niche-directories
+  sampleProfile: ""
+  dr: 46
+  linkType: mixed
+  effort: medium
+  description: Freelance portfolio platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 76
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 11
+    queryFitScore: 15
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 56186
+- name: Featured.com
+  url: https://featured.com
+  category: niche-directories
+  sampleProfile: https://featured.com/p/dmitry-kargaev
+  dr: 40
+  linkType: mixed
+  effort: medium
+  description: Expert source for journalists.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: unknown
+    gptBot: unknown
+    chatgptUser: unknown
+    googleExtended: unknown
+    claudeBot: unknown
+    perplexityBot: unknown
+    bytespider: unknown
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 30
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 0
+    popularityScore: 5
+    queryFitScore: 15
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 297012
+- name: Gun.io
+  url: https://gun.io
+  category: niche-directories
+  sampleProfile: ""
+  dr: 45
+  linkType: mixed
+  effort: medium
+  description: Developer freelance platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 70
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 5
+    queryFitScore: 15
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 482199
+- name: HARO / Connectively
+  url: https://www.connectively.us
+  category: niche-directories
+  sampleProfile: ""
+  dr: 36
+  linkType: mixed
+  effort: medium
+  description: Journalist source requests.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 54
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 1
+    queryFitScore: 15
+    authorityScore: 4
+    linkValueScore: 4
+  trancoRank: 1455361
+- name: Help a B2B Writer
+  url: https://helpab2bwriter.com
+  category: niche-directories
+  sampleProfile: ""
+  dr: 38
+  linkType: mixed
+  effort: medium
+  description: B2B content expert matching.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 64
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 1
+    queryFitScore: 15
+    authorityScore: 4
+    linkValueScore: 4
+  trancoRank: 2098262
+- name: Maven
+  url: https://maven.com
+  category: niche-directories
+  sampleProfile: ""
+  dr: 47
+  linkType: mixed
+  effort: medium
+  description: Expert teaching platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 73
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 8
+    queryFitScore: 15
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 131929
+- name: MuckRack
+  url: https://muckrack.com
+  category: niche-directories
+  sampleProfile: https://muckrack.com/taylor-lorenz
+  dr: 54
+  linkType: mixed
+  effort: medium
+  description: PR and journalist platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 63
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 0
+    popularityScore: 17
+    queryFitScore: 15
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 8529
+- name: Qwoted
+  url: https://app.qwoted.com
+  category: niche-directories
+  sampleProfile: https://app.qwoted.com/sources/dmitry-kargaev
+  dr: 37
+  linkType: dofollow
+  effort: low
+  description: Expert quote platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: true
+  aiCrawled: true
+  geoScore: 54
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 10
+    popularityScore: 1
+    queryFitScore: 15
+    authorityScore: 4
+    linkValueScore: 5
+- name: SourceBottle
+  url: https://www.sourcebottle.com
+  category: niche-directories
+  sampleProfile: ""
+  dr: 39
+  linkType: mixed
+  effort: medium
+  description: Journalist query platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 64
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 1
+    queryFitScore: 15
+    authorityScore: 4
+    linkValueScore: 4
+  trancoRank: 1107484
+- name: Toptal
+  url: https://www.toptal.com
+  category: niche-directories
+  sampleProfile: https://www.toptal.com/resume/michael-ciosek
+  dr: 59
+  linkType: mixed
+  effort: medium
+  description: Top freelancer network.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 74
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 17
+    queryFitScore: 15
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 6582
+- name: Working Not Working
+  url: https://workingnotworking.com
+  category: niche-directories
+  sampleProfile: ""
+  dr: 45
+  linkType: mixed
+  effort: medium
+  description: Creative freelancer directory.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 49
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 0
+    popularityScore: 5
+    queryFitScore: 15
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 342246

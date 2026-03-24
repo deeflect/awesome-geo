@@ -1,0 +1,433 @@
+# Community Platforms — Forums and community sites
+# To add a new site, append an entry and submit a PR.
+
+- name: CNET Forums
+  url: https://www.cnet.com/forums
+  category: community-platforms
+  sampleProfile: ""
+  dr: 64
+  linkType: mixed
+  effort: medium
+  description: Tech discussion forums.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: allowed
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 60
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 3
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 14
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 633
+- name: Digital Point
+  url: https://www.digitalpoint.com
+  category: community-platforms
+  sampleProfile: https://forums.digitalpoint.com/members/shaun.1/
+  dr: 43
+  linkType: mixed
+  effort: medium
+  description: Webmaster forum.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 75
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 11
+    queryFitScore: 14
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 60621
+- name: DZone
+  url: https://dzone.com
+  category: community-platforms
+  sampleProfile: ""
+  dr: 55
+  linkType: mixed
+  effort: medium
+  description: Developer content zone.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 69
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 26
+    indexabilityScore: 0
+    popularityScore: 17
+    queryFitScore: 14
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 9508
+- name: GrowthHackers
+  url: https://growthhackers.com
+  category: community-platforms
+  sampleProfile: ""
+  dr: 47
+  linkType: mixed
+  effort: medium
+  description: Growth marketing community.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 72
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 8
+    queryFitScore: 14
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 105787
+- name: IndieHackers
+  url: https://www.indiehackers.com
+  category: community-platforms
+  sampleProfile: https://www.indiehackers.com/courtland
+  dr: 48
+  linkType: mixed
+  effort: medium
+  description: Builder community with product listings.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: unknown
+    gptBot: unknown
+    chatgptUser: unknown
+    googleExtended: unknown
+    claudeBot: unknown
+    perplexityBot: unknown
+    bytespider: unknown
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 47
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 13
+    queryFitScore: 14
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 47451
+- name: Lobsters
+  url: https://lobste.rs
+  category: community-platforms
+  sampleProfile: https://lobste.rs/u/jcs
+  dr: 42
+  linkType: mixed
+  effort: medium
+  description: Invite-only tech link aggregator.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 45
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 11
+    queryFitScore: 14
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 60398
+- name: Quora
+  url: https://quora.com
+  category: community-platforms
+  dr: 68
+  linkType: nofollow
+  effort: low
+  aiCrawled: true
+  description: Q&A platform with profile and answer links.
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: allowed
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: false
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 49
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 3
+    indexabilityScore: 0
+    popularityScore: 19
+    queryFitScore: 14
+    authorityScore: 10
+    linkValueScore: 3
+  trancoRank: 446
+  sampleProfile: https://www.quora.com/topic/OpenAI
+- name: Reddit
+  url: https://reddit.com
+  category: community-platforms
+  dr: 80
+  linkType: nofollow
+  effort: low
+  aiCrawled: false
+  description: Subreddit participation, profile links.
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 59
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 20
+    queryFitScore: 13
+    authorityScore: 13
+    linkValueScore: 3
+  trancoRank: 104
+  sampleProfile: https://www.reddit.com/r/OpenAI/
+- name: SitePoint
+  url: https://community.sitepoint.com
+  category: community-platforms
+  sampleProfile: ""
+  dr: 33
+  linkType: mixed
+  effort: medium
+  description: Web dev community forums.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 53
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 1
+    queryFitScore: 14
+    authorityScore: 4
+    linkValueScore: 4
+- name: Slashdot
+  url: https://slashdot.org
+  category: community-platforms
+  sampleProfile: https://slashdot.org/~samzenpus
+  dr: 55
+  linkType: mixed
+  effort: medium
+  description: Tech news discussion.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 84
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 14
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 2562
+- name: Spiceworks
+  url: https://community.spiceworks.com
+  category: community-platforms
+  sampleProfile: ""
+  dr: 48
+  linkType: mixed
+  effort: medium
+  description: IT professional community.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 54
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 10
+    popularityScore: 1
+    queryFitScore: 14
+    authorityScore: 6
+    linkValueScore: 4
+- name: Warrior Forum
+  url: https://www.warriorforum.com
+  category: community-platforms
+  sampleProfile: ""
+  dr: 47
+  linkType: mixed
+  effort: medium
+  description: Digital marketing forum.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 77
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 13
+    queryFitScore: 14
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 32081
+- name: WebmasterWorld
+  url: https://www.webmasterworld.com
+  category: community-platforms
+  sampleProfile: ""
+  dr: 46
+  linkType: mixed
+  effort: medium
+  description: SEO and webmaster forum.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 72
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 27
+    indexabilityScore: 10
+    popularityScore: 11
+    queryFitScore: 14
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 54510
+- name: XenForo Community
+  url: https://xenforo.com/community
+  category: community-platforms
+  sampleProfile: https://xenforo.com/community/members/mike.1/
+  dr: 47
+  linkType: mixed
+  effort: medium
+  description: Forum software community.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 79
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 14
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 21181

@@ -1,0 +1,829 @@
+# Business Directories — Company and professional directories
+# To add a new site, append an entry and submit a PR.
+
+- name: Alignable
+  url: https://www.alignable.com
+  category: business-directories
+  sampleProfile: ""
+  dr: 47
+  linkType: mixed
+  effort: medium
+  description: Small business networking.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 51
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 13
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 25676
+- name: AngelList / Wellfound
+  url: https://wellfound.com
+  category: business-directories
+  dr: 50
+  linkType: dofollow
+  effort: medium
+  aiCrawled: false
+  description: Startup ecosystem profiles.
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 58
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 20
+    authorityScore: 8
+    linkValueScore: 5
+  trancoRank: 14870
+  sampleProfile: https://wellfound.com/u/dmitry-kargaev
+- name: AppFutura
+  url: https://www.appfutura.com
+  category: business-directories
+  sampleProfile: ""
+  dr: 37
+  linkType: mixed
+  effort: medium
+  description: App development directory.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 59
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 3
+    queryFitScore: 18
+    authorityScore: 4
+    linkValueScore: 4
+  trancoRank: 640799
+- name: Apple Maps Connect
+  url: https://mapsconnect.apple.com
+  category: business-directories
+  sampleProfile: ""
+  dr: 46
+  linkType: mixed
+  effort: medium
+  description: Apple Maps business listings.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 69
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 1
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+- name: Better Business Bureau
+  url: https://www.bbb.org
+  category: business-directories
+  sampleProfile: ""
+  dr: 58
+  linkType: mixed
+  effort: medium
+  description: Business accreditation directory.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 88
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 1944
+- name: Bing Places
+  url: https://www.bingplaces.com
+  category: business-directories
+  sampleProfile: ""
+  dr: 48
+  linkType: mixed
+  effort: medium
+  description: Bing business listings.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 76
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 8
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 112050
+- name: BizSugar
+  url: https://bizsugar.com
+  category: business-directories
+  sampleProfile: ""
+  dr: 42
+  linkType: mixed
+  effort: medium
+  description: Small business content sharing.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 73
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 5
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 275583
+- name: Capterra
+  url: https://www.capterra.com
+  category: business-directories
+  sampleProfile: https://www.capterra.com/p/186221/Slack/
+  dr: 57
+  linkType: mixed
+  effort: medium
+  description: Software comparison directory.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 77
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 17
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 5704
+- name: Chamber of Commerce
+  url: https://www.chamberofcommerce.com
+  category: business-directories
+  sampleProfile: ""
+  dr: 47
+  linkType: mixed
+  effort: medium
+  description: Business membership directory.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 81
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 13
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 27535
+- name: Clutch
+  url: https://clutch.co
+  category: business-directories
+  dr: 54
+  linkType: dofollow
+  effort: medium
+  aiCrawled: false
+  description: Agency and service provider directory.
+  aiAccess:
+    oaiSearchBot: unknown
+    gptBot: unknown
+    chatgptUser: unknown
+    googleExtended: unknown
+    claudeBot: unknown
+    perplexityBot: unknown
+    bytespider: unknown
+  indexable: false
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 48
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 0
+    popularityScore: 17
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 5
+  trancoRank: 8932
+  sampleProfile: https://clutch.co/profile/toptal
+- name: Crunchbase
+  url: https://crunchbase.com
+  category: business-directories
+  dr: 59
+  linkType: nofollow
+  effort: medium
+  aiCrawled: true
+  description: Person and company profiles for startups.
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: allowed
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 63
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 4
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 20
+    authorityScore: 8
+    linkValueScore: 3
+  trancoRank: 3099
+  sampleProfile: https://www.crunchbase.com/person/dmitry-kargaev
+- name: DesignRush
+  url: https://www.designrush.com
+  category: business-directories
+  sampleProfile: https://www.designrush.com/agency/profile/toptal
+  dr: 47
+  linkType: mixed
+  effort: medium
+  description: Agency directory for design/dev.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 73
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 15
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 14960
+- name: F6S
+  url: https://f6s.com
+  category: business-directories
+  dr: 49
+  linkType: dofollow
+  effort: low
+  aiCrawled: true
+  description: Startup directory with founder profiles.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: false
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 63
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 0
+    popularityScore: 15
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 5
+  trancoRank: 17226
+  sampleProfile: https://www.f6s.com/deeflectcom
+- name: Foursquare
+  url: https://foursquare.com
+  category: business-directories
+  sampleProfile: ""
+  dr: 62
+  linkType: mixed
+  effort: medium
+  description: Location-based business listings.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 86
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 26
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 3227
+- name: G2
+  url: https://www.g2.com
+  category: business-directories
+  sampleProfile: https://www.g2.com/products/openai-chatgpt/reviews
+  dr: 58
+  linkType: mixed
+  effort: medium
+  description: Software review platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 78
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 4306
+- name: Glassdoor
+  url: https://www.glassdoor.com
+  category: business-directories
+  sampleProfile: https://www.glassdoor.com/Overview/Working-at-OpenAI-EI_IE2890724.11,17.htm
+  dr: 60
+  linkType: mixed
+  effort: medium
+  description: Company reviews and salaries.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: unknown
+    gptBot: unknown
+    chatgptUser: unknown
+    googleExtended: unknown
+    claudeBot: unknown
+    perplexityBot: unknown
+    bytespider: unknown
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 50
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 0
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 2565
+- name: GoodFirms
+  url: https://goodfirms.co
+  category: business-directories
+  dr: 46
+  linkType: dofollow
+  effort: medium
+  aiCrawled: true
+  description: Service provider review directory.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 72
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 13
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 5
+  trancoRank: 26277
+  sampleProfile: https://www.goodfirms.co/company/toptal
+- name: Google Business
+  url: https://business.google.com
+  category: business-directories
+  dr: 67
+  linkType: nofollow
+  effort: medium
+  aiCrawled: true
+  description: Local business listing in Google ecosystem.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 64
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 1
+    queryFitScore: 20
+    authorityScore: 10
+    linkValueScore: 3
+- name: Kompass
+  url: https://www.kompass.com
+  category: business-directories
+  sampleProfile: ""
+  dr: 39
+  linkType: mixed
+  effort: medium
+  description: International business directory.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 71
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 15
+    queryFitScore: 18
+    authorityScore: 4
+    linkValueScore: 4
+  trancoRank: 24268
+- name: LinkedIn Company
+  url: https://linkedin.com
+  category: business-directories
+  dr: 100
+  linkType: nofollow
+  effort: low
+  aiCrawled: true
+  description: Company page with website link.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 80
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 12
+    indexabilityScore: 10
+    popularityScore: 20
+    queryFitScore: 20
+    authorityScore: 15
+    linkValueScore: 3
+  trancoRank: 18
+  sampleProfile: https://www.linkedin.com/company/openai
+- name: Manta
+  url: https://www.manta.com
+  category: business-directories
+  sampleProfile: ""
+  dr: 53
+  linkType: mixed
+  effort: medium
+  description: Small business directory.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 75
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 15
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 14687
+- name: Product Hunt
+  url: https://producthunt.com
+  category: business-directories
+  dr: 62
+  linkType: nofollow
+  effort: low
+  aiCrawled: false
+  description: Launch products and build maker profile.
+  aiAccess:
+    oaiSearchBot: unknown
+    gptBot: unknown
+    chatgptUser: unknown
+    googleExtended: unknown
+    claudeBot: unknown
+    perplexityBot: unknown
+    bytespider: unknown
+  indexable: false
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 49
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 0
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 3
+  trancoRank: 4405
+  sampleProfile: https://www.producthunt.com/@dkargaev
+- name: Sortlist
+  url: https://www.sortlist.com
+  category: business-directories
+  sampleProfile: https://www.sortlist.com/agency/toptal
+  dr: 41
+  linkType: mixed
+  effort: medium
+  description: Agency matching platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 69
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 11
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 81932
+- name: TopDevelopers
+  url: https://www.topdevelopers.co
+  category: business-directories
+  sampleProfile: https://www.topdevelopers.co/profile/toptal
+  dr: 35
+  linkType: mixed
+  effort: medium
+  description: Developer company directory.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 71
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 5
+    queryFitScore: 18
+    authorityScore: 4
+    linkValueScore: 4
+  trancoRank: 283734
+- name: TrustPilot
+  url: https://www.trustpilot.com
+  category: business-directories
+  sampleProfile: https://www.trustpilot.com/review/openai.com
+  dr: 62
+  linkType: mixed
+  effort: medium
+  description: Consumer review platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 81
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 19
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 368
+- name: Yellow Pages
+  url: https://www.yellowpages.com
+  category: business-directories
+  sampleProfile: ""
+  dr: 50
+  linkType: mixed
+  effort: medium
+  description: Classic business directory.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: unknown
+    gptBot: unknown
+    chatgptUser: unknown
+    googleExtended: unknown
+    claudeBot: unknown
+    perplexityBot: unknown
+    bytespider: unknown
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 47
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 0
+    popularityScore: 17
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 6296
+- name: Yelp
+  url: https://www.yelp.com
+  category: business-directories
+  sampleProfile: ""
+  dr: 66
+  linkType: mixed
+  effort: medium
+  description: Local business reviews.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 61
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 627

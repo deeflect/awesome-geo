@@ -1,0 +1,344 @@
+# Social Bookmarking — Content curation and bookmarking platforms
+# To add a new site, append an entry and submit a PR.
+
+- name: Digg
+  url: https://digg.com
+  category: social-bookmarking
+  sampleProfile: ""
+  dr: 61
+  linkType: mixed
+  effort: medium
+  description: News aggregator.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 79
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 7
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 2260
+- name: Diigo
+  url: https://www.diigo.com
+  category: social-bookmarking
+  sampleProfile: https://www.diigo.com/profile/diigoblog
+  dr: 66
+  linkType: mixed
+  effort: medium
+  description: Social bookmarking and annotation.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 78
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 17
+    queryFitScore: 7
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 5034
+- name: Flipboard
+  url: https://flipboard.com
+  category: social-bookmarking
+  sampleProfile: https://flipboard.com/@openai
+  dr: 56
+  linkType: mixed
+  effort: medium
+  description: Content curation magazines.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 61
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 14
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 7
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 3202
+- name: Paper.li
+  url: https://paper.li
+  category: social-bookmarking
+  sampleProfile: ""
+  dr: 50
+  linkType: mixed
+  effort: medium
+  description: Automated content curation.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 72
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 13
+    queryFitScore: 7
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 34887
+- name: Pearltrees
+  url: https://www.pearltrees.com
+  category: social-bookmarking
+  sampleProfile: https://www.pearltrees.com/openai
+  dr: 56
+  linkType: mixed
+  effort: medium
+  description: Visual bookmarking platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 76
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 17
+    queryFitScore: 7
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 7216
+- name: Pocket
+  url: https://getpocket.com
+  category: social-bookmarking
+  sampleProfile: ""
+  dr: 59
+  linkType: mixed
+  effort: medium
+  description: Save and share articles.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 77
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 7
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 2210
+- name: Raindrop.io
+  url: https://raindrop.io
+  category: social-bookmarking
+  sampleProfile: ""
+  dr: 52
+  linkType: mixed
+  effort: medium
+  description: Bookmark manager with public collections.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 74
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 7
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 15977
+- name: Scoop.it
+  url: https://www.scoop.it
+  category: social-bookmarking
+  sampleProfile: ""
+  dr: 56
+  linkType: mixed
+  effort: medium
+  description: Content curation for marketing.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 76
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 17
+    queryFitScore: 7
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 6478
+- name: Start.me
+  url: https://start.me
+  category: social-bookmarking
+  sampleProfile: https://start.me/p/GE7rEj/artificial-intelligence
+  dr: 49
+  linkType: mixed
+  effort: medium
+  description: Start page with public bookmarks.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 62
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 15
+    queryFitScore: 7
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 17349
+- name: StumbleUpon / Mix
+  url: https://mix.com
+  category: social-bookmarking
+  sampleProfile: ""
+  dr: 47
+  linkType: mixed
+  effort: medium
+  description: Content discovery platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 61
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 7
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 13429
+- name: Wakelet
+  url: https://wakelet.com
+  category: social-bookmarking
+  sampleProfile: ""
+  dr: 52
+  linkType: mixed
+  effort: medium
+  description: Content curation platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 76
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 17
+    queryFitScore: 7
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 6792

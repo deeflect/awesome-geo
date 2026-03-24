@@ -1,0 +1,27 @@
+- id: developer-profiles
+  name: Developer Profiles
+  description: Technical platforms with profile pages
+- id: business-directories
+  name: Business Directories
+  description: Company and professional directories
+- id: content-syndication
+  name: Content Syndication
+  description: Platforms for republishing content
+- id: community-platforms
+  name: Community Platforms
+  description: Forums and community sites
+- id: social-profiles
+  name: Social Profiles
+  description: Social media and portfolio sites
+- id: knowledge-bases
+  name: Knowledge Bases
+  description: Wikis and reference platforms
+- id: design-portfolios
+  name: Design Portfolios
+  description: Design galleries and portfolio platforms
+- id: niche-directories
+  name: Niche Directories
+  description: Specialized expert and industry directories
+- id: social-bookmarking
+  name: Social Bookmarking
+  description: Content curation and bookmarking platforms

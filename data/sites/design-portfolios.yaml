@@ -1,0 +1,282 @@
+# Design Portfolios — Design galleries and portfolio platforms
+# To add a new site, append an entry and submit a PR.
+
+- name: Awwwards
+  url: https://www.awwwards.com
+  category: design-portfolios
+  sampleProfile: https://www.awwwards.com/sites/openai
+  dr: 55
+  linkType: mixed
+  effort: medium
+  description: Web design awards directory.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 78
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 11
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 11098
+- name: Carbonmade
+  url: https://carbonmade.com
+  category: design-portfolios
+  sampleProfile: ""
+  dr: 41
+  linkType: mixed
+  effort: medium
+  description: Online portfolio builder.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 66
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 15
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 21340
+- name: Cargo
+  url: https://cargo.site
+  category: design-portfolios
+  sampleProfile: ""
+  dr: 45
+  linkType: mixed
+  effort: medium
+  description: Designer portfolio platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 76
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 17553
+- name: Coroflot
+  url: https://www.coroflot.com
+  category: design-portfolios
+  sampleProfile: ""
+  dr: 48
+  linkType: mixed
+  effort: medium
+  description: Design portfolio and jobs.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: allowed
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 60
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 16
+    indexabilityScore: 10
+    popularityScore: 13
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 32376
+- name: CSS Design Awards
+  url: https://www.cssdesignawards.com
+  category: design-portfolios
+  sampleProfile: ""
+  dr: 43
+  linkType: mixed
+  effort: medium
+  description: CSS/web design awards.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 69
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 8
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 105000
+- name: Dunked
+  url: https://dunked.com
+  category: design-portfolios
+  sampleProfile: ""
+  dr: 39
+  linkType: mixed
+  effort: medium
+  description: Portfolio hosting for creatives.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 64
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 5
+    queryFitScore: 11
+    authorityScore: 4
+    linkValueScore: 4
+  trancoRank: 312531
+- name: Figma Community
+  url: https://figma.com/community
+  category: design-portfolios
+  sampleProfile: ""
+  dr: 65
+  linkType: mixed
+  effort: medium
+  description: Design file sharing.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: allowed
+    perplexityBot: blocked
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 48
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 4
+    indexabilityScore: 0
+    popularityScore: 19
+    queryFitScore: 11
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 846
+- name: Muzli
+  url: https://muz.li
+  category: design-portfolios
+  sampleProfile: ""
+  dr: 45
+  linkType: mixed
+  effort: medium
+  description: Design inspiration platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 74
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 13
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 46790
+- name: SiteInspire
+  url: https://www.siteinspire.com
+  category: design-portfolios
+  sampleProfile: https://www.siteinspire.com/websites/8312-openai
+  dr: 42
+  linkType: mixed
+  effort: medium
+  description: Web design showcase.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 56
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 27
+    indexabilityScore: 0
+    popularityScore: 8
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 156609

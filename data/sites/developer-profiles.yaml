@@ -1,0 +1,920 @@
+# Developer Profiles — Technical platforms with profile pages
+# To add a new site, append an entry and submit a PR.
+
+- name: Bitbucket
+  url: https://bitbucket.org
+  category: developer-profiles
+  sampleProfile: ""
+  dr: 62
+  linkType: mixed
+  effort: medium
+  description: Atlassian git hosting with public profiles.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 90
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 2038
+- name: Codeberg
+  url: https://codeberg.org
+  category: developer-profiles
+  sampleProfile: https://codeberg.org/forgejo/forgejo
+  dr: 56
+  linkType: mixed
+  effort: medium
+  description: Non-profit git hosting.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 57
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 17
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 5480
+- name: CodePen
+  url: https://codepen.io
+  category: developer-profiles
+  dr: 61
+  linkType: nofollow
+  effort: low
+  aiCrawled: true
+  description: Frontend demo platform with profile links.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 79
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 3
+  trancoRank: 3821
+  sampleProfile: https://codepen.io/chriscoyier
+- name: CodeSandbox
+  url: https://codesandbox.io
+  category: developer-profiles
+  sampleProfile: https://codesandbox.io/u/codesandbox
+  dr: 49
+  linkType: mixed
+  effort: medium
+  description: Online IDE with public projects.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 83
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 23240
+- name: crates.io
+  url: https://crates.io
+  category: developer-profiles
+  dr: 53
+  linkType: nofollow
+  effort: low
+  aiCrawled: true
+  description: Rust package registry with author profiles.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 74
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 15
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 3
+  trancoRank: 16973
+  sampleProfile: ""
+- name: DEV.to
+  url: https://dev.to
+  category: developer-profiles
+  dr: 61
+  linkType: nofollow
+  effort: low
+  aiCrawled: true
+  description: Publish articles with canonical URLs back to your site.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 89
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 3
+  trancoRank: 4125
+  sampleProfile: https://dev.to/deeflect
+- name: Docker Hub
+  url: https://hub.docker.com
+  category: developer-profiles
+  sampleProfile: https://hub.docker.com/u/library
+  dr: 62
+  linkType: mixed
+  effort: medium
+  description: Container image registry with profiles.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 62
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 10
+    popularityScore: 1
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 4
+- name: Exercism
+  url: https://exercism.org
+  category: developer-profiles
+  sampleProfile: ""
+  dr: 42
+  linkType: mixed
+  effort: medium
+  description: Coding exercises with public profiles.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 68
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 10
+    popularityScore: 11
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 68118
+- name: Gitea
+  url: https://gitea.com
+  category: developer-profiles
+  sampleProfile: ""
+  dr: 43
+  linkType: mixed
+  effort: medium
+  description: Self-hosted git with public instances.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: allowed
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 58
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 3
+    indexabilityScore: 10
+    popularityScore: 17
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 5345
+- name: GitHub
+  url: https://github.com
+  category: developer-profiles
+  dr: 86
+  linkType: dofollow
+  effort: low
+  aiCrawled: true
+  description: Profile README + pinned repos. Tier 1 asset for developers.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 98
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 20
+    queryFitScore: 20
+    authorityScore: 13
+    linkValueScore: 5
+  trancoRank: 29
+  sampleProfile: https://github.com/deeflect
+- name: GitLab
+  url: https://gitlab.com
+  category: developer-profiles
+  dr: 62
+  linkType: dofollow
+  effort: low
+  aiCrawled: true
+  description: Alternative to GitHub with profile pages.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 87
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 14
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 5
+  trancoRank: 434
+  sampleProfile: https://gitlab.com/deeflect
+- name: Glitch
+  url: https://glitch.com
+  category: developer-profiles
+  sampleProfile: https://glitch.com/@glitch
+  dr: 53
+  linkType: mixed
+  effort: medium
+  description: Web app platform with project pages.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 83
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 13
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 39052
+- name: Google Developers
+  url: https://g.dev
+  category: developer-profiles
+  dr: 49
+  linkType: nofollow
+  effort: low
+  aiCrawled: true
+  description: Google developer profile with custom URL.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 70
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 3
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 3
+  trancoRank: 912325
+  sampleProfile: https://g.dev/deeflect
+- name: HackerRank
+  url: https://www.hackerrank.com
+  category: developer-profiles
+  sampleProfile: https://www.hackerrank.com/hackerrank
+  dr: 49
+  linkType: mixed
+  effort: medium
+  description: Developer skills platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 73
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 15
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 10359
+- name: Hashnode
+  url: https://hashnode.com
+  category: developer-profiles
+  dr: 49
+  linkType: dofollow
+  effort: low
+  aiCrawled: true
+  description: Dev blog platform with custom domain support.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 84
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 5
+  trancoRank: 19174
+  sampleProfile: https://hashnode.com/@deeflect
+- name: HuggingFace
+  url: https://huggingface.co
+  category: developer-profiles
+  dr: 63
+  linkType: dofollow
+  effort: low
+  aiCrawled: true
+  description: AI/ML model hosting with profile pages.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 91
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 5
+  trancoRank: 2030
+  sampleProfile: https://huggingface.co/openai
+- name: JSFiddle
+  url: https://jsfiddle.net
+  category: developer-profiles
+  sampleProfile: ""
+  dr: 57
+  linkType: mixed
+  effort: medium
+  description: JavaScript playground with user profiles.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 74
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 10772
+- name: Kaggle
+  url: https://www.kaggle.com
+  category: developer-profiles
+  sampleProfile: https://www.kaggle.com/organizations/openai
+  dr: 51
+  linkType: mixed
+  effort: medium
+  description: Data science competition platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 78
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 4866
+- name: Launchpad
+  url: https://launchpad.net
+  category: developer-profiles
+  sampleProfile: https://launchpad.net/~ubuntu-core-dev
+  dr: 55
+  linkType: mixed
+  effort: medium
+  description: Ubuntu/Canonical project hosting.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 59
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 266
+- name: LeetCode
+  url: https://leetcode.com
+  category: developer-profiles
+  sampleProfile: https://leetcode.com/u/leetcode/
+  dr: 51
+  linkType: mixed
+  effort: medium
+  description: Coding challenge platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 78
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 4372
+- name: npm
+  url: https://www.npmjs.com
+  category: developer-profiles
+  dr: 64
+  linkType: nofollow
+  effort: low
+  aiCrawled: false
+  description: Package author page links to homepage.
+  aiAccess:
+    oaiSearchBot: unknown
+    gptBot: unknown
+    chatgptUser: unknown
+    googleExtended: unknown
+    claudeBot: unknown
+    perplexityBot: unknown
+    bytespider: unknown
+  indexable: false
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 49
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 0
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 3
+  trancoRank: 2456
+  sampleProfile: https://www.npmjs.com/~sindresorhus
+- name: NuGet
+  url: https://www.nuget.org
+  category: developer-profiles
+  sampleProfile: https://www.nuget.org/profiles/dotnetfoundation
+  dr: 54
+  linkType: mixed
+  effort: medium
+  description: .NET package registry.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 87
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 17
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 7743
+- name: Observable
+  url: https://observablehq.com
+  category: developer-profiles
+  sampleProfile: https://observablehq.com/@mbostock
+  dr: 50
+  linkType: mixed
+  effort: medium
+  description: Data visualization notebooks.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 83
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 13
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 41429
+- name: Packagist
+  url: https://packagist.org
+  category: developer-profiles
+  sampleProfile: https://packagist.org/packages/laravel/framework
+  dr: 53
+  linkType: mixed
+  effort: medium
+  description: PHP/Composer package registry.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 88
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 4584
+- name: PyPI
+  url: https://pypi.org
+  category: developer-profiles
+  dr: 55
+  linkType: dofollow
+  effort: low
+  aiCrawled: true
+  description: Python package index with project URLs.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 89
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 5
+  trancoRank: 2994
+  sampleProfile: https://pypi.org/project/openai/
+- name: Read the Docs
+  url: https://readthedocs.org
+  category: developer-profiles
+  sampleProfile: https://readthedocs.org/projects/pip/
+  dr: 49
+  linkType: mixed
+  effort: medium
+  description: Documentation hosting platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 86
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 4468
+- name: Replit
+  url: https://replit.com
+  category: developer-profiles
+  dr: 53
+  linkType: nofollow
+  effort: low
+  aiCrawled: true
+  description: Online IDE with public project profiles.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 87
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 3
+  trancoRank: 4919
+  sampleProfile: https://replit.com/@replit
+- name: RubyGems
+  url: https://rubygems.org
+  category: developer-profiles
+  sampleProfile: https://rubygems.org/profiles/429
+  dr: 54
+  linkType: mixed
+  effort: medium
+  description: Ruby package registry with profile pages.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 85
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 14206
+- name: SourceForge
+  url: https://sourceforge.net
+  category: developer-profiles
+  sampleProfile: https://sourceforge.net/u/vorburger/profile/
+  dr: 69
+  linkType: mixed
+  effort: medium
+  description: Open source project hosting.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 91
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 18
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 217
+- name: Stack Overflow
+  url: https://stackoverflow.com
+  category: developer-profiles
+  dr: 69
+  linkType: nofollow
+  effort: medium
+  aiCrawled: false
+  description: Profile link + answer quality builds authority.
+  aiAccess:
+    oaiSearchBot: unknown
+    gptBot: unknown
+    chatgptUser: unknown
+    googleExtended: unknown
+    claudeBot: unknown
+    perplexityBot: unknown
+    bytespider: unknown
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 63
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 20
+    queryFitScore: 20
+    authorityScore: 10
+    linkValueScore: 3
+  trancoRank: 500
+  sampleProfile: https://stackoverflow.com/users/22656/jon-skeet

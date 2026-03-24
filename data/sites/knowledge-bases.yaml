@@ -1,0 +1,246 @@
+# Knowledge Bases — Wikis and reference platforms
+# To add a new site, append an entry and submit a PR.
+
+- name: Academia.edu
+  url: https://www.academia.edu
+  category: knowledge-bases
+  sampleProfile: ""
+  dr: 61
+  linkType: mixed
+  effort: medium
+  description: Academic paper sharing.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 78
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 16
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 825
+- name: Google Scholar
+  url: https://scholar.google.com
+  category: knowledge-bases
+  sampleProfile: ""
+  dr: 62
+  linkType: mixed
+  effort: medium
+  description: Academic profile with citations.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 71
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 1
+    queryFitScore: 16
+    authorityScore: 10
+    linkValueScore: 4
+- name: ORCID
+  url: https://orcid.org
+  category: knowledge-bases
+  sampleProfile: https://orcid.org/0000-0002-1825-0097
+  dr: 59
+  linkType: mixed
+  effort: medium
+  description: Researcher identifier system.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 86
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 16
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 2120
+- name: ResearchGate
+  url: https://www.researchgate.net
+  category: knowledge-bases
+  sampleProfile: https://www.researchgate.net/profile/Geoffrey-Hinton
+  dr: 73
+  linkType: mixed
+  effort: medium
+  description: Academic social network.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 81
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 19
+    queryFitScore: 16
+    authorityScore: 12
+    linkValueScore: 4
+  trancoRank: 212
+- name: Semantic Scholar
+  url: https://www.semanticscholar.org
+  category: knowledge-bases
+  sampleProfile: https://www.semanticscholar.org/author/Geoffrey-E.-Hinton/1741104
+  dr: 54
+  linkType: mixed
+  effort: medium
+  description: AI-powered research tool.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 86
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 16
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 2321
+- name: Wikidata
+  url: https://wikidata.org
+  category: knowledge-bases
+  dr: 54
+  linkType: nofollow
+  effort: medium
+  aiCrawled: true
+  description: Create entity — directly feeds AI knowledge graphs.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 84
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 17
+    queryFitScore: 16
+    authorityScore: 8
+    linkValueScore: 3
+  trancoRank: 5793
+  sampleProfile: https://www.wikidata.org/wiki/Q42
+- name: Wikimedia Commons
+  url: https://commons.wikimedia.org
+  category: knowledge-bases
+  dr: 68
+  linkType: nofollow
+  effort: medium
+  aiCrawled: true
+  description: Image hosting with attribution links.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 70
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 1
+    queryFitScore: 16
+    authorityScore: 10
+    linkValueScore: 3
+  sampleProfile: https://commons.wikimedia.org/wiki/File:OpenAI_Logo.svg
+- name: Wikipedia
+  url: https://wikipedia.org
+  category: knowledge-bases
+  dr: 61
+  linkType: nofollow
+  effort: hard
+  aiCrawled: true
+  description: Requires notability. Highest impact for AI.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 93
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 20
+    queryFitScore: 20
+    authorityScore: 10
+    linkValueScore: 3
+  trancoRank: 28
+  sampleProfile: https://en.wikipedia.org/wiki/OpenAI

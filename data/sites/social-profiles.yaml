@@ -1,0 +1,926 @@
+# Social Profiles — Social media and portfolio sites
+# To add a new site, append an entry and submit a PR.
+
+- name: About.me
+  url: https://about.me
+  category: social-profiles
+  dr: 62
+  linkType: dofollow
+  effort: low
+  aiCrawled: true
+  description: Simple personal landing page.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 84
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 11
+    authorityScore: 10
+    linkValueScore: 5
+  trancoRank: 2808
+  sampleProfile: https://about.me/ev
+- name: Behance
+  url: https://behance.net
+  category: social-profiles
+  dr: 67
+  linkType: nofollow
+  effort: low
+  aiCrawled: true
+  description: Adobe design portfolio platform.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 72
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 11
+    authorityScore: 10
+    linkValueScore: 3
+  trancoRank: 488
+  sampleProfile: https://behance.net/dkargaev
+- name: Bento
+  url: https://bento.me
+  category: social-profiles
+  sampleProfile: https://bento.me/brian
+  dr: 53
+  linkType: mixed
+  effort: medium
+  description: Developer link-in-bio.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 78
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 11
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 21010
+- name: Bio.link
+  url: https://bio.link
+  category: social-profiles
+  sampleProfile: https://bio.link/mkbhd
+  dr: 51
+  linkType: mixed
+  effort: medium
+  description: Link-in-bio alternative.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 68
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 15
+    queryFitScore: 11
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 17490
+- name: Bluesky
+  url: https://bsky.app
+  category: social-profiles
+  sampleProfile: https://bsky.app/profile/openai.com
+  dr: 68
+  linkType: mixed
+  effort: medium
+  description: Decentralized microblogging.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 74
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 19
+    queryFitScore: 11
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 489
+- name: Carrd
+  url: https://carrd.co
+  category: social-profiles
+  sampleProfile: https://ajlkn.carrd.co/
+  dr: 47
+  linkType: mixed
+  effort: medium
+  description: One-page personal sites.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 79
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 4687
+- name: Clay
+  url: https://clay.earth
+  category: social-profiles
+  sampleProfile: ""
+  dr: 43
+  linkType: mixed
+  effort: medium
+  description: Personal CRM with public profile.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 69
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 8
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 116036
+- name: Daily.dev
+  url: https://daily.dev
+  category: social-profiles
+  sampleProfile: https://app.daily.dev/daily
+  dr: 45
+  linkType: mixed
+  effort: medium
+  description: Developer news with profiles.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 74
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 13
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 42330
+- name: Discord
+  url: https://discord.com
+  category: social-profiles
+  sampleProfile: ""
+  dr: 75
+  linkType: mixed
+  effort: medium
+  description: Community platform with server listings.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 86
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 11
+    authorityScore: 12
+    linkValueScore: 4
+  trancoRank: 160
+- name: Dribbble
+  url: https://dribbble.com
+  category: social-profiles
+  dr: 61
+  linkType: nofollow
+  effort: low
+  aiCrawled: true
+  description: Design showcase platform.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 82
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 11
+    authorityScore: 10
+    linkValueScore: 3
+  trancoRank: 1026
+  sampleProfile: https://dribbble.com/simplebits
+- name: Flickr
+  url: https://flickr.com
+  category: social-profiles
+  sampleProfile: https://www.flickr.com/people/whitehouse/
+  dr: 79
+  linkType: mixed
+  effort: medium
+  description: Photo sharing with profile links.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 56
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 11
+    authorityScore: 12
+    linkValueScore: 4
+  trancoRank: 178
+- name: Goodreads
+  url: https://www.goodreads.com
+  category: social-profiles
+  sampleProfile: https://www.goodreads.com/author/show/3389.Stephen_King
+  dr: 65
+  linkType: mixed
+  effort: medium
+  description: Book reviews with author profiles.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 80
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 26
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 11
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 452
+- name: Gravatar
+  url: https://gravatar.com
+  category: social-profiles
+  dr: 62
+  linkType: dofollow
+  effort: low
+  aiCrawled: true
+  description: Universal avatar with verified profile links.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 78
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 23
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 11
+    authorityScore: 10
+    linkValueScore: 5
+  trancoRank: 130
+  sampleProfile: https://gravatar.com/automattic
+- name: Instagram
+  url: https://instagram.com
+  category: social-profiles
+  sampleProfile: https://www.instagram.com/openai/
+  dr: 100
+  linkType: mixed
+  effort: medium
+  description: Photo/video with bio link.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 60
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 20
+    queryFitScore: 11
+    authorityScore: 15
+    linkValueScore: 4
+  trancoRank: 13
+- name: Letterboxd
+  url: https://letterboxd.com
+  category: social-profiles
+  sampleProfile: https://letterboxd.com/demiadejuyigbe/
+  dr: 56
+  linkType: mixed
+  effort: medium
+  description: Film reviews with profiles.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 60
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 0
+    popularityScore: 18
+    queryFitScore: 11
+    authorityScore: 8
+    linkValueScore: 4
+  trancoRank: 1058
+- name: Linktree
+  url: https://linktr.ee
+  category: social-profiles
+  sampleProfile: https://linktr.ee/openai
+  dr: 76
+  linkType: mixed
+  effort: medium
+  description: Link-in-bio platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 68
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 12
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 11
+    authorityScore: 12
+    linkValueScore: 4
+  trancoRank: 244
+- name: Mastodon
+  url: https://mastodon.social
+  category: social-profiles
+  sampleProfile: https://mastodon.social/@Gargron
+  dr: 61
+  linkType: mixed
+  effort: medium
+  description: Federated social profile
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: false
+  aiCrawled: true
+  geoScore: 79
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 26
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 11
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 2867
+- name: Peerlist
+  url: https://peerlist.io
+  category: social-profiles
+  sampleProfile: https://peerlist.io/peerlist
+  dr: 44
+  linkType: mixed
+  effort: medium
+  description: Professional profiles for devs.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 59
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 8
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 230360
+- name: Pinterest
+  url: https://pinterest.com
+  category: social-profiles
+  sampleProfile: https://www.pinterest.com/pinterest/
+  dr: 85
+  linkType: mixed
+  effort: medium
+  description: Visual bookmarking with profile links.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 58
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 20
+    queryFitScore: 11
+    authorityScore: 13
+    linkValueScore: 4
+  trancoRank: 51
+- name: Polywork
+  url: https://www.polywork.com
+  category: social-profiles
+  sampleProfile: ""
+  dr: 44
+  linkType: mixed
+  effort: medium
+  description: Professional identity platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: unknown
+    gptBot: unknown
+    chatgptUser: unknown
+    googleExtended: unknown
+    claudeBot: unknown
+    perplexityBot: unknown
+    bytespider: unknown
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 26
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 0
+    popularityScore: 5
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 324775
+- name: Read.cv
+  url: https://read.cv
+  category: social-profiles
+  sampleProfile: ""
+  dr: 46
+  linkType: mixed
+  effort: medium
+  description: Minimal professional profiles.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: unknown
+    gptBot: unknown
+    chatgptUser: unknown
+    googleExtended: unknown
+    claudeBot: unknown
+    perplexityBot: unknown
+    bytespider: unknown
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 24
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 0
+    popularityScore: 3
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 684224
+- name: Spotify for Podcasters
+  url: https://podcasters.spotify.com
+  category: social-profiles
+  sampleProfile: https://podcasters.spotify.com/pod/show/lexfridman
+  dr: 62
+  linkType: mixed
+  effort: medium
+  description: Podcast hosting with profiles.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 36
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 1
+    queryFitScore: 11
+    authorityScore: 10
+    linkValueScore: 4
+- name: Telegram
+  url: https://t.me
+  category: social-profiles
+  sampleProfile: ""
+  dr: 79
+  linkType: mixed
+  effort: medium
+  description: Messaging with public channels.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 86
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 11
+    authorityScore: 12
+    linkValueScore: 4
+  trancoRank: 115
+- name: Threads
+  url: https://www.threads.net
+  category: social-profiles
+  sampleProfile: https://www.threads.net/@openai
+  dr: 65
+  linkType: mixed
+  effort: medium
+  description: Meta microblogging platform.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 53
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 11
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 1850
+- name: TikTok
+  url: https://tiktok.com
+  category: social-profiles
+  sampleProfile: https://www.tiktok.com/@openai
+  dr: 85
+  linkType: mixed
+  effort: medium
+  description: Short video with bio link.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: false
+  geoScore: 58
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 10
+    popularityScore: 20
+    queryFitScore: 11
+    authorityScore: 13
+    linkValueScore: 4
+  trancoRank: 64
+- name: Twitch
+  url: https://twitch.tv
+  category: social-profiles
+  sampleProfile: https://www.twitch.tv/openai
+  dr: 75
+  linkType: mixed
+  effort: medium
+  description: Streaming platform with bio links.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 76
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 0
+    popularityScore: 19
+    queryFitScore: 11
+    authorityScore: 12
+    linkValueScore: 4
+  trancoRank: 204
+- name: Vimeo
+  url: https://vimeo.com
+  category: social-profiles
+  sampleProfile: https://vimeo.com/openai
+  dr: 83
+  linkType: mixed
+  effort: medium
+  description: Video hosting with profiles.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: allowed
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 77
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 19
+    indexabilityScore: 10
+    popularityScore: 20
+    queryFitScore: 11
+    authorityScore: 13
+    linkValueScore: 4
+  trancoRank: 66
+- name: WhatsApp Channels
+  url: https://whatsapp.com/channel
+  category: social-profiles
+  sampleProfile: ""
+  dr: 68
+  linkType: mixed
+  effort: medium
+  description: Meta messaging channels.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: allowed
+  indexable: false
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 57
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 12
+    indexabilityScore: 0
+    popularityScore: 20
+    queryFitScore: 11
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 53
+- name: X / Twitter
+  url: https://x.com
+  category: social-profiles
+  dr: 89
+  linkType: nofollow
+  effort: low
+  aiCrawled: false
+  description: Bio link, high social signal.
+  aiAccess:
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: blocked
+    googleExtended: blocked
+    claudeBot: blocked
+    perplexityBot: blocked
+    bytespider: blocked
+  indexable: false
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 47
+  geoTier: low
+  geoSignals:
+    crawlAccessScore: 0
+    indexabilityScore: 0
+    popularityScore: 20
+    queryFitScore: 11
+    authorityScore: 13
+    linkValueScore: 3
+  trancoRank: 60
+  sampleProfile: https://x.com/deeflectcom
+- name: YouTube
+  url: https://youtube.com
+  category: social-profiles
+  dr: 100
+  linkType: nofollow
+  effort: low
+  aiCrawled: true
+  description: Channel and video description links.
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  verified: true
+  lastVerified: 2026-03-26
+  geoScore: 89
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 20
+    queryFitScore: 11
+    authorityScore: 15
+    linkValueScore: 3
+  trancoRank: 8
+  sampleProfile: https://www.youtube.com/@OpenAI

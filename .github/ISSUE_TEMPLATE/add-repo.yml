@@ -1,0 +1,88 @@
+name: "📦 Submit a Repo or Tool"
+description: Suggest an open-source GEO repo or tool to add
+title: "[Repo] "
+labels: ["repo-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a GEO repo! We'll verify it automatically before review.
+
+        **Minimum requirements:**
+        - Must be a public GitHub repository
+        - At least 10 stars
+        - At least 7 days old
+        - Not archived or a fork
+        - Related to GEO / AI SEO / AI search optimization
+
+  - type: input
+    id: repo
+    attributes:
+      label: GitHub Repository
+      description: "Full GitHub URL (e.g. https://github.com/owner/repo)"
+      placeholder: "https://github.com/..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category best fits this repo?
+      options:
+        - "geo-research — Research & Frameworks"
+        - "llms-txt — llms.txt Ecosystem"
+        - "ai-crawler-management — AI Crawler Management"
+        - "geo-monitoring — GEO Monitoring & Tracking"
+        - "structured-data — Structured Data & Schema"
+        - "geo-toolkits — GEO Toolkits & Skills"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What kind of project is this?
+      options:
+        - tool
+        - library
+        - research
+        - reference
+        - standard
+        - skill
+        - framework
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "One-line description of what the repo does (keep it short and factual)"
+      placeholder: "Open-source tool for tracking AI search visibility across ChatGPT, Claude, and Perplexity."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be listed?
+      description: "Brief note on why this repo is useful for GEO practitioners"
+      placeholder: "It's the only open-source tool that..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks
+      options:
+        - label: This is a public GitHub repository
+          required: true
+        - label: This repo is related to GEO / AI SEO / AI search optimization
+          required: true
+        - label: This is not my own repo (or I've disclosed that it is)
+          required: true
+        - label: I checked that this repo isn't already listed
+          required: true

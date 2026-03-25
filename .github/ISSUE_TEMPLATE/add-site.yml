@@ -1,0 +1,77 @@
+name: "🌐 Submit a Platform"
+description: Suggest a free platform for GEO presence building
+title: "[Site] "
+labels: ["site-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a platform! CI will automatically verify it on PR.
+
+        **Requirements:**
+        - Must be a free platform where you can create a public profile/listing
+        - Must be indexable by search engines
+        - No spammy or low-value directories
+
+  - type: input
+    id: name
+    attributes:
+      label: Platform Name
+      placeholder: "e.g. Product Hunt"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Platform URL
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: sample
+    attributes:
+      label: Sample Profile URL
+      description: "A representative public profile/listing page (not the homepage)"
+      placeholder: "https://example.com/user/someone"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - "developer-profiles"
+        - "business-directories"
+        - "content-syndication"
+        - "community-platforms"
+        - "social-profiles"
+        - "knowledge-bases"
+        - "design-portfolios"
+        - "niche-directories"
+        - "social-bookmarking"
+    validations:
+      required: true
+
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: "One-line description"
+      placeholder: "Community-driven product launch platform with founder profiles."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks
+      options:
+        - label: This platform is free to use
+          required: true
+        - label: Profile pages are publicly accessible
+          required: true
+        - label: I checked that this platform isn't already listed
+          required: true

@@ -1,0 +1,31 @@
+# GEO Monitoring & Tracking — Track brand visibility across AI search engines
+
+- name: AiCMO
+  repo: AICMO/ai-cmo
+  url: https://github.com/AICMO/ai-cmo
+  category: geo-monitoring
+  description: Open-source AI SEO platform. Monitor brand visibility across ChatGPT, Claude, Perplexity, Gemini. Self-hostable.
+  stars: 100
+  language: TypeScript
+  type: tool
+  maintained: true
+
+- name: gego
+  repo: AI2HU/gego
+  url: https://github.com/AI2HU/gego
+  category: geo-monitoring
+  description: Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time.
+  stars: 50
+  language: Python
+  type: tool
+  maintained: true
+
+- name: GEO Analyzer
+  repo: houtini-ai/geo-analyzer
+  url: https://github.com/houtini-ai/geo-analyzer
+  category: geo-monitoring
+  description: Local GEO analysis powered by Claude. Content analysis for AI search visibility scoring.
+  stars: 50
+  language: Python
+  type: tool
+  maintained: true

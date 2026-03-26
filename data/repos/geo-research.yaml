@@ -1,0 +1,31 @@
+# Research & Frameworks — Academic research, benchmarks, and foundational GEO frameworks
+
+- name: GEO (Princeton)
+  repo: GEO-optim/GEO
+  url: https://github.com/GEO-optim/GEO
+  category: geo-research
+  description: Original GEO research from Princeton — KDD '24 paper with GEO-BENCH benchmark. Proves 40% visibility boost.
+  stars: 200
+  language: Python
+  type: research
+  maintained: true
+
+- name: Awesome GEO (Research)
+  repo: DavidHuji/Awesome-GEO
+  url: https://github.com/DavidHuji/Awesome-GEO
+  category: geo-research
+  description: Curated collection of GEO research papers and academic resources.
+  stars: 50
+  language: null
+  type: reference
+  maintained: true
+
+- name: Awesome Generative Engine Optimization
+  repo: amplifying-ai/awesome-generative-engine-optimization
+  url: https://github.com/amplifying-ai/awesome-generative-engine-optimization
+  category: geo-research
+  description: Curated guide to GEO resources — guides, tools, and research for AI search visibility.
+  stars: 100
+  language: null
+  type: reference
+  maintained: true

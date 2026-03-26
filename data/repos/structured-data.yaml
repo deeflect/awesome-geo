@@ -1,0 +1,31 @@
+# Structured Data & Schema — Schema.org, JSON-LD, and structured data tools
+
+- name: schema-org (Spatie)
+  repo: spatie/schema-org
+  url: https://github.com/spatie/schema-org
+  category: structured-data
+  description: Fluent PHP builder for all Schema.org types and JSON-LD generation. Battle-tested.
+  stars: 1466
+  language: PHP
+  type: library
+  maintained: true
+
+- name: Structured Data JSON-LD
+  repo: JayHoltslander/Structured-Data-JSON-LD
+  url: https://github.com/JayHoltslander/Structured-Data-JSON-LD
+  category: structured-data
+  description: Ready-to-use JSON-LD snippets in Google-preferred format for every common schema type.
+  stars: 500
+  language: null
+  type: reference
+  maintained: true
+
+- name: Schema Generator
+  repo: mustafapiplodi/schema-generator
+  url: https://github.com/mustafapiplodi/schema-generator
+  category: structured-data
+  description: Free schema markup generator for 14 schema types with real-time validation and instant code generation.
+  stars: 50
+  language: JavaScript
+  type: tool
+  maintained: true

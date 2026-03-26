@@ -1,0 +1,81 @@
+# GEO Toolkits & Skills — CLI tools, agent skills, and automation for GEO optimization
+
+- name: geo-seo-claude
+  repo: zubair-trabzada/geo-seo-claude
+  url: https://github.com/zubair-trabzada/geo-seo-claude
+  category: geo-toolkits
+  description: GEO-first SEO skill for Claude Code — citability scoring, AI crawler analysis, schema markup, PDF reports.
+  stars: 100
+  language: Markdown
+  type: skill
+  maintained: true
+
+- name: claude-seo
+  repo: AgriciDaniel/claude-seo
+  url: https://github.com/AgriciDaniel/claude-seo
+  category: geo-toolkits
+  description: 13 sub-skills, 7 subagents for Claude Code — technical SEO, E-E-A-T, GEO/AEO, DataForSEO integration.
+  stars: 100
+  language: Markdown
+  type: skill
+  maintained: true
+
+- name: seo-geo-claude-skills
+  repo: aaron-he-zhu/seo-geo-claude-skills
+  url: https://github.com/aaron-he-zhu/seo-geo-claude-skills
+  category: geo-toolkits
+  description: 20 SEO & GEO skills for Claude Code, Cursor, Codex. CORE-EEAT + CITE frameworks.
+  stars: 50
+  language: Markdown
+  type: skill
+  maintained: true
+
+- name: seo-geo-toolkit
+  repo: henu-wang/seo-geo-toolkit
+  url: https://github.com/henu-wang/seo-geo-toolkit
+  category: geo-toolkits
+  description: CLI tools to optimize for both traditional and AI-powered search engines.
+  stars: 50
+  language: Python
+  type: tool
+  maintained: true
+
+- name: ai-seo-tools (RivalSee)
+  repo: RivalSee/ai-seo-tools
+  url: https://github.com/RivalSee/ai-seo-tools
+  category: geo-toolkits
+  description: Open-source tools and prompts for AI crawler optimization by RivalSee.
+  stars: 50
+  language: null
+  type: tool
+  maintained: true
+
+- name: SEO AGI
+  repo: gbessoni/seo-agi
+  url: https://github.com/gbessoni/seo-agi
+  category: geo-toolkits
+  description: AI agent that writes pages Google ranks and LLMs cite. Built on DeerFlow with forensic competitive analysis and entity consensus.
+  stars: 100
+  language: Python
+  type: tool
+  maintained: true
+
+- name: Open SEO
+  repo: every-app/open-seo
+  url: https://github.com/every-app/open-seo
+  category: geo-toolkits
+  description: Self-hosted open-source SEO tool — keyword research, competitor analysis, backlink tracking, technical audits. AI-native.
+  stars: 669
+  language: TypeScript
+  type: tool
+  maintained: true
+
+- name: SEOnaut
+  repo: StJudeWasHere/seonaut
+  url: https://github.com/StJudeWasHere/seonaut
+  category: geo-toolkits
+  description: Open-source SEO audit tool — crawls sites for broken links, redirects, missing meta tags, heading issues. Self-hostable.
+  stars: 636
+  language: Go
+  type: tool
+  maintained: true

@@ -1,0 +1,51 @@
+# llms.txt Ecosystem — Tools and references for the llms.txt standard
+
+- name: llms.txt Specification
+  repo: AnswerDotAI/llms-txt
+  url: https://github.com/AnswerDotAI/llms-txt
+  category: llms-txt
+  description: The official llms.txt spec by Jeremy Howard. The standard for making your site AI-readable.
+  stars: 2200
+  language: Python
+  type: standard
+  maintained: true
+
+- name: llms-txt-hub
+  repo: thedaviddias/llms-txt-hub
+  url: https://github.com/thedaviddias/llms-txt-hub
+  category: llms-txt
+  description: Largest directory of sites implementing llms.txt — reference list and tooling.
+  stars: 726
+  language: TypeScript
+  type: reference
+  maintained: true
+
+- name: llmstxt Generator (Firecrawl)
+  repo: firecrawl/llmstxt-generator
+  url: https://github.com/firecrawl/llmstxt-generator
+  category: llms-txt
+  description: Generate llms.txt and llms-full.txt from any URL. By the Firecrawl team (YC-backed).
+  stars: 519
+  language: TypeScript
+  type: tool
+  maintained: true
+
+- name: Firecrawl
+  repo: mendableai/firecrawl
+  url: https://github.com/mendableai/firecrawl
+  category: llms-txt
+  description: Web data API for AI — turn websites into LLM-ready markdown. llms.txt generation built in.
+  stars: 30000
+  language: TypeScript
+  type: tool
+  maintained: true
+
+- name: llms-generator
+  repo: Francesco-Fera/llms-generator
+  url: https://github.com/Francesco-Fera/llms-generator
+  category: llms-txt
+  description: Free no-code tool for generating llms.txt files for LLM SEO compliance.
+  stars: 50
+  language: TypeScript
+  type: tool
+  maintained: true

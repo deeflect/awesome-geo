@@ -1,0 +1,21 @@
+# AI Crawler Management — Control and monitor AI bot access to your content
+
+- name: ai.robots.txt
+  repo: ai-robots-txt/ai.robots.txt
+  url: https://github.com/ai-robots-txt/ai.robots.txt
+  category: ai-crawler-management
+  description: Community-maintained list of AI bots to block. Generates robots.txt, .htaccess, nginx, HAProxy configs.
+  stars: 1500
+  language: null
+  type: reference
+  maintained: true
+
+- name: SEO Crawler MCP
+  repo: houtini-ai/seo-crawler-mcp
+  url: https://github.com/houtini-ai/seo-crawler-mcp
+  category: ai-crawler-management
+  description: MCP server that crawls and analyzes sites for SEO issues including AI crawler access. Works in any AI assistant or terminal.
+  stars: 50
+  language: TypeScript
+  type: tool
+  maintained: true

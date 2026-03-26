@@ -1,0 +1,18 @@
+- id: geo-research
+  name: Research & Frameworks
+  description: Academic research, benchmarks, and foundational GEO frameworks
+- id: llms-txt
+  name: llms.txt Ecosystem
+  description: Tools and references for the llms.txt standard
+- id: ai-crawler-management
+  name: AI Crawler Management
+  description: Control and monitor AI bot access to your content
+- id: geo-monitoring
+  name: GEO Monitoring & Tracking
+  description: Track brand visibility across AI search engines
+- id: structured-data
+  name: Structured Data & Schema
+  description: Schema.org, JSON-LD, and structured data tools
+- id: geo-toolkits
+  name: GEO Toolkits & Skills
+  description: CLI tools, agent skills, and automation for GEO optimization

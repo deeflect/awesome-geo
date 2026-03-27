@@ -3,7 +3,7 @@
   "description": "Curated GEO platforms, repositories, and verification scripts for AI-era discoverability.",
   "license": "CC0-1.0",
   "private": true,
-  "homepage": "https://github.com/deeflect/awesome-geo",
+  "homepage": "https://geo.deeflect.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/deeflect/awesome-geo.git"

@@ -28,6 +28,26 @@ This list helps you build that foundation — for free.
 | 🟡 Medium GEO value (50-74) | 78 |
 | 🔴 Low GEO value (<50) | 16 |
 
+## Quick Start
+
+```bash
+npm install
+npm run validate
+```
+
+This repo is data-first: `data/sites/*.yaml` and `data/repos/*.yaml` are the source of truth, and `README.md` is generated from them.
+
+Useful commands:
+
+- `npm run validate` — typecheck, validate YAML data integrity, regenerate `README.md`
+- `npm run verify-all` — re-check all platform entries live
+- `npm run refresh-authority` — refresh Open PageRank and Tranco metrics
+- `npm run refresh-ai-access` — refresh robots.txt crawler access signals
+
+Environment:
+
+- `OPENPAGERANK_API_KEY` is required for authority verification workflows
+
 ## Contents
 
 - [Developer Profiles](#developer-profiles) (30)

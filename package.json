@@ -8,6 +8,16 @@
     "type": "git",
     "url": "https://github.com/deeflect/awesome-geo.git"
   },
+  "keywords": [
+    "awesome-list",
+    "geo",
+    "generative-engine-optimization",
+    "ai-seo",
+    "llms-txt",
+    "ai-crawlers",
+    "ai-search",
+    "seo"
+  ],
   "engines": {
     "node": ">=22"
   },

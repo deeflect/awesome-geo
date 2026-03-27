@@ -1,0 +1,32 @@
+name: Weekly Re-verification
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Every Monday 6am UTC
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run check-data
+      - name: Re-verify all sites
+        run: npx tsx scripts/verify-all.ts
+        env:
+          OPENPAGERANK_API_KEY: ${{ secrets.OPENPAGERANK_API_KEY }}
+      - name: Recalculate scores
+        run: npx tsx scripts/score-sites.ts
+      - name: Regenerate README
+        run: npx tsx scripts/generate-readme.ts
+      - name: Create PR if changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "data: weekly re-verification"
+          title: "🔄 Weekly Site Re-verification"
+          branch: auto/weekly-verify
+          body: "Automated weekly re-verification of all sites."

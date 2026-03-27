@@ -1,0 +1,75 @@
+name: Verify PR
+on:
+  pull_request:
+    paths:
+      - 'data/sites/**'
+      - 'data/repos/**'
+
+jobs:
+  verify-sites:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run check-data
+      - name: Find changed sites
+        run: |
+          git diff --name-only origin/main...HEAD -- 'data/sites/' > changed_files.txt
+          cat changed_files.txt
+      - name: Verify new/changed site entries
+        run: npx tsx scripts/verify-pr.ts
+        env:
+          OPENPAGERANK_API_KEY: ${{ secrets.OPENPAGERANK_API_KEY }}
+      - name: Comment site results
+        uses: actions/github-script@v7
+        if: always()
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('verify-report.md', 'utf8');
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: report
+            });
+
+  verify-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run check-data
+      - name: Find changed repos
+        run: |
+          git diff --name-only origin/main...HEAD -- 'data/repos/' > changed_files.txt
+          cat changed_files.txt
+      - name: Verify new/changed repo entries
+        run: npx tsx scripts/verify-repo-pr.ts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Comment repo results
+        uses: actions/github-script@v7
+        if: always()
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('verify-repo-report.md', 'utf8');
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: report
+            });

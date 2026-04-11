@@ -79,3 +79,13 @@
   language: Go
   type: tool
   maintained: true
+
+- name: toprank
+  repo: nowork-studio/toprank
+  url: https://github.com/nowork-studio/toprank
+  category: geo-toolkits
+  description: Claude Code plugin for SEO and Google Ads — Search Console analysis, content writing, CMS setup, and AI-search-ready optimization workflows.
+  stars: 115
+  language: Markdown
+  type: skill
+  maintained: true

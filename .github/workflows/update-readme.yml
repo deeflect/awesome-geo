@@ -7,6 +7,10 @@ on:
       - 'data/categories.yaml'
       - 'data/repos/**'
       - 'data/repo-categories.yaml'
+      - 'scripts/generate-readme.ts'
+
+permissions:
+  contents: write
 
 jobs:
   readme:

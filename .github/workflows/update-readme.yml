@@ -8,6 +8,7 @@ on:
       - 'data/repos/**'
       - 'data/repo-categories.yaml'
       - 'scripts/generate-readme.ts'
+      - '.github/workflows/update-readme.yml'
 
 permissions:
   contents: write

@@ -10,6 +10,16 @@
   type: reference
   maintained: true
 
+- name: AI Training Opt-Out
+  repo: healsdata/ai-training-opt-out
+  url: https://github.com/healsdata/ai-training-opt-out
+  category: ai-crawler-management
+  description: Reference repo for AI training opt-out tags, headers, robots.txt directives, and .well-known patterns.
+  stars: 160
+  language: HTML
+  type: reference
+  maintained: true
+
 - name: SEO Crawler MCP
   repo: houtini-ai/seo-crawler-mcp
   url: https://github.com/houtini-ai/seo-crawler-mcp

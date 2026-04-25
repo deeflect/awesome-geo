@@ -5,7 +5,17 @@
   url: https://github.com/GEO-optim/GEO
   category: geo-research
   description: Original GEO research from Princeton — KDD '24 paper with GEO-BENCH benchmark. Proves 40% visibility boost.
-  stars: 200
+  stars: 246
+  language: Python
+  type: research
+  maintained: true
+
+- name: AutoGEO
+  repo: cxcscmu/AutoGEO
+  url: https://github.com/cxcscmu/AutoGEO
+  category: geo-research
+  description: ICLR '26 framework that learns generative-engine preferences and rewrites web content for higher visibility while preserving utility.
+  stars: 127
   language: Python
   type: research
   maintained: true
@@ -15,7 +25,7 @@
   url: https://github.com/DavidHuji/Awesome-GEO
   category: geo-research
   description: Curated collection of GEO research papers and academic resources.
-  stars: 50
+  stars: 96
   language: null
   type: reference
   maintained: true
@@ -25,7 +35,47 @@
   url: https://github.com/amplifying-ai/awesome-generative-engine-optimization
   category: geo-research
   description: Curated guide to GEO resources — guides, tools, and research for AI search visibility.
-  stars: 100
+  stars: 320
   language: null
   type: reference
+  maintained: true
+
+- name: Awesome GEO (luka2chat)
+  repo: luka2chat/awesome-geo
+  url: https://github.com/luka2chat/awesome-geo
+  category: geo-research
+  description: Broad curated GEO resource list covering research papers, tools, AI search engines, analytics, communities, and checklists.
+  stars: 142
+  language: null
+  type: reference
+  maintained: true
+
+- name: C-SEO Bench
+  repo: parameterlab/c-seo-bench
+  url: https://github.com/parameterlab/c-seo-bench
+  category: geo-research
+  description: NeurIPS D&B '25 benchmark testing whether conversational SEO techniques improve rankings in AI-mediated search and recommendations.
+  stars: 16
+  language: Jupyter Notebook
+  type: research
+  maintained: true
+
+- name: E-GEO
+  repo: psbagga17/E-GEO
+  url: https://github.com/psbagga17/E-GEO
+  category: geo-research
+  description: E-commerce GEO benchmark with 7,000+ product queries and experiments on rewriting heuristics for generative shopping engines.
+  stars: 27
+  language: Python
+  type: research
+  maintained: true
+
+- name: AgenticGEO
+  repo: AIcling/agentic_geo
+  url: https://github.com/AIcling/agentic_geo
+  category: geo-research
+  description: Self-evolving agentic GEO system using strategy memory and a surrogate critic to adapt content optimization to black-box engines.
+  stars: 21
+  language: Python
+  type: research
   maintained: true

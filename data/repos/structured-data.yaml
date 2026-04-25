@@ -1,5 +1,15 @@
 # Structured Data & Schema — Schema.org, JSON-LD, and structured data tools
 
+- name: Schema.org
+  repo: schemaorg/schemaorg
+  url: https://github.com/schemaorg/schemaorg
+  category: structured-data
+  description: Official Schema.org schemas and supporting software — the foundational vocabulary for JSON-LD structured data.
+  stars: 6020
+  language: HTML
+  type: standard
+  maintained: true
+
 - name: schema-org (Spatie)
   repo: spatie/schema-org
   url: https://github.com/spatie/schema-org
@@ -7,6 +17,36 @@
   description: Fluent PHP builder for all Schema.org types and JSON-LD generation. Battle-tested.
   stars: 1466
   language: PHP
+  type: library
+  maintained: true
+
+- name: schema-dts
+  repo: google/schema-dts
+  url: https://github.com/google/schema-dts
+  category: structured-data
+  description: TypeScript types for Schema.org JSON-LD vocabulary, useful for type-safe structured data generation.
+  stars: 1174
+  language: TypeScript
+  type: library
+  maintained: true
+
+- name: react-schemaorg
+  repo: google/react-schemaorg
+  url: https://github.com/google/react-schemaorg
+  category: structured-data
+  description: Type-checked Schema.org JSON-LD components for React applications.
+  stars: 516
+  language: TypeScript
+  type: library
+  maintained: true
+
+- name: SEO Graph
+  repo: jdevalk/seo-graph
+  url: https://github.com/jdevalk/seo-graph
+  category: structured-data
+  description: Agent-ready Schema.org JSON-LD graph builder for JavaScript with an Astro integration.
+  stars: 20
+  language: TypeScript
   type: library
   maintained: true
 

@@ -10,13 +10,23 @@
   type: tool
   maintained: true
 
+- name: Searchstack AEO
+  repo: alexpospekhov/searchstack-aeo
+  url: https://github.com/alexpospekhov/searchstack-aeo
+  category: geo-monitoring
+  description: CLI stack for monitoring visibility across Google, AI Overviews, ChatGPT, Perplexity, Claude, and Grok with markdown reports.
+  stars: 67
+  language: Python
+  type: tool
+  maintained: true
+
 - name: gego
   repo: AI2HU/gego
   url: https://github.com/AI2HU/gego
   category: geo-monitoring
   description: Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time.
-  stars: 50
-  language: Python
+  stars: 51
+  language: Go
   type: tool
   maintained: true
 
@@ -25,7 +35,17 @@
   url: https://github.com/houtini-ai/geo-analyzer
   category: geo-monitoring
   description: Local GEO analysis powered by Claude. Content analysis for AI search visibility scoring.
-  stars: 50
-  language: Python
+  stars: 18
+  language: TypeScript
+  type: tool
+  maintained: true
+
+- name: GetCito
+  repo: ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool
+  url: https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool
+  category: geo-monitoring
+  description: Open-source AI search optimization tool for AIO, AEO, and GEO visibility workflows.
+  stars: 89
+  language: TypeScript
   type: tool
   maintained: true

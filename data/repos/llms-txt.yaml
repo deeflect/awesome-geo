@@ -5,9 +5,19 @@
   url: https://github.com/AnswerDotAI/llms-txt
   category: llms-txt
   description: The official llms.txt spec by Jeremy Howard. The standard for making your site AI-readable.
-  stars: 2200
-  language: Python
+  stars: 2338
+  language: Jupyter Notebook
   type: standard
+  maintained: true
+
+- name: MCPDoc
+  repo: langchain-ai/mcpdoc
+  url: https://github.com/langchain-ai/mcpdoc
+  category: llms-txt
+  description: MCP server that exposes llms.txt documentation to IDEs and coding agents with auditable fetches.
+  stars: 979
+  language: Python
+  type: tool
   maintained: true
 
 - name: llms-txt-hub
@@ -15,7 +25,7 @@
   url: https://github.com/thedaviddias/llms-txt-hub
   category: llms-txt
   description: Largest directory of sites implementing llms.txt — reference list and tooling.
-  stars: 726
+  stars: 815
   language: TypeScript
   type: reference
   maintained: true
@@ -28,6 +38,46 @@
   stars: 519
   language: TypeScript
   type: tool
+  maintained: true
+
+- name: create-llmstxt-py
+  repo: firecrawl/create-llmstxt-py
+  url: https://github.com/firecrawl/create-llmstxt-py
+  category: llms-txt
+  description: Firecrawl Python generator for producing llms.txt files from websites.
+  stars: 301
+  language: Python
+  type: tool
+  maintained: true
+
+- name: Nuxt LLMs
+  repo: nuxt-content/nuxt-llms
+  url: https://github.com/nuxt-content/nuxt-llms
+  category: llms-txt
+  description: Nuxt module that generates and prerenders /llms.txt and optional /llms-full.txt documentation.
+  stars: 164
+  language: TypeScript
+  type: library
+  maintained: true
+
+- name: llmstxt
+  repo: dotenvx/llmstxt
+  url: https://github.com/dotenvx/llmstxt
+  category: llms-txt
+  description: CLI that converts sitemap.xml entries into llms.txt markdown links.
+  stars: 143
+  language: JavaScript
+  type: tool
+  maintained: true
+
+- name: mkdocs-llmstxt
+  repo: pawamoy/mkdocs-llmstxt
+  url: https://github.com/pawamoy/mkdocs-llmstxt
+  category: llms-txt
+  description: MkDocs plugin for generating /llms.txt and optional llms-full.txt from documentation sections.
+  stars: 115
+  language: Python
+  type: library
   maintained: true
 
 - name: Firecrawl

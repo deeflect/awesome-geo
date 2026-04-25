@@ -1,5 +1,45 @@
 # GEO Toolkits & Skills — CLI tools, agent skills, and automation for GEO optimization
 
+- name: GTM Engineer Skills
+  repo: onvoyage-ai/gtm-engineer-skills
+  url: https://github.com/onvoyage-ai/gtm-engineer-skills
+  category: geo-toolkits
+  description: Claude Code skill for website AEO/GEO audits with foundational checks, intelligence dimensions, and framework-specific fixes.
+  stars: 909
+  language: HTML
+  type: skill
+  maintained: true
+
+- name: geo-optimizer-skill
+  repo: Auriti-Labs/geo-optimizer-skill
+  url: https://github.com/Auriti-Labs/geo-optimizer-skill
+  category: geo-toolkits
+  description: GEO audit and optimization skill for making websites visible to ChatGPT, Perplexity, Claude, and Gemini.
+  stars: 178
+  language: Python
+  type: skill
+  maintained: true
+
+- name: geo-optimizer
+  repo: geo-team-red/geo-optimizer
+  url: https://github.com/geo-team-red/geo-optimizer
+  category: geo-toolkits
+  description: Pluggable Go framework for GEO optimization strategies with built-in tactics and custom strategy registration.
+  stars: 136
+  language: Go
+  type: framework
+  maintained: true
+
+- name: eGEOagents
+  repo: mverab/eGEOagents
+  url: https://github.com/mverab/eGEOagents
+  category: geo-toolkits
+  description: Agent skills for optimizing content across ChatGPT, Perplexity, Claude, and Gemini.
+  stars: 101
+  language: Python
+  type: skill
+  maintained: true
+
 - name: geo-seo-claude
   repo: zubair-trabzada/geo-seo-claude
   url: https://github.com/zubair-trabzada/geo-seo-claude

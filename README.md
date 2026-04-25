@@ -1,6 +1,6 @@
 # Awesome GEO [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of **168 free platforms** and **24 open-source repos & tools** for **Generative Engine Optimization (GEO)** — SEO for the AI era.
+> A curated list of **168 free platforms** and **45 open-source repos & tools** for **Generative Engine Optimization (GEO)** — SEO for the AI era.
 
 ## Why GEO?
 
@@ -19,7 +19,7 @@ This list helps you build that foundation — for free.
 | Metric | Count |
 |--------|-------|
 | Total platforms | 168 |
-| Open-source repos & tools | 24 |
+| Open-source repos & tools | 45 |
 | Automated checks completed | 168 |
 | Representative public pages seeded | 104 |
 | Root-fallback checks | 64 |
@@ -60,12 +60,12 @@ Environment:
 - [Niche Directories](#niche-directories) (13)
 - [Social Bookmarking](#social-bookmarking) (11)
 - [Open-Source Repos & Tools](#open-source-repos--tools)
-  - [Research & Frameworks](#research-frameworks) (3)
-  - [llms.txt Ecosystem](#llms-txt-ecosystem) (5)
-  - [AI Crawler Management](#ai-crawler-management) (2)
-  - [GEO Monitoring & Tracking](#geo-monitoring-tracking) (3)
-  - [Structured Data & Schema](#structured-data-schema) (3)
-  - [GEO Toolkits & Skills](#geo-toolkits-skills) (8)
+  - [Research & Frameworks](#research-frameworks) (8)
+  - [llms.txt Ecosystem](#llms-txt-ecosystem) (10)
+  - [AI Crawler Management](#ai-crawler-management) (3)
+  - [GEO Monitoring & Tracking](#geo-monitoring-tracking) (5)
+  - [Structured Data & Schema](#structured-data-schema) (7)
+  - [GEO Toolkits & Skills](#geo-toolkits-skills) (12)
 - [AI Discoverability](#ai-discoverability)
 - [Research & Reading](#research--reading)
 - [Contributing](#contributing)
@@ -453,9 +453,14 @@ Environment:
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
-| [GEO (Princeton)](https://github.com/GEO-optim/GEO) | ⭐ 200 | 🔬 Research | Python | Original GEO research from Princeton — KDD '24 paper with GEO-BENCH benchmark. Proves 40% visibility boost. |
-| [Awesome Generative Engine Optimization](https://github.com/amplifying-ai/awesome-generative-engine-optimization) | ⭐ 100 | 📚 Reference | — | Curated guide to GEO resources — guides, tools, and research for AI search visibility. |
-| [Awesome GEO (Research)](https://github.com/DavidHuji/Awesome-GEO) | ⭐ 50 | 📚 Reference | — | Curated collection of GEO research papers and academic resources. |
+| [Awesome Generative Engine Optimization](https://github.com/amplifying-ai/awesome-generative-engine-optimization) | ⭐ 320 | 📚 Reference | — | Curated guide to GEO resources — guides, tools, and research for AI search visibility. |
+| [GEO (Princeton)](https://github.com/GEO-optim/GEO) | ⭐ 246 | 🔬 Research | Python | Original GEO research from Princeton — KDD '24 paper with GEO-BENCH benchmark. Proves 40% visibility boost. |
+| [Awesome GEO (luka2chat)](https://github.com/luka2chat/awesome-geo) | ⭐ 142 | 📚 Reference | — | Broad curated GEO resource list covering research papers, tools, AI search engines, analytics, communities, and checklists. |
+| [AutoGEO](https://github.com/cxcscmu/AutoGEO) | ⭐ 127 | 🔬 Research | Python | ICLR '26 framework that learns generative-engine preferences and rewrites web content for higher visibility while preserving utility. |
+| [Awesome GEO (Research)](https://github.com/DavidHuji/Awesome-GEO) | ⭐ 96 | 📚 Reference | — | Curated collection of GEO research papers and academic resources. |
+| [E-GEO](https://github.com/psbagga17/E-GEO) | ⭐ 27 | 🔬 Research | Python | E-commerce GEO benchmark with 7,000+ product queries and experiments on rewriting heuristics for generative shopping engines. |
+| [AgenticGEO](https://github.com/AIcling/agentic_geo) | ⭐ 21 | 🔬 Research | Python | Self-evolving agentic GEO system using strategy memory and a surrogate critic to adapt content optimization to black-box engines. |
+| [C-SEO Bench](https://github.com/parameterlab/c-seo-bench) | ⭐ 16 | 🔬 Research | Jupyter Notebook | NeurIPS D&B '25 benchmark testing whether conversational SEO techniques improve rankings in AI-mediated search and recommendations. |
 
 ### llms.txt Ecosystem
 
@@ -464,9 +469,14 @@ Environment:
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
 | [Firecrawl](https://github.com/mendableai/firecrawl) | ⭐ 30.0k | 🔧 Tool | TypeScript | Web data API for AI — turn websites into LLM-ready markdown. llms.txt generation built in. |
-| [llms.txt Specification](https://github.com/AnswerDotAI/llms-txt) | ⭐ 2.2k | 📐 Standard | Python | The official llms.txt spec by Jeremy Howard. The standard for making your site AI-readable. |
-| [llms-txt-hub](https://github.com/thedaviddias/llms-txt-hub) | ⭐ 726 | 📚 Reference | TypeScript | Largest directory of sites implementing llms.txt — reference list and tooling. |
+| [llms.txt Specification](https://github.com/AnswerDotAI/llms-txt) | ⭐ 2.3k | 📐 Standard | Jupyter Notebook | The official llms.txt spec by Jeremy Howard. The standard for making your site AI-readable. |
+| [MCPDoc](https://github.com/langchain-ai/mcpdoc) | ⭐ 979 | 🔧 Tool | Python | MCP server that exposes llms.txt documentation to IDEs and coding agents with auditable fetches. |
+| [llms-txt-hub](https://github.com/thedaviddias/llms-txt-hub) | ⭐ 815 | 📚 Reference | TypeScript | Largest directory of sites implementing llms.txt — reference list and tooling. |
 | [llmstxt Generator (Firecrawl)](https://github.com/firecrawl/llmstxt-generator) | ⭐ 519 | 🔧 Tool | TypeScript | Generate llms.txt and llms-full.txt from any URL. By the Firecrawl team (YC-backed). |
+| [create-llmstxt-py](https://github.com/firecrawl/create-llmstxt-py) | ⭐ 301 | 🔧 Tool | Python | Firecrawl Python generator for producing llms.txt files from websites. |
+| [Nuxt LLMs](https://github.com/nuxt-content/nuxt-llms) | ⭐ 164 | 📦 Library | TypeScript | Nuxt module that generates and prerenders /llms.txt and optional /llms-full.txt documentation. |
+| [llmstxt](https://github.com/dotenvx/llmstxt) | ⭐ 143 | 🔧 Tool | JavaScript | CLI that converts sitemap.xml entries into llms.txt markdown links. |
+| [mkdocs-llmstxt](https://github.com/pawamoy/mkdocs-llmstxt) | ⭐ 115 | 📦 Library | Python | MkDocs plugin for generating /llms.txt and optional llms-full.txt from documentation sections. |
 | [llms-generator](https://github.com/Francesco-Fera/llms-generator) | ⭐ 50 | 🔧 Tool | TypeScript | Free no-code tool for generating llms.txt files for LLM SEO compliance. |
 
 ### AI Crawler Management
@@ -476,6 +486,7 @@ Environment:
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
 | [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt) | ⭐ 1.5k | 📚 Reference | — | Community-maintained list of AI bots to block. Generates robots.txt, .htaccess, nginx, HAProxy configs. |
+| [AI Training Opt-Out](https://github.com/healsdata/ai-training-opt-out) | ⭐ 160 | 📚 Reference | HTML | Reference repo for AI training opt-out tags, headers, robots.txt directives, and .well-known patterns. |
 | [SEO Crawler MCP](https://github.com/houtini-ai/seo-crawler-mcp) | ⭐ 50 | 🔧 Tool | TypeScript | MCP server that crawls and analyzes sites for SEO issues including AI crawler access. Works in any AI assistant or terminal. |
 
 ### GEO Monitoring & Tracking
@@ -485,8 +496,10 @@ Environment:
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
 | [AiCMO](https://github.com/AICMO/ai-cmo) | ⭐ 100 | 🔧 Tool | TypeScript | Open-source AI SEO platform. Monitor brand visibility across ChatGPT, Claude, Perplexity, Gemini. Self-hostable. |
-| [gego](https://github.com/AI2HU/gego) | ⭐ 50 | 🔧 Tool | Python | Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time. |
-| [GEO Analyzer](https://github.com/houtini-ai/geo-analyzer) | ⭐ 50 | 🔧 Tool | Python | Local GEO analysis powered by Claude. Content analysis for AI search visibility scoring. |
+| [GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool) | ⭐ 89 | 🔧 Tool | TypeScript | Open-source AI search optimization tool for AIO, AEO, and GEO visibility workflows. |
+| [Searchstack AEO](https://github.com/alexpospekhov/searchstack-aeo) | ⭐ 67 | 🔧 Tool | Python | CLI stack for monitoring visibility across Google, AI Overviews, ChatGPT, Perplexity, Claude, and Grok with markdown reports. |
+| [gego](https://github.com/AI2HU/gego) | ⭐ 51 | 🔧 Tool | Go | Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time. |
+| [GEO Analyzer](https://github.com/houtini-ai/geo-analyzer) | ⭐ 18 | 🔧 Tool | TypeScript | Local GEO analysis powered by Claude. Content analysis for AI search visibility scoring. |
 
 ### Structured Data & Schema
 
@@ -494,9 +507,13 @@ Environment:
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
+| [Schema.org](https://github.com/schemaorg/schemaorg) | ⭐ 6.0k | 📐 Standard | HTML | Official Schema.org schemas and supporting software — the foundational vocabulary for JSON-LD structured data. |
 | [schema-org (Spatie)](https://github.com/spatie/schema-org) | ⭐ 1.5k | 📦 Library | PHP | Fluent PHP builder for all Schema.org types and JSON-LD generation. Battle-tested. |
+| [schema-dts](https://github.com/google/schema-dts) | ⭐ 1.2k | 📦 Library | TypeScript | TypeScript types for Schema.org JSON-LD vocabulary, useful for type-safe structured data generation. |
+| [react-schemaorg](https://github.com/google/react-schemaorg) | ⭐ 516 | 📦 Library | TypeScript | Type-checked Schema.org JSON-LD components for React applications. |
 | [Structured Data JSON-LD](https://github.com/JayHoltslander/Structured-Data-JSON-LD) | ⭐ 500 | 📚 Reference | — | Ready-to-use JSON-LD snippets in Google-preferred format for every common schema type. |
 | [Schema Generator](https://github.com/mustafapiplodi/schema-generator) | ⭐ 50 | 🔧 Tool | JavaScript | Free schema markup generator for 14 schema types with real-time validation and instant code generation. |
+| [SEO Graph](https://github.com/jdevalk/seo-graph) | ⭐ 20 | 📦 Library | TypeScript | Agent-ready Schema.org JSON-LD graph builder for JavaScript with an Astro integration. |
 
 ### GEO Toolkits & Skills
 
@@ -504,8 +521,12 @@ Environment:
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
+| [GTM Engineer Skills](https://github.com/onvoyage-ai/gtm-engineer-skills) | ⭐ 909 | 🤖 Skill | HTML | Claude Code skill for website AEO/GEO audits with foundational checks, intelligence dimensions, and framework-specific fixes. |
 | [Open SEO](https://github.com/every-app/open-seo) | ⭐ 669 | 🔧 Tool | TypeScript | Self-hosted open-source SEO tool — keyword research, competitor analysis, backlink tracking, technical audits. AI-native. |
 | [SEOnaut](https://github.com/StJudeWasHere/seonaut) | ⭐ 636 | 🔧 Tool | Go | Open-source SEO audit tool — crawls sites for broken links, redirects, missing meta tags, heading issues. Self-hostable. |
+| [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) | ⭐ 178 | 🤖 Skill | Python | GEO audit and optimization skill for making websites visible to ChatGPT, Perplexity, Claude, and Gemini. |
+| [geo-optimizer](https://github.com/geo-team-red/geo-optimizer) | ⭐ 136 | ⚙️ Framework | Go | Pluggable Go framework for GEO optimization strategies with built-in tactics and custom strategy registration. |
+| [eGEOagents](https://github.com/mverab/eGEOagents) | ⭐ 101 | 🤖 Skill | Python | Agent skills for optimizing content across ChatGPT, Perplexity, Claude, and Gemini. |
 | [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | ⭐ 100 | 🤖 Skill | Markdown | GEO-first SEO skill for Claude Code — citability scoring, AI crawler analysis, schema markup, PDF reports. |
 | [claude-seo](https://github.com/AgriciDaniel/claude-seo) | ⭐ 100 | 🤖 Skill | Markdown | 13 sub-skills, 7 subagents for Claude Code — technical SEO, E-E-A-T, GEO/AEO, DataForSEO integration. |
 | [SEO AGI](https://github.com/gbessoni/seo-agi) | ⭐ 100 | 🔧 Tool | Python | AI agent that writes pages Google ranks and LLMs cite. Built on DeerFlow with forensic competitive analysis and entity consensus. |
@@ -530,9 +551,15 @@ Environment:
 
 | Standard | What it does | Adoption |
 |----------|-------------|----------|
-| [llms.txt](https://llmstxt.org) | Markdown summary for LLM crawlers | 844K+ sites |
-| [llms-full.txt](https://llmstxt.org) | Full content dump for deep indexing | Growing |
+| [llms.txt](https://llmstxt.org) | Markdown summary that helps agents and users find AI-readable site context | Emerging; useful defensive infrastructure |
+| [llms-full.txt](https://llmstxt.org) | Expanded markdown content for deeper manual or agent ingestion | Emerging |
 | robots.txt AI rules | Control which AI bots can crawl | Standard |
+
+### Optimization Guides
+
+- [LLMO Citation Matrix](docs/llmo-citation-matrix.md) — engine-specific citation surfaces and practical implications
+- [Answer-First Content](docs/answer-first-content.md) — structure pages so humans and answer engines can extract claims cleanly
+- [Schema sameAs Quality](docs/schema-sameas.md) — choose identity links that improve disambiguation instead of inflating profile count
 
 ### AI Crawler User-Agents
 
@@ -555,15 +582,25 @@ Environment:
 | Paper | Year | Key Finding |
 |-------|------|-------------|
 | [GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) | 2024 (KDD) | The foundational GEO paper — GEO-BENCH benchmark proves 40% visibility boost via statistics and citation addition |
+| [Ranking Manipulation for Conversational Search Engines](https://aclanthology.org/2024.emnlp-main.534/) | 2024 (EMNLP) | Shows how conversational search ranking can be manipulated; useful safety caveat for GEO tactics |
+| [What Evidence Do Language Models Find Convincing?](https://aclanthology.org/2024.acl-long.403/) | 2024 (ACL) | Studies which evidence characteristics influence RAG-style language model answers |
 | [How to Dominate AI Search](https://arxiv.org/abs/2509.08919) | 2025 | AI search has systematic bias toward earned media over brand-owned content; engine-specific strategies needed |
+| [C-SEO Bench](https://arxiv.org/abs/2506.11097) | 2025 (NeurIPS D&B) | Benchmark testing whether conversational SEO methods work across QA and product recommendation settings |
+| [AutoGEO](https://arxiv.org/abs/2510.11438) | 2026 (ICLR) | Learns generative-engine preferences and extracts content optimization rules |
 | [Role-Augmented Intent-Driven G-SEO](https://arxiv.org/abs/2508.11158) | 2025 | Extends GEO-BENCH with intent modeling across informational roles; introduces G-Eval 2.0 |
 | [E-GEO: GEO for E-Commerce](https://arxiv.org/abs/2511.20867) | 2025 | First e-commerce GEO benchmark — 7,000+ consumer product queries with rich intent and constraints |
+| [AgenticGEO](https://arxiv.org/abs/2603.20213) | 2026 | Self-evolving agentic GEO system for content-conditioned optimization under black-box generative engines |
 | [Beyond SEO: Transformer-Based Web Content Optimisation](https://arxiv.org/abs/2507.03169) | 2025 | Fine-tuned BART transformer for domain-specific GEO content optimization |
 | [LLMs Generating Text with Citations](https://arxiv.org/abs/2305.14627) | 2023 (EMNLP) | ALCE benchmark for automatic citation evaluation — fluency, correctness, and citation quality |
 
 ### Industry Studies
 
+- [Pew Research Center: Google users are less likely to click links when AI summaries appear](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) — 68,879-search panel study from 900 U.S. adults
 - [Semrush: Do Backlinks Still Matter in AI Search?](https://www.semrush.com/blog/backlinks-ai-search-study/) — 1,000 domain study on authority vs. AI citation correlation
+- [Semrush: AI Overviews Study](https://www.semrush.com/blog/semrush-ai-overviews-study/) — 10M+ keyword analysis of AI Overview trigger rates, intent patterns, and zero-click behavior
+- [Semrush: Google AI Mode vs. Traditional Search & Other LLMs](https://www.semrush.com/blog/ai-mode-comparison-study/) — platform-comparison study on AI Mode, AI Overviews, ChatGPT, and Perplexity citation overlap
+- [Ahrefs: AI Overviews Reduce Clicks](https://ahrefs.com/blog/?p=195053) — vendor CTR study estimating organic click loss when AI Overviews appear
+- [BrightEdge: AI Overview citations and organic ranking overlap](https://www.brightedge.com/resources/weekly-ai-search-insights/rank-overlap-after-16-months-of-aio) — 16-month view of AI Overview citation overlap with organic results
 - [Otterly.AI: The AI Citation Economy](https://otterly.ai/blog/the-ai-citations-report-2026/) — 1M+ data points on visibility in 2026; community platforms capture 52.5% of citations
 - [ALM Corp: Google AI Mode Cites Itself in 17%](https://almcorp.com/blog/google-ai-mode-cites-itself-organic-links-seo-2026/) — 1.3M citations across 68K keywords; Google self-citation tripled in 9 months
 - [ALM Corp: ChatGPT Citations Study](https://almcorp.com/blog/chatgpt-citations-study-44-percent-first-third-content/) — 44% of all ChatGPT citations come from the first third of content
@@ -602,13 +639,3 @@ Use our [issue templates](https://github.com/deeflect/awesome-geo/issues/new/cho
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the contributors have waived all copyright and related rights to this work.
-
----
-
-### Curated by
-
-Curated by [Dee](https://deeflect.com) — designer turned AI engineer, currently obsessed with whether ChatGPT actually mentions you when someone searches.
-
-Submit a platform, fix an entry, or just star it if you found something useful. CC0 — take it, fork it, ship it.
-
-[deeflect.com](https://deeflect.com) · [Wikidata](https://www.wikidata.org/entity/Q138828544) · [LinkedIn](https://www.linkedin.com/in/dkargaev/) · [X](https://x.com/deeflectcom)

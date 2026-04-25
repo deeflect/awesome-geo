@@ -639,3 +639,13 @@ Use our [issue templates](https://github.com/deeflect/awesome-geo/issues/new/cho
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, the contributors have waived all copyright and related rights to this work.
+
+---
+
+### Curated by
+
+Curated by [Dee](https://deeflect.com) — designer turned AI engineer, currently obsessed with whether ChatGPT actually mentions you when someone searches.
+
+Submit a platform, fix an entry, or just star it if you found something useful. CC0 — take it, fork it, ship it.
+
+[deeflect.com](https://deeflect.com) · [Wikidata](https://www.wikidata.org/entity/Q138828544) · [LinkedIn](https://www.linkedin.com/in/dkargaev/) · [X](https://x.com/deeflectcom)

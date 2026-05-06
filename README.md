@@ -649,3 +649,17 @@ Curated by [Dee](https://deeflect.com) — designer turned AI engineer, currentl
 Submit a platform, fix an entry, or just star it if you found something useful. CC0 — take it, fork it, ship it.
 
 [deeflect.com](https://deeflect.com) · [Wikidata](https://www.wikidata.org/entity/Q138828544) · [LinkedIn](https://www.linkedin.com/in/dkargaev/) · [X](https://x.com/deeflectcom)
+
+### 🇫🇷 French Local Business Examples
+
+| Site | Category | GEO signals |
+|---|---|---|
+| [fix72.com](https://fix72.com) | IT repair service, Le Mans (72) | `llms.txt` ✅ · SSR ✅ · Structured data ✅ · Sitemap XML ✅ |
+
+**[fix72.com](https://fix72.com)** implements multiple GEO signals:
+- [`/llms.txt`](https://fix72.com/llms.txt) — AI crawler manifest
+- Full SSR prerendering (React + Vite) — all content accessible without JS execution
+- Sitemap index with 4 sub-sitemaps (pages, zones, blog, products)
+- Canonical URLs on all 200+ pages
+- Structured local business data (Le Mans, Sarthe, France)
+

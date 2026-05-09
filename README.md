@@ -648,4 +648,6 @@ Curated by [Dee](https://deeflect.com) — designer turned AI engineer, currentl
 
 Submit a platform, fix an entry, or just star it if you found something useful. CC0 — take it, fork it, ship it.
 
+Working on GEO and want this built into your stack? [dee.agency](https://dee.agency?utm_source=awesomegeo&utm_medium=readme).
+
 [deeflect.com](https://deeflect.com) · [Wikidata](https://www.wikidata.org/entity/Q138828544) · [LinkedIn](https://www.linkedin.com/in/dkargaev/) · [X](https://x.com/deeflectcom)

@@ -15,7 +15,17 @@
   url: https://github.com/cxcscmu/AutoGEO
   category: geo-research
   description: ICLR '26 framework that learns generative-engine preferences and rewrites web content for higher visibility while preserving utility.
-  stars: 127
+  stars: 150
+  language: Python
+  type: research
+  maintained: true
+
+- name: MAGEO
+  repo: Wu-beining/MAGEO
+  url: https://github.com/Wu-beining/MAGEO
+  category: geo-research
+  description: ACL '26 multi-agent GEO framework that learns reusable, engine-specific optimization strategies with fidelity-aware evaluation.
+  stars: 38
   language: Python
   type: research
   maintained: true
@@ -35,7 +45,7 @@
   url: https://github.com/amplifying-ai/awesome-generative-engine-optimization
   category: geo-research
   description: Curated guide to GEO resources — guides, tools, and research for AI search visibility.
-  stars: 320
+  stars: 367
   language: null
   type: reference
   maintained: true
@@ -45,8 +55,18 @@
   url: https://github.com/luka2chat/awesome-geo
   category: geo-research
   description: Broad curated GEO resource list covering research papers, tools, AI search engines, analytics, communities, and checklists.
-  stars: 142
+  stars: 130
   language: null
+  type: reference
+  maintained: true
+
+- name: GEO Research Hub
+  repo: Wu-beining/generative-engine-optimization-research-hub
+  url: https://github.com/Wu-beining/generative-engine-optimization-research-hub
+  category: geo-research
+  description: Maintained GEO/AEO/AIO/GSEO research hub covering papers, benchmarks, code repos, platform rules, and research agendas.
+  stars: 32
+  language: TeX
   type: reference
   maintained: true
 
@@ -65,7 +85,7 @@
   url: https://github.com/psbagga17/E-GEO
   category: geo-research
   description: E-commerce GEO benchmark with 7,000+ product queries and experiments on rewriting heuristics for generative shopping engines.
-  stars: 27
+  stars: 33
   language: Python
   type: research
   maintained: true
@@ -75,7 +95,7 @@
   url: https://github.com/AIcling/agentic_geo
   category: geo-research
   description: Self-evolving agentic GEO system using strategy memory and a surrogate critic to adapt content optimization to black-box engines.
-  stars: 21
+  stars: 26
   language: Python
   type: research
   maintained: true

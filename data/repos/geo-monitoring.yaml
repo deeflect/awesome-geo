@@ -25,7 +25,7 @@
   url: https://github.com/AI2HU/gego
   category: geo-monitoring
   description: Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time.
-  stars: 51
+  stars: 62
   language: Go
   type: tool
   maintained: true
@@ -35,7 +35,7 @@
   url: https://github.com/houtini-ai/geo-analyzer
   category: geo-monitoring
   description: Local GEO analysis powered by Claude. Content analysis for AI search visibility scoring.
-  stars: 18
+  stars: 21
   language: TypeScript
   type: tool
   maintained: true
@@ -45,7 +45,17 @@
   url: https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool
   category: geo-monitoring
   description: Open-source AI search optimization tool for AIO, AEO, and GEO visibility workflows.
-  stars: 89
+  stars: 116
   language: TypeScript
+  type: tool
+  maintained: true
+
+- name: SEO & AI Search Dashboard
+  repo: codyschneiderx/seo-ai-search-dashboard
+  url: https://github.com/codyschneiderx/seo-ai-search-dashboard
+  category: geo-monitoring
+  description: Open-source dashboard template for SEO and AI-search performance, with GA4, Search Console, Ads, and AI referral panels.
+  stars: 24
+  language: HTML
   type: tool
   maintained: true

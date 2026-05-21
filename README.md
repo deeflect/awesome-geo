@@ -1,6 +1,6 @@
 # Awesome GEO [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of **168 free platforms** and **45 open-source repos & tools** for **Generative Engine Optimization (GEO)** — SEO for the AI era.
+> A curated list of **168 free platforms** and **52 open-source repos & tools** for **Generative Engine Optimization (GEO)** — SEO for the AI era.
 
 ## Why GEO?
 
@@ -19,7 +19,7 @@ This list helps you build that foundation — for free.
 | Metric | Count |
 |--------|-------|
 | Total platforms | 168 |
-| Open-source repos & tools | 45 |
+| Open-source repos & tools | 52 |
 | Automated checks completed | 168 |
 | Representative public pages seeded | 104 |
 | Root-fallback checks | 64 |
@@ -60,12 +60,12 @@ Environment:
 - [Niche Directories](#niche-directories) (13)
 - [Social Bookmarking](#social-bookmarking) (11)
 - [Open-Source Repos & Tools](#open-source-repos--tools)
-  - [Research & Frameworks](#research-frameworks) (8)
+  - [Research & Frameworks](#research-frameworks) (10)
   - [llms.txt Ecosystem](#llms-txt-ecosystem) (10)
   - [AI Crawler Management](#ai-crawler-management) (3)
-  - [GEO Monitoring & Tracking](#geo-monitoring-tracking) (5)
+  - [GEO Monitoring & Tracking](#geo-monitoring-tracking) (6)
   - [Structured Data & Schema](#structured-data-schema) (7)
-  - [GEO Toolkits & Skills](#geo-toolkits-skills) (12)
+  - [GEO Toolkits & Skills](#geo-toolkits-skills) (16)
 - [AI Discoverability](#ai-discoverability)
 - [Research & Reading](#research--reading)
 - [Contributing](#contributing)
@@ -453,13 +453,15 @@ Environment:
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
-| [Awesome Generative Engine Optimization](https://github.com/amplifying-ai/awesome-generative-engine-optimization) | ⭐ 320 | 📚 Reference | — | Curated guide to GEO resources — guides, tools, and research for AI search visibility. |
+| [Awesome Generative Engine Optimization](https://github.com/amplifying-ai/awesome-generative-engine-optimization) | ⭐ 367 | 📚 Reference | — | Curated guide to GEO resources — guides, tools, and research for AI search visibility. |
 | [GEO (Princeton)](https://github.com/GEO-optim/GEO) | ⭐ 246 | 🔬 Research | Python | Original GEO research from Princeton — KDD '24 paper with GEO-BENCH benchmark. Proves 40% visibility boost. |
-| [Awesome GEO (luka2chat)](https://github.com/luka2chat/awesome-geo) | ⭐ 142 | 📚 Reference | — | Broad curated GEO resource list covering research papers, tools, AI search engines, analytics, communities, and checklists. |
-| [AutoGEO](https://github.com/cxcscmu/AutoGEO) | ⭐ 127 | 🔬 Research | Python | ICLR '26 framework that learns generative-engine preferences and rewrites web content for higher visibility while preserving utility. |
+| [AutoGEO](https://github.com/cxcscmu/AutoGEO) | ⭐ 150 | 🔬 Research | Python | ICLR '26 framework that learns generative-engine preferences and rewrites web content for higher visibility while preserving utility. |
+| [Awesome GEO (luka2chat)](https://github.com/luka2chat/awesome-geo) | ⭐ 130 | 📚 Reference | — | Broad curated GEO resource list covering research papers, tools, AI search engines, analytics, communities, and checklists. |
 | [Awesome GEO (Research)](https://github.com/DavidHuji/Awesome-GEO) | ⭐ 96 | 📚 Reference | — | Curated collection of GEO research papers and academic resources. |
-| [E-GEO](https://github.com/psbagga17/E-GEO) | ⭐ 27 | 🔬 Research | Python | E-commerce GEO benchmark with 7,000+ product queries and experiments on rewriting heuristics for generative shopping engines. |
-| [AgenticGEO](https://github.com/AIcling/agentic_geo) | ⭐ 21 | 🔬 Research | Python | Self-evolving agentic GEO system using strategy memory and a surrogate critic to adapt content optimization to black-box engines. |
+| [MAGEO](https://github.com/Wu-beining/MAGEO) | ⭐ 38 | 🔬 Research | Python | ACL '26 multi-agent GEO framework that learns reusable, engine-specific optimization strategies with fidelity-aware evaluation. |
+| [E-GEO](https://github.com/psbagga17/E-GEO) | ⭐ 33 | 🔬 Research | Python | E-commerce GEO benchmark with 7,000+ product queries and experiments on rewriting heuristics for generative shopping engines. |
+| [GEO Research Hub](https://github.com/Wu-beining/generative-engine-optimization-research-hub) | ⭐ 32 | 📚 Reference | TeX | Maintained GEO/AEO/AIO/GSEO research hub covering papers, benchmarks, code repos, platform rules, and research agendas. |
+| [AgenticGEO](https://github.com/AIcling/agentic_geo) | ⭐ 26 | 🔬 Research | Python | Self-evolving agentic GEO system using strategy memory and a surrogate critic to adapt content optimization to black-box engines. |
 | [C-SEO Bench](https://github.com/parameterlab/c-seo-bench) | ⭐ 16 | 🔬 Research | Jupyter Notebook | NeurIPS D&B '25 benchmark testing whether conversational SEO techniques improve rankings in AI-mediated search and recommendations. |
 
 ### llms.txt Ecosystem
@@ -495,11 +497,12 @@ Environment:
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
+| [GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool) | ⭐ 116 | 🔧 Tool | TypeScript | Open-source AI search optimization tool for AIO, AEO, and GEO visibility workflows. |
 | [AiCMO](https://github.com/AICMO/ai-cmo) | ⭐ 100 | 🔧 Tool | TypeScript | Open-source AI SEO platform. Monitor brand visibility across ChatGPT, Claude, Perplexity, Gemini. Self-hostable. |
-| [GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool) | ⭐ 89 | 🔧 Tool | TypeScript | Open-source AI search optimization tool for AIO, AEO, and GEO visibility workflows. |
 | [Searchstack AEO](https://github.com/alexpospekhov/searchstack-aeo) | ⭐ 67 | 🔧 Tool | Python | CLI stack for monitoring visibility across Google, AI Overviews, ChatGPT, Perplexity, Claude, and Grok with markdown reports. |
-| [gego](https://github.com/AI2HU/gego) | ⭐ 51 | 🔧 Tool | Go | Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time. |
-| [GEO Analyzer](https://github.com/houtini-ai/geo-analyzer) | ⭐ 18 | 🔧 Tool | TypeScript | Local GEO analysis powered by Claude. Content analysis for AI search visibility scoring. |
+| [gego](https://github.com/AI2HU/gego) | ⭐ 62 | 🔧 Tool | Go | Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time. |
+| [SEO & AI Search Dashboard](https://github.com/codyschneiderx/seo-ai-search-dashboard) | ⭐ 24 | 🔧 Tool | HTML | Open-source dashboard template for SEO and AI-search performance, with GA4, Search Console, Ads, and AI referral panels. |
+| [GEO Analyzer](https://github.com/houtini-ai/geo-analyzer) | ⭐ 21 | 🔧 Tool | TypeScript | Local GEO analysis powered by Claude. Content analysis for AI search visibility scoring. |
 
 ### Structured Data & Schema
 
@@ -521,18 +524,22 @@ Environment:
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
+| [toprank](https://github.com/nowork-studio/toprank) | ⭐ 2.6k | 🤖 Skill | Python | Claude Code plugin for SEO, GEO, Google Ads, and Meta Ads audits with Search Console analysis and content fixes. |
 | [GTM Engineer Skills](https://github.com/onvoyage-ai/gtm-engineer-skills) | ⭐ 909 | 🤖 Skill | HTML | Claude Code skill for website AEO/GEO audits with foundational checks, intelligence dimensions, and framework-specific fixes. |
 | [Open SEO](https://github.com/every-app/open-seo) | ⭐ 669 | 🔧 Tool | TypeScript | Self-hosted open-source SEO tool — keyword research, competitor analysis, backlink tracking, technical audits. AI-native. |
 | [SEOnaut](https://github.com/StJudeWasHere/seonaut) | ⭐ 636 | 🔧 Tool | Go | Open-source SEO audit tool — crawls sites for broken links, redirects, missing meta tags, heading issues. Self-hostable. |
-| [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) | ⭐ 178 | 🤖 Skill | Python | GEO audit and optimization skill for making websites visible to ChatGPT, Perplexity, Claude, and Gemini. |
-| [geo-optimizer](https://github.com/geo-team-red/geo-optimizer) | ⭐ 136 | ⚙️ Framework | Go | Pluggable Go framework for GEO optimization strategies with built-in tactics and custom strategy registration. |
-| [eGEOagents](https://github.com/mverab/eGEOagents) | ⭐ 101 | 🤖 Skill | Python | Agent skills for optimizing content across ChatGPT, Perplexity, Claude, and Gemini. |
+| [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) | ⭐ 430 | 🤖 Skill | Python | GEO audit and optimization skill for making websites visible to ChatGPT, Perplexity, Claude, and Gemini. |
+| [geo-optimizer](https://github.com/geo-team-red/geo-optimizer) | ⭐ 198 | ⚙️ Framework | Go | Pluggable Go framework for GEO optimization strategies with built-in tactics and custom strategy registration. |
+| [eGEOagents](https://github.com/mverab/eGEOagents) | ⭐ 109 | 🤖 Skill | Python | Agent skills for optimizing content across ChatGPT, Perplexity, Claude, and Gemini. |
 | [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | ⭐ 100 | 🤖 Skill | Markdown | GEO-first SEO skill for Claude Code — citability scoring, AI crawler analysis, schema markup, PDF reports. |
 | [claude-seo](https://github.com/AgriciDaniel/claude-seo) | ⭐ 100 | 🤖 Skill | Markdown | 13 sub-skills, 7 subagents for Claude Code — technical SEO, E-E-A-T, GEO/AEO, DataForSEO integration. |
 | [SEO AGI](https://github.com/gbessoni/seo-agi) | ⭐ 100 | 🔧 Tool | Python | AI agent that writes pages Google ranks and LLMs cite. Built on DeerFlow with forensic competitive analysis and entity consensus. |
 | [seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) | ⭐ 50 | 🤖 Skill | Markdown | 20 SEO & GEO skills for Claude Code, Cursor, Codex. CORE-EEAT + CITE frameworks. |
 | [seo-geo-toolkit](https://github.com/henu-wang/seo-geo-toolkit) | ⭐ 50 | 🔧 Tool | Python | CLI tools to optimize for both traditional and AI-powered search engines. |
 | [ai-seo-tools (RivalSee)](https://github.com/RivalSee/ai-seo-tools) | ⭐ 50 | 🔧 Tool | — | Open-source tools and prompts for AI crawler optimization by RivalSee. |
+| [SEO + GEO Playbook](https://github.com/curetcore/seo-geo-playbook) | ⭐ 24 | 🤖 Skill | TypeScript | Spanish SEO and GEO playbook with Claude Code agent skills, Next.js implementation patterns, and production examples. |
+| [AEO God Mode](https://github.com/AEO-God-Mode/aeo-god-mode) | ⭐ 23 | 🔧 Tool | PHP | WordPress plugin for AI-search readiness with schema, llms.txt, AI crawler logs, content gaps, and citation tracking. |
+| [GEO Content Optimizer Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) | ⭐ 20 | 🤖 Skill | — | Claude Code skill that analyzes a URL against Google AI Overview and search summaries, then writes content optimization reports. |
 
 ---
 
@@ -589,8 +596,14 @@ Environment:
 | [AutoGEO](https://arxiv.org/abs/2510.11438) | 2026 (ICLR) | Learns generative-engine preferences and extracts content optimization rules |
 | [Role-Augmented Intent-Driven G-SEO](https://arxiv.org/abs/2508.11158) | 2025 | Extends GEO-BENCH with intent modeling across informational roles; introduces G-Eval 2.0 |
 | [E-GEO: GEO for E-Commerce](https://arxiv.org/abs/2511.20867) | 2025 | First e-commerce GEO benchmark — 7,000+ consumer product queries with rich intent and constraints |
+| [SAGEO Arena](https://arxiv.org/abs/2602.12187) | 2026 | Realistic search-augmented GEO evaluation across retrieval, reranking, generation, and structured web-document signals |
+| [Diagnosing and Repairing Citation Failures in GEO](https://arxiv.org/abs/2603.09296) | 2026 | Introduces citation failure modes and AgentGEO, a targeted repair system that improves citation rates with limited content edits |
 | [AgenticGEO](https://arxiv.org/abs/2603.20213) | 2026 | Self-evolving agentic GEO system for content-conditioned optimization under black-box generative engines |
+| [From Citation Selection to Citation Absorption](https://arxiv.org/abs/2604.25707) | 2026 | Separates citation selection from answer-level absorption across ChatGPT, Google, Gemini, and Perplexity citation data |
+| [MAGEO](https://arxiv.org/abs/2604.19516) | 2026 (ACL) | Multi-agent GEO framework that learns reusable, engine-specific optimization strategies with fidelity-aware evaluation |
+| [The SEO-to-GEO Gap](https://ssrn.com/abstract=6476021) | 2026 | Compares traditional SEO and GEO ranking-factor evidence and argues for a reweighting model rather than SEO replacement |
 | [Beyond SEO: Transformer-Based Web Content Optimisation](https://arxiv.org/abs/2507.03169) | 2025 | Fine-tuned BART transformer for domain-specific GEO content optimization |
+| [GEO and Sponsored Search Bidding](https://ssrn.com/abstract=5365040) | 2025 | Game-theoretic model of AI Overviews, GEO investment incentives, sponsored search bidding, and search-engine revenue effects |
 | [LLMs Generating Text with Citations](https://arxiv.org/abs/2305.14627) | 2023 (EMNLP) | ALCE benchmark for automatic citation evaluation — fluency, correctness, and citation quality |
 
 ### Industry Studies

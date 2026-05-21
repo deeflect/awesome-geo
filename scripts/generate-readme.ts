@@ -293,8 +293,14 @@ md += `---
 | [AutoGEO](https://arxiv.org/abs/2510.11438) | 2026 (ICLR) | Learns generative-engine preferences and extracts content optimization rules |
 | [Role-Augmented Intent-Driven G-SEO](https://arxiv.org/abs/2508.11158) | 2025 | Extends GEO-BENCH with intent modeling across informational roles; introduces G-Eval 2.0 |
 | [E-GEO: GEO for E-Commerce](https://arxiv.org/abs/2511.20867) | 2025 | First e-commerce GEO benchmark — 7,000+ consumer product queries with rich intent and constraints |
+| [SAGEO Arena](https://arxiv.org/abs/2602.12187) | 2026 | Realistic search-augmented GEO evaluation across retrieval, reranking, generation, and structured web-document signals |
+| [Diagnosing and Repairing Citation Failures in GEO](https://arxiv.org/abs/2603.09296) | 2026 | Introduces citation failure modes and AgentGEO, a targeted repair system that improves citation rates with limited content edits |
 | [AgenticGEO](https://arxiv.org/abs/2603.20213) | 2026 | Self-evolving agentic GEO system for content-conditioned optimization under black-box generative engines |
+| [From Citation Selection to Citation Absorption](https://arxiv.org/abs/2604.25707) | 2026 | Separates citation selection from answer-level absorption across ChatGPT, Google, Gemini, and Perplexity citation data |
+| [MAGEO](https://arxiv.org/abs/2604.19516) | 2026 (ACL) | Multi-agent GEO framework that learns reusable, engine-specific optimization strategies with fidelity-aware evaluation |
+| [The SEO-to-GEO Gap](https://ssrn.com/abstract=6476021) | 2026 | Compares traditional SEO and GEO ranking-factor evidence and argues for a reweighting model rather than SEO replacement |
 | [Beyond SEO: Transformer-Based Web Content Optimisation](https://arxiv.org/abs/2507.03169) | 2025 | Fine-tuned BART transformer for domain-specific GEO content optimization |
+| [GEO and Sponsored Search Bidding](https://ssrn.com/abstract=5365040) | 2025 | Game-theoretic model of AI Overviews, GEO investment incentives, sponsored search bidding, and search-engine revenue effects |
 | [LLMs Generating Text with Citations](https://arxiv.org/abs/2305.14627) | 2023 (EMNLP) | ALCE benchmark for automatic citation evaluation — fluency, correctness, and citation quality |
 
 ### Industry Studies

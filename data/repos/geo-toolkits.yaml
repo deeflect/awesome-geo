@@ -120,6 +120,16 @@
   type: tool
   maintained: true
 
+- name: NotFair
+  repo: nowork-studio/NotFair
+  url: https://github.com/nowork-studio/NotFair
+  category: geo-toolkits
+  description: Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads — connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
+  stars: 2924
+  language: Markdown
+  type: skill
+  maintained: true
+
 - name: toprank
   repo: nowork-studio/toprank
   url: https://github.com/nowork-studio/toprank

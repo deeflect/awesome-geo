@@ -159,3 +159,13 @@
   language: null
   type: skill
   maintained: true
+
+- name: geolint
+  repo: iliasabk/geolint
+  url: https://github.com/iliasabk/geolint
+  category: geo-toolkits
+  description: ESLint-style linter for AI-search readiness — robots.txt evaluated across 51 AI crawler tokens, llms.txt and AI manifests, structured data, citability. 51 rules, scored report, SARIF, GitHub Action and MCP server.
+  stars: 0
+  language: TypeScript
+  type: tool
+  maintained: true

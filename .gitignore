@@ -6,3 +6,6 @@ test-results/
 .env
 *.log
 .DS_Store
+verify-report.md
+verify-repo-report.md
+changed_files.txt

@@ -8,9 +8,12 @@ This repo is the source of truth for the catalog: data files, verification scrip
 
 1. Pick the right data file
 2. Add your entry at the bottom
-3. Submit a PR
-4. CI automatically verifies your submission
-5. Maintainer reviews + merges
+3. Run `npm ci` and `npm run validate` (typecheck, data check, README regeneration)
+4. Submit a PR
+5. CI automatically verifies your submission
+6. Maintainer reviews + merges
+
+`README.md` is generated from `data/` by `scripts/generate-readme.ts`. Don't edit it by hand; CI regenerates it after merge.
 
 Or just [open an issue](https://github.com/deeflect/awesome-geo/issues/new/choose) — we have templates for both platforms and repos.
 
@@ -44,7 +47,7 @@ You don't need to fill these — CI calculates them automatically.
 | Check | What happens |
 |-------|-------------|
 | Robots.txt | AI bot access detected for 7 crawlers |
-| Authority | Normalized authority via OpenPageRank |
+| Authority | Normalized authority via OpenPageRank, plus Tranco rank |
 | Link type | Dofollow/nofollow analysis on sample page |
 | Indexability | HTTP status, noindex tags, meta robots |
 | GEO Score | Composite score calculated (0-100) |

@@ -4,6 +4,11 @@ on:
     - cron: '0 6 * * 1' # Every Monday 6am UTC
   workflow_dispatch:
 
+# create-pull-request needs to push a branch and open a PR; the default token is read-only.
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   verify:
     runs-on: ubuntu-latest

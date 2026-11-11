@@ -560,7 +560,7 @@ Environment:
 
 ### Optimization Guides
 
-- [LLMO Citation Matrix](docs/llmo-citation-matrix.md) — engine-specific citation surfaces and practical implications
+- [LLMO Citation Matrix](docs/llmo-citation-matrix.md) — how each AI engine finds and cites pages, the crawler controls, and what 2026 research found
 - [Answer-First Content](docs/answer-first-content.md) — structure pages so humans and answer engines can extract claims cleanly
 - [Schema sameAs Quality](docs/schema-sameas.md) — choose identity links that improve disambiguation instead of inflating profile count
 

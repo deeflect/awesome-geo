@@ -5,7 +5,7 @@
   url: https://github.com/schemaorg/schemaorg
   category: structured-data
   description: Official Schema.org schemas and supporting software — the foundational vocabulary for JSON-LD structured data.
-  stars: 6020
+  stars: 6305
   language: HTML
   type: standard
   maintained: true
@@ -15,7 +15,7 @@
   url: https://github.com/spatie/schema-org
   category: structured-data
   description: Fluent PHP builder for all Schema.org types and JSON-LD generation. Battle-tested.
-  stars: 1466
+  stars: 1510
   language: PHP
   type: library
   maintained: true
@@ -25,7 +25,7 @@
   url: https://github.com/google/schema-dts
   category: structured-data
   description: TypeScript types for Schema.org JSON-LD vocabulary, useful for type-safe structured data generation.
-  stars: 1174
+  stars: 1260
   language: TypeScript
   type: library
   maintained: true
@@ -35,7 +35,7 @@
   url: https://github.com/google/react-schemaorg
   category: structured-data
   description: Type-checked Schema.org JSON-LD components for React applications.
-  stars: 516
+  stars: 523
   language: TypeScript
   type: library
   maintained: true
@@ -45,7 +45,7 @@
   url: https://github.com/jdevalk/seo-graph
   category: structured-data
   description: Agent-ready Schema.org JSON-LD graph builder for JavaScript with an Astro integration.
-  stars: 20
+  stars: 50
   language: TypeScript
   type: library
   maintained: true
@@ -55,17 +55,7 @@
   url: https://github.com/JayHoltslander/Structured-Data-JSON-LD
   category: structured-data
   description: Ready-to-use JSON-LD snippets in Google-preferred format for every common schema type.
-  stars: 500
+  stars: 279
   language: null
   type: reference
-  maintained: true
-
-- name: Schema Generator
-  repo: mustafapiplodi/schema-generator
-  url: https://github.com/mustafapiplodi/schema-generator
-  category: structured-data
-  description: Free schema markup generator for 14 schema types with real-time validation and instant code generation.
-  stars: 50
-  language: JavaScript
-  type: tool
-  maintained: true
+  maintained: false

@@ -94,37 +94,6 @@
     authorityScore: 10
     linkValueScore: 4
   trancoRank: 10174
-- name: EzineArticles
-  url: https://ezinearticles.com
-  category: content-syndication
-  sampleProfile: ""
-  dr: 47
-  linkType: mixed
-  effort: medium
-  description: Long-running article directory.
-  verified: true
-  lastVerified: 2026-03-26
-  aiAccess:
-    oaiSearchBot: unknown
-    gptBot: unknown
-    chatgptUser: unknown
-    googleExtended: unknown
-    claudeBot: unknown
-    perplexityBot: unknown
-    bytespider: unknown
-  indexable: null
-  profileLinkDofollow: null
-  aiCrawled: false
-  geoScore: 41
-  geoTier: low
-  geoSignals:
-    crawlAccessScore: 0
-    indexabilityScore: 4
-    popularityScore: 15
-    queryFitScore: 12
-    authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 15661
 - name: freeCodeCamp
   url: https://www.freecodecamp.org
   category: content-syndication
@@ -247,37 +216,6 @@
     authorityScore: 8
     linkValueScore: 4
   trancoRank: 6365
-- name: HubPages
-  url: https://hubpages.com
-  category: content-syndication
-  sampleProfile: ""
-  dr: 52
-  linkType: mixed
-  effort: medium
-  description: Content network with niche sites.
-  verified: true
-  lastVerified: 2026-03-26
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: allowed
-    chatgptUser: allowed
-    googleExtended: allowed
-    claudeBot: allowed
-    perplexityBot: allowed
-    bytespider: allowed
-  indexable: false
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 72
-  geoTier: medium
-  geoSignals:
-    crawlAccessScore: 30
-    indexabilityScore: 0
-    popularityScore: 18
-    queryFitScore: 12
-    authorityScore: 8
-    linkValueScore: 4
-  trancoRank: 4700
 - name: Issuu
   url: https://issuu.com
   category: content-syndication
@@ -338,7 +276,7 @@
     authorityScore: 15
     linkValueScore: 3
   trancoRank: 18
-  sampleProfile: https://www.linkedin.com/pulse/openai-announces-gpt-4o-openai
+  sampleProfile: ""
 - name: LogRocket Blog
   url: https://blog.logrocket.com
   category: content-syndication
@@ -431,9 +369,9 @@
     linkValueScore: 4
   trancoRank: 2029
 - name: Notion
-  url: https://notion.so
+  url: https://www.notion.com
   category: content-syndication
-  sampleProfile: https://www.notion.so/product
+  sampleProfile: https://www.notion.com/product
   dr: 65
   linkType: mixed
   effort: medium
@@ -706,7 +644,7 @@
     authorityScore: 6
     linkValueScore: 5
   trancoRank: 736193
-  sampleProfile: https://www.thinkers360.com/tl/profiles/view/10018
+  sampleProfile: ""
 - name: Tumblr
   url: https://www.tumblr.com
   category: content-syndication

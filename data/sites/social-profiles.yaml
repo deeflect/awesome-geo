@@ -61,37 +61,6 @@
     linkValueScore: 3
   trancoRank: 488
   sampleProfile: https://behance.net/dkargaev
-- name: Bento
-  url: https://bento.me
-  category: social-profiles
-  sampleProfile: https://bento.me/brian
-  dr: 53
-  linkType: mixed
-  effort: medium
-  description: Developer link-in-bio.
-  verified: true
-  lastVerified: 2026-03-26
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: allowed
-    chatgptUser: allowed
-    googleExtended: allowed
-    claudeBot: allowed
-    perplexityBot: allowed
-    bytespider: allowed
-  indexable: true
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 78
-  geoTier: high
-  geoSignals:
-    crawlAccessScore: 30
-    indexabilityScore: 10
-    popularityScore: 15
-    queryFitScore: 11
-    authorityScore: 8
-    linkValueScore: 4
-  trancoRank: 21010
 - name: Bio.link
   url: https://bio.link
   category: social-profiles
@@ -155,7 +124,7 @@
     linkValueScore: 4
   trancoRank: 489
 - name: Carrd
-  url: https://carrd.co
+  url: https://carrd.com
   category: social-profiles
   sampleProfile: https://ajlkn.carrd.co/
   dr: 47
@@ -185,41 +154,10 @@
     authorityScore: 6
     linkValueScore: 4
   trancoRank: 4687
-- name: Clay
-  url: https://clay.earth
-  category: social-profiles
-  sampleProfile: ""
-  dr: 43
-  linkType: mixed
-  effort: medium
-  description: Personal CRM with public profile.
-  verified: true
-  lastVerified: 2026-03-26
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: allowed
-    chatgptUser: allowed
-    googleExtended: allowed
-    claudeBot: allowed
-    perplexityBot: allowed
-    bytespider: allowed
-  indexable: true
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 69
-  geoTier: medium
-  geoSignals:
-    crawlAccessScore: 30
-    indexabilityScore: 10
-    popularityScore: 8
-    queryFitScore: 11
-    authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 116036
 - name: Daily.dev
   url: https://daily.dev
   category: social-profiles
-  sampleProfile: https://app.daily.dev/daily
+  sampleProfile: https://daily.dev/idoshamun
   dr: 45
   linkType: mixed
   effort: medium
@@ -524,6 +462,37 @@
     authorityScore: 10
     linkValueScore: 4
   trancoRank: 2867
+- name: Mesh
+  url: https://me.sh
+  category: social-profiles
+  sampleProfile: ""
+  dr: 43
+  linkType: mixed
+  effort: medium
+  description: Personal CRM, formerly Clay.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 69
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 8
+    queryFitScore: 11
+    authorityScore: 6
+    linkValueScore: 4
+  trancoRank: 116036
 - name: Peerlist
   url: https://peerlist.io
   category: social-profiles
@@ -586,76 +555,14 @@
     authorityScore: 13
     linkValueScore: 4
   trancoRank: 51
-- name: Polywork
-  url: https://www.polywork.com
+- name: Spotify for Creators
+  url: https://creators.spotify.com
   category: social-profiles
-  sampleProfile: ""
-  dr: 44
-  linkType: mixed
-  effort: medium
-  description: Professional identity platform.
-  verified: true
-  lastVerified: 2026-03-26
-  aiAccess:
-    oaiSearchBot: unknown
-    gptBot: unknown
-    chatgptUser: unknown
-    googleExtended: unknown
-    claudeBot: unknown
-    perplexityBot: unknown
-    bytespider: unknown
-  indexable: false
-  profileLinkDofollow: null
-  aiCrawled: false
-  geoScore: 26
-  geoTier: low
-  geoSignals:
-    crawlAccessScore: 0
-    indexabilityScore: 0
-    popularityScore: 5
-    queryFitScore: 11
-    authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 324775
-- name: Read.cv
-  url: https://read.cv
-  category: social-profiles
-  sampleProfile: ""
-  dr: 46
-  linkType: mixed
-  effort: medium
-  description: Minimal professional profiles.
-  verified: true
-  lastVerified: 2026-03-26
-  aiAccess:
-    oaiSearchBot: unknown
-    gptBot: unknown
-    chatgptUser: unknown
-    googleExtended: unknown
-    claudeBot: unknown
-    perplexityBot: unknown
-    bytespider: unknown
-  indexable: false
-  profileLinkDofollow: null
-  aiCrawled: false
-  geoScore: 24
-  geoTier: low
-  geoSignals:
-    crawlAccessScore: 0
-    indexabilityScore: 0
-    popularityScore: 3
-    queryFitScore: 11
-    authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 684224
-- name: Spotify for Podcasters
-  url: https://podcasters.spotify.com
-  category: social-profiles
-  sampleProfile: https://podcasters.spotify.com/pod/show/lexfridman
+  sampleProfile: https://creators.spotify.com/pod/profile/lexfridman/
   dr: 62
   linkType: mixed
   effort: medium
-  description: Podcast hosting with profiles.
+  description: Podcast hosting with profiles, formerly Spotify for Podcasters.
   verified: true
   lastVerified: 2026-03-26
   aiAccess:
@@ -710,9 +617,9 @@
     linkValueScore: 4
   trancoRank: 115
 - name: Threads
-  url: https://www.threads.net
+  url: https://www.threads.com
   category: social-profiles
-  sampleProfile: https://www.threads.net/@openai
+  sampleProfile: https://www.threads.com/@openai
   dr: 65
   linkType: mixed
   effort: medium
@@ -805,7 +712,7 @@
 - name: Vimeo
   url: https://vimeo.com
   category: social-profiles
-  sampleProfile: https://vimeo.com/openai
+  sampleProfile: https://vimeo.com/staff
   dr: 83
   linkType: mixed
   effort: medium

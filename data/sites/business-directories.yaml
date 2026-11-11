@@ -61,7 +61,7 @@
     authorityScore: 8
     linkValueScore: 5
   trancoRank: 14870
-  sampleProfile: https://wellfound.com/u/dmitry-kargaev
+  sampleProfile: ""
 - name: AppFutura
   url: https://www.appfutura.com
   category: business-directories
@@ -93,8 +93,8 @@
     authorityScore: 4
     linkValueScore: 4
   trancoRank: 640799
-- name: Apple Maps Connect
-  url: https://mapsconnect.apple.com
+- name: Apple Business Connect
+  url: https://business.apple.com
   category: business-directories
   sampleProfile: ""
   dr: 46
@@ -155,7 +155,7 @@
     linkValueScore: 4
   trancoRank: 1944
 - name: Bing Places
-  url: https://www.bingplaces.com
+  url: https://www.bing.com/forbusiness
   category: business-directories
   sampleProfile: ""
   dr: 48

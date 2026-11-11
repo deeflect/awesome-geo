@@ -156,14 +156,14 @@
     authorityScore: 6
     linkValueScore: 4
   trancoRank: 482199
-- name: HARO / Connectively
-  url: https://www.connectively.us
+- name: HARO
+  url: https://www.helpareporter.com
   category: niche-directories
   sampleProfile: ""
   dr: 36
   linkType: mixed
   effort: medium
-  description: Journalist source requests.
+  description: Free daily journalist source requests, now run by Featured.
   verified: true
   lastVerified: 2026-03-26
   aiAccess:
@@ -187,37 +187,6 @@
     authorityScore: 4
     linkValueScore: 4
   trancoRank: 1455361
-- name: Help a B2B Writer
-  url: https://helpab2bwriter.com
-  category: niche-directories
-  sampleProfile: ""
-  dr: 38
-  linkType: mixed
-  effort: medium
-  description: B2B content expert matching.
-  verified: true
-  lastVerified: 2026-03-26
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: allowed
-    chatgptUser: allowed
-    googleExtended: allowed
-    claudeBot: allowed
-    perplexityBot: allowed
-    bytespider: allowed
-  indexable: true
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 64
-  geoTier: medium
-  geoSignals:
-    crawlAccessScore: 30
-    indexabilityScore: 10
-    popularityScore: 1
-    queryFitScore: 15
-    authorityScore: 4
-    linkValueScore: 4
-  trancoRank: 2098262
 - name: Maven
   url: https://maven.com
   category: niche-directories
@@ -249,6 +218,37 @@
     authorityScore: 6
     linkValueScore: 4
   trancoRank: 131929
+- name: MentionMatch
+  url: https://mentionmatch.com
+  category: niche-directories
+  sampleProfile: ""
+  dr: 38
+  linkType: mixed
+  effort: medium
+  description: B2B content expert matching, formerly Help a B2B Writer.
+  verified: true
+  lastVerified: 2026-03-26
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    googleExtended: allowed
+    claudeBot: allowed
+    perplexityBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 64
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 1
+    queryFitScore: 15
+    authorityScore: 4
+    linkValueScore: 4
+  trancoRank: 2098262
 - name: MuckRack
   url: https://muckrack.com
   category: niche-directories
@@ -372,34 +372,3 @@
     authorityScore: 8
     linkValueScore: 4
   trancoRank: 6582
-- name: Working Not Working
-  url: https://workingnotworking.com
-  category: niche-directories
-  sampleProfile: ""
-  dr: 45
-  linkType: mixed
-  effort: medium
-  description: Creative freelancer directory.
-  verified: true
-  lastVerified: 2026-03-26
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: blocked
-    chatgptUser: allowed
-    googleExtended: blocked
-    claudeBot: blocked
-    perplexityBot: allowed
-    bytespider: blocked
-  indexable: false
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 49
-  geoTier: low
-  geoSignals:
-    crawlAccessScore: 19
-    indexabilityScore: 0
-    popularityScore: 5
-    queryFitScore: 15
-    authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 342246

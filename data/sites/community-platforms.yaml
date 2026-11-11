@@ -1,41 +1,10 @@
 # Community Platforms — Forums and community sites
 # To add a new site, append an entry and submit a PR.
 
-- name: CNET Forums
-  url: https://www.cnet.com/forums
-  category: community-platforms
-  sampleProfile: ""
-  dr: 64
-  linkType: mixed
-  effort: medium
-  description: Tech discussion forums.
-  verified: true
-  lastVerified: 2026-03-26
-  aiAccess:
-    oaiSearchBot: blocked
-    gptBot: blocked
-    chatgptUser: blocked
-    googleExtended: allowed
-    claudeBot: blocked
-    perplexityBot: blocked
-    bytespider: blocked
-  indexable: true
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 60
-  geoTier: medium
-  geoSignals:
-    crawlAccessScore: 3
-    indexabilityScore: 10
-    popularityScore: 19
-    queryFitScore: 14
-    authorityScore: 10
-    linkValueScore: 4
-  trancoRank: 633
 - name: Digital Point
   url: https://www.digitalpoint.com
   category: community-platforms
-  sampleProfile: https://forums.digitalpoint.com/members/shaun.1/
+  sampleProfile: https://www.digitalpoint.com/members/digitalpoint.1/
   dr: 43
   linkType: mixed
   effort: medium
@@ -159,7 +128,7 @@
 - name: Lobsters
   url: https://lobste.rs
   category: community-platforms
-  sampleProfile: https://lobste.rs/u/jcs
+  sampleProfile: https://lobste.rs/~jcs
   dr: 42
   linkType: mixed
   effort: medium

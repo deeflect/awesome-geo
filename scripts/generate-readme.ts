@@ -66,7 +66,10 @@ let md = `# Awesome GEO [![Awesome](https://awesome.re/badge.svg)](https://aweso
 
 ## Why GEO?
 
-**Generative Engine Optimization** is SEO for the AI era. As ChatGPT, Perplexity, Gemini, and AI Overviews replace traditional search, your online presence needs to be discoverable by machines — not just humans.
+**Generative Engine Optimization** is SEO for the AI era. ChatGPT, Perplexity, Gemini, and Google's AI Overviews and AI Mode now answer many queries directly, so your online presence needs to be discoverable by machines — not just humans.
+
+- An [IMC 2026 measurement of Google AI Overviews](https://arxiv.org/abs/2605.14021) found them on 13.7% of 55,393 queries, and on 64.7% of question-form queries
+- [Pew Research Center (2025)](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) found users clicked a traditional result in 8% of visits with an AI summary, against 15% without one
 
 [Semrush's 2025 study](https://www.semrush.com/blog/backlinks-ai-search-study/) on 1,000 domains found:
 - **Authority matters**, but correlation varies by engine and metric
@@ -255,9 +258,12 @@ md += `---
 
 | Standard | What it does | Adoption |
 |----------|-------------|----------|
-| [llms.txt](https://llmstxt.org) | Markdown summary that helps agents and users find AI-readable site context | Emerging; useful defensive infrastructure |
+| [llms.txt](https://llmstxt.org) | Markdown summary that helps agents and users find AI-readable site context. The [August 2026 revision](https://llmstxt.org/changes.html) adds \`rel="alternate"\` / \`rel="describedby"\` link relations and path-scoped files | Proposal; Chrome Lighthouse [audits it](https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt); little evidence AI engines fetch it |
 | [llms-full.txt](https://llmstxt.org) | Expanded markdown content for deeper manual or agent ingestion | Emerging |
 | robots.txt AI rules | Control which AI bots can crawl | Standard |
+| [Content Signals](https://contentsignals.org) | robots.txt \`Content-Signal\` line stating preferences for \`search\`, \`ai-input\`, and \`ai-train\` | Cloudflare proposal |
+| [RSL](https://rslstandard.org/rsl) | Machine-readable licensing and payment terms for AI use of content | RSL 1.0 published December 2025 |
+| [WebMCP](https://github.com/webmachinelearning/webmcp) | Lets a page expose tools that in-browser AI agents can call | W3C Community Group draft; Chrome origin trial |
 
 ### Optimization Guides
 
@@ -267,15 +273,34 @@ md += `---
 
 ### AI Crawler User-Agents
 
-| Bot | Company | User-Agent |
-|-----|---------|------------|
-| OAI-SearchBot | OpenAI | \`OAI-SearchBot\` |
-| GPTBot | OpenAI | \`GPTBot\` |
-| ChatGPT-User | OpenAI | \`ChatGPT-User\` |
-| Google-Extended | Google | \`Google-Extended\` |
-| ClaudeBot | Anthropic | \`ClaudeBot\` |
-| PerplexityBot | Perplexity | \`PerplexityBot\` |
-| Bytespider | ByteDance | \`Bytespider\` |
+Tokens and purposes as stated in each vendor's docs (linked). Tokens marked *robots.txt only* never appear in request headers.
+
+| Company | robots.txt token | Purpose |
+|---------|------------------|---------|
+| [OpenAI](https://developers.openai.com/api/docs/bots) | \`OAI-SearchBot\` | Surfaces sites in ChatGPT search results |
+| OpenAI | \`GPTBot\` | Collects content for model training |
+| OpenAI | \`ChatGPT-User\` | Fetches pages for user actions in ChatGPT and Custom GPTs |
+| OpenAI | \`OAI-AdsBot\` | Checks landing pages of ads submitted to ChatGPT |
+| [Anthropic](https://support.claude.com/en/articles/8896518) | \`ClaudeBot\` | Collects content for model training |
+| Anthropic | \`Claude-SearchBot\` | Improves search result quality for Claude |
+| Anthropic | \`Claude-User\` | Fetches pages when a Claude user asks |
+| [Google](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) | \`Google-Extended\` | *robots.txt only*: Gemini training and grounding; no effect on Google Search |
+| Google | \`Google-CloudVertexBot\` | Crawls requested by site owners for Vertex AI Agents |
+| [Google](https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers) | \`Google-Agent\` | Agents on Google infrastructure acting on a user's request |
+| [Perplexity](https://docs.perplexity.ai/guides/bots) | \`PerplexityBot\` | Surfaces sites in Perplexity search results; not used for training |
+| Perplexity | \`Perplexity-User\` | Fetches pages when a Perplexity user asks |
+| [Apple](https://support.apple.com/en-us/119829) | \`Applebot\` | Search in Spotlight, Siri, and Safari; may also ground Apple AI answers |
+| Apple | \`Applebot-Extended\` | *robots.txt only*: opts content out of Apple's AI training |
+| [Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers) | \`Meta-ExternalAgent\` | Training and indexing for Meta AI products |
+| Meta | \`meta-webindexer\` | Indexing for Meta AI search citations |
+| Meta | \`Meta-ExternalFetcher\` | Fetches pages on user request |
+| [Amazon](https://developer.amazon.com/amazonbot) | \`Amazonbot\` | General crawling; content may be used for training |
+| Amazon | \`Amzn-SearchBot\` | Search experiences such as Alexa |
+| Amazon | \`Amzn-User\` | Live fetches on behalf of users |
+| [Mistral](https://docs.mistral.ai/robots) | \`MistralAI-User\` | User-requested fetches; no automatic crawling or training |
+| [DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot) | \`DuckAssistBot\` | Fetches sources for AI-assisted answers |
+| [Common Crawl](https://commoncrawl.org/ccbot) | \`CCBot\` | Builds Common Crawl's open web archive |
+| ByteDance | \`Bytespider\` | Widely reported AI crawler; no official vendor doc found |
 
 ---
 
@@ -285,19 +310,30 @@ md += `---
 
 | Paper | Year | Key Finding |
 |-------|------|-------------|
-| [GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) | 2024 (KDD) | The foundational GEO paper — GEO-BENCH benchmark proves 40% visibility boost via statistics and citation addition |
+| [GEO: Generative Engine Optimization](https://arxiv.org/abs/2311.09735) | 2024 (KDD) | The foundational GEO paper — GEO-BENCH benchmark; reports up to 40% visibility gains from adding statistics and citations in its benchmark setting |
 | [Ranking Manipulation for Conversational Search Engines](https://aclanthology.org/2024.emnlp-main.534/) | 2024 (EMNLP) | Shows how conversational search ranking can be manipulated; useful safety caveat for GEO tactics |
 | [What Evidence Do Language Models Find Convincing?](https://aclanthology.org/2024.acl-long.403/) | 2024 (ACL) | Studies which evidence characteristics influence RAG-style language model answers |
 | [How to Dominate AI Search](https://arxiv.org/abs/2509.08919) | 2025 | AI search has systematic bias toward earned media over brand-owned content; engine-specific strategies needed |
 | [C-SEO Bench](https://arxiv.org/abs/2506.11097) | 2025 (NeurIPS D&B) | Benchmark testing whether conversational SEO methods work across QA and product recommendation settings |
 | [AutoGEO](https://arxiv.org/abs/2510.11438) | 2026 (ICLR) | Learns generative-engine preferences and extracts content optimization rules |
 | [Role-Augmented Intent-Driven G-SEO](https://arxiv.org/abs/2508.11158) | 2025 | Extends GEO-BENCH with intent modeling across informational roles; introduces G-Eval 2.0 |
-| [E-GEO: GEO for E-Commerce](https://arxiv.org/abs/2511.20867) | 2025 | First e-commerce GEO benchmark — 7,000+ consumer product queries with rich intent and constraints |
-| [SAGEO Arena](https://arxiv.org/abs/2602.12187) | 2026 | Realistic search-augmented GEO evaluation across retrieval, reranking, generation, and structured web-document signals |
+| [E-GEO: GEO for E-Commerce](https://arxiv.org/abs/2511.20867) | 2025 (NeurIPS 2026 E&D) | First e-commerce GEO benchmark — 7,000+ consumer product queries with rich intent and constraints |
+| [SAGEO Arena](https://arxiv.org/abs/2602.12187) | 2026 (KDD) | Realistic search-augmented GEO evaluation across retrieval, reranking, generation, and structured web-document signals |
 | [Diagnosing and Repairing Citation Failures in GEO](https://arxiv.org/abs/2603.09296) | 2026 | Introduces citation failure modes and AgentGEO, a targeted repair system that improves citation rates with limited content edits |
 | [AgenticGEO](https://arxiv.org/abs/2603.20213) | 2026 | Self-evolving agentic GEO system for content-conditioned optimization under black-box generative engines |
 | [From Citation Selection to Citation Absorption](https://arxiv.org/abs/2604.25707) | 2026 | Separates citation selection from answer-level absorption across ChatGPT, Google, Gemini, and Perplexity citation data |
-| [MAGEO](https://arxiv.org/abs/2604.19516) | 2026 (ACL) | Multi-agent GEO framework that learns reusable, engine-specific optimization strategies with fidelity-aware evaluation |
+| [MAGEO](https://arxiv.org/abs/2604.19516) | 2026 (ACL Findings) | Multi-agent GEO framework that learns reusable, engine-specific optimization strategies with fidelity-aware evaluation |
+| [Measuring Google AI Overviews](https://arxiv.org/abs/2605.14021) | 2026 (IMC) | AI Overviews appeared on 13.7% of 55,393 queries (64.7% of question-form queries); about 30% of cited domains were not in first-page results and 11.0% of claims were unsupported |
+| [AI in Search Reduces Publisher Referrals](https://arxiv.org/abs/2608.18352) | 2026 | Preregistered field experiment on Google Search (N=1,100): removing AI Overviews and AI Mode raised clicks to publishers; an AI Mode-only experience lowered clicks and user trust |
+| [The Impact of AI Search on the Online Content Ecosystem](https://arxiv.org/abs/2605.16428) | 2026 | Studies how Google AI Overviews changed activity on Reddit communities |
+| [Critical Survey of GEO (2023–2026)](https://arxiv.org/abs/2607.14035) | 2026 | Reviews 45 studies; topical relevance and context position are the most reproducible levers, and the foundational paper's gains hold only when a source is already in the model's context |
+| [What Drives AI Citations?](https://arxiv.org/abs/2610.15033) | 2026 | 158,099 answers with 468,037 citations: the engine's own retrieval explains far more variation than page properties (32% vs. 2.8%) |
+| [Understanding ChatGPT Citations](https://arxiv.org/abs/2610.15382) | 2026 | Traces query rewriting, retrieval, and citation across ChatGPT 5.2–5.5 settings; pages retrieved more often are cited more often |
+| [LIVE-GEO](https://arxiv.org/abs/2611.01126) | 2026 | Tests five GEO strategies on live webpages across ChatGPT, Gemini, and Grok; engines agreed on the top product for only 48.8–66.3% of brands |
+| [Measuring GEO Visibility](https://arxiv.org/abs/2609.06811) | 2026 | Argues that the prompt corpus and weights behind a GEO visibility score define an "answer market" that may not match real demand |
+| [Manifest-Assisted Retrieval in AI Search](https://arxiv.org/abs/2610.38361) | 2026 (IEEE FLLM) | Finds no isolated evidence that llms.txt-style manifests improve AI retrieval, and evaluates their security risks |
+| [Counter-GEO-Bench](https://arxiv.org/abs/2609.02316) | 2026 (EMNLP) | Benchmark of defenses against information-distorting GEO; off-the-shelf defenses cut attack success by at most 5.7% relative |
+| [Position: GEO Creates Underexamined Risks](https://arxiv.org/abs/2606.12439) | 2026 (ICML Position) | Argues governance should target concentration, disclosure, and academic blind spots in GEO |
 | [The SEO-to-GEO Gap](https://ssrn.com/abstract=6476021) | 2026 | Compares traditional SEO and GEO ranking-factor evidence and argues for a reweighting model rather than SEO replacement |
 | [Beyond SEO: Transformer-Based Web Content Optimisation](https://arxiv.org/abs/2507.03169) | 2025 | Fine-tuned BART transformer for domain-specific GEO content optimization |
 | [GEO and Sponsored Search Bidding](https://ssrn.com/abstract=5365040) | 2025 | Game-theoretic model of AI Overviews, GEO investment incentives, sponsored search bidding, and search-engine revenue effects |
@@ -309,18 +345,24 @@ md += `---
 - [Semrush: Do Backlinks Still Matter in AI Search?](https://www.semrush.com/blog/backlinks-ai-search-study/) — 1,000 domain study on authority vs. AI citation correlation
 - [Semrush: AI Overviews Study](https://www.semrush.com/blog/semrush-ai-overviews-study/) — 10M+ keyword analysis of AI Overview trigger rates, intent patterns, and zero-click behavior
 - [Semrush: Google AI Mode vs. Traditional Search & Other LLMs](https://www.semrush.com/blog/ai-mode-comparison-study/) — platform-comparison study on AI Mode, AI Overviews, ChatGPT, and Perplexity citation overlap
-- [Ahrefs: AI Overviews Reduce Clicks](https://ahrefs.com/blog/?p=195053) — vendor CTR study estimating organic click loss when AI Overviews appear
+- [Ahrefs: AI Overviews Reduce Clicks](https://ahrefs.com/blog/ai-overviews-reduce-clicks/) — 300,000-keyword study (April 2025) linking AI Overviews to a 34.5% lower CTR for the top result
 - [BrightEdge: AI Overview citations and organic ranking overlap](https://www.brightedge.com/resources/weekly-ai-search-insights/rank-overlap-after-16-months-of-aio) — 16-month view of AI Overview citation overlap with organic results
 - [Otterly.AI: The AI Citation Economy](https://otterly.ai/blog/the-ai-citations-report-2026/) — 1M+ data points on visibility in 2026; community platforms capture 52.5% of citations
-- [ALM Corp: Google AI Mode Cites Itself in 17%](https://almcorp.com/blog/google-ai-mode-cites-itself-organic-links-seo-2026/) — 1.3M citations across 68K keywords; Google self-citation tripled in 9 months
-- [ALM Corp: ChatGPT Citations Study](https://almcorp.com/blog/chatgpt-citations-study-44-percent-first-third-content/) — 44% of all ChatGPT citations come from the first third of content
-- [ALM Corp: LinkedIn Is #2 Most Cited in AI Search](https://almcorp.com/blog/linkedin-ai-search-citations-2026/) — 325K prompts reveal platform citation distribution
+- [DeltaV Digital: AI Search Citations Study](https://www.deltavdigital.com/resources/reports/ai-citation-study/) — 21,075 responses across five engines (April–July 2026); the most-cited page type differs by industry
+- [Goodie: AI Citations & News Publishers](https://higoodie.com/blog/publishers-and-ai-search-study/) — 31M citations (October 2025–July 2026) and robots.txt audits of 105 publishers; blocking only affects labs that honor it
 - [Superlines: 60+ AI Search Statistics](https://www.superlines.io/articles/ai-search-statistics/) — Verified data points on visibility, citations, and traffic across ChatGPT, Perplexity, and AI Mode
 - [Superlines: State of GEO Q1 2026](https://www.superlines.io/articles/the-state-of-geo-in-q1-2026) — Quarterly benchmarks and market data
 
 ### Standards & Specifications
 
-- [llms.txt Specification](https://llmstxt.org) — Jeremy Howard's proposed standard for making sites AI-readable (844K+ adopters)
+- [llms.txt Specification](https://llmstxt.org) — Jeremy Howard's proposed standard for making sites AI-readable; [changelog](https://llmstxt.org/changes.html) covers the August 2026 revision
+- [Chrome Lighthouse: Agentic Browsing](https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt) — Lighthouse audit category that checks llms.txt and WebMCP readiness
+- [WebMCP](https://github.com/webmachinelearning/webmcp) — W3C Web Machine Learning Community Group draft for exposing page tools to in-browser agents
+- [IETF AI Preferences (aipref)](https://datatracker.ietf.org/wg/aipref/about/) — working group drafting a vocabulary for AI usage preferences and how to attach it via robots.txt and HTTP
+- [IETF Web Bot Auth (webbotauth)](https://datatracker.ietf.org/wg/webbotauth/about/) — working group on cryptographic authentication of bots and agents using HTTP message signatures
+- [RSL 1.0](https://rslstandard.org/rsl) — Really Simple Licensing: machine-readable terms for AI use of web content (December 2025)
+- [Content Signals](https://contentsignals.org) — robots.txt preferences for search, AI input, and AI training
+- [MCP Registry](https://modelcontextprotocol.io/registry/about) — registry for publishing and discovering Model Context Protocol servers
 - [Schema.org](https://schema.org) — Structured data vocabulary used by all major search engines and AI crawlers
 - [Springer: GEO Encyclopedia Entry](https://link.springer.com/rwe/10.1007/978-3-031-75316-9_68-1) — Formal reference entry for Generative Engine Optimization
 

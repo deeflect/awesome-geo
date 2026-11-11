@@ -336,39 +336,8 @@
     linkValueScore: 5
   trancoRank: 434
   sampleProfile: https://gitlab.com/deeflect
-- name: Glitch
-  url: https://glitch.com
-  category: developer-profiles
-  sampleProfile: https://glitch.com/@glitch
-  dr: 53
-  linkType: mixed
-  effort: medium
-  description: Web app platform with project pages.
-  verified: true
-  lastVerified: 2026-03-26
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: allowed
-    chatgptUser: allowed
-    googleExtended: allowed
-    claudeBot: allowed
-    perplexityBot: allowed
-    bytespider: allowed
-  indexable: true
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 83
-  geoTier: high
-  geoSignals:
-    crawlAccessScore: 30
-    indexabilityScore: 10
-    popularityScore: 13
-    queryFitScore: 18
-    authorityScore: 8
-    linkValueScore: 4
-  trancoRank: 39052
 - name: Google Developers
-  url: https://g.dev
+  url: https://developers.google.com/program
   category: developer-profiles
   dr: 49
   linkType: nofollow
@@ -400,7 +369,7 @@
 - name: HackerRank
   url: https://www.hackerrank.com
   category: developer-profiles
-  sampleProfile: https://www.hackerrank.com/hackerrank
+  sampleProfile: https://www.hackerrank.com/profile/hackerrank
   dr: 49
   linkType: mixed
   effort: medium
@@ -768,7 +737,7 @@
 - name: Read the Docs
   url: https://readthedocs.org
   category: developer-profiles
-  sampleProfile: https://readthedocs.org/projects/pip/
+  sampleProfile: https://app.readthedocs.org/projects/pip/
   dr: 49
   linkType: mixed
   effort: medium
@@ -825,7 +794,7 @@
     authorityScore: 8
     linkValueScore: 3
   trancoRank: 4919
-  sampleProfile: https://replit.com/@replit
+  sampleProfile: ""
 - name: RubyGems
   url: https://rubygems.org
   category: developer-profiles

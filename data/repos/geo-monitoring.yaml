@@ -5,17 +5,17 @@
   url: https://github.com/AICMO/ai-cmo
   category: geo-monitoring
   description: Open-source AI SEO platform. Monitor brand visibility across ChatGPT, Claude, Perplexity, Gemini. Self-hostable.
-  stars: 100
-  language: TypeScript
+  stars: 57
+  language: Vue
   type: tool
-  maintained: true
+  maintained: false
 
 - name: Searchstack AEO
   repo: alexpospekhov/searchstack-aeo
   url: https://github.com/alexpospekhov/searchstack-aeo
   category: geo-monitoring
   description: CLI stack for monitoring visibility across Google, AI Overviews, ChatGPT, Perplexity, Claude, and Grok with markdown reports.
-  stars: 67
+  stars: 115
   language: Python
   type: tool
   maintained: true
@@ -25,18 +25,8 @@
   url: https://github.com/AI2HU/gego
   category: geo-monitoring
   description: Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time.
-  stars: 62
+  stars: 109
   language: Go
-  type: tool
-  maintained: true
-
-- name: GEO Analyzer
-  repo: houtini-ai/geo-analyzer
-  url: https://github.com/houtini-ai/geo-analyzer
-  category: geo-monitoring
-  description: Local GEO analysis powered by Claude. Content analysis for AI search visibility scoring.
-  stars: 21
-  language: TypeScript
   type: tool
   maintained: true
 
@@ -45,7 +35,7 @@
   url: https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool
   category: geo-monitoring
   description: Open-source AI search optimization tool for AIO, AEO, and GEO visibility workflows.
-  stars: 116
+  stars: 427
   language: TypeScript
   type: tool
   maintained: true
@@ -55,7 +45,17 @@
   url: https://github.com/codyschneiderx/seo-ai-search-dashboard
   category: geo-monitoring
   description: Open-source dashboard template for SEO and AI-search performance, with GA4, Search Console, Ads, and AI referral panels.
-  stars: 24
+  stars: 32
   language: HTML
+  type: tool
+  maintained: true
+
+- name: Limelit Open
+  repo: limelit-co/open
+  url: https://github.com/limelit-co/open
+  category: geo-monitoring
+  description: Self-hosted AI visibility tracker for ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews and AI Mode. Single Go binary with SQLite and an MCP server.
+  stars: 439
+  language: Go
   type: tool
   maintained: true

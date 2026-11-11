@@ -258,7 +258,7 @@ md += `---
 
 | Standard | What it does | Adoption |
 |----------|-------------|----------|
-| [llms.txt](https://llmstxt.org) | Markdown summary that helps agents and users find AI-readable site context. The [August 2026 revision](https://llmstxt.org/changes.html) adds \`rel="alternate"\` / \`rel="describedby"\` link relations and path-scoped files | Proposal; Chrome Lighthouse [audits it](https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt); little evidence AI engines fetch it |
+| [llms.txt](https://llmstxt.org) | Markdown summary that helps agents and users find AI-readable site context. [v2 of the proposal](https://llmstxt.org/changes.html) (September 2026) adds \`rel="alternate"\` / \`rel="describedby"\` link relations and path-scoped files | Proposal; Chrome Lighthouse [audits it](https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt); little evidence AI engines fetch it |
 | [llms-full.txt](https://llmstxt.org) | Expanded markdown content for deeper manual or agent ingestion | Emerging |
 | robots.txt AI rules | Control which AI bots can crawl | Standard |
 | [Content Signals](https://contentsignals.org) | robots.txt \`Content-Signal\` line stating preferences for \`search\`, \`ai-input\`, and \`ai-train\` | Cloudflare proposal |
@@ -271,6 +271,22 @@ md += `---
 - [Answer-First Content](docs/answer-first-content.md) — structure pages so humans and answer engines can extract claims cleanly
 - [Schema sameAs Quality](docs/schema-sameas.md) — choose identity links that improve disambiguation instead of inflating profile count
 
+### Official Guidance
+
+- [Google: Optimizing your website for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide): Google's best practices for AI Overviews and AI Mode
+- [Google: Search Console generative AI performance reports](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports): impressions in AI Overviews, AI Mode and Discover; rolled out to all websites on August 31, 2026
+- [Google: Search generative AI control](https://support.google.com/webmasters/answer/16908024): Search Console setting for a site's inclusion in AI Overviews, AI Mode and Discover generative AI features
+- [Bing: AI Performance in Bing Webmaster Tools](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview): citations in Microsoft Copilot, Bing AI summaries and select partners (public preview, February 2026)
+- [IndexNow documentation](https://www.indexnow.org/documentation): notify participating search engines of added, updated or deleted URLs, up to 10,000 per request
+- [Cloudflare: What is Pay Per Crawl?](https://developers.cloudflare.com/ai-crawl-control/features/pay-per-crawl/what-is-pay-per-crawl/): set a price for AI crawler access, answered with HTTP 402 when no payment is sent (closed beta)
+
+### Free Hosted Tools (not open source)
+
+- [Ahrefs AI Visibility Checker](https://ahrefs.com/ai-visibility-checker): one-time snapshot of brand mentions in ChatGPT, Gemini, Perplexity, Copilot, AI Overviews and AI Mode; no signup, top 5 results per section
+- [LLM Pulse Brand Mention Checker](https://llmpulse.ai/brand-mention-checker): one free report per email covering mentions, citations and sentiment in ChatGPT, Perplexity, Gemini, AI Mode and AI Overviews; submitting also subscribes you to its newsletter
+- [Bing Webmaster Tools](https://www.bing.com/webmasters): free account; the AI Performance report shows citations in Copilot and Bing AI answers
+- [Google Search Console generative AI reports](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports): impressions by page, country, device and date in AI Overviews and AI Mode, for all websites since August 31, 2026
+
 ### AI Crawler User-Agents
 
 Tokens and purposes as stated in each vendor's docs (linked). Tokens marked *robots.txt only* never appear in request headers.
@@ -278,6 +294,8 @@ Tokens and purposes as stated in each vendor's docs (linked). Tokens marked *rob
 | Company | robots.txt token | Purpose |
 |---------|------------------|---------|
 ${AI_BOTS.map((b) => `| ${b.docsUrl ? `[${b.company}](${b.docsUrl})` : b.company} | \`${b.ua}\` | ${b.robotsOnly ? '*robots.txt only*: ' : ''}${b.purpose} |`).join('\n')}
+
+**Preference signals.** An [IETF draft](https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/) defines a \`__usage_ai-training\` robots.txt group that states a preference about AI training across providers. [Anthropic](https://support.claude.com/en/articles/8896518) recognizes it as of October 30, 2026, and rules that name ClaudeBot take priority. [Bing](https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/) will honor it from February 1, 2027, plus page-level \`ai-training\` and \`ai-grounding\` meta preferences. [Google](https://developers.google.com/search/blog/2026/10/ai-training-control) aims to support the shared token in 2027 and treats an opt-out as a Google-Extended disallow when Google-Extended is not named.
 
 ---
 
@@ -308,6 +326,9 @@ ${AI_BOTS.map((b) => `| ${b.docsUrl ? `[${b.company}](${b.docsUrl})` : b.company
 | [Understanding ChatGPT Citations](https://arxiv.org/abs/2610.15382) | 2026 | Traces query rewriting, retrieval, and citation across ChatGPT 5.2–5.5 settings; pages retrieved more often are cited more often |
 | [LIVE-GEO](https://arxiv.org/abs/2611.01126) | 2026 | Tests five GEO strategies on live webpages across ChatGPT, Gemini, and Grok; engines agreed on the top product for only 48.8–66.3% of brands |
 | [Measuring GEO Visibility](https://arxiv.org/abs/2609.06811) | 2026 | Argues that the prompt corpus and weights behind a GEO visibility score define an "answer market" that may not match real demand |
+| [Synthetic Sources?](https://arxiv.org/abs/2605.23684) | 2026 | Allaham and Diakopoulos audit 712 real queries on politics, health and environment across ChatGPT, Copilot, Gemini and Perplexity; about 16% of cited sources were AI-generated |
+| [Scoring With the Engine](https://arxiv.org/abs/2609.22655) | 2026 | Single-author audit of 15 commercial prompts, 589 citations, 4 engines: 84.9% of engine pairs shared no cited URL; engine-free page scores estimate something narrower than end-to-end visibility |
+| [CITECHOICE](https://arxiv.org/abs/2609.15164) | 2026 | Preprint; 113 same-call document pairs in agentic search: structured rendering adds about 0.5 citations per answer to the target without raising total citations, so it shifts credit rather than admitting more sources |
 | [Manifest-Assisted Retrieval in AI Search](https://arxiv.org/abs/2610.38361) | 2026 (IEEE FLLM) | Finds no isolated evidence that llms.txt-style manifests improve AI retrieval, and evaluates their security risks |
 | [Counter-GEO-Bench](https://arxiv.org/abs/2609.02316) | 2026 (EMNLP) | Benchmark of defenses against information-distorting GEO; off-the-shelf defenses cut attack success by at most 5.7% relative |
 | [Position: GEO Creates Underexamined Risks](https://arxiv.org/abs/2606.12439) | 2026 (ICML Position) | Argues governance should target concentration, disclosure, and academic blind spots in GEO |
@@ -323,16 +344,25 @@ ${AI_BOTS.map((b) => `| ${b.docsUrl ? `[${b.company}](${b.docsUrl})` : b.company
 - [Semrush: AI Overviews Study](https://www.semrush.com/blog/semrush-ai-overviews-study/) — 10M+ keyword analysis of AI Overview trigger rates, intent patterns, and zero-click behavior
 - [Semrush: Google AI Mode vs. Traditional Search & Other LLMs](https://www.semrush.com/blog/ai-mode-comparison-study/) — platform-comparison study on AI Mode, AI Overviews, ChatGPT, and Perplexity citation overlap
 - [Ahrefs: AI Overviews Reduce Clicks](https://ahrefs.com/blog/ai-overviews-reduce-clicks/) — 300,000-keyword study (April 2025) linking AI Overviews to a 34.5% lower CTR for the top result
-- [BrightEdge: AI Overview citations and organic ranking overlap](https://www.brightedge.com/resources/weekly-ai-search-insights/rank-overlap-after-16-months-of-aio) — 16-month view of AI Overview citation overlap with organic results
+- [BrightEdge: AI Overview Citations Now 54% from Organic Rankings](https://www.brightedge.com/resources/weekly-ai-search-insights/rank-overlap-after-16-months-of-aio): vendor data across 9 industries, May 2024 to September 2025; overlap grew from 32.3% to 54.5%
+- [Ahrefs: 38% of AI Overview Citations Pull From The Top 10](https://ahrefs.com/blog/ai-overview-citations-top-10/): vendor study of 863K keyword SERPs and 4M AI Overview URLs (March 2026); 37.9% of cited URLs also ranked in the top 10
+- [Botify: OpenAI Has Tripled Their Crawl of the Web](https://www.botify.com/blog/openai-tripled-web-crawl): about 7B server log events from Botify's dataset, November 2024 to March 2026; OAI-SearchBot up 3.5x and GPTBot up 2.9x since August 2025, ChatGPT-User down 28%
 - [Otterly.AI: The AI Citation Economy](https://otterly.ai/blog/the-ai-citations-report-2026/) — 1M+ data points on visibility in 2026; community platforms capture 52.5% of citations
 - [DeltaV Digital: AI Search Citations Study](https://www.deltavdigital.com/resources/reports/ai-citation-study/) — 21,075 responses across five engines (April–July 2026); the most-cited page type differs by industry
 - [Goodie: AI Citations & News Publishers](https://higoodie.com/blog/publishers-and-ai-search-study/) — 31M citations (October 2025–July 2026) and robots.txt audits of 105 publishers; blocking only affects labs that honor it
 - [Superlines: 60+ AI Search Statistics](https://www.superlines.io/articles/ai-search-statistics/) — Verified data points on visibility, citations, and traffic across ChatGPT, Perplexity, and AI Mode
 - [Superlines: State of GEO Q1 2026](https://www.superlines.io/articles/the-state-of-geo-in-q1-2026) — Quarterly benchmarks and market data
 
+### Practitioner Tests
+
+Small first-party tests on a single site; read them as anecdotes, not benchmarks.
+
+- [The GEO Lab: ChatGPT Crawled Label vs OAI-SearchBot](https://thegeolab.net/chatgpt-crawled-label-oai-searchbot/): one site, 16 verified OAI-SearchBot visits in October 2026; the "Crawled" label did not reliably reflect the latest visit
+- [LumenGeo: 12 Days of AI Crawler Logs](https://lumengeo.co/blog/ai-crawler-traffic-study-2026): one site, 2,746 AI bot fetches in June 2026; agent fetches were 48.5%, training-only crawls 23.2%
+
 ### Standards & Specifications
 
-- [llms.txt Specification](https://llmstxt.org) — Jeremy Howard's proposed standard for making sites AI-readable; [changelog](https://llmstxt.org/changes.html) covers the August 2026 revision
+- [llms.txt Specification](https://llmstxt.org) — Jeremy Howard's proposed standard for making sites AI-readable; [changelog](https://llmstxt.org/changes.html) covers v2 of the proposal (September 2026)
 - [Chrome Lighthouse: Agentic Browsing](https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt) — Lighthouse audit category that checks llms.txt and WebMCP readiness
 - [WebMCP](https://github.com/webmachinelearning/webmcp) — W3C Web Machine Learning Community Group draft for exposing page tools to in-browser agents
 - [IETF AI Preferences (aipref)](https://datatracker.ietf.org/wg/aipref/about/) — working group drafting a vocabulary for AI usage preferences and how to attach it via robots.txt and HTTP
@@ -383,7 +413,12 @@ Working on GEO and want this built into your stack? [dee.agency](https://dee.age
 `;
 
 import { writeFile } from 'node:fs/promises';
+import YAML from 'yaml';
 import { fileURLToPath } from 'node:url';
 const readmePath = fileURLToPath(new URL('../README.md', import.meta.url));
 await writeFile(readmePath, md);
+
+// Crawler list as data for the companion website
+const crawlers = AI_BOTS.map(({ ua, key, company, group, purpose, docsUrl, robotsOnly }) => ({ ua, key, company, group, purpose, docsUrl, robotsOnly }));
+await writeFile(fileURLToPath(new URL('../data/crawlers.yaml', import.meta.url)), `# Generated from AI_BOTS in scripts/lib.ts by scripts/generate-readme.ts. Do not edit by hand.\n\n${YAML.stringify(crawlers)}`);
 console.log(`✅ README.md generated with ${totalSites} platforms across ${grouped.size} categories`);

@@ -22,6 +22,7 @@
     googleExtended: blocked
     googleCloudVertexBot: blocked
     googleAgent: blocked
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: blocked
     applebot: allowed
@@ -70,6 +71,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -117,6 +119,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -165,6 +168,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -213,6 +217,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -259,6 +264,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -306,6 +312,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -352,6 +359,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed

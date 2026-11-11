@@ -22,6 +22,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -70,6 +71,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -118,6 +120,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -166,6 +169,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -214,6 +218,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -262,6 +267,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -310,6 +316,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -358,6 +365,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -437,6 +445,7 @@
     googleExtended: blocked
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -484,6 +493,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed
@@ -532,6 +542,7 @@
     googleExtended: allowed
     googleCloudVertexBot: allowed
     googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
     perplexityUser: allowed
     applebot: allowed

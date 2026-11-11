@@ -1,0 +1,157 @@
+# Agent Skills & MCP Servers: Skills, plugins, and MCP servers for SEO and GEO work in coding agents
+
+- name: GTM Engineer Skills
+  repo: onvoyage-ai/gtm-engineer-skills
+  url: https://github.com/onvoyage-ai/gtm-engineer-skills
+  category: agent-skills
+  description: Claude Code skill for website AEO/GEO audits with foundational checks, intelligence dimensions, and framework-specific fixes.
+  stars: 1361
+  language: HTML
+  type: skill
+  maintained: true
+  license: MIT
+  pushedAt: 2026-10-11
+
+- name: geo-optimizer-skill
+  repo: Auriti-Labs/geo-optimizer-skill
+  url: https://github.com/Auriti-Labs/geo-optimizer-skill
+  category: agent-skills
+  description: GEO audit and optimization skill for making websites visible to ChatGPT, Perplexity, Claude, and Gemini.
+  stars: 1311
+  language: Python
+  type: skill
+  maintained: true
+  license: MIT
+  pushedAt: 2026-11-04
+
+- name: eGEOagents
+  repo: mverab/eGEOagents
+  url: https://github.com/mverab/eGEOagents
+  category: agent-skills
+  description: Agent skills for optimizing content across ChatGPT, Perplexity, Claude, and Gemini.
+  stars: 218
+  language: Python
+  type: skill
+  maintained: true
+  license: MIT
+  pushedAt: 2026-11-11
+
+- name: geo-seo-claude
+  repo: zubair-trabzada/geo-seo-claude
+  url: https://github.com/zubair-trabzada/geo-seo-claude
+  category: agent-skills
+  description: GEO-first SEO skill for Claude Code — citability scoring, AI crawler analysis, schema markup, PDF reports.
+  stars: 11626
+  language: Python
+  type: skill
+  maintained: true
+  license: MIT
+  pushedAt: 2026-11-11
+
+- name: claude-seo
+  repo: AgriciDaniel/claude-seo
+  url: https://github.com/AgriciDaniel/claude-seo
+  category: agent-skills
+  description: 13 sub-skills, 7 subagents for Claude Code — technical SEO, E-E-A-T, GEO/AEO, DataForSEO integration.
+  stars: 28225
+  language: Python
+  type: skill
+  maintained: true
+  license: MIT
+  pushedAt: 2026-11-11
+
+- name: seo-geo-claude-skills
+  repo: aaron-he-zhu/seo-geo-claude-skills
+  url: https://github.com/aaron-he-zhu/seo-geo-claude-skills
+  category: agent-skills
+  description: 20 SEO & GEO skills for Claude Code, Cursor, Codex. CORE-EEAT + CITE frameworks.
+  stars: 242
+  language: null
+  type: skill
+  maintained: true
+  license: Apache-2.0
+  pushedAt: 2026-09-04
+
+- name: notfair-plugin
+  repo: nowork-studio/notfair-plugin
+  url: https://github.com/nowork-studio/notfair-plugin
+  category: agent-skills
+  description: Open-source SEO, GEO, and marketing skills for AI agents, formerly toprank.
+  stars: 4139
+  language: null
+  type: skill
+  maintained: true
+  license: MIT
+  pushedAt: 2026-11-11
+
+- name: Foundvia Discovery
+  repo: ronaldships/foundvia-discovery
+  url: https://github.com/ronaldships/foundvia-discovery
+  category: agent-skills
+  description: Python auditor and coding-agent skill that finds what blocks public SaaS pages on Google and ChatGPT, formerly SEO + GEO Playbook.
+  stars: 29
+  language: Python
+  type: skill
+  maintained: true
+  license: MIT
+  pushedAt: 2026-10-06
+
+- name: GEO Content Optimizer Skill
+  repo: liangdabiao/GEO-Content-Optimizer-Skill
+  url: https://github.com/liangdabiao/GEO-Content-Optimizer-Skill
+  category: agent-skills
+  description: Claude Code skill that analyzes a URL against Google AI Overview and search summaries, then writes content optimization reports.
+  stars: 238
+  language: Python
+  type: skill
+  maintained: true
+  license: null
+  pushedAt: 2026-08-05
+
+- name: Akii SEO & AI Search Optimizer
+  repo: akii-technologies-ltd/akii-seo-ai-search-optimizer
+  url: https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer
+  category: agent-skills
+  description: Claude Code plugin with 12 skills, 5 agents, and 3 commands for site audits, content planning, schema generation, link checks, and estimated AI visibility.
+  stars: 80
+  language: Markdown
+  type: skill
+  maintained: true
+  license: MIT
+  pushedAt: 2026-11-11
+
+- name: seo-skill-bench
+  repo: aleclindz/seo-skill-bench
+  url: https://github.com/aleclindz/seo-skill-bench
+  category: agent-skills
+  description: Benchmark that runs Claude Code SEO skills headless against fixture sites with planted defects and scores detection, trap avoidance, and judgment. The maintainer's own skill is an entrant.
+  stars: 43
+  language: JavaScript
+  type: research
+  maintained: true
+  license: MIT
+  pushedAt: 2026-10-19
+
+- name: Google Search Console MCP
+  repo: surendranb/google-search-console-mcp
+  url: https://github.com/surendranb/google-search-console-mcp
+  category: agent-skills
+  description: "MCP server for Google Search Console: search performance, keyword rankings, sitemaps, and indexing health for AI agents."
+  stars: 40
+  language: Python
+  type: tool
+  maintained: true
+  license: MIT
+  pushedAt: 2026-11-10
+
+- name: Search Console MCP
+  repo: FlorianBruniaux/google-search-console-mcp
+  url: https://github.com/FlorianBruniaux/google-search-console-mcp
+  category: agent-skills
+  description: MCP server with 96 tools for Google Search Console, Bing, GA4, and CrUX, plus 15 shared Claude and Codex SEO playbooks.
+  stars: 24
+  language: Python
+  type: tool
+  maintained: true
+  license: MIT
+  pushedAt: 2026-10-18

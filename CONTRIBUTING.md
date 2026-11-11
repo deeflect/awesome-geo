@@ -81,7 +81,9 @@ CI posts a verification report as a PR comment. Results: ✅ Verified, ⚠️ Lo
 | `ai-crawler-management` | AI Crawler Management |
 | `geo-monitoring` | GEO Monitoring & Tracking |
 | `structured-data` | Structured Data & Schema |
-| `geo-toolkits` | GEO Toolkits & Skills |
+| `geo-toolkits` | GEO Toolkits |
+| `agent-readable-content` | Agent-Readable Content |
+| `agent-skills` | Agent Skills & MCP Servers |
 
 ### Required fields
 

@@ -107,3 +107,39 @@
   maintained: true
   license: Apache-2.0
   pushedAt: 2026-09-15
+
+- name: vitepress-plugin-llms
+  repo: okineadev/vitepress-plugin-llms
+  url: https://github.com/okineadev/vitepress-plugin-llms
+  category: llms-txt
+  description: VitePress plugin that generates llms.txt, llms-full.txt, and Markdown versions of each docs page at build time.
+  stars: 415
+  language: TypeScript
+  type: library
+  maintained: true
+  license: MIT
+  pushedAt: 2026-11-10
+
+- name: sphinx-llms-txt
+  repo: jdillard/sphinx-llms-txt
+  url: https://github.com/jdillard/sphinx-llms-txt
+  category: llms-txt
+  description: Sphinx extension that generates a summary llms.txt and a combined llms-full.txt from the docs.
+  stars: 33
+  language: Python
+  type: library
+  maintained: true
+  license: MIT
+  pushedAt: 2026-10-24
+
+- name: agentmarkup
+  repo: agentmarkup/agentmarkup
+  url: https://github.com/agentmarkup/agentmarkup
+  category: llms-txt
+  description: Build-time llms.txt, JSON-LD, Markdown mirrors, and AI crawler robots.txt rules for Vite, Astro, Next.js, and Nuxt, plus a CLI for any static output and a live audit tool.
+  stars: 27
+  language: TypeScript
+  type: library
+  maintained: true
+  license: MIT
+  pushedAt: 2026-11-11

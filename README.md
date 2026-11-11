@@ -1,6 +1,6 @@
 # Awesome GEO [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of **157 free platforms** and **53 open-source repos & tools** for **Generative Engine Optimization (GEO)** — SEO for the AI era.
+> A curated list of **157 free platforms** and **65 open-source repos & tools** for **Generative Engine Optimization (GEO)** — SEO for the AI era.
 
 ## Why GEO?
 
@@ -22,7 +22,7 @@ This list helps you build that foundation — for free.
 | Metric | Count |
 |--------|-------|
 | Total platforms | 157 |
-| Open-source repos & tools | 53 |
+| Open-source repos & tools | 65 |
 | Automated checks completed | 157 |
 | Representative public pages seeded | 98 |
 | Root-fallback checks | 59 |
@@ -64,11 +64,13 @@ Environment:
 - [Social Bookmarking](#social-bookmarking) (8)
 - [Open-Source Repos & Tools](#open-source-repos--tools)
   - [Research & Frameworks](#research-frameworks) (10)
-  - [llms.txt Ecosystem](#llms-txt-ecosystem) (9)
+  - [llms.txt Ecosystem](#llms-txt-ecosystem) (12)
   - [AI Crawler Management](#ai-crawler-management) (4)
-  - [GEO Monitoring & Tracking](#geo-monitoring-tracking) (6)
+  - [GEO Monitoring & Tracking](#geo-monitoring-tracking) (9)
   - [Structured Data & Schema](#structured-data-schema) (6)
-  - [GEO Toolkits & Skills](#geo-toolkits-skills) (18)
+  - [GEO Toolkits](#geo-toolkits) (9)
+  - [Agent-Readable Content](#agent-readable-content) (2)
+  - [Agent Skills & MCP Servers](#agent-skills-mcp-servers) (13)
 - [AI Discoverability](#ai-discoverability)
 - [Research & Reading](#research--reading)
 - [Contributing](#contributing)
@@ -465,11 +467,14 @@ Environment:
 | [Firecrawl](https://github.com/firecrawl/firecrawl) | ⭐ 200.9k | 🔧 Tool | TypeScript | Web data API for AI — turn websites into LLM-ready markdown. llms.txt generation built in. |
 | [llms.txt Specification](https://github.com/AnswerDotAI/llms-txt) | ⭐ 2.7k | 📐 Standard | Jupyter Notebook | The official llms.txt spec by Jeremy Howard. The standard for making your site AI-readable. |
 | [llms-txt-hub](https://github.com/thedaviddias/llms-txt-hub) | ⭐ 926 | 📚 Reference | TypeScript | Largest directory of sites implementing llms.txt — reference list and tooling. |
+| [vitepress-plugin-llms](https://github.com/okineadev/vitepress-plugin-llms) | ⭐ 415 | 📦 Library | TypeScript | VitePress plugin that generates llms.txt, llms-full.txt, and Markdown versions of each docs page at build time. |
 | [create-llmstxt-py](https://github.com/firecrawl/create-llmstxt-py) | ⭐ 327 | 🔧 Tool | Python | Firecrawl Python generator for producing llms.txt files from websites. |
 | [Nuxt LLMs](https://github.com/nuxt-content/nuxt-llms) | ⭐ 171 | 📦 Library | TypeScript | Nuxt module that generates and prerenders /llms.txt and optional /llms-full.txt documentation. |
 | [llmstxt](https://github.com/dotenvx/llmstxt) | ⭐ 149 | 🔧 Tool | JavaScript | CLI that converts sitemap.xml entries into llms.txt markdown links. |
 | [mkdocs-llmstxt](https://github.com/pawamoy/mkdocs-llmstxt) | ⭐ 132 | 📦 Library | Python | MkDocs plugin for generating /llms.txt and optional llms-full.txt from documentation sections. |
 | [Dualmark](https://github.com/dodopayments/dualmark) | ⭐ 123 | 🔧 Tool | TypeScript | Serves Markdown versions of pages to AI agents alongside HTML, chosen by HTTP content negotiation. |
+| [sphinx-llms-txt](https://github.com/jdillard/sphinx-llms-txt) | ⭐ 33 | 📦 Library | Python | Sphinx extension that generates a summary llms.txt and a combined llms-full.txt from the docs. |
+| [agentmarkup](https://github.com/agentmarkup/agentmarkup) | ⭐ 27 | 📦 Library | TypeScript | Build-time llms.txt, JSON-LD, Markdown mirrors, and AI crawler robots.txt rules for Vite, Astro, Next.js, and Nuxt, plus a CLI for any static output and a live audit tool. |
 | [llms-generator](https://github.com/Francesco-Fera/llms-generator) | ⭐ 26 | 🔧 Tool | TypeScript | Free no-code tool for generating llms.txt files for LLM SEO compliance. |
 
 ### AI Crawler Management
@@ -489,8 +494,11 @@ Environment:
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
+| [Elmo](https://github.com/elmohq/elmo) | ⭐ 593 | 🔧 Tool | TypeScript | Self-hosted AI visibility platform. Tracks how ChatGPT, Claude, Perplexity, Gemini, and Google AI Overviews mention and cite a brand, with share of voice and citation analysis. |
+| [GEOrank](https://github.com/yaojingang/GEORank) | ⭐ 536 | 🔧 Tool | Python | Self-hosted GEO workbench. Diagnoses site and brand visibility in AI search (schema, meta, readability, citation signals) and turns results into Q&A, action plans, and keyword lists. Chinese and English docs. |
 | [Limelit Open](https://github.com/limelit-co/open) | ⭐ 442 | 🔧 Tool | Go | Self-hosted AI visibility tracker for ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews and AI Mode. Single Go binary with SQLite and an MCP server. |
 | [GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool) | ⭐ 427 | 🔧 Tool | TypeScript | Open-source AI search optimization tool for AIO, AEO, and GEO visibility workflows. |
+| [GEO/AEO Tracker](https://github.com/danishashko/geo-aeo-tracker) | ⭐ 326 | 🔧 Tool | TypeScript | Self-hosted AI visibility tracker with a dashboard, MCP server, and CLI. Scores brand mentions, position, citations, and sentiment in ChatGPT, Perplexity, Gemini, and Google AI Mode; collects answers through paid Bright Data calls. |
 | [Searchstack AEO](https://github.com/alexpospekhov/searchstack-aeo) | ⭐ 115 | 🔧 Tool | Python | CLI stack for monitoring visibility across Google, AI Overviews, ChatGPT, Perplexity, Claude, and Grok with markdown reports. |
 | [gego](https://github.com/AI2HU/gego) | ⭐ 109 | 🔧 Tool | Go | Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time. |
 | [AiCMO](https://github.com/AICMO/ai-cmo) | ⭐ 57 | 🔧 Tool | Vue | Open-source AI SEO platform. Monitor brand visibility across ChatGPT, Claude, Perplexity, Gemini. Self-hostable. |
@@ -509,30 +517,50 @@ Environment:
 | [Structured Data JSON-LD](https://github.com/JayHoltslander/Structured-Data-JSON-LD) | ⭐ 279 | 📚 Reference | — | Ready-to-use JSON-LD snippets in Google-preferred format for every common schema type. |
 | [SEO Graph](https://github.com/jdevalk/seo-graph) | ⭐ 50 | 📦 Library | TypeScript | Agent-ready Schema.org JSON-LD graph builder for JavaScript with an Astro integration. |
 
-### GEO Toolkits & Skills
+### GEO Toolkits
 
-> CLI tools, agent skills, and automation for GEO optimization
+> CLI tools, libraries, and automation for GEO optimization
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
-| [claude-seo](https://github.com/AgriciDaniel/claude-seo) | ⭐ 28.2k | 🤖 Skill | Python | 13 sub-skills, 7 subagents for Claude Code — technical SEO, E-E-A-T, GEO/AEO, DataForSEO integration. |
 | [Open SEO](https://github.com/every-app/open-seo) | ⭐ 27.4k | 🔧 Tool | TypeScript | Self-hosted open-source SEO tool — keyword research, competitor analysis, backlink tracking, technical audits. AI-native. |
-| [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | ⭐ 11.6k | 🤖 Skill | Python | GEO-first SEO skill for Claude Code — citability scoring, AI crawler analysis, schema markup, PDF reports. |
-| [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) | ⭐ 4.1k | 🤖 Skill | — | Open-source SEO, GEO, and marketing skills for AI agents, formerly toprank. |
-| [GTM Engineer Skills](https://github.com/onvoyage-ai/gtm-engineer-skills) | ⭐ 1.4k | 🤖 Skill | HTML | Claude Code skill for website AEO/GEO audits with foundational checks, intelligence dimensions, and framework-specific fixes. |
-| [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) | ⭐ 1.3k | 🤖 Skill | Python | GEO audit and optimization skill for making websites visible to ChatGPT, Perplexity, Claude, and Gemini. |
 | [The Website Specification](https://github.com/jdevalk/specification.website) | ⭐ 923 | 📚 Reference | TypeScript | Sourced, platform-agnostic website spec covering HTML, accessibility, security, SEO and agent-readiness, including llms.txt. Has an MCP server. |
 | [SEOnaut](https://github.com/StJudeWasHere/seonaut) | ⭐ 867 | 🔧 Tool | Go | Open-source SEO audit tool — crawls sites for broken links, redirects, missing meta tags, heading issues. Self-hostable. |
 | [GeoLook](https://github.com/aigclink/geolook) | ⭐ 814 | 🔧 Tool | Python | Self-hosted GEO platform that samples AI engine answers, audits a site, and turns gaps into tickets and verification runs. |
 | [SEOBuild Onpage](https://github.com/gbessoni/seobuild-onpage) | ⭐ 265 | 🔧 Tool | Python | AI agent that writes pages for Google ranking and LLM citation, formerly SEO AGI. Built on DeerFlow with competitive analysis and entity consensus. |
+| [geo-optimizer](https://github.com/geo-team-red/geo-optimizer) | ⭐ 103 | ⚙️ Framework | Go | Pluggable Go framework for GEO optimization strategies with built-in tactics and custom strategy registration. |
+| [SEO Audit Console](https://github.com/houtini-ai/seo-audit) | ⭐ 101 | 🔧 Tool | TypeScript | MCP server that gathers raw technical SEO audit data from Google Search Console, a first-party crawl, DataForSEO and Majestic. Replaces houtini SEO Crawler MCP and GEO Analyzer. |
+| [ai-seo-tools (RivalSee)](https://github.com/RivalSee/ai-seo-tools) | ⭐ 20 | 🔧 Tool | — | Open-source tools and prompts for AI crawler optimization by RivalSee. |
+| [AEO God Mode](https://github.com/AEO-God-Mode/aeo-god-mode) | ⭐ 15 | 🔧 Tool | PHP | WordPress plugin for AI-search readiness with schema, llms.txt, AI crawler logs, content gaps, and citation tracking. |
+
+### Agent-Readable Content
+
+> Markdown serving and content negotiation for AI agents
+
+| Repository | Stars | Type | Language | Description |
+|------------|-------|------|----------|-------------|
+| [accept-md](https://github.com/slick-enterprises/accept-md) | ⭐ 44 | 📦 Library | TypeScript | Serves Markdown versions of Next.js and SvelteKit pages when clients send Accept: text/markdown, converted from the rendered HTML with meta tags as YAML frontmatter. |
+| [NGINX Markdown for Agents](https://github.com/cnkang/nginx-markdown-for-agents) | ⭐ 25 | 🔧 Tool | Python | NGINX module that converts HTML to Markdown at the edge for clients that send Accept: text/markdown or for chosen user agents. Rust converter. |
+
+### Agent Skills & MCP Servers
+
+> Skills, plugins, and MCP servers for SEO and GEO work in coding agents
+
+| Repository | Stars | Type | Language | Description |
+|------------|-------|------|----------|-------------|
+| [claude-seo](https://github.com/AgriciDaniel/claude-seo) | ⭐ 28.2k | 🤖 Skill | Python | 13 sub-skills, 7 subagents for Claude Code — technical SEO, E-E-A-T, GEO/AEO, DataForSEO integration. |
+| [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | ⭐ 11.6k | 🤖 Skill | Python | GEO-first SEO skill for Claude Code — citability scoring, AI crawler analysis, schema markup, PDF reports. |
+| [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) | ⭐ 4.1k | 🤖 Skill | — | Open-source SEO, GEO, and marketing skills for AI agents, formerly toprank. |
+| [GTM Engineer Skills](https://github.com/onvoyage-ai/gtm-engineer-skills) | ⭐ 1.4k | 🤖 Skill | HTML | Claude Code skill for website AEO/GEO audits with foundational checks, intelligence dimensions, and framework-specific fixes. |
+| [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) | ⭐ 1.3k | 🤖 Skill | Python | GEO audit and optimization skill for making websites visible to ChatGPT, Perplexity, Claude, and Gemini. |
 | [seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) | ⭐ 242 | 🤖 Skill | — | 20 SEO & GEO skills for Claude Code, Cursor, Codex. CORE-EEAT + CITE frameworks. |
 | [GEO Content Optimizer Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) | ⭐ 238 | 🤖 Skill | Python | Claude Code skill that analyzes a URL against Google AI Overview and search summaries, then writes content optimization reports. |
 | [eGEOagents](https://github.com/mverab/eGEOagents) | ⭐ 218 | 🤖 Skill | Python | Agent skills for optimizing content across ChatGPT, Perplexity, Claude, and Gemini. |
-| [geo-optimizer](https://github.com/geo-team-red/geo-optimizer) | ⭐ 103 | ⚙️ Framework | Go | Pluggable Go framework for GEO optimization strategies with built-in tactics and custom strategy registration. |
-| [SEO Audit Console](https://github.com/houtini-ai/seo-audit) | ⭐ 101 | 🔧 Tool | TypeScript | MCP server that gathers raw technical SEO audit data from Google Search Console, a first-party crawl, DataForSEO and Majestic. Replaces houtini SEO Crawler MCP and GEO Analyzer. |
+| [Akii SEO & AI Search Optimizer](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) | ⭐ 80 | 🤖 Skill | Markdown | Claude Code plugin with 12 skills, 5 agents, and 3 commands for site audits, content planning, schema generation, link checks, and estimated AI visibility. |
+| [seo-skill-bench](https://github.com/aleclindz/seo-skill-bench) | ⭐ 43 | 🔬 Research | JavaScript | Benchmark that runs Claude Code SEO skills headless against fixture sites with planted defects and scores detection, trap avoidance, and judgment. The maintainer's own skill is an entrant. |
+| [Google Search Console MCP](https://github.com/surendranb/google-search-console-mcp) | ⭐ 40 | 🔧 Tool | Python | MCP server for Google Search Console: search performance, keyword rankings, sitemaps, and indexing health for AI agents. |
 | [Foundvia Discovery](https://github.com/ronaldships/foundvia-discovery) | ⭐ 29 | 🤖 Skill | Python | Python auditor and coding-agent skill that finds what blocks public SaaS pages on Google and ChatGPT, formerly SEO + GEO Playbook. |
-| [ai-seo-tools (RivalSee)](https://github.com/RivalSee/ai-seo-tools) | ⭐ 20 | 🔧 Tool | — | Open-source tools and prompts for AI crawler optimization by RivalSee. |
-| [AEO God Mode](https://github.com/AEO-God-Mode/aeo-god-mode) | ⭐ 15 | 🔧 Tool | PHP | WordPress plugin for AI-search readiness with schema, llms.txt, AI crawler logs, content gaps, and citation tracking. |
+| [Search Console MCP](https://github.com/FlorianBruniaux/google-search-console-mcp) | ⭐ 24 | 🔧 Tool | Python | MCP server with 96 tools for Google Search Console, Bing, GA4, and CrUX, plus 15 shared Claude and Codex SEO playbooks. |
 
 ---
 
@@ -551,7 +579,7 @@ Environment:
 
 | Standard | What it does | Adoption |
 |----------|-------------|----------|
-| [llms.txt](https://llmstxt.org) | Markdown summary that helps agents and users find AI-readable site context. The [August 2026 revision](https://llmstxt.org/changes.html) adds `rel="alternate"` / `rel="describedby"` link relations and path-scoped files | Proposal; Chrome Lighthouse [audits it](https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt); little evidence AI engines fetch it |
+| [llms.txt](https://llmstxt.org) | Markdown summary that helps agents and users find AI-readable site context. [v2 of the proposal](https://llmstxt.org/changes.html) (September 2026) adds `rel="alternate"` / `rel="describedby"` link relations and path-scoped files | Proposal; Chrome Lighthouse [audits it](https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt); little evidence AI engines fetch it |
 | [llms-full.txt](https://llmstxt.org) | Expanded markdown content for deeper manual or agent ingestion | Emerging |
 | robots.txt AI rules | Control which AI bots can crawl | Standard |
 | [Content Signals](https://contentsignals.org) | robots.txt `Content-Signal` line stating preferences for `search`, `ai-input`, and `ai-train` | Cloudflare proposal |
@@ -563,6 +591,22 @@ Environment:
 - [LLMO Citation Matrix](docs/llmo-citation-matrix.md) — how each AI engine finds and cites pages, the crawler controls, and what 2026 research found
 - [Answer-First Content](docs/answer-first-content.md) — structure pages so humans and answer engines can extract claims cleanly
 - [Schema sameAs Quality](docs/schema-sameas.md) — choose identity links that improve disambiguation instead of inflating profile count
+
+### Official Guidance
+
+- [Google: Optimizing your website for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide): Google's best practices for AI Overviews and AI Mode
+- [Google: Search Console generative AI performance reports](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports): impressions in AI Overviews, AI Mode and Discover; rolled out to all websites on August 31, 2026
+- [Google: Search generative AI control](https://support.google.com/webmasters/answer/16908024): Search Console setting for a site's inclusion in AI Overviews, AI Mode and Discover generative AI features
+- [Bing: AI Performance in Bing Webmaster Tools](https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview): citations in Microsoft Copilot, Bing AI summaries and select partners (public preview, February 2026)
+- [IndexNow documentation](https://www.indexnow.org/documentation): notify participating search engines of added, updated or deleted URLs, up to 10,000 per request
+- [Cloudflare: What is Pay Per Crawl?](https://developers.cloudflare.com/ai-crawl-control/features/pay-per-crawl/what-is-pay-per-crawl/): set a price for AI crawler access, answered with HTTP 402 when no payment is sent (closed beta)
+
+### Free Hosted Tools (not open source)
+
+- [Ahrefs AI Visibility Checker](https://ahrefs.com/ai-visibility-checker): one-time snapshot of brand mentions in ChatGPT, Gemini, Perplexity, Copilot, AI Overviews and AI Mode; no signup, top 5 results per section
+- [LLM Pulse Brand Mention Checker](https://llmpulse.ai/brand-mention-checker): one free report per email covering mentions, citations and sentiment in ChatGPT, Perplexity, Gemini, AI Mode and AI Overviews; submitting also subscribes you to its newsletter
+- [Bing Webmaster Tools](https://www.bing.com/webmasters): free account; the AI Performance report shows citations in Copilot and Bing AI answers
+- [Google Search Console generative AI reports](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports): impressions by page, country, device and date in AI Overviews and AI Mode, for all websites since August 31, 2026
 
 ### AI Crawler User-Agents
 
@@ -580,6 +624,7 @@ Tokens and purposes as stated in each vendor's docs (linked). Tokens marked *rob
 | [Google](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) | `Google-Extended` | *robots.txt only*: Gemini training and grounding; no effect on Google Search |
 | Google | `Google-CloudVertexBot` | Crawls requested by site owners for Vertex AI Agents |
 | [Google](https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers) | `Google-Agent` | Agents on Google infrastructure acting on a user's request |
+| [Microsoft](https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0) | `Bingbot` | Bing's standard crawler; handles most of Bing's crawling |
 | [Perplexity](https://docs.perplexity.ai/docs/resources/perplexity-crawlers) | `PerplexityBot` | Surfaces sites in Perplexity search results; not used for training |
 | Perplexity | `Perplexity-User` | Fetches pages when a Perplexity user asks |
 | [Apple](https://support.apple.com/en-us/119829) | `Applebot` | Search in Spotlight, Siri, and Safari; may also ground Apple AI answers |
@@ -594,6 +639,8 @@ Tokens and purposes as stated in each vendor's docs (linked). Tokens marked *rob
 | [DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot) | `DuckAssistBot` | Fetches sources for AI-assisted answers |
 | [Common Crawl](https://commoncrawl.org/ccbot) | `CCBot` | Builds Common Crawl's open web archive |
 | ByteDance | `Bytespider` | Widely reported AI crawler; no official vendor doc found |
+
+**Preference signals.** An [IETF draft](https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/) defines a `__usage_ai-training` robots.txt group that states a preference about AI training across providers. [Anthropic](https://support.claude.com/en/articles/8896518) recognizes it as of October 30, 2026, and rules that name ClaudeBot take priority. [Bing](https://blogs.bing.com/search/2026/10/your-content-your-choice-clearer-preferences-for-training-and-grounding/) will honor it from February 1, 2027, plus page-level `ai-training` and `ai-grounding` meta preferences. [Google](https://developers.google.com/search/blog/2026/10/ai-training-control) aims to support the shared token in 2027 and treats an opt-out as a Google-Extended disallow when Google-Extended is not named.
 
 ---
 
@@ -624,6 +671,9 @@ Tokens and purposes as stated in each vendor's docs (linked). Tokens marked *rob
 | [Understanding ChatGPT Citations](https://arxiv.org/abs/2610.15382) | 2026 | Traces query rewriting, retrieval, and citation across ChatGPT 5.2–5.5 settings; pages retrieved more often are cited more often |
 | [LIVE-GEO](https://arxiv.org/abs/2611.01126) | 2026 | Tests five GEO strategies on live webpages across ChatGPT, Gemini, and Grok; engines agreed on the top product for only 48.8–66.3% of brands |
 | [Measuring GEO Visibility](https://arxiv.org/abs/2609.06811) | 2026 | Argues that the prompt corpus and weights behind a GEO visibility score define an "answer market" that may not match real demand |
+| [Synthetic Sources?](https://arxiv.org/abs/2605.23684) | 2026 | Allaham and Diakopoulos audit 712 real queries on politics, health and environment across ChatGPT, Copilot, Gemini and Perplexity; about 16% of cited sources were AI-generated |
+| [Scoring With the Engine](https://arxiv.org/abs/2609.22655) | 2026 | Single-author audit of 15 commercial prompts, 589 citations, 4 engines: 84.9% of engine pairs shared no cited URL; engine-free page scores estimate something narrower than end-to-end visibility |
+| [CITECHOICE](https://arxiv.org/abs/2609.15164) | 2026 | Preprint; 113 same-call document pairs in agentic search: structured rendering adds about 0.5 citations per answer to the target without raising total citations, so it shifts credit rather than admitting more sources |
 | [Manifest-Assisted Retrieval in AI Search](https://arxiv.org/abs/2610.38361) | 2026 (IEEE FLLM) | Finds no isolated evidence that llms.txt-style manifests improve AI retrieval, and evaluates their security risks |
 | [Counter-GEO-Bench](https://arxiv.org/abs/2609.02316) | 2026 (EMNLP) | Benchmark of defenses against information-distorting GEO; off-the-shelf defenses cut attack success by at most 5.7% relative |
 | [Position: GEO Creates Underexamined Risks](https://arxiv.org/abs/2606.12439) | 2026 (ICML Position) | Argues governance should target concentration, disclosure, and academic blind spots in GEO |
@@ -639,16 +689,25 @@ Tokens and purposes as stated in each vendor's docs (linked). Tokens marked *rob
 - [Semrush: AI Overviews Study](https://www.semrush.com/blog/semrush-ai-overviews-study/) — 10M+ keyword analysis of AI Overview trigger rates, intent patterns, and zero-click behavior
 - [Semrush: Google AI Mode vs. Traditional Search & Other LLMs](https://www.semrush.com/blog/ai-mode-comparison-study/) — platform-comparison study on AI Mode, AI Overviews, ChatGPT, and Perplexity citation overlap
 - [Ahrefs: AI Overviews Reduce Clicks](https://ahrefs.com/blog/ai-overviews-reduce-clicks/) — 300,000-keyword study (April 2025) linking AI Overviews to a 34.5% lower CTR for the top result
-- [BrightEdge: AI Overview citations and organic ranking overlap](https://www.brightedge.com/resources/weekly-ai-search-insights/rank-overlap-after-16-months-of-aio) — 16-month view of AI Overview citation overlap with organic results
+- [BrightEdge: AI Overview Citations Now 54% from Organic Rankings](https://www.brightedge.com/resources/weekly-ai-search-insights/rank-overlap-after-16-months-of-aio): vendor data across 9 industries, May 2024 to September 2025; overlap grew from 32.3% to 54.5%
+- [Ahrefs: 38% of AI Overview Citations Pull From The Top 10](https://ahrefs.com/blog/ai-overview-citations-top-10/): vendor study of 863K keyword SERPs and 4M AI Overview URLs (March 2026); 37.9% of cited URLs also ranked in the top 10
+- [Botify: OpenAI Has Tripled Their Crawl of the Web](https://www.botify.com/blog/openai-tripled-web-crawl): about 7B server log events from Botify's dataset, November 2024 to March 2026; OAI-SearchBot up 3.5x and GPTBot up 2.9x since August 2025, ChatGPT-User down 28%
 - [Otterly.AI: The AI Citation Economy](https://otterly.ai/blog/the-ai-citations-report-2026/) — 1M+ data points on visibility in 2026; community platforms capture 52.5% of citations
 - [DeltaV Digital: AI Search Citations Study](https://www.deltavdigital.com/resources/reports/ai-citation-study/) — 21,075 responses across five engines (April–July 2026); the most-cited page type differs by industry
 - [Goodie: AI Citations & News Publishers](https://higoodie.com/blog/publishers-and-ai-search-study/) — 31M citations (October 2025–July 2026) and robots.txt audits of 105 publishers; blocking only affects labs that honor it
 - [Superlines: 60+ AI Search Statistics](https://www.superlines.io/articles/ai-search-statistics/) — Verified data points on visibility, citations, and traffic across ChatGPT, Perplexity, and AI Mode
 - [Superlines: State of GEO Q1 2026](https://www.superlines.io/articles/the-state-of-geo-in-q1-2026) — Quarterly benchmarks and market data
 
+### Practitioner Tests
+
+Small first-party tests on a single site; read them as anecdotes, not benchmarks.
+
+- [The GEO Lab: ChatGPT Crawled Label vs OAI-SearchBot](https://thegeolab.net/chatgpt-crawled-label-oai-searchbot/): one site, 16 verified OAI-SearchBot visits in October 2026; the "Crawled" label did not reliably reflect the latest visit
+- [LumenGeo: 12 Days of AI Crawler Logs](https://lumengeo.co/blog/ai-crawler-traffic-study-2026): one site, 2,746 AI bot fetches in June 2026; agent fetches were 48.5%, training-only crawls 23.2%
+
 ### Standards & Specifications
 
-- [llms.txt Specification](https://llmstxt.org) — Jeremy Howard's proposed standard for making sites AI-readable; [changelog](https://llmstxt.org/changes.html) covers the August 2026 revision
+- [llms.txt Specification](https://llmstxt.org) — Jeremy Howard's proposed standard for making sites AI-readable; [changelog](https://llmstxt.org/changes.html) covers v2 of the proposal (September 2026)
 - [Chrome Lighthouse: Agentic Browsing](https://developer.chrome.com/docs/lighthouse/agentic-browsing/llms-txt) — Lighthouse audit category that checks llms.txt and WebMCP readiness
 - [WebMCP](https://github.com/webmachinelearning/webmcp) — W3C Web Machine Learning Community Group draft for exposing page tools to in-browser agents
 - [IETF AI Preferences (aipref)](https://datatracker.ietf.org/wg/aipref/about/) — working group drafting a vocabulary for AI usage preferences and how to attach it via robots.txt and HTTP

@@ -1,0 +1,25 @@
+# Agent-Readable Content: Markdown serving and content negotiation for AI agents
+
+- name: accept-md
+  repo: slick-enterprises/accept-md
+  url: https://github.com/slick-enterprises/accept-md
+  category: agent-readable-content
+  description: "Serves Markdown versions of Next.js and SvelteKit pages when clients send Accept: text/markdown, converted from the rendered HTML with meta tags as YAML frontmatter."
+  stars: 44
+  language: TypeScript
+  type: library
+  maintained: true
+  license: MIT
+  pushedAt: 2026-06-16
+
+- name: NGINX Markdown for Agents
+  repo: cnkang/nginx-markdown-for-agents
+  url: https://github.com/cnkang/nginx-markdown-for-agents
+  category: agent-readable-content
+  description: "NGINX module that converts HTML to Markdown at the edge for clients that send Accept: text/markdown or for chosen user agents. Rust converter."
+  stars: 25
+  language: Python
+  type: tool
+  maintained: true
+  license: BSD-2-Clause
+  pushedAt: 2026-11-11

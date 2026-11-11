@@ -1,28 +1,4 @@
-# GEO Toolkits & Skills — CLI tools, agent skills, and automation for GEO optimization
-
-- name: GTM Engineer Skills
-  repo: onvoyage-ai/gtm-engineer-skills
-  url: https://github.com/onvoyage-ai/gtm-engineer-skills
-  category: geo-toolkits
-  description: Claude Code skill for website AEO/GEO audits with foundational checks, intelligence dimensions, and framework-specific fixes.
-  stars: 1361
-  language: HTML
-  type: skill
-  maintained: true
-  license: MIT
-  pushedAt: 2026-10-11
-
-- name: geo-optimizer-skill
-  repo: Auriti-Labs/geo-optimizer-skill
-  url: https://github.com/Auriti-Labs/geo-optimizer-skill
-  category: geo-toolkits
-  description: GEO audit and optimization skill for making websites visible to ChatGPT, Perplexity, Claude, and Gemini.
-  stars: 1311
-  language: Python
-  type: skill
-  maintained: true
-  license: MIT
-  pushedAt: 2026-11-04
+# GEO Toolkits — CLI tools, libraries, and automation for GEO optimization
 
 - name: geo-optimizer
   repo: geo-team-red/geo-optimizer
@@ -35,54 +11,6 @@
   maintained: true
   license: MIT
   pushedAt: 2026-03-27
-
-- name: eGEOagents
-  repo: mverab/eGEOagents
-  url: https://github.com/mverab/eGEOagents
-  category: geo-toolkits
-  description: Agent skills for optimizing content across ChatGPT, Perplexity, Claude, and Gemini.
-  stars: 218
-  language: Python
-  type: skill
-  maintained: true
-  license: MIT
-  pushedAt: 2026-11-11
-
-- name: geo-seo-claude
-  repo: zubair-trabzada/geo-seo-claude
-  url: https://github.com/zubair-trabzada/geo-seo-claude
-  category: geo-toolkits
-  description: GEO-first SEO skill for Claude Code — citability scoring, AI crawler analysis, schema markup, PDF reports.
-  stars: 11626
-  language: Python
-  type: skill
-  maintained: true
-  license: MIT
-  pushedAt: 2026-11-11
-
-- name: claude-seo
-  repo: AgriciDaniel/claude-seo
-  url: https://github.com/AgriciDaniel/claude-seo
-  category: geo-toolkits
-  description: 13 sub-skills, 7 subagents for Claude Code — technical SEO, E-E-A-T, GEO/AEO, DataForSEO integration.
-  stars: 28225
-  language: Python
-  type: skill
-  maintained: true
-  license: MIT
-  pushedAt: 2026-11-11
-
-- name: seo-geo-claude-skills
-  repo: aaron-he-zhu/seo-geo-claude-skills
-  url: https://github.com/aaron-he-zhu/seo-geo-claude-skills
-  category: geo-toolkits
-  description: 20 SEO & GEO skills for Claude Code, Cursor, Codex. CORE-EEAT + CITE frameworks.
-  stars: 242
-  language: null
-  type: skill
-  maintained: true
-  license: Apache-2.0
-  pushedAt: 2026-09-04
 
 - name: ai-seo-tools (RivalSee)
   repo: RivalSee/ai-seo-tools
@@ -132,30 +60,6 @@
   license: MIT
   pushedAt: 2026-10-08
 
-- name: notfair-plugin
-  repo: nowork-studio/notfair-plugin
-  url: https://github.com/nowork-studio/notfair-plugin
-  category: geo-toolkits
-  description: Open-source SEO, GEO, and marketing skills for AI agents, formerly toprank.
-  stars: 4139
-  language: null
-  type: skill
-  maintained: true
-  license: MIT
-  pushedAt: 2026-11-11
-
-- name: Foundvia Discovery
-  repo: ronaldships/foundvia-discovery
-  url: https://github.com/ronaldships/foundvia-discovery
-  category: geo-toolkits
-  description: Python auditor and coding-agent skill that finds what blocks public SaaS pages on Google and ChatGPT, formerly SEO + GEO Playbook.
-  stars: 29
-  language: Python
-  type: skill
-  maintained: true
-  license: MIT
-  pushedAt: 2026-10-06
-
 - name: AEO God Mode
   repo: AEO-God-Mode/aeo-god-mode
   url: https://github.com/AEO-God-Mode/aeo-god-mode
@@ -167,18 +71,6 @@
   maintained: true
   license: GPL-2.0
   pushedAt: 2026-10-19
-
-- name: GEO Content Optimizer Skill
-  repo: liangdabiao/GEO-Content-Optimizer-Skill
-  url: https://github.com/liangdabiao/GEO-Content-Optimizer-Skill
-  category: geo-toolkits
-  description: Claude Code skill that analyzes a URL against Google AI Overview and search summaries, then writes content optimization reports.
-  stars: 238
-  language: Python
-  type: skill
-  maintained: true
-  license: null
-  pushedAt: 2026-08-05
 
 - name: SEO Audit Console
   repo: houtini-ai/seo-audit

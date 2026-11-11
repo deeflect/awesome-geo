@@ -1,0 +1,177 @@
+# Generated from AI_BOTS in scripts/lib.ts by scripts/generate-readme.ts. Do not edit by hand.
+
+- ua: OAI-SearchBot
+  key: oaiSearchBot
+  company: OpenAI
+  group: search
+  purpose: Surfaces sites in ChatGPT search results
+  docsUrl: https://developers.openai.com/api/docs/bots
+  robotsOnly: false
+- ua: GPTBot
+  key: gptBot
+  company: OpenAI
+  group: training
+  purpose: Collects content for model training
+  docsUrl: null
+  robotsOnly: false
+- ua: ChatGPT-User
+  key: chatgptUser
+  company: OpenAI
+  group: user
+  purpose: Fetches pages for user actions in ChatGPT and Custom GPTs
+  docsUrl: null
+  robotsOnly: false
+- ua: OAI-AdsBot
+  key: oaiAdsBot
+  company: OpenAI
+  group: other
+  purpose: Checks landing pages of ads submitted to ChatGPT
+  docsUrl: null
+  robotsOnly: false
+- ua: ClaudeBot
+  key: claudeBot
+  company: Anthropic
+  group: training
+  purpose: Collects content for model training
+  docsUrl: https://support.claude.com/en/articles/8896518
+  robotsOnly: false
+- ua: Claude-SearchBot
+  key: claudeSearchBot
+  company: Anthropic
+  group: search
+  purpose: Improves search result quality for Claude
+  docsUrl: null
+  robotsOnly: false
+- ua: Claude-User
+  key: claudeUser
+  company: Anthropic
+  group: user
+  purpose: Fetches pages when a Claude user asks
+  docsUrl: null
+  robotsOnly: false
+- ua: Google-Extended
+  key: googleExtended
+  company: Google
+  group: training
+  purpose: Gemini training and grounding; no effect on Google Search
+  docsUrl: https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers
+  robotsOnly: true
+- ua: Google-CloudVertexBot
+  key: googleCloudVertexBot
+  company: Google
+  group: other
+  purpose: Crawls requested by site owners for Vertex AI Agents
+  docsUrl: null
+  robotsOnly: false
+- ua: Google-Agent
+  key: googleAgent
+  company: Google
+  group: user
+  purpose: Agents on Google infrastructure acting on a user's request
+  docsUrl: https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers
+  robotsOnly: false
+- ua: Bingbot
+  key: bingbot
+  company: Microsoft
+  group: search
+  purpose: Bing's standard crawler; handles most of Bing's crawling
+  docsUrl: https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0
+  robotsOnly: false
+- ua: PerplexityBot
+  key: perplexityBot
+  company: Perplexity
+  group: search
+  purpose: Surfaces sites in Perplexity search results; not used for training
+  docsUrl: https://docs.perplexity.ai/docs/resources/perplexity-crawlers
+  robotsOnly: false
+- ua: Perplexity-User
+  key: perplexityUser
+  company: Perplexity
+  group: user
+  purpose: Fetches pages when a Perplexity user asks
+  docsUrl: null
+  robotsOnly: false
+- ua: Applebot
+  key: applebot
+  company: Apple
+  group: search
+  purpose: Search in Spotlight, Siri, and Safari; may also ground Apple AI answers
+  docsUrl: https://support.apple.com/en-us/119829
+  robotsOnly: false
+- ua: Applebot-Extended
+  key: applebotExtended
+  company: Apple
+  group: training
+  purpose: opts content out of Apple's AI training
+  docsUrl: null
+  robotsOnly: true
+- ua: Meta-ExternalAgent
+  key: metaExternalAgent
+  company: Meta
+  group: training
+  purpose: Training and indexing for Meta AI products
+  docsUrl: https://developers.facebook.com/documentation/sharing/webmasters/web-crawlers
+  robotsOnly: false
+- ua: meta-webindexer
+  key: metaWebindexer
+  company: Meta
+  group: search
+  purpose: Indexing for Meta AI search citations
+  docsUrl: null
+  robotsOnly: false
+- ua: Meta-ExternalFetcher
+  key: metaExternalFetcher
+  company: Meta
+  group: user
+  purpose: Fetches pages on user request
+  docsUrl: null
+  robotsOnly: false
+- ua: Amazonbot
+  key: amazonbot
+  company: Amazon
+  group: training
+  purpose: General crawling; content may be used for training
+  docsUrl: https://developer.amazon.com/docs/amazonbot/amazonbot.html
+  robotsOnly: false
+- ua: Amzn-SearchBot
+  key: amznSearchBot
+  company: Amazon
+  group: search
+  purpose: Search experiences such as Alexa
+  docsUrl: null
+  robotsOnly: false
+- ua: Amzn-User
+  key: amznUser
+  company: Amazon
+  group: user
+  purpose: Live fetches on behalf of users
+  docsUrl: null
+  robotsOnly: false
+- ua: MistralAI-User
+  key: mistralaiUser
+  company: Mistral
+  group: user
+  purpose: User-requested fetches; no automatic crawling or training
+  docsUrl: https://docs.mistral.ai/robots
+  robotsOnly: false
+- ua: DuckAssistBot
+  key: duckAssistBot
+  company: DuckDuckGo
+  group: search
+  purpose: Fetches sources for AI-assisted answers
+  docsUrl: https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot
+  robotsOnly: false
+- ua: CCBot
+  key: ccBot
+  company: Common Crawl
+  group: training
+  purpose: Builds Common Crawl's open web archive
+  docsUrl: https://commoncrawl.org/ccbot
+  robotsOnly: false
+- ua: Bytespider
+  key: bytespider
+  company: ByteDance
+  group: training
+  purpose: Widely reported AI crawler; no official vendor doc found
+  docsUrl: null
+  robotsOnly: false

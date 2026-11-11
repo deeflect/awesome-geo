@@ -14,5 +14,11 @@
   name: Structured Data & Schema
   description: Schema.org, JSON-LD, and structured data tools
 - id: geo-toolkits
-  name: GEO Toolkits & Skills
-  description: CLI tools, agent skills, and automation for GEO optimization
+  name: GEO Toolkits
+  description: CLI tools, libraries, and automation for GEO optimization
+- id: agent-readable-content
+  name: Agent-Readable Content
+  description: Markdown serving and content negotiation for AI agents
+- id: agent-skills
+  name: Agent Skills & MCP Servers
+  description: Skills, plugins, and MCP servers for SEO and GEO work in coding agents

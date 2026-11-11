@@ -71,3 +71,39 @@
   maintained: true
   license: Apache-2.0
   pushedAt: 2026-11-08
+
+- name: Elmo
+  repo: elmohq/elmo
+  url: https://github.com/elmohq/elmo
+  category: geo-monitoring
+  description: Self-hosted AI visibility platform. Tracks how ChatGPT, Claude, Perplexity, Gemini, and Google AI Overviews mention and cite a brand, with share of voice and citation analysis.
+  stars: 593
+  language: TypeScript
+  type: tool
+  maintained: true
+  license: MIT
+  pushedAt: 2026-11-10
+
+- name: GEOrank
+  repo: yaojingang/GEORank
+  url: https://github.com/yaojingang/GEORank
+  category: geo-monitoring
+  description: Self-hosted GEO workbench. Diagnoses site and brand visibility in AI search (schema, meta, readability, citation signals) and turns results into Q&A, action plans, and keyword lists. Chinese and English docs.
+  stars: 536
+  language: Python
+  type: tool
+  maintained: true
+  license: Apache-2.0
+  pushedAt: 2026-11-11
+
+- name: GEO/AEO Tracker
+  repo: danishashko/geo-aeo-tracker
+  url: https://github.com/danishashko/geo-aeo-tracker
+  category: geo-monitoring
+  description: Self-hosted AI visibility tracker with a dashboard, MCP server, and CLI. Scores brand mentions, position, citations, and sentiment in ChatGPT, Perplexity, Gemini, and Google AI Mode; collects answers through paid Bright Data calls.
+  stars: 326
+  language: TypeScript
+  type: tool
+  maintained: true
+  license: MIT
+  pushedAt: 2026-11-11

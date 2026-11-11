@@ -9,6 +9,8 @@
   language: HTML
   type: standard
   maintained: true
+  license: Apache-2.0
+  pushedAt: 2026-11-11
 
 - name: schema-org (Spatie)
   repo: spatie/schema-org
@@ -19,16 +21,20 @@
   language: PHP
   type: library
   maintained: true
+  license: MIT
+  pushedAt: 2026-11-05
 
 - name: schema-dts
   repo: google/schema-dts
   url: https://github.com/google/schema-dts
   category: structured-data
   description: TypeScript types for Schema.org JSON-LD vocabulary, useful for type-safe structured data generation.
-  stars: 1260
+  stars: 1263
   language: TypeScript
   type: library
   maintained: true
+  license: Apache-2.0
+  pushedAt: 2026-11-01
 
 - name: react-schemaorg
   repo: google/react-schemaorg
@@ -39,6 +45,8 @@
   language: TypeScript
   type: library
   maintained: true
+  license: Apache-2.0
+  pushedAt: 2026-10-29
 
 - name: SEO Graph
   repo: jdevalk/seo-graph
@@ -49,6 +57,8 @@
   language: TypeScript
   type: library
   maintained: true
+  license: MIT
+  pushedAt: 2026-09-21
 
 - name: Structured Data JSON-LD
   repo: JayHoltslander/Structured-Data-JSON-LD
@@ -59,3 +69,5 @@
   language: null
   type: reference
   maintained: false
+  license: null
+  pushedAt: 2022-11-11

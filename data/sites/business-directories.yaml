@@ -10,14 +10,31 @@
   effort: medium
   description: Small business networking.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
     chatgptUser: blocked
-    googleExtended: blocked
+    oaiAdsBot: blocked
     claudeBot: blocked
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: blocked
+    googleCloudVertexBot: blocked
+    googleAgent: blocked
     perplexityBot: blocked
+    perplexityUser: blocked
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: blocked
+    metaExternalFetcher: blocked
+    amazonbot: blocked
+    amznSearchBot: blocked
+    amznUser: blocked
+    mistralaiUser: blocked
+    duckAssistBot: blocked
+    ccBot: blocked
     bytespider: blocked
   indexable: true
   profileLinkDofollow: null
@@ -38,23 +55,40 @@
   dr: 50
   linkType: dofollow
   effort: medium
-  aiCrawled: false
+  aiCrawled: true
   description: Startup ecosystem profiles.
   aiAccess:
-    oaiSearchBot: blocked
-    gptBot: blocked
-    chatgptUser: blocked
-    googleExtended: blocked
-    claudeBot: blocked
-    perplexityBot: blocked
-    bytespider: blocked
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-03-26
-  geoScore: 58
-  geoTier: medium
+  lastVerified: 2026-11-11
+  geoScore: 88
+  geoTier: high
   geoSignals:
-    crawlAccessScore: 0
+    crawlAccessScore: 30
     indexabilityScore: 10
     popularityScore: 15
     queryFitScore: 20
@@ -71,14 +105,31 @@
   effort: medium
   description: App development directory.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: false
   profileLinkDofollow: null
@@ -102,14 +153,31 @@
   effort: medium
   description: Apple Maps business listings.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -132,14 +200,31 @@
   effort: medium
   description: Business accreditation directory.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -163,14 +248,31 @@
   effort: medium
   description: Bing business listings.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -194,14 +296,31 @@
   effort: medium
   description: Small business content sharing.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -225,15 +344,32 @@
   effort: medium
   description: Software comparison directory.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
-    bytespider: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: blocked
   indexable: false
   profileLinkDofollow: null
   aiCrawled: true
@@ -317,20 +453,37 @@
   aiCrawled: true
   description: Person and company profiles for startups.
   aiAccess:
-    oaiSearchBot: blocked
+    oaiSearchBot: allowed
     gptBot: blocked
-    chatgptUser: blocked
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: blocked
+    claudeSearchBot: allowed
+    claudeUser: allowed
     googleExtended: blocked
-    claudeBot: allowed
-    perplexityBot: blocked
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: blocked
     bytespider: blocked
   indexable: true
   verified: true
-  lastVerified: 2026-03-26
-  geoScore: 63
-  geoTier: medium
+  lastVerified: 2026-11-11
+  geoScore: 78
+  geoTier: high
   geoSignals:
-    crawlAccessScore: 4
+    crawlAccessScore: 19
     indexabilityScore: 10
     popularityScore: 18
     queryFitScore: 20
@@ -347,15 +500,32 @@
   effort: medium
   description: Agency directory for design/dev.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
-    bytespider: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: blocked
   indexable: false
   profileLinkDofollow: null
   aiCrawled: true
@@ -381,13 +551,30 @@
     oaiSearchBot: allowed
     gptBot: blocked
     chatgptUser: allowed
-    googleExtended: blocked
+    oaiAdsBot: blocked
     claudeBot: blocked
+    claudeSearchBot: blocked
+    claudeUser: blocked
+    googleExtended: blocked
+    googleCloudVertexBot: blocked
+    googleAgent: blocked
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: blocked
+    metaExternalFetcher: blocked
+    amazonbot: blocked
+    amznSearchBot: blocked
+    amznUser: blocked
+    mistralaiUser: blocked
+    duckAssistBot: blocked
+    ccBot: blocked
     bytespider: blocked
   indexable: false
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   geoScore: 63
   geoTier: medium
   geoSignals:
@@ -408,14 +595,31 @@
   effort: medium
   description: Location-based business listings.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
     chatgptUser: blocked
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -439,15 +643,32 @@
   effort: medium
   description: Software review platform.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
-    bytespider: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: blocked
   indexable: false
   profileLinkDofollow: null
   aiCrawled: true
@@ -470,22 +691,39 @@
   effort: medium
   description: Company reviews and salaries.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
-    oaiSearchBot: unknown
-    gptBot: unknown
-    chatgptUser: unknown
-    googleExtended: unknown
-    claudeBot: unknown
-    perplexityBot: unknown
-    bytespider: unknown
+    oaiSearchBot: allowed
+    gptBot: blocked
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: blocked
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: blocked
+    googleCloudVertexBot: blocked
+    googleAgent: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: blocked
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: blocked
+    bytespider: blocked
   indexable: false
   profileLinkDofollow: null
-  aiCrawled: false
-  geoScore: 50
+  aiCrawled: true
+  geoScore: 69
   geoTier: medium
   geoSignals:
-    crawlAccessScore: 0
+    crawlAccessScore: 19
     indexabilityScore: 0
     popularityScore: 18
     queryFitScore: 18
@@ -504,13 +742,30 @@
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: false
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   geoScore: 72
   geoTier: medium
   geoSignals:
@@ -534,13 +789,30 @@
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: false
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   geoScore: 64
   geoTier: medium
   geoSignals:
@@ -559,22 +831,39 @@
   effort: medium
   description: International business directory.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: blocked
+    claudeSearchBot: allowed
+    claudeUser: allowed
     googleExtended: allowed
-    claudeBot: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: false
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 71
+  geoScore: 67
   geoTier: medium
   geoSignals:
-    crawlAccessScore: 30
+    crawlAccessScore: 26
     indexabilityScore: 0
     popularityScore: 15
     queryFitScore: 18
@@ -593,13 +882,30 @@
     oaiSearchBot: allowed
     gptBot: blocked
     chatgptUser: blocked
-    googleExtended: blocked
+    oaiAdsBot: blocked
     claudeBot: blocked
+    claudeSearchBot: allowed
+    claudeUser: blocked
+    googleExtended: blocked
+    googleCloudVertexBot: blocked
+    googleAgent: blocked
     perplexityBot: blocked
+    perplexityUser: blocked
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: blocked
+    metaExternalFetcher: blocked
+    amazonbot: blocked
+    amznSearchBot: blocked
+    amznUser: blocked
+    mistralaiUser: blocked
+    duckAssistBot: blocked
+    ccBot: blocked
     bytespider: blocked
   indexable: true
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   geoScore: 80
   geoTier: high
   geoSignals:
@@ -620,14 +926,31 @@
   effort: medium
   description: Small business directory.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: blocked
     bytespider: allowed
   indexable: false
   profileLinkDofollow: null
@@ -648,23 +971,40 @@
   dr: 62
   linkType: nofollow
   effort: low
-  aiCrawled: false
+  aiCrawled: true
   description: Launch products and build maker profile.
   aiAccess:
-    oaiSearchBot: unknown
-    gptBot: unknown
-    chatgptUser: unknown
-    googleExtended: unknown
-    claudeBot: unknown
-    perplexityBot: unknown
-    bytespider: unknown
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: allowed
   indexable: false
   verified: true
-  lastVerified: 2026-03-26
-  geoScore: 49
-  geoTier: low
+  lastVerified: 2026-11-11
+  geoScore: 79
+  geoTier: high
   geoSignals:
-    crawlAccessScore: 0
+    crawlAccessScore: 30
     indexabilityScore: 0
     popularityScore: 18
     queryFitScore: 18
@@ -681,14 +1021,31 @@
   effort: medium
   description: Agency matching platform.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: false
   profileLinkDofollow: null
@@ -712,14 +1069,31 @@
   effort: medium
   description: Developer company directory.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -743,14 +1117,31 @@
   effort: medium
   description: Consumer review platform.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: blocked
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: blocked
+    googleAgent: blocked
     perplexityBot: allowed
+    perplexityUser: blocked
+    applebot: blocked
+    applebotExtended: blocked
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: blocked
+    amznSearchBot: blocked
+    amznUser: blocked
+    mistralaiUser: blocked
+    duckAssistBot: blocked
+    ccBot: allowed
     bytespider: blocked
   indexable: false
   profileLinkDofollow: null
@@ -805,14 +1196,31 @@
   effort: medium
   description: Local business reviews.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
     chatgptUser: blocked
-    googleExtended: blocked
+    oaiAdsBot: blocked
     claudeBot: blocked
+    claudeSearchBot: blocked
+    claudeUser: blocked
+    googleExtended: blocked
+    googleCloudVertexBot: blocked
+    googleAgent: blocked
     perplexityBot: blocked
+    perplexityUser: blocked
+    applebot: blocked
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: blocked
+    metaExternalFetcher: blocked
+    amazonbot: blocked
+    amznSearchBot: blocked
+    amznUser: blocked
+    mistralaiUser: blocked
+    duckAssistBot: blocked
+    ccBot: blocked
     bytespider: blocked
   indexable: true
   profileLinkDofollow: null

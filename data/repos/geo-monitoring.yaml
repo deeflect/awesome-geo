@@ -9,6 +9,8 @@
   language: Vue
   type: tool
   maintained: false
+  license: MIT
+  pushedAt: 2025-10-10
 
 - name: Searchstack AEO
   repo: alexpospekhov/searchstack-aeo
@@ -19,6 +21,8 @@
   language: Python
   type: tool
   maintained: true
+  license: MIT
+  pushedAt: 2026-09-29
 
 - name: gego
   repo: AI2HU/gego
@@ -29,6 +33,8 @@
   language: Go
   type: tool
   maintained: true
+  license: GPL-3.0
+  pushedAt: 2026-07-23
 
 - name: GetCito
   repo: ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool
@@ -39,6 +45,8 @@
   language: TypeScript
   type: tool
   maintained: true
+  license: MIT
+  pushedAt: 2026-11-05
 
 - name: SEO & AI Search Dashboard
   repo: codyschneiderx/seo-ai-search-dashboard
@@ -49,13 +57,17 @@
   language: HTML
   type: tool
   maintained: true
+  license: MIT
+  pushedAt: 2026-05-14
 
 - name: Limelit Open
   repo: limelit-co/open
   url: https://github.com/limelit-co/open
   category: geo-monitoring
   description: Self-hosted AI visibility tracker for ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews and AI Mode. Single Go binary with SQLite and an MCP server.
-  stars: 439
+  stars: 442
   language: Go
   type: tool
   maintained: true
+  license: Apache-2.0
+  pushedAt: 2026-11-08

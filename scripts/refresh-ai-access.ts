@@ -30,7 +30,8 @@ function formatDuration(ms: number): string {
 
       const crawlTarget = site.sampleProfile || site.url;
       const robots = await fetchAiAccess(site.url, crawlTarget);
-      return { index, aiAccess: robots.aiAccess };
+      // a failed fetch reports every bot as unknown; keep the stored states instead
+      return { index, aiAccess: robots.fetched ? robots.aiAccess : null };
     }));
 
     for (const result of results) {

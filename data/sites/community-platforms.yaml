@@ -10,14 +10,31 @@
   effort: medium
   description: Webmaster forum.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -41,22 +58,39 @@
   effort: medium
   description: Developer content zone.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
-    gptBot: blocked
-    chatgptUser: blocked
-    googleExtended: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: false
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 69
+  geoScore: 73
   geoTier: medium
   geoSignals:
-    crawlAccessScore: 26
+    crawlAccessScore: 30
     indexabilityScore: 0
     popularityScore: 17
     queryFitScore: 14
@@ -72,14 +106,31 @@
   effort: medium
   description: Growth marketing community.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -103,15 +154,32 @@
   effort: medium
   description: Builder community with product listings.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
-    oaiSearchBot: unknown
-    gptBot: unknown
-    chatgptUser: unknown
-    googleExtended: unknown
-    claudeBot: unknown
-    perplexityBot: unknown
-    bytespider: unknown
+    oaiSearchBot: blocked
+    gptBot: blocked
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: blocked
+    claudeSearchBot: blocked
+    claudeUser: allowed
+    googleExtended: blocked
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    perplexityBot: blocked
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: blocked
+    metaExternalFetcher: allowed
+    amazonbot: blocked
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: blocked
+    ccBot: blocked
+    bytespider: blocked
   indexable: true
   profileLinkDofollow: null
   aiCrawled: false
@@ -134,14 +202,31 @@
   effort: medium
   description: Invite-only tech link aggregator.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
     chatgptUser: blocked
-    googleExtended: blocked
+    oaiAdsBot: blocked
     claudeBot: blocked
+    claudeSearchBot: blocked
+    claudeUser: blocked
+    googleExtended: blocked
+    googleCloudVertexBot: blocked
+    googleAgent: blocked
     perplexityBot: blocked
+    perplexityUser: blocked
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: blocked
+    metaExternalFetcher: blocked
+    amazonbot: blocked
+    amznSearchBot: blocked
+    amznUser: blocked
+    mistralaiUser: blocked
+    duckAssistBot: blocked
+    ccBot: blocked
     bytespider: blocked
   indexable: true
   profileLinkDofollow: null
@@ -168,13 +253,30 @@
     oaiSearchBot: blocked
     gptBot: blocked
     chatgptUser: blocked
-    googleExtended: allowed
+    oaiAdsBot: blocked
     claudeBot: blocked
+    claudeSearchBot: blocked
+    claudeUser: blocked
+    googleExtended: allowed
+    googleCloudVertexBot: blocked
+    googleAgent: blocked
     perplexityBot: blocked
+    perplexityUser: blocked
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: blocked
+    metaExternalFetcher: blocked
+    amazonbot: allowed
+    amznSearchBot: blocked
+    amznUser: blocked
+    mistralaiUser: blocked
+    duckAssistBot: blocked
+    ccBot: blocked
     bytespider: blocked
   indexable: false
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   geoScore: 49
   geoTier: low
   geoSignals:
@@ -198,13 +300,30 @@
     oaiSearchBot: blocked
     gptBot: blocked
     chatgptUser: blocked
-    googleExtended: blocked
+    oaiAdsBot: blocked
     claudeBot: blocked
+    claudeSearchBot: blocked
+    claudeUser: blocked
+    googleExtended: blocked
+    googleCloudVertexBot: blocked
+    googleAgent: blocked
     perplexityBot: blocked
+    perplexityUser: blocked
+    applebot: blocked
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: blocked
+    metaExternalFetcher: blocked
+    amazonbot: blocked
+    amznSearchBot: blocked
+    amznUser: blocked
+    mistralaiUser: blocked
+    duckAssistBot: blocked
+    ccBot: blocked
     bytespider: blocked
   indexable: true
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   geoScore: 59
   geoTier: medium
   geoSignals:
@@ -225,14 +344,31 @@
   effort: medium
   description: Web dev community forums.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: false
   profileLinkDofollow: null
@@ -255,14 +391,31 @@
   effort: medium
   description: Tech news discussion.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -286,14 +439,31 @@
   effort: medium
   description: IT professional community.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
     chatgptUser: allowed
-    googleExtended: blocked
+    oaiAdsBot: allowed
     claudeBot: blocked
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: blocked
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: blocked
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: blocked
     bytespider: blocked
   indexable: true
   profileLinkDofollow: null
@@ -316,14 +486,31 @@
   effort: medium
   description: Digital marketing forum.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -347,14 +534,31 @@
   effort: medium
   description: SEO and webmaster forum.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: blocked
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: blocked
+    claudeUser: allowed
+    googleExtended: blocked
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: blocked
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: blocked
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: blocked
     bytespider: blocked
   indexable: true
   profileLinkDofollow: null

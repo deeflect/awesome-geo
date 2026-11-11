@@ -26,10 +26,10 @@ This list helps you build that foundation — for free.
 | Automated checks completed | 157 |
 | Representative public pages seeded | 98 |
 | Root-fallback checks | 59 |
-| AI-discoverable (at least 1 major crawler allowed) | 134 |
-| 🟢 High GEO value (75+) | 70 |
-| 🟡 Medium GEO value (50-74) | 75 |
-| 🔴 Low GEO value (<50) | 12 |
+| AI-discoverable (at least 1 major crawler allowed) | 136 |
+| 🟢 High GEO value (75+) | 75 |
+| 🟡 Medium GEO value (50-74) | 68 |
+| 🔴 Low GEO value (<50) | 14 |
 
 ## Quick Start
 
@@ -96,8 +96,8 @@ Environment:
 | [HuggingFace](https://huggingface.co) | 63 | dofollow | low | ✅ Open | 91/100 | AI/ML model hosting with profile pages. |
 | [Bitbucket](https://bitbucket.org) | 62 | mixed | medium | ✅ Open | 90/100 | Atlassian git hosting with public profiles. |
 | [GitLab](https://gitlab.com) | 62 | dofollow | low | ✅ Open | 87/100 | Alternative to GitHub with profile pages. |
-| [CodePen](https://codepen.io) | 61 | nofollow | low | ✅ Open | 79/100 | Frontend demo platform with profile links. |
 | [DEV.to](https://dev.to) | 61 | nofollow | low | ✅ Open | 89/100 | Publish articles with canonical URLs back to your site. |
+| [JSFiddle](https://jsfiddle.net) | 57 | mixed | medium | ✅ Open | 85/100 | JavaScript playground with user profiles. |
 | [PyPI](https://pypi.org) | 55 | dofollow | low | ✅ Open | 89/100 | Python package index with project URLs. |
 | [NuGet](https://www.nuget.org) | 54 | mixed | medium | ✅ Open | 87/100 | .NET package registry. |
 | [RubyGems](https://rubygems.org) | 54 | mixed | medium | ✅ Open | 85/100 | Ruby package registry with profile pages. |
@@ -109,30 +109,30 @@ Environment:
 | [CodeSandbox](https://codesandbox.io) | 49 | mixed | medium | ✅ Open | 83/100 | Online IDE with public projects. |
 | [Hashnode](https://hashnode.com) | 49 | dofollow | low | ✅ Open | 84/100 | Dev blog platform with custom domain support. |
 | [Read the Docs](https://readthedocs.org) | 49 | mixed | medium | ✅ Open | 86/100 | Documentation hosting platform. |
+| [Exercism](https://exercism.org) | 42 | mixed | medium | ✅ Open | 79/100 | Coding exercises with public profiles. |
 
 <details>
-<summary>🟡 Medium GEO Value (10 platforms)</summary>
+<summary>🟡 Medium GEO Value (8 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [Stack Overflow](https://stackoverflow.com) | 69 | nofollow | medium | — | 63/100 | Profile link + answer quality builds authority. |
-| [Docker Hub](https://hub.docker.com) | 62 | mixed | medium | ⚠️ 2/5 | 62/100 | Container image registry with profiles. |
-| [JSFiddle](https://jsfiddle.net) | 57 | mixed | medium | ⚠️ 2/5 | 74/100 | JavaScript playground with user profiles. |
+| [Docker Hub](https://hub.docker.com) | 62 | mixed | medium | ✅ Open | 73/100 | Container image registry with profiles. |
+| [CodePen](https://codepen.io) | 61 | nofollow | low | ⚠️ 2/5 | 68/100 | Frontend demo platform with profile links. |
 | [Codeberg](https://codeberg.org) | 56 | mixed | medium | ❌ Blocked | 57/100 | Non-profit git hosting. |
 | [Launchpad](https://launchpad.net) | 55 | mixed | medium | ❌ Blocked | 59/100 | Ubuntu/Canonical project hosting. |
 | [crates.io](https://crates.io) | 53 | nofollow | low | ✅ Open | 74/100 | Rust package registry with author profiles. |
 | [Google Developers](https://developers.google.com/program) | 49 | nofollow | low | ✅ Open | 70/100 | Google developer profile with custom URL. |
-| [HackerRank](https://www.hackerrank.com) | 49 | mixed | medium | ✅ Open | 73/100 | Developer skills platform. |
 | [Gitea](https://gitea.com) | 43 | mixed | medium | ⚠️ 1/5 | 58/100 | Self-hosted git with public instances. |
-| [Exercism](https://exercism.org) | 42 | mixed | medium | ⚠️ 2/5 | 68/100 | Coding exercises with public profiles. |
 </details>
 
 <details>
-<summary>🔴 Low GEO Value (1 platforms)</summary>
+<summary>🔴 Low GEO Value (2 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [npm](https://www.npmjs.com) | 64 | nofollow | low | — | 49/100 | Package author page links to homepage. |
+| [HackerRank](https://www.hackerrank.com) | 49 | mixed | medium | ❌ Blocked | 43/100 | Developer skills platform. |
 </details>
 
 ### Business Directories
@@ -145,24 +145,25 @@ Environment:
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [LinkedIn Company](https://linkedin.com) | 100 | nofollow | low | ⚠️ 1/5 | 80/100 | Company page with website link. |
 | [Foursquare](https://foursquare.com) | 62 | mixed | medium | ⚠️ 4/5 | 86/100 | Location-based business listings. |
+| [Product Hunt](https://producthunt.com) | 62 | nofollow | low | ✅ Open | 79/100 | Launch products and build maker profile. |
 | [TrustPilot](https://www.trustpilot.com) | 62 | mixed | medium | ✅ Open | 81/100 | Consumer review platform. |
+| [Crunchbase](https://crunchbase.com) | 59 | nofollow | medium | ⚠️ 2/5 | 78/100 | Person and company profiles for startups. |
 | [Better Business Bureau](https://www.bbb.org) | 58 | mixed | medium | ✅ Open | 88/100 | Business accreditation directory. |
 | [G2](https://www.g2.com) | 58 | mixed | medium | ✅ Open | 78/100 | Software review platform. |
 | [Capterra](https://www.capterra.com) | 57 | mixed | medium | ✅ Open | 77/100 | Software comparison directory. |
 | [Manta](https://www.manta.com) | 53 | mixed | medium | ✅ Open | 75/100 | Small business directory. |
+| [AngelList / Wellfound](https://wellfound.com) | 50 | dofollow | medium | ✅ Open | 88/100 | Startup ecosystem profiles. |
 | [Bing Places](https://www.bing.com/forbusiness) | 48 | mixed | medium | ✅ Open | 76/100 | Bing business listings. |
 | [Chamber of Commerce](https://www.chamberofcommerce.com) | 47 | mixed | medium | ✅ Open | 81/100 | Business membership directory. |
 
 <details>
-<summary>🟡 Medium GEO Value (15 platforms)</summary>
+<summary>🟡 Medium GEO Value (13 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [Google Business](https://business.google.com) | 67 | nofollow | medium | ✅ Open | 64/100 | Local business listing in Google ecosystem. |
 | [Yelp](https://www.yelp.com) | 66 | mixed | medium | ❌ Blocked | 61/100 | Local business reviews. |
-| [Glassdoor](https://www.glassdoor.com) | 60 | mixed | medium | — | 50/100 | Company reviews and salaries. |
-| [Crunchbase](https://crunchbase.com) | 59 | nofollow | medium | ⚠️ 1/5 | 63/100 | Person and company profiles for startups. |
-| [AngelList / Wellfound](https://wellfound.com) | 50 | dofollow | medium | ❌ Blocked | 58/100 | Startup ecosystem profiles. |
+| [Glassdoor](https://www.glassdoor.com) | 60 | mixed | medium | ⚠️ 2/5 | 69/100 | Company reviews and salaries. |
 | [F6S](https://f6s.com) | 49 | dofollow | low | ⚠️ 2/5 | 63/100 | Startup directory with founder profiles. |
 | [Alignable](https://www.alignable.com) | 47 | mixed | medium | ❌ Blocked | 51/100 | Small business networking. |
 | [DesignRush](https://www.designrush.com) | 47 | mixed | medium | ✅ Open | 73/100 | Agency directory for design/dev. |
@@ -170,17 +171,16 @@ Environment:
 | [GoodFirms](https://goodfirms.co) | 46 | dofollow | medium | ✅ Open | 72/100 | Service provider review directory. |
 | [BizSugar](https://bizsugar.com) | 42 | mixed | medium | ✅ Open | 73/100 | Small business content sharing. |
 | [Sortlist](https://www.sortlist.com) | 41 | mixed | medium | ✅ Open | 69/100 | Agency matching platform. |
-| [Kompass](https://www.kompass.com) | 39 | mixed | medium | ✅ Open | 71/100 | International business directory. |
+| [Kompass](https://www.kompass.com) | 39 | mixed | medium | ⚠️ 4/5 | 67/100 | International business directory. |
 | [AppFutura](https://www.appfutura.com) | 37 | mixed | medium | ✅ Open | 59/100 | App development directory. |
 | [TopDevelopers](https://www.topdevelopers.co) | 35 | mixed | medium | ✅ Open | 71/100 | Developer company directory. |
 </details>
 
 <details>
-<summary>🔴 Low GEO Value (3 platforms)</summary>
+<summary>🔴 Low GEO Value (2 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Product Hunt](https://producthunt.com) | 62 | nofollow | low | — | 49/100 | Launch products and build maker profile. |
 | [Clutch](https://clutch.co) | 54 | dofollow | medium | — | 48/100 | Agency and service provider directory. |
 | [Yellow Pages](https://www.yellowpages.com) | 50 | mixed | medium | — | 47/100 | Classic business directory. |
 </details>
@@ -193,7 +193,7 @@ Environment:
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [LinkedIn Articles](https://linkedin.com) | 100 | nofollow | low | ⚠️ 1/5 | 80/100 | Professional audience, high authority domain. |
+| [LinkedIn Articles](https://linkedin.com) | 100 | nofollow | low | ✅ Open | 98/100 | Professional audience, high authority domain. |
 | [Blogger](https://www.blogger.com) | 70 | mixed | medium | ✅ Open | 87/100 | Google blogging platform. |
 | [Tumblr](https://www.tumblr.com) | 70 | mixed | medium | ⚠️ 3/5 | 80/100 | Microblogging platform. |
 | [Issuu](https://issuu.com) | 69 | mixed | medium | ✅ Open | 85/100 | Digital publication platform. |
@@ -207,21 +207,21 @@ Environment:
 | [freeCodeCamp](https://www.freecodecamp.org) | 58 | mixed | medium | ✅ Open | 81/100 | Coding education with contributor profiles. |
 | [Telegraph](https://telegra.ph) | 58 | mixed | medium | ✅ Open | 82/100 | Instant publishing by Telegram. |
 | [Ghost](https://ghost.org) | 57 | mixed | medium | ✅ Open | 82/100 | Modern publishing platform. |
-| [Hacker Noon](https://hackernoon.com) | 57 | mixed | medium | ✅ Open | 81/100 | Tech blog platform with author profiles. |
+| [Vocal.media](https://vocal.media) | 54 | mixed | medium | ✅ Open | 79/100 | General content platform with payouts. |
+| [Newsbreak](https://www.newsbreak.com) | 51 | mixed | medium | ✅ Open | 82/100 | Local news content platform. |
 
 <details>
-<summary>🟡 Medium GEO Value (8 platforms)</summary>
+<summary>🟡 Medium GEO Value (7 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [Medium](https://medium.com) | 76 | nofollow | low | ⚠️ 3/5 | 70/100 | Set canonical URL to your original post. |
-| [SitePoint](https://www.sitepoint.com) | 57 | mixed | medium | ✅ Open | 69/100 | Web dev articles platform. |
+| [Hacker Noon](https://hackernoon.com) | 57 | mixed | medium | ⚠️ 2/5 | 70/100 | Tech blog platform with author profiles. |
+| [SitePoint](https://www.sitepoint.com) | 57 | mixed | medium | ⚠️ 3/5 | 62/100 | Web dev articles platform. |
 | [Hacker News](https://news.ycombinator.com) | 54 | nofollow | low | ✅ Open | 73/100 | Tech audience, very high impact if frontpaged. |
-| [Vocal.media](https://vocal.media) | 54 | mixed | medium | ⚠️ 2/5 | 68/100 | General content platform with payouts. |
-| [Newsbreak](https://www.newsbreak.com) | 51 | mixed | medium | ❌ Blocked | 52/100 | Local news content platform. |
 | [LogRocket Blog](https://blog.logrocket.com) | 48 | mixed | medium | ✅ Open | 63/100 | Frontend monitoring blog accepting posts. |
 | [Thinkers360](https://thinkers360.com) | 43 | dofollow | medium | ✅ Open | 66/100 | Thought leadership platform with rankings. |
-| [ArticleBiz](https://www.articlebiz.com) | 38 | mixed | medium | ✅ Open | 65/100 | Article directory. |
+| [ArticleBiz](https://www.articlebiz.com) | 38 | mixed | medium | ⚠️ 2/5 | 54/100 | Article directory. |
 </details>
 
 <details>
@@ -251,7 +251,7 @@ Environment:
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [Reddit](https://reddit.com) | 80 | nofollow | low | ❌ Blocked | 59/100 | Subreddit participation, profile links. |
-| [DZone](https://dzone.com) | 55 | mixed | medium | ⚠️ 4/5 | 69/100 | Developer content zone. |
+| [DZone](https://dzone.com) | 55 | mixed | medium | ✅ Open | 73/100 | Developer content zone. |
 | [Spiceworks](https://community.spiceworks.com) | 48 | mixed | medium | ⚠️ 2/5 | 54/100 | IT professional community. |
 | [GrowthHackers](https://growthhackers.com) | 47 | mixed | medium | ✅ Open | 72/100 | Growth marketing community. |
 | [WebmasterWorld](https://www.webmasterworld.com) | 46 | mixed | medium | ⚠️ 4/5 | 72/100 | SEO and webmaster forum. |
@@ -264,7 +264,7 @@ Environment:
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [Quora](https://quora.com) | 68 | nofollow | low | ⚠️ 1/5 | 49/100 | Q&A platform with profile and answer links. |
-| [IndieHackers](https://www.indiehackers.com) | 48 | mixed | medium | — | 47/100 | Builder community with product listings. |
+| [IndieHackers](https://www.indiehackers.com) | 48 | mixed | medium | ❌ Blocked | 47/100 | Builder community with product listings. |
 | [Lobsters](https://lobste.rs) | 42 | mixed | medium | ❌ Blocked | 45/100 | Invite-only tech link aggregator. |
 </details>
 
@@ -278,30 +278,30 @@ Environment:
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [YouTube](https://youtube.com) | 100 | nofollow | low | ✅ Open | 89/100 | Channel and video description links. |
 | [Vimeo](https://vimeo.com) | 83 | mixed | medium | ⚠️ 2/5 | 77/100 | Video hosting with profiles. |
+| [Flickr](https://flickr.com) | 79 | mixed | medium | ⚠️ 2/5 | 75/100 | Photo sharing with profile links. |
 | [Telegram](https://t.me) | 79 | mixed | medium | ✅ Open | 86/100 | Messaging with public channels. |
+| [Linktree](https://linktr.ee) | 76 | mixed | medium | ✅ Open | 86/100 | Link-in-bio platform. |
 | [Discord](https://discord.com) | 75 | mixed | medium | ✅ Open | 86/100 | Community platform with server listings. |
 | [Twitch](https://twitch.tv) | 75 | mixed | medium | ✅ Open | 76/100 | Streaming platform with bio links. |
 | [Goodreads](https://www.goodreads.com) | 65 | mixed | medium | ⚠️ 4/5 | 80/100 | Book reviews with author profiles. |
 | [About.me](https://about.me) | 62 | dofollow | low | ✅ Open | 84/100 | Simple personal landing page. |
 | [Gravatar](https://gravatar.com) | 62 | dofollow | low | ⚠️ 3/5 | 78/100 | Universal avatar with verified profile links. |
 | [Dribbble](https://dribbble.com) | 61 | nofollow | low | ✅ Open | 82/100 | Design showcase platform. |
-| [Mastodon](https://mastodon.social) | 61 | mixed | medium | ⚠️ 4/5 | 79/100 | Federated social profile |
 | [Carrd](https://carrd.com) | 47 | mixed | medium | ✅ Open | 79/100 | One-page personal sites. |
 
 <details>
-<summary>🟡 Medium GEO Value (14 platforms)</summary>
+<summary>🟡 Medium GEO Value (13 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [Instagram](https://instagram.com) | 100 | mixed | medium | ❌ Blocked | 60/100 | Photo/video with bio link. |
 | [Pinterest](https://pinterest.com) | 85 | mixed | medium | ❌ Blocked | 58/100 | Visual bookmarking with profile links. |
 | [TikTok](https://tiktok.com) | 85 | mixed | medium | ❌ Blocked | 58/100 | Short video with bio link. |
-| [Flickr](https://flickr.com) | 79 | mixed | medium | ❌ Blocked | 56/100 | Photo sharing with profile links. |
-| [Linktree](https://linktr.ee) | 76 | mixed | medium | ⚠️ 1/5 | 68/100 | Link-in-bio platform. |
 | [Bluesky](https://bsky.app) | 68 | mixed | medium | ✅ Open | 74/100 | Decentralized microblogging. |
 | [WhatsApp Channels](https://whatsapp.com/channel) | 68 | mixed | medium | ⚠️ 1/5 | 57/100 | Meta messaging channels. |
 | [Behance](https://behance.net) | 67 | nofollow | low | ⚠️ 2/5 | 72/100 | Adobe design portfolio platform. |
 | [Threads](https://www.threads.com) | 65 | mixed | medium | ❌ Blocked | 53/100 | Meta microblogging platform. |
+| [Mastodon](https://mastodon.social) | 61 | mixed | medium | ⚠️ 2/5 | 72/100 | Federated social profile |
 | [Letterboxd](https://letterboxd.com) | 56 | mixed | medium | ⚠️ 2/5 | 60/100 | Film reviews with profiles. |
 | [Bio.link](https://bio.link) | 51 | mixed | medium | ✅ Open | 68/100 | Link-in-bio alternative. |
 | [Daily.dev](https://daily.dev) | 45 | mixed | medium | ✅ Open | 74/100 | Developer news with profiles. |
@@ -354,24 +354,24 @@ Environment:
 | [Cargo](https://cargo.site) | 45 | mixed | medium | ✅ Open | 76/100 | Designer portfolio platform. |
 
 <details>
-<summary>🟡 Medium GEO Value (6 platforms)</summary>
+<summary>🟡 Medium GEO Value (5 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [Coroflot](https://www.coroflot.com) | 48 | mixed | medium | ⚠️ 2/5 | 60/100 | Design portfolio and jobs. |
 | [Muzli](https://muz.li) | 45 | mixed | medium | ✅ Open | 74/100 | Design inspiration platform. |
 | [CSS Design Awards](https://www.cssdesignawards.com) | 43 | mixed | medium | ✅ Open | 69/100 | CSS/web design awards. |
-| [SiteInspire](https://www.siteinspire.com) | 42 | mixed | medium | ⚠️ 4/5 | 56/100 | Web design showcase. |
 | [Carbonmade](https://carbonmade.com) | 41 | mixed | medium | ✅ Open | 66/100 | Online portfolio builder. |
 | [Dunked](https://dunked.com) | 39 | mixed | medium | ✅ Open | 64/100 | Portfolio hosting for creatives. |
 </details>
 
 <details>
-<summary>🔴 Low GEO Value (1 platforms)</summary>
+<summary>🔴 Low GEO Value (2 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Figma Community](https://figma.com/community) | 65 | mixed | medium | ⚠️ 1/5 | 48/100 | Design file sharing. |
+| [Figma Community](https://figma.com/community) | 65 | mixed | medium | ❌ Blocked | 44/100 | Design file sharing. |
+| [SiteInspire](https://www.siteinspire.com) | 42 | mixed | medium | ⚠️ 2/5 | 48/100 | Web design showcase. |
 </details>
 
 ### Niche Directories
@@ -385,7 +385,7 @@ Environment:
 | [Contra](https://contra.com) | 46 | mixed | medium | ✅ Open | 76/100 | Freelance portfolio platform. |
 
 <details>
-<summary>🟡 Medium GEO Value (10 platforms)</summary>
+<summary>🟡 Medium GEO Value (11 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
@@ -395,18 +395,11 @@ Environment:
 | [Clarity.fm](https://clarity.fm) | 46 | mixed | medium | ✅ Open | 73/100 | Expert call marketplace. |
 | [Gun.io](https://gun.io) | 45 | mixed | medium | ✅ Open | 70/100 | Developer freelance platform. |
 | [Arc.dev](https://arc.dev) | 42 | mixed | medium | ✅ Open | 73/100 | Remote developer jobs. |
+| [Featured.com](https://featured.com) | 40 | mixed | medium | ✅ Open | 60/100 | Expert source for journalists. |
 | [SourceBottle](https://www.sourcebottle.com) | 39 | mixed | medium | ✅ Open | 64/100 | Journalist query platform. |
 | [MentionMatch](https://mentionmatch.com) | 38 | mixed | medium | ✅ Open | 64/100 | B2B content expert matching, formerly Help a B2B Writer. |
 | [Qwoted](https://app.qwoted.com) | 37 | dofollow | low | ⚠️ 2/5 | 54/100 | Expert quote platform. |
 | [HARO](https://www.helpareporter.com) | 36 | mixed | medium | ✅ Open | 54/100 | Free daily journalist source requests, now run by Featured. |
-</details>
-
-<details>
-<summary>🔴 Low GEO Value (1 platforms)</summary>
-
-| Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
-|----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Featured.com](https://featured.com) | 40 | mixed | medium | — | 30/100 | Expert source for journalists. |
 </details>
 
 ### Social Bookmarking
@@ -417,20 +410,27 @@ Environment:
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Diigo](https://www.diigo.com) | 66 | mixed | medium | ✅ Open | 78/100 | Social bookmarking and annotation. |
 | [Digg](https://digg.com) | 61 | mixed | medium | ✅ Open | 79/100 | News aggregator. |
 | [Pearltrees](https://www.pearltrees.com) | 56 | mixed | medium | ✅ Open | 76/100 | Visual bookmarking platform. |
 | [Wakelet](https://wakelet.com) | 52 | mixed | medium | ✅ Open | 76/100 | Content curation platform. |
 
 <details>
-<summary>🟡 Medium GEO Value (4 platforms)</summary>
+<summary>🟡 Medium GEO Value (3 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [Flipboard](https://flipboard.com) | 56 | mixed | medium | ⚠️ 3/5 | 61/100 | Content curation magazines. |
 | [Raindrop.io](https://raindrop.io) | 52 | mixed | medium | ✅ Open | 74/100 | Bookmark manager with public collections. |
 | [Start.me](https://start.me) | 49 | mixed | medium | ✅ Open | 62/100 | Start page with public bookmarks. |
-| [StumbleUpon / Mix](https://mix.com) | 47 | mixed | medium | ⚠️ 2/5 | 61/100 | Content discovery platform. |
+</details>
+
+<details>
+<summary>🔴 Low GEO Value (2 platforms)</summary>
+
+| Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
+|----------|-----------|-----------|--------|-----------|-----------|-------|
+| [Diigo](https://www.diigo.com) | 66 | mixed | medium | ❌ Blocked | 48/100 | Social bookmarking and annotation. |
+| [StumbleUpon / Mix](https://mix.com) | 47 | mixed | medium | ❌ Blocked | 42/100 | Content discovery platform. |
 </details>
 
 ---
@@ -445,12 +445,12 @@ Environment:
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
-| [Awesome Generative Engine Optimization](https://github.com/amplifying-ai/awesome-generative-engine-optimization) | ⭐ 539 | 📚 Reference | — | Curated guide to GEO resources — guides, tools, and research for AI search visibility. |
+| [Awesome Generative Engine Optimization](https://github.com/amplifying-ai/awesome-generative-engine-optimization) | ⭐ 540 | 📚 Reference | — | Curated guide to GEO resources — guides, tools, and research for AI search visibility. |
 | [GEO (Princeton)](https://github.com/GEO-optim/GEO) | ⭐ 350 | 🔬 Research | Python | Original GEO research from Princeton — KDD '24 paper with GEO-BENCH benchmark. Proves 40% visibility boost. |
 | [AutoGEO](https://github.com/cxcscmu/AutoGEO) | ⭐ 238 | 🔬 Research | Python | ICLR '26 framework that learns generative-engine preferences and rewrites web content for higher visibility while preserving utility. |
 | [Awesome GEO (luka2chat)](https://github.com/luka2chat/awesome-geo) | ⭐ 132 | 📚 Reference | — | Broad curated GEO resource list covering research papers, tools, AI search engines, analytics, communities, and checklists. |
 | [Awesome GEO (Research)](https://github.com/DavidHuji/Awesome-GEO) | ⭐ 128 | 📚 Reference | — | Curated collection of GEO research papers and academic resources. |
-| [E-GEO](https://github.com/psbagga17/E-GEO) | ⭐ 50 | 🔬 Research | Python | E-commerce GEO benchmark with 7,000+ product queries and experiments on rewriting heuristics for generative shopping engines. |
+| [E-GEO](https://github.com/psbagga17/E-GEO) | ⭐ 51 | 🔬 Research | Python | E-commerce GEO benchmark with 7,000+ product queries and experiments on rewriting heuristics for generative shopping engines. |
 | [AgenticGEO](https://github.com/AIcling/agentic_geo) | ⭐ 46 | 🔬 Research | Python | Self-evolving agentic GEO system using strategy memory and a surrogate critic to adapt content optimization to black-box engines. |
 | [MAGEO](https://github.com/Wu-beining/MAGEO) | ⭐ 37 | 🔬 Research | Python | ACL '26 multi-agent GEO framework that learns reusable, engine-specific optimization strategies with fidelity-aware evaluation. |
 | [GEO Research Hub](https://github.com/Wu-beining/generative-engine-optimization-research-hub) | ⭐ 31 | 📚 Reference | TeX | Maintained GEO/AEO/AIO/GSEO research hub covering papers, benchmarks, code repos, platform rules, and research agendas. |
@@ -462,7 +462,7 @@ Environment:
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
-| [Firecrawl](https://github.com/firecrawl/firecrawl) | ⭐ 200.6k | 🔧 Tool | TypeScript | Web data API for AI — turn websites into LLM-ready markdown. llms.txt generation built in. |
+| [Firecrawl](https://github.com/firecrawl/firecrawl) | ⭐ 200.9k | 🔧 Tool | TypeScript | Web data API for AI — turn websites into LLM-ready markdown. llms.txt generation built in. |
 | [llms.txt Specification](https://github.com/AnswerDotAI/llms-txt) | ⭐ 2.7k | 📐 Standard | Jupyter Notebook | The official llms.txt spec by Jeremy Howard. The standard for making your site AI-readable. |
 | [llms-txt-hub](https://github.com/thedaviddias/llms-txt-hub) | ⭐ 926 | 📚 Reference | TypeScript | Largest directory of sites implementing llms.txt — reference list and tooling. |
 | [create-llmstxt-py](https://github.com/firecrawl/create-llmstxt-py) | ⭐ 327 | 🔧 Tool | Python | Firecrawl Python generator for producing llms.txt files from websites. |
@@ -479,7 +479,7 @@ Environment:
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
 | [ai.robots.txt](https://github.com/ai-robots-txt/ai.robots.txt) | ⭐ 4.3k | 📚 Reference | Python | Community-maintained list of AI bots to block. Generates robots.txt, .htaccess, nginx, HAProxy configs. |
-| [GEOInflow](https://github.com/yaojingang/GEOInflow) | ⭐ 833 | 🔧 Tool | TypeScript | Self-hosted analytics for AI crawler visits, AI search referrals, server crawl logs and content coverage. |
+| [GEOInflow](https://github.com/yaojingang/GEOInflow) | ⭐ 836 | 🔧 Tool | TypeScript | Self-hosted analytics for AI crawler visits, AI search referrals, server crawl logs and content coverage. |
 | [AI Training Opt-Out](https://github.com/healsdata/ai-training-opt-out) | ⭐ 160 | 📚 Reference | HTML | Reference repo for AI training opt-out tags, headers, robots.txt directives, and .well-known patterns. |
 | [geo-monitor](https://github.com/tianpengg/geo-monitor) | ⭐ 99 | 🔧 Tool | HTML | Self-hosted AI crawler monitor that reads Nginx or OpenResty access logs and verifies crawler sources. README mostly in Chinese. |
 
@@ -489,7 +489,7 @@ Environment:
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
-| [Limelit Open](https://github.com/limelit-co/open) | ⭐ 439 | 🔧 Tool | Go | Self-hosted AI visibility tracker for ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews and AI Mode. Single Go binary with SQLite and an MCP server. |
+| [Limelit Open](https://github.com/limelit-co/open) | ⭐ 442 | 🔧 Tool | Go | Self-hosted AI visibility tracker for ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews and AI Mode. Single Go binary with SQLite and an MCP server. |
 | [GetCito](https://github.com/ai-search-guru/getcito-worlds-first-open-source-aio-aeo-or-geo-tool) | ⭐ 427 | 🔧 Tool | TypeScript | Open-source AI search optimization tool for AIO, AEO, and GEO visibility workflows. |
 | [Searchstack AEO](https://github.com/alexpospekhov/searchstack-aeo) | ⭐ 115 | 🔧 Tool | Python | CLI stack for monitoring visibility across Google, AI Overviews, ChatGPT, Perplexity, Claude, and Grok with markdown reports. |
 | [gego](https://github.com/AI2HU/gego) | ⭐ 109 | 🔧 Tool | Go | Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time. |
@@ -515,22 +515,22 @@ Environment:
 
 | Repository | Stars | Type | Language | Description |
 |------------|-------|------|----------|-------------|
-| [claude-seo](https://github.com/AgriciDaniel/claude-seo) | ⭐ 27.9k | 🤖 Skill | Python | 13 sub-skills, 7 subagents for Claude Code — technical SEO, E-E-A-T, GEO/AEO, DataForSEO integration. |
-| [Open SEO](https://github.com/every-app/open-seo) | ⭐ 27.2k | 🔧 Tool | TypeScript | Self-hosted open-source SEO tool — keyword research, competitor analysis, backlink tracking, technical audits. AI-native. |
+| [claude-seo](https://github.com/AgriciDaniel/claude-seo) | ⭐ 28.2k | 🤖 Skill | Python | 13 sub-skills, 7 subagents for Claude Code — technical SEO, E-E-A-T, GEO/AEO, DataForSEO integration. |
+| [Open SEO](https://github.com/every-app/open-seo) | ⭐ 27.4k | 🔧 Tool | TypeScript | Self-hosted open-source SEO tool — keyword research, competitor analysis, backlink tracking, technical audits. AI-native. |
 | [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | ⭐ 11.6k | 🤖 Skill | Python | GEO-first SEO skill for Claude Code — citability scoring, AI crawler analysis, schema markup, PDF reports. |
-| [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) | ⭐ 4.1k | 🤖 Skill | Python | Open-source SEO, GEO, and marketing skills for AI agents, formerly toprank. |
+| [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) | ⭐ 4.1k | 🤖 Skill | — | Open-source SEO, GEO, and marketing skills for AI agents, formerly toprank. |
 | [GTM Engineer Skills](https://github.com/onvoyage-ai/gtm-engineer-skills) | ⭐ 1.4k | 🤖 Skill | HTML | Claude Code skill for website AEO/GEO audits with foundational checks, intelligence dimensions, and framework-specific fixes. |
 | [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) | ⭐ 1.3k | 🤖 Skill | Python | GEO audit and optimization skill for making websites visible to ChatGPT, Perplexity, Claude, and Gemini. |
 | [The Website Specification](https://github.com/jdevalk/specification.website) | ⭐ 923 | 📚 Reference | TypeScript | Sourced, platform-agnostic website spec covering HTML, accessibility, security, SEO and agent-readiness, including llms.txt. Has an MCP server. |
-| [SEOnaut](https://github.com/StJudeWasHere/seonaut) | ⭐ 866 | 🔧 Tool | Go | Open-source SEO audit tool — crawls sites for broken links, redirects, missing meta tags, heading issues. Self-hostable. |
-| [GeoLook](https://github.com/aigclink/geolook) | ⭐ 813 | 🔧 Tool | Python | Self-hosted GEO platform that samples AI engine answers, audits a site, and turns gaps into tickets and verification runs. |
+| [SEOnaut](https://github.com/StJudeWasHere/seonaut) | ⭐ 867 | 🔧 Tool | Go | Open-source SEO audit tool — crawls sites for broken links, redirects, missing meta tags, heading issues. Self-hostable. |
+| [GeoLook](https://github.com/aigclink/geolook) | ⭐ 814 | 🔧 Tool | Python | Self-hosted GEO platform that samples AI engine answers, audits a site, and turns gaps into tickets and verification runs. |
 | [SEOBuild Onpage](https://github.com/gbessoni/seobuild-onpage) | ⭐ 265 | 🔧 Tool | Python | AI agent that writes pages for Google ranking and LLM citation, formerly SEO AGI. Built on DeerFlow with competitive analysis and entity consensus. |
-| [seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) | ⭐ 242 | 🤖 Skill | Markdown | 20 SEO & GEO skills for Claude Code, Cursor, Codex. CORE-EEAT + CITE frameworks. |
+| [seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) | ⭐ 242 | 🤖 Skill | — | 20 SEO & GEO skills for Claude Code, Cursor, Codex. CORE-EEAT + CITE frameworks. |
 | [GEO Content Optimizer Skill](https://github.com/liangdabiao/GEO-Content-Optimizer-Skill) | ⭐ 238 | 🤖 Skill | Python | Claude Code skill that analyzes a URL against Google AI Overview and search summaries, then writes content optimization reports. |
 | [eGEOagents](https://github.com/mverab/eGEOagents) | ⭐ 218 | 🤖 Skill | Python | Agent skills for optimizing content across ChatGPT, Perplexity, Claude, and Gemini. |
 | [geo-optimizer](https://github.com/geo-team-red/geo-optimizer) | ⭐ 103 | ⚙️ Framework | Go | Pluggable Go framework for GEO optimization strategies with built-in tactics and custom strategy registration. |
 | [SEO Audit Console](https://github.com/houtini-ai/seo-audit) | ⭐ 101 | 🔧 Tool | TypeScript | MCP server that gathers raw technical SEO audit data from Google Search Console, a first-party crawl, DataForSEO and Majestic. Replaces houtini SEO Crawler MCP and GEO Analyzer. |
-| [Foundvia Discovery](https://github.com/ronaldships/foundvia-discovery) | ⭐ 30 | 🤖 Skill | Python | Python auditor and coding-agent skill that finds what blocks public SaaS pages on Google and ChatGPT, formerly SEO + GEO Playbook. |
+| [Foundvia Discovery](https://github.com/ronaldships/foundvia-discovery) | ⭐ 29 | 🤖 Skill | Python | Python auditor and coding-agent skill that finds what blocks public SaaS pages on Google and ChatGPT, formerly SEO + GEO Playbook. |
 | [ai-seo-tools (RivalSee)](https://github.com/RivalSee/ai-seo-tools) | ⭐ 20 | 🔧 Tool | — | Open-source tools and prompts for AI crawler optimization by RivalSee. |
 | [AEO God Mode](https://github.com/AEO-God-Mode/aeo-god-mode) | ⭐ 15 | 🔧 Tool | PHP | WordPress plugin for AI-search readiness with schema, llms.txt, AI crawler logs, content gaps, and citation tracking. |
 
@@ -580,14 +580,14 @@ Tokens and purposes as stated in each vendor's docs (linked). Tokens marked *rob
 | [Google](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) | `Google-Extended` | *robots.txt only*: Gemini training and grounding; no effect on Google Search |
 | Google | `Google-CloudVertexBot` | Crawls requested by site owners for Vertex AI Agents |
 | [Google](https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers) | `Google-Agent` | Agents on Google infrastructure acting on a user's request |
-| [Perplexity](https://docs.perplexity.ai/guides/bots) | `PerplexityBot` | Surfaces sites in Perplexity search results; not used for training |
+| [Perplexity](https://docs.perplexity.ai/docs/resources/perplexity-crawlers) | `PerplexityBot` | Surfaces sites in Perplexity search results; not used for training |
 | Perplexity | `Perplexity-User` | Fetches pages when a Perplexity user asks |
 | [Apple](https://support.apple.com/en-us/119829) | `Applebot` | Search in Spotlight, Siri, and Safari; may also ground Apple AI answers |
 | Apple | `Applebot-Extended` | *robots.txt only*: opts content out of Apple's AI training |
-| [Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers) | `Meta-ExternalAgent` | Training and indexing for Meta AI products |
+| [Meta](https://developers.facebook.com/documentation/sharing/webmasters/web-crawlers) | `Meta-ExternalAgent` | Training and indexing for Meta AI products |
 | Meta | `meta-webindexer` | Indexing for Meta AI search citations |
 | Meta | `Meta-ExternalFetcher` | Fetches pages on user request |
-| [Amazon](https://developer.amazon.com/amazonbot) | `Amazonbot` | General crawling; content may be used for training |
+| [Amazon](https://developer.amazon.com/docs/amazonbot/amazonbot.html) | `Amazonbot` | General crawling; content may be used for training |
 | Amazon | `Amzn-SearchBot` | Search experiences such as Alexa |
 | Amazon | `Amzn-User` | Live fetches on behalf of users |
 | [Mistral](https://docs.mistral.ai/robots) | `MistralAI-User` | User-requested fetches; no automatic crawling or training |

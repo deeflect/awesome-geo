@@ -9,6 +9,8 @@
   language: Python
   type: reference
   maintained: true
+  license: MIT
+  pushedAt: 2026-11-05
 
 - name: AI Training Opt-Out
   repo: healsdata/ai-training-opt-out
@@ -19,16 +21,20 @@
   language: HTML
   type: reference
   maintained: false
+  license: Unlicense
+  pushedAt: 2024-06-21
 
 - name: GEOInflow
   repo: yaojingang/GEOInflow
   url: https://github.com/yaojingang/GEOInflow
   category: ai-crawler-management
   description: Self-hosted analytics for AI crawler visits, AI search referrals, server crawl logs and content coverage.
-  stars: 833
+  stars: 836
   language: TypeScript
   type: tool
   maintained: true
+  license: MIT
+  pushedAt: 2026-11-03
 
 - name: geo-monitor
   repo: tianpengg/geo-monitor
@@ -39,3 +45,5 @@
   language: HTML
   type: tool
   maintained: true
+  license: Apache-2.0
+  pushedAt: 2026-10-30

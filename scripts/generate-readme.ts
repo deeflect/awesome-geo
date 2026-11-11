@@ -1,5 +1,5 @@
 #!/usr/bin/env tsx
-import { formatAiAccessLabel, readSitesFile, readReposFile } from './lib.js';
+import { AI_BOTS, formatAiAccessLabel, readSitesFile, readReposFile } from './lib.js';
 
 const { categories, sites } = await readSitesFile();
 const { categories: repoCategories, repos } = await readReposFile();
@@ -277,30 +277,7 @@ Tokens and purposes as stated in each vendor's docs (linked). Tokens marked *rob
 
 | Company | robots.txt token | Purpose |
 |---------|------------------|---------|
-| [OpenAI](https://developers.openai.com/api/docs/bots) | \`OAI-SearchBot\` | Surfaces sites in ChatGPT search results |
-| OpenAI | \`GPTBot\` | Collects content for model training |
-| OpenAI | \`ChatGPT-User\` | Fetches pages for user actions in ChatGPT and Custom GPTs |
-| OpenAI | \`OAI-AdsBot\` | Checks landing pages of ads submitted to ChatGPT |
-| [Anthropic](https://support.claude.com/en/articles/8896518) | \`ClaudeBot\` | Collects content for model training |
-| Anthropic | \`Claude-SearchBot\` | Improves search result quality for Claude |
-| Anthropic | \`Claude-User\` | Fetches pages when a Claude user asks |
-| [Google](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) | \`Google-Extended\` | *robots.txt only*: Gemini training and grounding; no effect on Google Search |
-| Google | \`Google-CloudVertexBot\` | Crawls requested by site owners for Vertex AI Agents |
-| [Google](https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers) | \`Google-Agent\` | Agents on Google infrastructure acting on a user's request |
-| [Perplexity](https://docs.perplexity.ai/guides/bots) | \`PerplexityBot\` | Surfaces sites in Perplexity search results; not used for training |
-| Perplexity | \`Perplexity-User\` | Fetches pages when a Perplexity user asks |
-| [Apple](https://support.apple.com/en-us/119829) | \`Applebot\` | Search in Spotlight, Siri, and Safari; may also ground Apple AI answers |
-| Apple | \`Applebot-Extended\` | *robots.txt only*: opts content out of Apple's AI training |
-| [Meta](https://developers.facebook.com/docs/sharing/webmasters/web-crawlers) | \`Meta-ExternalAgent\` | Training and indexing for Meta AI products |
-| Meta | \`meta-webindexer\` | Indexing for Meta AI search citations |
-| Meta | \`Meta-ExternalFetcher\` | Fetches pages on user request |
-| [Amazon](https://developer.amazon.com/amazonbot) | \`Amazonbot\` | General crawling; content may be used for training |
-| Amazon | \`Amzn-SearchBot\` | Search experiences such as Alexa |
-| Amazon | \`Amzn-User\` | Live fetches on behalf of users |
-| [Mistral](https://docs.mistral.ai/robots) | \`MistralAI-User\` | User-requested fetches; no automatic crawling or training |
-| [DuckDuckGo](https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot) | \`DuckAssistBot\` | Fetches sources for AI-assisted answers |
-| [Common Crawl](https://commoncrawl.org/ccbot) | \`CCBot\` | Builds Common Crawl's open web archive |
-| ByteDance | \`Bytespider\` | Widely reported AI crawler; no official vendor doc found |
+${AI_BOTS.map((b) => `| ${b.docsUrl ? `[${b.company}](${b.docsUrl})` : b.company} | \`${b.ua}\` | ${b.robotsOnly ? '*robots.txt only*: ' : ''}${b.purpose} |`).join('\n')}
 
 ---
 

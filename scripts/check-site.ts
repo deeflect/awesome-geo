@@ -2,9 +2,7 @@
 import { Command } from 'commander';
 import * as cheerio from 'cheerio';
 import robotsParser from 'robots-parser';
-import { LinkType, rateLimitedFetch } from './lib.js';
-
-type AccessState = 'allowed' | 'blocked' | 'unknown';
+import { AI_BOTS, AiBotKey, AccessState, LinkType, rateLimitedFetch } from './lib.js';
 
 type CheckResult = {
   siteUrl: string;
@@ -13,15 +11,7 @@ type CheckResult = {
   robots: {
     robotsUrl: string;
     fetched: boolean;
-    aiAccess: {
-      oaiSearchBot: AccessState;
-      gptBot: AccessState;
-      chatgptUser: AccessState;
-      googleExtended: AccessState;
-      claudeBot: AccessState;
-      perplexityBot: AccessState;
-      bytespider: AccessState;
-    };
+    aiAccess: AiAccessMap;
     error?: string;
   };
   links: {
@@ -56,18 +46,7 @@ type CheckResult = {
   };
 };
 
-const AI_BOTS = [
-  { key: 'oaiSearchBot', ua: 'OAI-SearchBot' },
-  { key: 'gptBot', ua: 'GPTBot' },
-  { key: 'chatgptUser', ua: 'ChatGPT-User' },
-  { key: 'googleExtended', ua: 'Google-Extended' },
-  { key: 'claudeBot', ua: 'ClaudeBot' },
-  { key: 'perplexityBot', ua: 'PerplexityBot' },
-  { key: 'bytespider', ua: 'Bytespider' }
-] as const;
-
 type Fetcher = (input: string | URL, init?: RequestInit) => Promise<Response>;
-type AiBotKey = (typeof AI_BOTS)[number]['key'];
 type AiAccessMap = Record<AiBotKey, AccessState>;
 
 async function fetchWithUserAgent(input: string | URL, init?: RequestInit): Promise<Response> {

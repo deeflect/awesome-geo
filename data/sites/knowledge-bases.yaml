@@ -10,14 +10,31 @@
   effort: medium
   description: Academic paper sharing.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
     chatgptUser: allowed
-    googleExtended: blocked
+    oaiAdsBot: blocked
     claudeBot: blocked
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: blocked
+    googleCloudVertexBot: blocked
+    googleAgent: blocked
     perplexityBot: allowed
+    perplexityUser: blocked
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: blocked
+    metaExternalFetcher: blocked
+    amazonbot: blocked
+    amznSearchBot: blocked
+    amznUser: blocked
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: blocked
     bytespider: blocked
   indexable: true
   profileLinkDofollow: null
@@ -41,14 +58,31 @@
   effort: medium
   description: Academic profile with citations.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -71,14 +105,31 @@
   effort: medium
   description: Researcher identifier system.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -102,14 +153,31 @@
   effort: medium
   description: Academic social network.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: false
   profileLinkDofollow: null
@@ -133,14 +201,31 @@
   effort: medium
   description: AI-powered research tool.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -167,13 +252,30 @@
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   geoScore: 84
   geoTier: high
   geoSignals:
@@ -197,13 +299,30 @@
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   geoScore: 70
   geoTier: medium
   geoSignals:
@@ -226,13 +345,30 @@
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   geoScore: 93
   geoTier: high
   geoSignals:

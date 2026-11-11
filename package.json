@@ -33,6 +33,7 @@
     "fill-sample-profiles": "tsx scripts/fill-sample-profiles.ts",
     "refresh-ai-access": "tsx scripts/refresh-ai-access.ts",
     "refresh-authority": "tsx scripts/refresh-authority.ts",
+    "refresh-repos": "tsx scripts/refresh-repos.ts",
     "score-sites": "tsx scripts/score-sites.ts",
     "generate-readme": "tsx scripts/generate-readme.ts",
     "split-data": "tsx scripts/split-data.ts",

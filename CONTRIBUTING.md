@@ -95,6 +95,8 @@ CI posts a verification report as a PR comment. Results: ✅ Verified, ⚠️ Lo
   language: Python                    # primary language (or null)
   type: tool                          # see types below
   maintained: true
+  license: MIT                         # SPDX id from GitHub, or null (none / NOASSERTION)
+  pushedAt: 2026-11-01                # last push, YYYY-MM-DD; npm run refresh-repos fills both
 ```
 
 ### Valid types

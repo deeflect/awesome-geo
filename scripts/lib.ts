@@ -28,7 +28,40 @@ export type Category = {
   description: string;
 };
 
-export type RepoType = 'tool' | 'library' | 'research' | 'reference' | 'standard' | 'skill' | 'framework';
+export type AiBotGroup = 'search' | 'training' | 'user' | 'other';
+
+// Single source for the robots.txt check and the README crawler table; README row order = array order.
+export const AI_BOTS = [
+  { key: 'oaiSearchBot', ua: 'OAI-SearchBot', company: 'OpenAI', docsUrl: 'https://developers.openai.com/api/docs/bots', purpose: 'Surfaces sites in ChatGPT search results', robotsOnly: false, group: 'search' },
+  { key: 'gptBot', ua: 'GPTBot', company: 'OpenAI', docsUrl: null, purpose: 'Collects content for model training', robotsOnly: false, group: 'training' },
+  { key: 'chatgptUser', ua: 'ChatGPT-User', company: 'OpenAI', docsUrl: null, purpose: 'Fetches pages for user actions in ChatGPT and Custom GPTs', robotsOnly: false, group: 'user' },
+  { key: 'oaiAdsBot', ua: 'OAI-AdsBot', company: 'OpenAI', docsUrl: null, purpose: 'Checks landing pages of ads submitted to ChatGPT', robotsOnly: false, group: 'other' },
+  { key: 'claudeBot', ua: 'ClaudeBot', company: 'Anthropic', docsUrl: 'https://support.claude.com/en/articles/8896518', purpose: 'Collects content for model training', robotsOnly: false, group: 'training' },
+  { key: 'claudeSearchBot', ua: 'Claude-SearchBot', company: 'Anthropic', docsUrl: null, purpose: 'Improves search result quality for Claude', robotsOnly: false, group: 'search' },
+  { key: 'claudeUser', ua: 'Claude-User', company: 'Anthropic', docsUrl: null, purpose: 'Fetches pages when a Claude user asks', robotsOnly: false, group: 'user' },
+  { key: 'googleExtended', ua: 'Google-Extended', company: 'Google', docsUrl: 'https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers', purpose: 'Gemini training and grounding; no effect on Google Search', robotsOnly: true, group: 'training' },
+  { key: 'googleCloudVertexBot', ua: 'Google-CloudVertexBot', company: 'Google', docsUrl: null, purpose: 'Crawls requested by site owners for Vertex AI Agents', robotsOnly: false, group: 'other' },
+  { key: 'googleAgent', ua: 'Google-Agent', company: 'Google', docsUrl: 'https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers', purpose: "Agents on Google infrastructure acting on a user's request", robotsOnly: false, group: 'user' },
+  { key: 'perplexityBot', ua: 'PerplexityBot', company: 'Perplexity', docsUrl: 'https://docs.perplexity.ai/docs/resources/perplexity-crawlers', purpose: 'Surfaces sites in Perplexity search results; not used for training', robotsOnly: false, group: 'search' },
+  { key: 'perplexityUser', ua: 'Perplexity-User', company: 'Perplexity', docsUrl: null, purpose: 'Fetches pages when a Perplexity user asks', robotsOnly: false, group: 'user' },
+  { key: 'applebot', ua: 'Applebot', company: 'Apple', docsUrl: 'https://support.apple.com/en-us/119829', purpose: 'Search in Spotlight, Siri, and Safari; may also ground Apple AI answers', robotsOnly: false, group: 'search' },
+  { key: 'applebotExtended', ua: 'Applebot-Extended', company: 'Apple', docsUrl: null, purpose: "opts content out of Apple's AI training", robotsOnly: true, group: 'training' },
+  { key: 'metaExternalAgent', ua: 'Meta-ExternalAgent', company: 'Meta', docsUrl: 'https://developers.facebook.com/documentation/sharing/webmasters/web-crawlers', purpose: 'Training and indexing for Meta AI products', robotsOnly: false, group: 'training' },
+  { key: 'metaWebindexer', ua: 'meta-webindexer', company: 'Meta', docsUrl: null, purpose: 'Indexing for Meta AI search citations', robotsOnly: false, group: 'search' },
+  { key: 'metaExternalFetcher', ua: 'Meta-ExternalFetcher', company: 'Meta', docsUrl: null, purpose: 'Fetches pages on user request', robotsOnly: false, group: 'user' },
+  { key: 'amazonbot', ua: 'Amazonbot', company: 'Amazon', docsUrl: 'https://developer.amazon.com/docs/amazonbot/amazonbot.html', purpose: 'General crawling; content may be used for training', robotsOnly: false, group: 'training' },
+  { key: 'amznSearchBot', ua: 'Amzn-SearchBot', company: 'Amazon', docsUrl: null, purpose: 'Search experiences such as Alexa', robotsOnly: false, group: 'search' },
+  { key: 'amznUser', ua: 'Amzn-User', company: 'Amazon', docsUrl: null, purpose: 'Live fetches on behalf of users', robotsOnly: false, group: 'user' },
+  { key: 'mistralaiUser', ua: 'MistralAI-User', company: 'Mistral', docsUrl: 'https://docs.mistral.ai/robots', purpose: 'User-requested fetches; no automatic crawling or training', robotsOnly: false, group: 'user' },
+  { key: 'duckAssistBot', ua: 'DuckAssistBot', company: 'DuckDuckGo', docsUrl: 'https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot', purpose: 'Fetches sources for AI-assisted answers', robotsOnly: false, group: 'search' },
+  { key: 'ccBot', ua: 'CCBot', company: 'Common Crawl', docsUrl: 'https://commoncrawl.org/ccbot', purpose: "Builds Common Crawl's open web archive", robotsOnly: false, group: 'training' },
+  { key: 'bytespider', ua: 'Bytespider', company: 'ByteDance', docsUrl: null, purpose: 'Widely reported AI crawler; no official vendor doc found', robotsOnly: false, group: 'training' },
+] as const satisfies readonly { key: string; ua: string; company: string; docsUrl: string | null; purpose: string; robotsOnly: boolean; group: AiBotGroup }[];
+
+export type AiBotKey = (typeof AI_BOTS)[number]['key'];
+export type AiAccess = Partial<Record<AiBotKey, AccessState>>;
+
+export type RepoType ='tool' | 'library' | 'research' | 'reference' | 'standard' | 'skill' | 'framework';
 
 export type RepoEntry = {
   name: string;
@@ -40,6 +73,8 @@ export type RepoEntry = {
   language: string | null;
   type: RepoType;
   maintained: boolean;
+  license: string | null;
+  pushedAt: string;
 };
 
 export type SiteEntry = {
@@ -61,15 +96,7 @@ export type SiteEntry = {
   platformReference?: SignalOverride;
   entityStrength?: SignalOverride;
   observedVisibility?: SignalOverride;
-  aiAccess?: {
-    oaiSearchBot?: AccessState;
-    gptBot: AccessState;
-    chatgptUser?: AccessState;
-    claudeBot: AccessState;
-    perplexityBot: AccessState;
-    googleExtended: AccessState;
-    bytespider: AccessState;
-  };
+  aiAccess?: AiAccess;
   indexable?: boolean | null;
   profileLinkDofollow?: boolean | null;
   aiCrawled?: boolean;
@@ -98,6 +125,22 @@ export async function rateLimitedFetch(input: string | URL, init?: RequestInit):
   });
   lastRequestAt = Date.now();
   return response;
+}
+
+export async function fetchGitHubRepo(repoSlug: string): Promise<any | null> {
+  const token = process.env.GITHUB_TOKEN;
+  const headers: Record<string, string> = {
+    'Accept': 'application/vnd.github+json',
+  };
+  if (token) headers['Authorization'] = `Bearer ${token}`;
+
+  try {
+    const res = await rateLimitedFetch(`https://api.github.com/repos/${repoSlug}`, { headers });
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    return null;
+  }
 }
 
 export async function sleep(ms: number): Promise<void> {

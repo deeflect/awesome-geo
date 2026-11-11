@@ -21,6 +21,8 @@ type RepoRecord = {
   stars?: number;
   type?: RepoType;
   maintained?: boolean;
+  license?: string | null;
+  pushedAt?: string;
 };
 
 type Issue = {
@@ -188,6 +190,14 @@ async function validateRepos(issues: Issue[]): Promise<void> {
 
       if (repo.maintained != null && typeof repo.maintained !== 'boolean') {
         issueAt(issues, location, 'Field "maintained" must be a boolean');
+      }
+
+      if (repo.license !== null && (typeof repo.license !== 'string' || repo.license.trim() === '')) {
+        issueAt(issues, location, 'Field "license" must be an SPDX id or null');
+      }
+
+      if (typeof repo.pushedAt !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(repo.pushedAt)) {
+        issueAt(issues, location, 'Field "pushedAt" must be a YYYY-MM-DD date');
       }
 
       if (repo.name) {

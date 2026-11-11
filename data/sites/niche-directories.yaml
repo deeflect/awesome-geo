@@ -10,14 +10,31 @@
   effort: medium
   description: Remote developer jobs.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -41,14 +58,31 @@
   effort: medium
   description: Expert call marketplace.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -72,14 +106,31 @@
   effort: medium
   description: Freelance portfolio platform.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -103,22 +154,39 @@
   effort: medium
   description: Expert source for journalists.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
-    oaiSearchBot: unknown
-    gptBot: unknown
-    chatgptUser: unknown
-    googleExtended: unknown
-    claudeBot: unknown
-    perplexityBot: unknown
-    bytespider: unknown
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: allowed
   indexable: false
   profileLinkDofollow: null
-  aiCrawled: false
-  geoScore: 30
-  geoTier: low
+  aiCrawled: true
+  geoScore: 60
+  geoTier: medium
   geoSignals:
-    crawlAccessScore: 0
+    crawlAccessScore: 30
     indexabilityScore: 0
     popularityScore: 5
     queryFitScore: 15
@@ -134,14 +202,31 @@
   effort: medium
   description: Developer freelance platform.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -165,14 +250,31 @@
   effort: medium
   description: Free daily journalist source requests, now run by Featured.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: false
   profileLinkDofollow: null
@@ -196,14 +298,31 @@
   effort: medium
   description: Expert teaching platform.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -227,14 +346,31 @@
   effort: medium
   description: B2B content expert matching, formerly Help a B2B Writer.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -289,14 +425,31 @@
   effort: low
   description: Expert quote platform.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
     chatgptUser: blocked
-    googleExtended: blocked
+    oaiAdsBot: allowed
     claudeBot: blocked
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: blocked
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: blocked
     bytespider: allowed
   indexable: true
   profileLinkDofollow: true
@@ -319,14 +472,31 @@
   effort: medium
   description: Journalist query platform.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -350,14 +520,31 @@
   effort: medium
   description: Top freelancer network.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-11
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: allowed
+    oaiAdsBot: allowed
     claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
     bytespider: allowed
   indexable: false
   profileLinkDofollow: null

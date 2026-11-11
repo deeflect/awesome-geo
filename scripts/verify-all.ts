@@ -12,15 +12,7 @@ import { runSiteChecks } from './check-site.js';
     const sampleProfile = site.sampleProfile || site.url;
     const checks = await runSiteChecks(site.url, sampleProfile);
 
-    const nextAiAccess = {
-      oaiSearchBot: checks.robots.aiAccess.oaiSearchBot,
-      gptBot: checks.robots.aiAccess.gptBot,
-      chatgptUser: checks.robots.aiAccess.chatgptUser,
-      claudeBot: checks.robots.aiAccess.claudeBot,
-      perplexityBot: checks.robots.aiAccess.perplexityBot,
-      googleExtended: checks.robots.aiAccess.googleExtended,
-      bytespider: checks.robots.aiAccess.bytespider
-    };
+    const nextAiAccess = checks.robots.aiAccess;
     const nextLinkType = checks.links.linkType === 'unknown' ? 'mixed' : checks.links.linkType;
     const nextEffort = inferEffort(nextLinkType);
     const nextDr = checks.authority.dr;
@@ -29,7 +21,8 @@ import { runSiteChecks } from './check-site.js';
     const fields: string[] = [];
     const oldAi = JSON.stringify(site.aiAccess || {});
     const newAi = JSON.stringify(nextAiAccess);
-    if (oldAi !== newAi) {
+    // a failed fetch reports every bot as unknown; keep the stored states instead
+    if (checks.robots.fetched && oldAi !== newAi) {
       site.aiAccess = nextAiAccess;
       fields.push('aiAccess');
     }

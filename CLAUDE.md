@@ -16,6 +16,7 @@ The companion website (https://geo.deeflect.com, listed as `homepage` in `packag
 - `npm run validate` — typecheck, `check-data`, regenerate `README.md`. Run before every commit.
 - `npm run check-site -- --url <root> --sample-profile <url>` / `verify-all` / `verify-pr` — live site checks: robots.txt access for 7 AI crawlers, indexability, link type, authority. Authority uses Open PageRank (`OPENPAGERANK_API_KEY`) and Tranco.
 - `npm run refresh-authority`, `refresh-ai-access`, `score-sites` — refresh stored metrics and GEO scores
+- `npm run refresh-repos` — refresh `stars`, `language`, `license`, `pushedAt` for every repo entry from the GitHub API (set `GITHUB_TOKEN`, e.g. `$(gh auth token)`); skips archived, renamed and missing repos
 - `npm run verify-repo-pr` — GitHub checks for changed repo entries; writes `verify-repo-report.md` (`verify-pr` writes `verify-report.md`; both gitignored)
 
 ## CI (`.github/workflows/`)

@@ -64,15 +64,7 @@ for (const entry of newEntries) {
     trancoRank: checks.authority.tranco.rank ?? entry.site.trancoRank,
     linkType,
     effort: inferEffort(linkType),
-    aiAccess: {
-      oaiSearchBot: checks.robots.aiAccess.oaiSearchBot,
-      gptBot: checks.robots.aiAccess.gptBot,
-      chatgptUser: checks.robots.aiAccess.chatgptUser,
-      claudeBot: checks.robots.aiAccess.claudeBot,
-      perplexityBot: checks.robots.aiAccess.perplexityBot,
-      googleExtended: checks.robots.aiAccess.googleExtended,
-      bytespider: checks.robots.aiAccess.bytespider
-    },
+    aiAccess: checks.robots.aiAccess,
     indexable: checks.indexability.indexable,
     profileLinkDofollow: checks.links.profileLinkDofollow
   });

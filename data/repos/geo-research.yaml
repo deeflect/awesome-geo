@@ -9,6 +9,8 @@
   language: Python
   type: research
   maintained: false
+  license: Apache-2.0
+  pushedAt: 2025-10-30
 
 - name: AutoGEO
   repo: cxcscmu/AutoGEO
@@ -19,6 +21,8 @@
   language: Python
   type: research
   maintained: true
+  license: MIT
+  pushedAt: 2026-06-14
 
 - name: MAGEO
   repo: Wu-beining/MAGEO
@@ -29,6 +33,8 @@
   language: Python
   type: research
   maintained: true
+  license: null
+  pushedAt: 2026-06-29
 
 - name: Awesome GEO (Research)
   repo: DavidHuji/Awesome-GEO
@@ -39,16 +45,20 @@
   language: null
   type: reference
   maintained: true
+  license: null
+  pushedAt: 2026-09-24
 
 - name: Awesome Generative Engine Optimization
   repo: amplifying-ai/awesome-generative-engine-optimization
   url: https://github.com/amplifying-ai/awesome-generative-engine-optimization
   category: geo-research
   description: Curated guide to GEO resources — guides, tools, and research for AI search visibility.
-  stars: 539
+  stars: 540
   language: null
   type: reference
   maintained: true
+  license: null
+  pushedAt: 2026-04-14
 
 - name: Awesome GEO (luka2chat)
   repo: luka2chat/awesome-geo
@@ -59,6 +69,8 @@
   language: null
   type: reference
   maintained: true
+  license: CC0-1.0
+  pushedAt: 2026-10-14
 
 - name: GEO Research Hub
   repo: Wu-beining/generative-engine-optimization-research-hub
@@ -69,6 +81,8 @@
   language: TeX
   type: reference
   maintained: true
+  license: null
+  pushedAt: 2026-06-14
 
 - name: C-SEO Bench
   repo: parameterlab/c-seo-bench
@@ -79,16 +93,20 @@
   language: Jupyter Notebook
   type: research
   maintained: false
+  license: MIT
+  pushedAt: 2025-09-28
 
 - name: E-GEO
   repo: psbagga17/E-GEO
   url: https://github.com/psbagga17/E-GEO
   category: geo-research
   description: E-commerce GEO benchmark with 7,000+ product queries and experiments on rewriting heuristics for generative shopping engines.
-  stars: 50
+  stars: 51
   language: Python
   type: research
   maintained: true
+  license: null
+  pushedAt: 2026-11-06
 
 - name: AgenticGEO
   repo: AIcling/agentic_geo
@@ -99,3 +117,5 @@
   language: Python
   type: research
   maintained: true
+  license: Apache-2.0
+  pushedAt: 2026-08-05

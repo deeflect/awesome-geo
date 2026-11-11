@@ -74,15 +74,7 @@ const opts = program.opts();
       description: row.description,
       verified: true,
       lastVerified: toDateString(),
-      aiAccess: {
-        oaiSearchBot: aiAccess.oaiSearchBot,
-        gptBot: aiAccess.gptBot,
-        chatgptUser: aiAccess.chatgptUser,
-        claudeBot: aiAccess.claudeBot,
-        perplexityBot: aiAccess.perplexityBot,
-        googleExtended: aiAccess.googleExtended,
-        bytespider: aiAccess.bytespider
-      },
+      aiAccess,
       indexable: checks.indexability.indexable,
       profileLinkDofollow: checks.links.profileLinkDofollow
     }));

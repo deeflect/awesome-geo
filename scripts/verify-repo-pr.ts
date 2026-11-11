@@ -3,7 +3,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { execSync } from 'node:child_process';
 import path from 'node:path';
 import YAML from 'yaml';
-import { rateLimitedFetch, RepoEntry } from './lib.js';
+import { fetchGitHubRepo, RepoEntry } from './lib.js';
 
 type Repo = RepoEntry & Record<string, any>;
 
@@ -35,22 +35,6 @@ function safeGitShow(filePath: string): Repo[] {
     return (YAML.parse(content) || []) as Repo[];
   } catch {
     return [];
-  }
-}
-
-async function fetchGitHubRepo(repoSlug: string): Promise<any | null> {
-  const token = process.env.GITHUB_TOKEN;
-  const headers: Record<string, string> = {
-    'Accept': 'application/vnd.github+json',
-  };
-  if (token) headers['Authorization'] = `Bearer ${token}`;
-
-  try {
-    const res = await rateLimitedFetch(`https://api.github.com/repos/${repoSlug}`, { headers });
-    if (!res.ok) return null;
-    return await res.json();
-  } catch {
-    return null;
   }
 }
 

@@ -35,3 +35,7 @@ Use JSON-LD that matches the visible page. Google says markup must describe cont
 ## Entities
 
 Name the people, organizations, products and standards a page is about, and keep the main entity clear through the title, heading, schema and internal links. We found no study that supports a target entity density, so don't write to a quota.
+
+---
+
+Written by [Dmitry (Dee) Kargaev](https://deeflect.com), maintainer of [Awesome GEO](https://geo.deeflect.com) and author of [The SEO-to-GEO Gap](https://doi.org/10.2139/ssrn.6476021) and [SEEN](https://doi.org/10.2139/ssrn.6815500).

@@ -1,7 +1,11 @@
 {
   "name": "awesome-geo",
-  "description": "Curated GEO platforms, repositories, and verification scripts for AI-era discoverability.",
+  "description": "Scored list of free platforms and open-source tools for Generative Engine Optimization (GEO, AEO, LLMO), with weekly AI crawler access checks.",
   "license": "CC0-1.0",
+  "author": {
+    "name": "Dmitry (Dee) Kargaev",
+    "url": "https://deeflect.com"
+  },
   "private": true,
   "homepage": "https://geo.deeflect.com",
   "repository": {

@@ -38,3 +38,7 @@ Full crawler list: [AI Crawler User-Agents](../README.md#ai-crawler-user-agents)
 - Google says you don't need new machine-readable files, AI text files or special schema to appear in AI Overviews or AI Mode ([Google](https://developers.google.com/search/docs/appearance/ai-features)). One paper found no isolated evidence that `llms.txt`-style files help AI retrieval ([2610.38361](https://arxiv.org/abs/2610.38361)). Ship `llms.txt` for agents and docs, not as a citation lever.
 - A high citation share for one site in one study is a snapshot of that prompt set. The prompt corpus defines what a visibility score measures ([2609.06811](https://arxiv.org/abs/2609.06811)).
 - Correlation studies don't show what causes citations.
+
+---
+
+Written by [Dmitry (Dee) Kargaev](https://deeflect.com), maintainer of [Awesome GEO](https://geo.deeflect.com) and author of [The SEO-to-GEO Gap](https://doi.org/10.2139/ssrn.6476021) and [SEEN](https://doi.org/10.2139/ssrn.6815500).

@@ -63,6 +63,8 @@ const repoCategoryOrder = repoCategories.map((c: any) => c.id);
 let md = `# Awesome GEO [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of **${totalSites} free platforms** and **${totalRepos} open-source repos & tools** for **Generative Engine Optimization (GEO)** — SEO for the AI era.
+>
+> Browse it with scores, search and free tools at **[geo.deeflect.com](https://geo.deeflect.com)**.
 
 ## Why GEO?
 
@@ -137,6 +139,7 @@ for (const catId of repoCategoryOrder) {
 md += `- [AI Discoverability](#ai-discoverability)
 - [Research & Reading](#research--reading)
 - [Contributing](#contributing)
+- [Maintainer](#maintainer)
 
 ---
 
@@ -332,7 +335,8 @@ ${AI_BOTS.map((b) => `| ${b.docsUrl ? `[${b.company}](${b.docsUrl})` : b.company
 | [Manifest-Assisted Retrieval in AI Search](https://arxiv.org/abs/2610.38361) | 2026 (IEEE FLLM) | Finds no isolated evidence that llms.txt-style manifests improve AI retrieval, and evaluates their security risks |
 | [Counter-GEO-Bench](https://arxiv.org/abs/2609.02316) | 2026 (EMNLP) | Benchmark of defenses against information-distorting GEO; off-the-shelf defenses cut attack success by at most 5.7% relative |
 | [Position: GEO Creates Underexamined Risks](https://arxiv.org/abs/2606.12439) | 2026 (ICML Position) | Argues governance should target concentration, disclosure, and academic blind spots in GEO |
-| [The SEO-to-GEO Gap](https://ssrn.com/abstract=6476021) | 2026 | Compares traditional SEO and GEO ranking-factor evidence and argues for a reweighting model rather than SEO replacement |
+| [The SEO-to-GEO Gap](https://doi.org/10.2139/ssrn.6476021) | 2026 (SSRN) | Kargaev compares traditional SEO and GEO ranking-factor evidence and argues for a reweighting model rather than SEO replacement |
+| [SEEN: A Four-Layer Framework for GEO](https://doi.org/10.2139/ssrn.6815500) | 2026 (SSRN) | Kargaev groups GEO work into four layers: Structure, Evidence, Entity and Notability |
 | [Beyond SEO: Transformer-Based Web Content Optimisation](https://arxiv.org/abs/2507.03169) | 2025 | Fine-tuned BART transformer for domain-specific GEO content optimization |
 | [GEO and Sponsored Search Bidding](https://ssrn.com/abstract=5365040) | 2025 | Game-theoretic model of AI Overviews, GEO investment incentives, sponsored search bidding, and search-engine revenue effects |
 | [LLMs Generating Text with Citations](https://arxiv.org/abs/2305.14627) | 2023 (EMNLP) | ALCE benchmark for automatic citation evaluation — fluency, correctness, and citation quality |
@@ -399,17 +403,19 @@ Use our [issue templates](https://github.com/deeflect/awesome-geo/issues/new/cho
 
 To the extent possible under law, the contributors have waived all copyright and related rights to this work.
 
+No attribution is required. If you do cite the list, use the "Cite this repository" button or [CITATION.cff](CITATION.cff): Kargaev, D. (2026). *Awesome GEO*. https://github.com/deeflect/awesome-geo
+
 ---
 
-### Curated by
+## Maintainer
 
-Curated by [Dee](https://deeflect.com) — designer turned AI engineer, currently obsessed with whether ChatGPT actually mentions you when someone searches.
+Curated by [Dmitry (Dee) Kargaev](https://deeflect.com), a design engineer and independent GEO researcher. He wrote [The SEO-to-GEO Gap](https://doi.org/10.2139/ssrn.6476021) and [SEEN: A Four-Layer Framework for Generative Engine Optimization](https://doi.org/10.2139/ssrn.6815500) (both SSRN, 2026) and runs [geo.deeflect.com](https://geo.deeflect.com), the browsable version of this list.
 
 Submit a platform, fix an entry, or just star it if you found something useful. CC0 — take it, fork it, ship it.
 
 Working on GEO and want this built into your stack? [dee.agency](https://dee.agency?utm_source=awesomegeo&utm_medium=readme).
 
-[deeflect.com](https://deeflect.com) · [Wikidata](https://www.wikidata.org/entity/Q138828544) · [LinkedIn](https://www.linkedin.com/in/dkargaev/) · [X](https://x.com/deeflectcom)
+[deeflect.com](https://deeflect.com) · [ORCID](https://orcid.org/0009-0001-4788-2675) · [Google Scholar](https://scholar.google.com/citations?user=gEVwv4QAAAAJ) · [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=10899908) · [Wikidata](https://www.wikidata.org/entity/Q138828544) · [LinkedIn](https://www.linkedin.com/in/dkargaev/) · [X](https://x.com/deeflectcom)
 `;
 
 import { writeFile } from 'node:fs/promises';

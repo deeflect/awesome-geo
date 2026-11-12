@@ -37,3 +37,7 @@ These tiers are a judgment call, not a measured ranking.
 | Tier 3 | Small directories, social mirrors, inactive profiles | Include only when accurate, maintained and cross-linked |
 
 Review `sameAs` links from time to time and remove stale or contradictory profiles.
+
+---
+
+Written by [Dmitry (Dee) Kargaev](https://deeflect.com), maintainer of [Awesome GEO](https://geo.deeflect.com) and author of [The SEO-to-GEO Gap](https://doi.org/10.2139/ssrn.6476021) and [SEEN](https://doi.org/10.2139/ssrn.6815500).

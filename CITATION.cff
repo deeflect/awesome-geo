@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "No attribution is required (CC0). If you cite this list, use the metadata below."
+title: "Awesome GEO"
+abstract: "Curated, scored list of free platforms and open-source repositories and tools for Generative Engine Optimization (GEO), with weekly AI crawler access checks."
+type: dataset
+authors:
+  - family-names: Kargaev
+    given-names: Dmitry
+    alias: Dee Kargaev
+    orcid: "https://orcid.org/0009-0001-4788-2675"
+    website: "https://deeflect.com"
+repository-code: "https://github.com/deeflect/awesome-geo"
+url: "https://geo.deeflect.com"
+license: CC0-1.0
+keywords:
+  - generative engine optimization
+  - GEO
+  - answer engine optimization
+  - AI search
+  - AI crawlers
+  - llms.txt
+references:
+  - type: article
+    title: "The SEO-to-GEO Gap: Quantifying Ranking Factor Divergence Between Traditional and Generative Search"
+    authors:
+      - family-names: Kargaev
+        given-names: Dmitry
+    year: 2026
+    doi: 10.2139/ssrn.6476021
+    url: "https://doi.org/10.2139/ssrn.6476021"
+  - type: article
+    title: "SEEN: A Four-Layer Framework for Generative Engine Optimization"
+    authors:
+      - family-names: Kargaev
+        given-names: Dmitry
+    year: 2026
+    doi: 10.2139/ssrn.6815500
+    url: "https://doi.org/10.2139/ssrn.6815500"

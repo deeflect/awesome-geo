@@ -595,6 +595,23 @@ Environment:
 - [Answer-First Content](docs/answer-first-content.md) — structure pages so humans and answer engines can extract claims cleanly
 - [Schema sameAs Quality](docs/schema-sameas.md) — choose identity links that improve disambiguation instead of inflating profile count
 
+More guides on [geo.deeflect.com/guides](https://geo.deeflect.com/guides/):
+
+- [AI crawler user agents and which to allow in robots.txt](https://geo.deeflect.com/guides/ai-crawler-user-agents/) — 25 AI crawler user agents from 12 operators in four groups, with how many of 157 platforms block each in robots.txt. Read on 11 November 2026.
+- [Audit a website for AI search readiness for free](https://geo.deeflect.com/guides/audit-a-website-for-ai-search-for-free/) — Five steps with Awesome GEO's free browser tools to check crawler access, robots.txt, schema, assistant answers and AI traffic on one website.
+- [Check if your site blocks AI crawlers with Site check](https://geo.deeflect.com/guides/check-if-your-site-blocks-ai-crawlers/) — Awesome GEO's free Site check shows what your robots.txt says about each AI crawler and the HTTP status your server returns to each one.
+- [Does llms.txt help AI search? How to make one](https://geo.deeflect.com/guides/does-llms-txt-help-ai-search/) — No AI assistant has said it reads llms.txt for citations. For docs sites: build the file with a free tool, then check your server log for requests to it.
+- [Best free GEO tools to use before you pay for tracking](https://geo.deeflect.com/guides/free-geo-tools/) — Six free GEO tools compared by price and limits, from Awesome GEO's 8 browser checks to Otterly's trial. For anyone testing AI visibility before paying.
+- [Best free profile sites for AI assistants, ranked](https://geo.deeflect.com/guides/free-profile-sites-for-ai-visibility/) — Awesome GEO scored 157 free platforms out of 100. GitHub and LinkedIn Articles lead at 98. See which of four AI crawlers each top-30 site allows.
+- [SEEN: a 41-item GEO checklist you can score today](https://geo.deeflect.com/guides/geo-framework-checklist/) — SEEN is a four-layer GEO framework: Structure, Evidence, Entity, Notability. Score its 41 checklist items 0 or 1 and fix the weakest layer first.
+- [Generative engine optimization papers and what they found](https://geo.deeflect.com/guides/geo-research-papers/) — 17 research papers on generative engine optimization, each with its main finding, grouped by topic. Chosen from 32 on the Awesome GEO list.
+- [GEO researchers to follow: Awesome GEO reading list authors](https://geo.deeflect.com/guides/geo-researchers-to-follow/) — Researchers from Awesome GEO's 32-paper reading list, grouped by topic with what each paper found, plus practitioners named by four other expert lists.
+- [GEO vs SEO: what changes and what stays the same](https://geo.deeflect.com/guides/geo-vs-seo/) — SEO ranks a page in a list of results; GEO gets a brand named or cited in an AI answer. Compares signals, measurement and click data, with sources.
+- [How to get your brand mentioned by ChatGPT](https://geo.deeflect.com/guides/get-your-brand-mentioned-by-chatgpt/) — Let AI crawlers read your site, build linked profiles, add markup, then tally which assistants name you. Free tools, 13 steps. No mention is guaranteed.
+- [Platforms that block GPTBot and ClaudeBot, 11 November 2026](https://geo.deeflect.com/guides/platforms-that-block-gptbot-and-claudebot/) — As of 11 November 2026, 45 of 157 free platforms block GPTBot, 43 block ClaudeBot and 39 block both. Per-platform table from robots.txt checks.
+- [Track ChatGPT and Perplexity traffic in GA4 with a regex](https://geo.deeflect.com/guides/track-chatgpt-and-perplexity-traffic-in-ga4/) — Build a regex with Awesome GEO's free AI traffic filter, then use it in a GA4 exploration or custom channel group to show ChatGPT and Perplexity visits.
+- [What is generative engine optimization (GEO)?](https://geo.deeflect.com/guides/what-is-generative-engine-optimization/) — Generative engine optimization (GEO) is improving your visibility in AI-written answers. Covers its origin, four layers of work and the evidence.
+
 ### Official Guidance
 
 - [Google: Optimizing your website for generative AI features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide): Google's best practices for AI Overviews and AI Mode

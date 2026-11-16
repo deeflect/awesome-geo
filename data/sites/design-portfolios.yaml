@@ -10,7 +10,7 @@
   effort: medium
   description: Web design awards directory.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -37,29 +37,29 @@
     duckAssistBot: allowed
     ccBot: allowed
     bytespider: allowed
-  indexable: true
+  indexable: null
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 78
-  geoTier: high
+  geoScore: 72
+  geoTier: medium
   geoSignals:
     crawlAccessScore: 30
-    indexabilityScore: 10
+    indexabilityScore: 4
     popularityScore: 15
     queryFitScore: 11
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 11098
+  trancoRank: 12716
 - name: Carbonmade
   url: https://carbonmade.com
   category: design-portfolios
   sampleProfile: ""
   dr: 41
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Online portfolio builder.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -89,7 +89,7 @@
   indexable: false
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 66
+  geoScore: 67
   geoTier: medium
   geoSignals:
     crawlAccessScore: 30
@@ -97,8 +97,8 @@
     popularityScore: 15
     queryFitScore: 11
     authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 21340
+    linkValueScore: 5
+  trancoRank: 22006
 - name: Cargo
   url: https://cargo.site
   category: design-portfolios
@@ -108,7 +108,7 @@
   effort: medium
   description: Designer portfolio platform.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -147,7 +147,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 17553
+  trancoRank: 17078
 - name: Coroflot
   url: https://www.coroflot.com
   category: design-portfolios
@@ -157,7 +157,7 @@
   effort: medium
   description: Design portfolio and jobs.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -184,19 +184,19 @@
     duckAssistBot: allowed
     ccBot: blocked
     bytespider: blocked
-  indexable: true
+  indexable: false
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 60
+  geoScore: 50
   geoTier: medium
   geoSignals:
     crawlAccessScore: 16
-    indexabilityScore: 10
+    indexabilityScore: 0
     popularityScore: 13
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 32376
+  trancoRank: 38108
 - name: CSS Design Awards
   url: https://www.cssdesignawards.com
   category: design-portfolios
@@ -206,7 +206,7 @@
   effort: medium
   description: CSS/web design awards.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -245,17 +245,17 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 105000
+  trancoRank: 114247
 - name: Dunked
   url: https://dunked.com
   category: design-portfolios
   sampleProfile: ""
   dr: 39
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Portfolio hosting for creatives.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -285,7 +285,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 64
+  geoScore: 65
   geoTier: medium
   geoSignals:
     crawlAccessScore: 30
@@ -293,8 +293,8 @@
     popularityScore: 5
     queryFitScore: 11
     authorityScore: 4
-    linkValueScore: 4
-  trancoRank: 312531
+    linkValueScore: 5
+  trancoRank: 301962
 - name: Figma Community
   url: https://figma.com/community
   category: design-portfolios
@@ -304,7 +304,7 @@
   effort: medium
   description: Design file sharing.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -343,17 +343,17 @@
     queryFitScore: 11
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 846
+  trancoRank: 907
 - name: Muzli
   url: https://muz.li
   category: design-portfolios
   sampleProfile: ""
   dr: 45
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Design inspiration platform.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -383,16 +383,16 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 74
-  geoTier: medium
+  geoScore: 75
+  geoTier: high
   geoSignals:
     crawlAccessScore: 30
     indexabilityScore: 10
     popularityScore: 13
     queryFitScore: 11
     authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 46790
+    linkValueScore: 5
+  trancoRank: 46030
 - name: SiteInspire
   url: https://www.siteinspire.com
   category: design-portfolios
@@ -402,7 +402,7 @@
   effort: medium
   description: Web design showcase.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -441,4 +441,4 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 156609
+  trancoRank: 143220

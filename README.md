@@ -28,10 +28,10 @@ This list helps you build that foundation — for free.
 | Automated checks completed | 157 |
 | Representative public pages seeded | 98 |
 | Root-fallback checks | 59 |
-| AI-discoverable (at least 1 major crawler allowed) | 136 |
-| 🟢 High GEO value (75+) | 75 |
-| 🟡 Medium GEO value (50-74) | 68 |
-| 🔴 Low GEO value (<50) | 14 |
+| AI-discoverable (at least 1 major crawler allowed) | 137 |
+| 🟢 High GEO value (75+) | 71 |
+| 🟡 Medium GEO value (50-74) | 75 |
+| 🔴 Low GEO value (<50) | 11 |
 
 ## Quick Start
 
@@ -96,48 +96,48 @@ Environment:
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [GitHub](https://github.com) | 86 | dofollow | low | ✅ Open | 98/100 | Profile README + pinned repos. Tier 1 asset for developers. |
-| [SourceForge](https://sourceforge.net) | 69 | mixed | medium | ✅ Open | 91/100 | Open source project hosting. |
-| [HuggingFace](https://huggingface.co) | 63 | dofollow | low | ✅ Open | 91/100 | AI/ML model hosting with profile pages. |
-| [Bitbucket](https://bitbucket.org) | 62 | mixed | medium | ✅ Open | 90/100 | Atlassian git hosting with public profiles. |
-| [GitLab](https://gitlab.com) | 62 | dofollow | low | ✅ Open | 87/100 | Alternative to GitHub with profile pages. |
-| [DEV.to](https://dev.to) | 61 | nofollow | low | ✅ Open | 89/100 | Publish articles with canonical URLs back to your site. |
-| [JSFiddle](https://jsfiddle.net) | 57 | mixed | medium | ✅ Open | 85/100 | JavaScript playground with user profiles. |
-| [PyPI](https://pypi.org) | 55 | dofollow | low | ✅ Open | 89/100 | Python package index with project URLs. |
-| [NuGet](https://www.nuget.org) | 54 | mixed | medium | ✅ Open | 87/100 | .NET package registry. |
-| [RubyGems](https://rubygems.org) | 54 | mixed | medium | ✅ Open | 85/100 | Ruby package registry with profile pages. |
+| [GitHub](https://github.com) | 86 | mixed | medium | ✅ Open | 97/100 | Profile README + pinned repos. Tier 1 asset for developers. |
+| [SourceForge](https://sourceforge.net) | 69 | nofollow | hard | ✅ Open | 90/100 | Open source project hosting. |
+| [HuggingFace](https://huggingface.co) | 63 | mixed | medium | ✅ Open | 90/100 | AI/ML model hosting with profile pages. |
+| [Bitbucket](https://bitbucket.org) | 62 | dofollow | low | ✅ Open | 91/100 | Atlassian git hosting with public profiles. |
+| [GitLab](https://gitlab.com) | 62 | mixed | medium | ✅ Open | 76/100 | Alternative to GitHub with profile pages. |
+| [DEV.to](https://dev.to) | 61 | dofollow | low | ✅ Open | 91/100 | Publish articles with canonical URLs back to your site. |
+| [JSFiddle](https://jsfiddle.net) | 57 | mixed | medium | ✅ Open | 75/100 | JavaScript playground with user profiles. |
+| [PyPI](https://pypi.org) | 55 | mixed | medium | ✅ Open | 88/100 | Python package index with project URLs. |
+| [NuGet](https://www.nuget.org) | 54 | dofollow | low | ✅ Open | 78/100 | .NET package registry. |
+| [RubyGems](https://rubygems.org) | 54 | dofollow | low | ✅ Open | 86/100 | Ruby package registry with profile pages. |
+| [crates.io](https://crates.io) | 53 | mixed | medium | ✅ Open | 77/100 | Rust package registry with author profiles. |
 | [Packagist](https://packagist.org) | 53 | mixed | medium | ✅ Open | 88/100 | PHP/Composer package registry. |
-| [Replit](https://replit.com) | 53 | nofollow | low | ✅ Open | 87/100 | Online IDE with public project profiles. |
+| [Replit](https://replit.com) | 53 | dofollow | low | ✅ Open | 89/100 | Online IDE with public project profiles. |
 | [Kaggle](https://www.kaggle.com) | 51 | mixed | medium | ✅ Open | 78/100 | Data science competition platform. |
 | [LeetCode](https://leetcode.com) | 51 | mixed | medium | ✅ Open | 78/100 | Coding challenge platform. |
 | [Observable](https://observablehq.com) | 50 | mixed | medium | ✅ Open | 83/100 | Data visualization notebooks. |
-| [CodeSandbox](https://codesandbox.io) | 49 | mixed | medium | ✅ Open | 83/100 | Online IDE with public projects. |
-| [Hashnode](https://hashnode.com) | 49 | dofollow | low | ✅ Open | 84/100 | Dev blog platform with custom domain support. |
+| [Hashnode](https://hashnode.com) | 49 | mixed | medium | ✅ Open | 83/100 | Dev blog platform with custom domain support. |
 | [Read the Docs](https://readthedocs.org) | 49 | mixed | medium | ✅ Open | 86/100 | Documentation hosting platform. |
-| [Exercism](https://exercism.org) | 42 | mixed | medium | ✅ Open | 79/100 | Coding exercises with public profiles. |
+| [Exercism](https://exercism.org) | 42 | dofollow | low | ✅ Open | 80/100 | Coding exercises with public profiles. |
 
 <details>
-<summary>🟡 Medium GEO Value (8 platforms)</summary>
+<summary>🟡 Medium GEO Value (9 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Stack Overflow](https://stackoverflow.com) | 69 | nofollow | medium | — | 63/100 | Profile link + answer quality builds authority. |
-| [Docker Hub](https://hub.docker.com) | 62 | mixed | medium | ✅ Open | 73/100 | Container image registry with profiles. |
-| [CodePen](https://codepen.io) | 61 | nofollow | low | ⚠️ 2/5 | 68/100 | Frontend demo platform with profile links. |
-| [Codeberg](https://codeberg.org) | 56 | mixed | medium | ❌ Blocked | 57/100 | Non-profit git hosting. |
+| [Stack Overflow](https://stackoverflow.com) | 69 | mixed | medium | — | 64/100 | Profile link + answer quality builds authority. |
+| [npm](https://www.npmjs.com) | 64 | mixed | medium | — | 50/100 | Package author page links to homepage. |
+| [Docker Hub](https://hub.docker.com) | 62 | dofollow | low | ✅ Open | 74/100 | Container image registry with profiles. |
+| [CodePen](https://codepen.io) | 61 | mixed | medium | ⚠️ 2/5 | 69/100 | Frontend demo platform with profile links. |
+| [Codeberg](https://codeberg.org) | 56 | mixed | medium | ❌ Blocked | 58/100 | Non-profit git hosting. |
 | [Launchpad](https://launchpad.net) | 55 | mixed | medium | ❌ Blocked | 59/100 | Ubuntu/Canonical project hosting. |
-| [crates.io](https://crates.io) | 53 | nofollow | low | ✅ Open | 74/100 | Rust package registry with author profiles. |
-| [Google Developers](https://developers.google.com/program) | 49 | nofollow | low | ✅ Open | 70/100 | Google developer profile with custom URL. |
-| [Gitea](https://gitea.com) | 43 | mixed | medium | ⚠️ 1/5 | 58/100 | Self-hosted git with public instances. |
+| [CodeSandbox](https://codesandbox.io) | 49 | mixed | medium | ✅ Open | 73/100 | Online IDE with public projects. |
+| [Google Developers](https://developers.google.com/program) | 49 | dofollow | low | ✅ Open | 72/100 | Google developer profile with custom URL. |
+| [Gitea](https://gitea.com) | 43 | dofollow | low | ⚠️ 1/5 | 60/100 | Self-hosted git with public instances. |
 </details>
 
 <details>
-<summary>🔴 Low GEO Value (2 platforms)</summary>
+<summary>🔴 Low GEO Value (1 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [npm](https://www.npmjs.com) | 64 | nofollow | low | — | 49/100 | Package author page links to homepage. |
-| [HackerRank](https://www.hackerrank.com) | 49 | mixed | medium | ❌ Blocked | 43/100 | Developer skills platform. |
+| [HackerRank](https://www.hackerrank.com) | 49 | dofollow | low | ❌ Blocked | 44/100 | Developer skills platform. |
 </details>
 
 ### Business Directories
@@ -148,46 +148,46 @@ Environment:
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [LinkedIn Company](https://linkedin.com) | 100 | nofollow | low | ⚠️ 1/5 | 80/100 | Company page with website link. |
-| [Foursquare](https://foursquare.com) | 62 | mixed | medium | ⚠️ 4/5 | 86/100 | Location-based business listings. |
-| [Product Hunt](https://producthunt.com) | 62 | nofollow | low | ✅ Open | 79/100 | Launch products and build maker profile. |
+| [Foursquare](https://foursquare.com) | 62 | dofollow | low | ⚠️ 4/5 | 87/100 | Location-based business listings. |
+| [Product Hunt](https://producthunt.com) | 62 | mixed | medium | ✅ Open | 80/100 | Launch products and build maker profile. |
 | [TrustPilot](https://www.trustpilot.com) | 62 | mixed | medium | ✅ Open | 81/100 | Consumer review platform. |
-| [Crunchbase](https://crunchbase.com) | 59 | nofollow | medium | ⚠️ 2/5 | 78/100 | Person and company profiles for startups. |
-| [Better Business Bureau](https://www.bbb.org) | 58 | mixed | medium | ✅ Open | 88/100 | Business accreditation directory. |
+| [Better Business Bureau](https://www.bbb.org) | 58 | dofollow | low | ✅ Open | 89/100 | Business accreditation directory. |
 | [G2](https://www.g2.com) | 58 | mixed | medium | ✅ Open | 78/100 | Software review platform. |
 | [Capterra](https://www.capterra.com) | 57 | mixed | medium | ✅ Open | 77/100 | Software comparison directory. |
 | [Manta](https://www.manta.com) | 53 | mixed | medium | ✅ Open | 75/100 | Small business directory. |
-| [AngelList / Wellfound](https://wellfound.com) | 50 | dofollow | medium | ✅ Open | 88/100 | Startup ecosystem profiles. |
-| [Bing Places](https://www.bing.com/forbusiness) | 48 | mixed | medium | ✅ Open | 76/100 | Bing business listings. |
-| [Chamber of Commerce](https://www.chamberofcommerce.com) | 47 | mixed | medium | ✅ Open | 81/100 | Business membership directory. |
+| [AngelList / Wellfound](https://wellfound.com) | 50 | dofollow | low | ✅ Open | 88/100 | Startup ecosystem profiles. |
+| [Yellow Pages](https://www.yellowpages.com) | 50 | mixed | medium | ✅ Open | 85/100 | Classic business directory. |
+| [Bing Places](https://www.bing.com/forbusiness) | 48 | mixed | medium | ✅ Open | 88/100 | Bing business listings. |
+| [Chamber of Commerce](https://www.chamberofcommerce.com) | 47 | dofollow | low | ✅ Open | 84/100 | Business membership directory. |
 
 <details>
-<summary>🟡 Medium GEO Value (13 platforms)</summary>
+<summary>🟡 Medium GEO Value (15 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Google Business](https://business.google.com) | 67 | nofollow | medium | ✅ Open | 64/100 | Local business listing in Google ecosystem. |
-| [Yelp](https://www.yelp.com) | 66 | mixed | medium | ❌ Blocked | 61/100 | Local business reviews. |
+| [LinkedIn Company](https://linkedin.com) | 100 | mixed | medium | ⚠️ 1/5 | 71/100 | Company page with website link. |
+| [Google Business](https://business.google.com) | 67 | dofollow | low | ✅ Open | 66/100 | Local business listing in Google ecosystem. |
+| [Yelp](https://www.yelp.com) | 66 | mixed | medium | ❌ Blocked | 51/100 | Local business reviews. |
 | [Glassdoor](https://www.glassdoor.com) | 60 | mixed | medium | ⚠️ 2/5 | 69/100 | Company reviews and salaries. |
-| [F6S](https://f6s.com) | 49 | dofollow | low | ⚠️ 2/5 | 63/100 | Startup directory with founder profiles. |
-| [Alignable](https://www.alignable.com) | 47 | mixed | medium | ❌ Blocked | 51/100 | Small business networking. |
+| [Crunchbase](https://crunchbase.com) | 59 | mixed | medium | ⚠️ 2/5 | 69/100 | Person and company profiles for startups. |
+| [F6S](https://f6s.com) | 49 | mixed | medium | ⚠️ 2/5 | 62/100 | Startup directory with founder profiles. |
+| [Alignable](https://www.alignable.com) | 47 | dofollow | low | ❌ Blocked | 54/100 | Small business networking. |
 | [DesignRush](https://www.designrush.com) | 47 | mixed | medium | ✅ Open | 73/100 | Agency directory for design/dev. |
-| [Apple Business Connect](https://business.apple.com) | 46 | mixed | medium | ✅ Open | 69/100 | Apple Maps business listings. |
-| [GoodFirms](https://goodfirms.co) | 46 | dofollow | medium | ✅ Open | 72/100 | Service provider review directory. |
-| [BizSugar](https://bizsugar.com) | 42 | mixed | medium | ✅ Open | 73/100 | Small business content sharing. |
+| [Apple Business Connect](https://business.apple.com) | 46 | dofollow | low | ✅ Open | 70/100 | Apple Maps business listings. |
+| [GoodFirms](https://goodfirms.co) | 46 | mixed | medium | ✅ Open | 71/100 | Service provider review directory. |
+| [BizSugar](https://bizsugar.com) | 42 | dofollow | low | ✅ Open | 74/100 | Small business content sharing. |
 | [Sortlist](https://www.sortlist.com) | 41 | mixed | medium | ✅ Open | 69/100 | Agency matching platform. |
-| [Kompass](https://www.kompass.com) | 39 | mixed | medium | ⚠️ 4/5 | 67/100 | International business directory. |
-| [AppFutura](https://www.appfutura.com) | 37 | mixed | medium | ✅ Open | 59/100 | App development directory. |
+| [Kompass](https://www.kompass.com) | 39 | mixed | medium | ⚠️ 4/5 | 65/100 | International business directory. |
+| [AppFutura](https://www.appfutura.com) | 37 | nofollow | hard | ✅ Open | 58/100 | App development directory. |
 | [TopDevelopers](https://www.topdevelopers.co) | 35 | mixed | medium | ✅ Open | 71/100 | Developer company directory. |
 </details>
 
 <details>
-<summary>🔴 Low GEO Value (2 platforms)</summary>
+<summary>🔴 Low GEO Value (1 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Clutch](https://clutch.co) | 54 | dofollow | medium | — | 48/100 | Agency and service provider directory. |
-| [Yellow Pages](https://www.yellowpages.com) | 50 | mixed | medium | — | 47/100 | Classic business directory. |
+| [Clutch](https://clutch.co) | 54 | mixed | medium | — | 47/100 | Agency and service provider directory. |
 </details>
 
 ### Content Syndication
@@ -198,35 +198,35 @@ Environment:
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [LinkedIn Articles](https://linkedin.com) | 100 | nofollow | low | ✅ Open | 98/100 | Professional audience, high authority domain. |
+| [LinkedIn Articles](https://linkedin.com) | 100 | mixed | medium | ✅ Open | 99/100 | Professional audience, high authority domain. |
 | [Blogger](https://www.blogger.com) | 70 | mixed | medium | ✅ Open | 87/100 | Google blogging platform. |
 | [Tumblr](https://www.tumblr.com) | 70 | mixed | medium | ⚠️ 3/5 | 80/100 | Microblogging platform. |
-| [Issuu](https://issuu.com) | 69 | mixed | medium | ✅ Open | 85/100 | Digital publication platform. |
-| [SlideShare](https://www.slideshare.net) | 68 | mixed | medium | ⚠️ 4/5 | 81/100 | Presentation sharing platform. |
-| [WordPress.com](https://wordpress.com) | 66 | mixed | medium | ✅ Open | 86/100 | Hosted WordPress blogs. |
-| [Notion](https://www.notion.com) | 65 | mixed | medium | ✅ Open | 84/100 | Published Notion pages. |
-| [Scribd](https://www.scribd.com) | 65 | mixed | medium | ⚠️ 4/5 | 81/100 | Document sharing platform. |
-| [CSS-Tricks](https://css-tricks.com) | 60 | mixed | medium | ✅ Open | 81/100 | Frontend dev resource. |
-| [Smashing Magazine](https://www.smashingmagazine.com) | 60 | mixed | medium | ✅ Open | 83/100 | Web dev publication accepting articles. |
+| [Issuu](https://issuu.com) | 69 | dofollow | low | ✅ Open | 86/100 | Digital publication platform. |
+| [SlideShare](https://www.slideshare.net) | 68 | mixed | medium | ✅ Open | 85/100 | Presentation sharing platform. |
+| [WordPress.com](https://wordpress.com) | 66 | dofollow | low | ✅ Open | 87/100 | Hosted WordPress blogs. |
+| [Notion](https://www.notion.com) | 65 | dofollow | low | ✅ Open | 85/100 | Published Notion pages. |
+| [Scribd](https://www.scribd.com) | 65 | mixed | medium | ✅ Open | 85/100 | Document sharing platform. |
+| [CSS-Tricks](https://css-tricks.com) | 60 | dofollow | low | ✅ Open | 82/100 | Frontend dev resource. |
+| [Smashing Magazine](https://www.smashingmagazine.com) | 60 | dofollow | low | ✅ Open | 84/100 | Web dev publication accepting articles. |
 | [Substack](https://substack.com) | 60 | dofollow | low | ✅ Open | 88/100 | Newsletter platform with web presence. |
-| [freeCodeCamp](https://www.freecodecamp.org) | 58 | mixed | medium | ✅ Open | 81/100 | Coding education with contributor profiles. |
+| [freeCodeCamp](https://www.freecodecamp.org) | 58 | dofollow | low | ✅ Open | 82/100 | Coding education with contributor profiles. |
 | [Telegraph](https://telegra.ph) | 58 | mixed | medium | ✅ Open | 82/100 | Instant publishing by Telegram. |
-| [Ghost](https://ghost.org) | 57 | mixed | medium | ✅ Open | 82/100 | Modern publishing platform. |
-| [Vocal.media](https://vocal.media) | 54 | mixed | medium | ✅ Open | 79/100 | General content platform with payouts. |
-| [Newsbreak](https://www.newsbreak.com) | 51 | mixed | medium | ✅ Open | 82/100 | Local news content platform. |
+| [Ghost](https://ghost.org) | 57 | dofollow | low | ✅ Open | 83/100 | Modern publishing platform. |
+| [Vocal.media](https://vocal.media) | 54 | dofollow | low | ✅ Open | 80/100 | General content platform with payouts. |
+| [Newsbreak](https://www.newsbreak.com) | 51 | dofollow | low | ✅ Open | 83/100 | Local news content platform. |
 
 <details>
 <summary>🟡 Medium GEO Value (7 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Medium](https://medium.com) | 76 | nofollow | low | ⚠️ 3/5 | 70/100 | Set canonical URL to your original post. |
+| [Medium](https://medium.com) | 76 | mixed | medium | ⚠️ 3/5 | 71/100 | Set canonical URL to your original post. |
 | [Hacker Noon](https://hackernoon.com) | 57 | mixed | medium | ⚠️ 2/5 | 70/100 | Tech blog platform with author profiles. |
 | [SitePoint](https://www.sitepoint.com) | 57 | mixed | medium | ⚠️ 3/5 | 62/100 | Web dev articles platform. |
-| [Hacker News](https://news.ycombinator.com) | 54 | nofollow | low | ✅ Open | 73/100 | Tech audience, very high impact if frontpaged. |
-| [LogRocket Blog](https://blog.logrocket.com) | 48 | mixed | medium | ✅ Open | 63/100 | Frontend monitoring blog accepting posts. |
-| [Thinkers360](https://thinkers360.com) | 43 | dofollow | medium | ✅ Open | 66/100 | Thought leadership platform with rankings. |
-| [ArticleBiz](https://www.articlebiz.com) | 38 | mixed | medium | ⚠️ 2/5 | 54/100 | Article directory. |
+| [Hacker News](https://news.ycombinator.com) | 54 | mixed | medium | ✅ Open | 74/100 | Tech audience, very high impact if frontpaged. |
+| [LogRocket Blog](https://blog.logrocket.com) | 48 | dofollow | low | ✅ Open | 64/100 | Frontend monitoring blog accepting posts. |
+| [Thinkers360](https://thinkers360.com) | 43 | dofollow | low | ✅ Open | 66/100 | Thought leadership platform with rankings. |
+| [ArticleBiz](https://www.articlebiz.com) | 38 | dofollow | low | ⚠️ 2/5 | 55/100 | Article directory. |
 </details>
 
 <details>
@@ -245,32 +245,32 @@ Environment:
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Slashdot](https://slashdot.org) | 55 | mixed | medium | ✅ Open | 84/100 | Tech news discussion. |
 | [Warrior Forum](https://www.warriorforum.com) | 47 | mixed | medium | ✅ Open | 77/100 | Digital marketing forum. |
-| [XenForo Community](https://xenforo.com/community) | 47 | mixed | medium | ✅ Open | 79/100 | Forum software community. |
-| [Digital Point](https://www.digitalpoint.com) | 43 | mixed | medium | ✅ Open | 75/100 | Webmaster forum. |
+| [Digital Point](https://www.digitalpoint.com) | 43 | mixed | medium | ✅ Open | 77/100 | Webmaster forum. |
 
 <details>
-<summary>🟡 Medium GEO Value (6 platforms)</summary>
+<summary>🟡 Medium GEO Value (9 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Reddit](https://reddit.com) | 80 | nofollow | low | ❌ Blocked | 59/100 | Subreddit participation, profile links. |
-| [DZone](https://dzone.com) | 55 | mixed | medium | ✅ Open | 73/100 | Developer content zone. |
-| [Spiceworks](https://community.spiceworks.com) | 48 | mixed | medium | ⚠️ 2/5 | 54/100 | IT professional community. |
-| [GrowthHackers](https://growthhackers.com) | 47 | mixed | medium | ✅ Open | 72/100 | Growth marketing community. |
-| [WebmasterWorld](https://www.webmasterworld.com) | 46 | mixed | medium | ⚠️ 4/5 | 72/100 | SEO and webmaster forum. |
+| [Reddit](https://reddit.com) | 80 | mixed | medium | ❌ Blocked | 50/100 | Subreddit participation, profile links. |
+| [Quora](https://quora.com) | 68 | mixed | medium | ⚠️ 1/5 | 50/100 | Q&A platform with profile and answer links. |
+| [DZone](https://dzone.com) | 55 | mixed | medium | ✅ Open | 71/100 | Developer content zone. |
+| [Slashdot](https://slashdot.org) | 55 | mixed | medium | ✅ Open | 74/100 | Tech news discussion. |
+| [Spiceworks](https://community.spiceworks.com) | 48 | dofollow | low | ⚠️ 2/5 | 55/100 | IT professional community. |
+| [GrowthHackers](https://growthhackers.com) | 47 | dofollow | low | ✅ Open | 73/100 | Growth marketing community. |
+| [XenForo Community](https://xenforo.com/community) | 47 | mixed | medium | ✅ Open | 67/100 | Forum software community. |
+| [WebmasterWorld](https://www.webmasterworld.com) | 46 | mixed | medium | ⚠️ 4/5 | 62/100 | SEO and webmaster forum. |
 | [SitePoint](https://community.sitepoint.com) | 33 | mixed | medium | ✅ Open | 53/100 | Web dev community forums. |
 </details>
 
 <details>
-<summary>🔴 Low GEO Value (3 platforms)</summary>
+<summary>🔴 Low GEO Value (2 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Quora](https://quora.com) | 68 | nofollow | low | ⚠️ 1/5 | 49/100 | Q&A platform with profile and answer links. |
-| [IndieHackers](https://www.indiehackers.com) | 48 | mixed | medium | ❌ Blocked | 47/100 | Builder community with product listings. |
-| [Lobsters](https://lobste.rs) | 42 | mixed | medium | ❌ Blocked | 45/100 | Invite-only tech link aggregator. |
+| [IndieHackers](https://www.indiehackers.com) | 48 | mixed | medium | ❌ Blocked | 37/100 | Builder community with product listings. |
+| [Lobsters](https://lobste.rs) | 42 | dofollow | low | ❌ Blocked | 48/100 | Invite-only tech link aggregator. |
 </details>
 
 ### Social Profiles
@@ -281,18 +281,18 @@ Environment:
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [YouTube](https://youtube.com) | 100 | nofollow | low | ✅ Open | 89/100 | Channel and video description links. |
+| [YouTube](https://youtube.com) | 100 | dofollow | low | ✅ Open | 91/100 | Channel and video description links. |
 | [Vimeo](https://vimeo.com) | 83 | mixed | medium | ⚠️ 2/5 | 77/100 | Video hosting with profiles. |
-| [Flickr](https://flickr.com) | 79 | mixed | medium | ⚠️ 2/5 | 75/100 | Photo sharing with profile links. |
-| [Telegram](https://t.me) | 79 | mixed | medium | ✅ Open | 86/100 | Messaging with public channels. |
-| [Linktree](https://linktr.ee) | 76 | mixed | medium | ✅ Open | 86/100 | Link-in-bio platform. |
-| [Discord](https://discord.com) | 75 | mixed | medium | ✅ Open | 86/100 | Community platform with server listings. |
+| [Flickr](https://flickr.com) | 79 | dofollow | low | ⚠️ 2/5 | 76/100 | Photo sharing with profile links. |
+| [Telegram](https://t.me) | 79 | dofollow | low | ✅ Open | 87/100 | Messaging with public channels. |
+| [Linktree](https://linktr.ee) | 76 | mixed | medium | ✅ Open | 76/100 | Link-in-bio platform. |
+| [Discord](https://discord.com) | 75 | dofollow | low | ✅ Open | 87/100 | Community platform with server listings. |
 | [Twitch](https://twitch.tv) | 75 | mixed | medium | ✅ Open | 76/100 | Streaming platform with bio links. |
 | [Goodreads](https://www.goodreads.com) | 65 | mixed | medium | ⚠️ 4/5 | 80/100 | Book reviews with author profiles. |
-| [About.me](https://about.me) | 62 | dofollow | low | ✅ Open | 84/100 | Simple personal landing page. |
-| [Gravatar](https://gravatar.com) | 62 | dofollow | low | ⚠️ 3/5 | 78/100 | Universal avatar with verified profile links. |
-| [Dribbble](https://dribbble.com) | 61 | nofollow | low | ✅ Open | 82/100 | Design showcase platform. |
-| [Carrd](https://carrd.com) | 47 | mixed | medium | ✅ Open | 79/100 | One-page personal sites. |
+| [About.me](https://about.me) | 62 | nofollow | hard | ✅ Open | 82/100 | Simple personal landing page. |
+| [Gravatar](https://gravatar.com) | 62 | mixed | medium | ⚠️ 3/5 | 77/100 | Universal avatar with verified profile links. |
+| [Dribbble](https://dribbble.com) | 61 | dofollow | low | ✅ Open | 84/100 | Design showcase platform. |
+| [Carrd](https://carrd.com) | 47 | dofollow | low | ✅ Open | 75/100 | One-page personal sites. |
 
 <details>
 <summary>🟡 Medium GEO Value (13 platforms)</summary>
@@ -303,15 +303,15 @@ Environment:
 | [Pinterest](https://pinterest.com) | 85 | mixed | medium | ❌ Blocked | 58/100 | Visual bookmarking with profile links. |
 | [TikTok](https://tiktok.com) | 85 | mixed | medium | ❌ Blocked | 58/100 | Short video with bio link. |
 | [Bluesky](https://bsky.app) | 68 | mixed | medium | ✅ Open | 74/100 | Decentralized microblogging. |
-| [WhatsApp Channels](https://whatsapp.com/channel) | 68 | mixed | medium | ⚠️ 1/5 | 57/100 | Meta messaging channels. |
-| [Behance](https://behance.net) | 67 | nofollow | low | ⚠️ 2/5 | 72/100 | Adobe design portfolio platform. |
-| [Threads](https://www.threads.com) | 65 | mixed | medium | ❌ Blocked | 53/100 | Meta microblogging platform. |
-| [Mastodon](https://mastodon.social) | 61 | mixed | medium | ⚠️ 2/5 | 72/100 | Federated social profile |
+| [WhatsApp Channels](https://whatsapp.com/channel) | 68 | dofollow | low | ⚠️ 1/5 | 58/100 | Meta messaging channels. |
+| [Behance](https://behance.net) | 67 | dofollow | low | ⚠️ 2/5 | 74/100 | Adobe design portfolio platform. |
+| [Threads](https://www.threads.com) | 65 | mixed | medium | ❌ Blocked | 54/100 | Meta microblogging platform. |
+| [Mastodon](https://mastodon.social) | 61 | mixed | medium | ⚠️ 2/5 | 62/100 | Federated social profile |
 | [Letterboxd](https://letterboxd.com) | 56 | mixed | medium | ⚠️ 2/5 | 60/100 | Film reviews with profiles. |
-| [Bio.link](https://bio.link) | 51 | mixed | medium | ✅ Open | 68/100 | Link-in-bio alternative. |
+| [Bio.link](https://bio.link) | 51 | mixed | medium | ✅ Open | 66/100 | Link-in-bio alternative. |
 | [Daily.dev](https://daily.dev) | 45 | mixed | medium | ✅ Open | 74/100 | Developer news with profiles. |
 | [Peerlist](https://peerlist.io) | 44 | mixed | medium | ✅ Open | 59/100 | Professional profiles for devs. |
-| [Mesh](https://me.sh) | 43 | mixed | medium | ✅ Open | 69/100 | Personal CRM, formerly Clay. |
+| [Mesh](https://me.sh) | 43 | dofollow | low | ✅ Open | 70/100 | Personal CRM, formerly Clay. |
 </details>
 
 <details>
@@ -319,8 +319,8 @@ Environment:
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [X / Twitter](https://x.com) | 89 | nofollow | low | ❌ Blocked | 47/100 | Bio link, high social signal. |
-| [Spotify for Creators](https://creators.spotify.com) | 62 | mixed | medium | ❌ Blocked | 36/100 | Podcast hosting with profiles, formerly Spotify for Podcasters. |
+| [X / Twitter](https://x.com) | 89 | mixed | medium | ❌ Blocked | 48/100 | Bio link, high social signal. |
+| [Spotify for Creators](https://creators.spotify.com) | 62 | dofollow | low | ❌ Blocked | 37/100 | Podcast hosting with profiles, formerly Spotify for Podcasters. |
 </details>
 
 ### Knowledge Bases
@@ -332,19 +332,19 @@ Environment:
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [ResearchGate](https://www.researchgate.net) | 73 | mixed | medium | ✅ Open | 81/100 | Academic social network. |
-| [Academia.edu](https://www.academia.edu) | 61 | mixed | medium | ⚠️ 2/5 | 78/100 | Academic paper sharing. |
-| [Wikipedia](https://wikipedia.org) | 61 | nofollow | hard | ✅ Open | 93/100 | Requires notability. Highest impact for AI. |
+| [Wikipedia](https://wikipedia.org) | 61 | mixed | medium | ✅ Open | 94/100 | Requires notability. Highest impact for AI. |
 | [ORCID](https://orcid.org) | 59 | mixed | medium | ✅ Open | 86/100 | Researcher identifier system. |
 | [Semantic Scholar](https://www.semanticscholar.org) | 54 | mixed | medium | ✅ Open | 86/100 | AI-powered research tool. |
-| [Wikidata](https://wikidata.org) | 54 | nofollow | medium | ✅ Open | 84/100 | Create entity — directly feeds AI knowledge graphs. |
+| [Wikidata](https://wikidata.org) | 54 | mixed | medium | ✅ Open | 86/100 | Create entity — directly feeds AI knowledge graphs. |
 
 <details>
-<summary>🟡 Medium GEO Value (2 platforms)</summary>
+<summary>🟡 Medium GEO Value (3 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Wikimedia Commons](https://commons.wikimedia.org) | 68 | nofollow | medium | ✅ Open | 70/100 | Image hosting with attribution links. |
-| [Google Scholar](https://scholar.google.com) | 62 | mixed | medium | ✅ Open | 71/100 | Academic profile with citations. |
+| [Wikimedia Commons](https://commons.wikimedia.org) | 68 | mixed | medium | ✅ Open | 71/100 | Image hosting with attribution links. |
+| [Google Scholar](https://scholar.google.com) | 62 | mixed | medium | ✅ Open | 61/100 | Academic profile with citations. |
+| [Academia.edu](https://www.academia.edu) | 61 | mixed | medium | ⚠️ 2/5 | 68/100 | Academic paper sharing. |
 </details>
 
 ### Design Portfolios
@@ -355,19 +355,19 @@ Environment:
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Awwwards](https://www.awwwards.com) | 55 | mixed | medium | ✅ Open | 78/100 | Web design awards directory. |
 | [Cargo](https://cargo.site) | 45 | mixed | medium | ✅ Open | 76/100 | Designer portfolio platform. |
+| [Muzli](https://muz.li) | 45 | dofollow | low | ✅ Open | 75/100 | Design inspiration platform. |
 
 <details>
 <summary>🟡 Medium GEO Value (5 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Coroflot](https://www.coroflot.com) | 48 | mixed | medium | ⚠️ 2/5 | 60/100 | Design portfolio and jobs. |
-| [Muzli](https://muz.li) | 45 | mixed | medium | ✅ Open | 74/100 | Design inspiration platform. |
+| [Awwwards](https://www.awwwards.com) | 55 | mixed | medium | ✅ Open | 72/100 | Web design awards directory. |
+| [Coroflot](https://www.coroflot.com) | 48 | mixed | medium | ⚠️ 2/5 | 50/100 | Design portfolio and jobs. |
 | [CSS Design Awards](https://www.cssdesignawards.com) | 43 | mixed | medium | ✅ Open | 69/100 | CSS/web design awards. |
-| [Carbonmade](https://carbonmade.com) | 41 | mixed | medium | ✅ Open | 66/100 | Online portfolio builder. |
-| [Dunked](https://dunked.com) | 39 | mixed | medium | ✅ Open | 64/100 | Portfolio hosting for creatives. |
+| [Carbonmade](https://carbonmade.com) | 41 | dofollow | low | ✅ Open | 67/100 | Online portfolio builder. |
+| [Dunked](https://dunked.com) | 39 | dofollow | low | ✅ Open | 65/100 | Portfolio hosting for creatives. |
 </details>
 
 <details>
@@ -387,7 +387,7 @@ Environment:
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Contra](https://contra.com) | 46 | mixed | medium | ✅ Open | 76/100 | Freelance portfolio platform. |
+| [Contra](https://contra.com) | 46 | dofollow | low | ✅ Open | 79/100 | Freelance portfolio platform. |
 
 <details>
 <summary>🟡 Medium GEO Value (11 platforms)</summary>
@@ -395,16 +395,16 @@ Environment:
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [Toptal](https://www.toptal.com) | 59 | mixed | medium | ✅ Open | 74/100 | Top freelancer network. |
-| [MuckRack](https://muckrack.com) | 54 | mixed | medium | ⚠️ 2/5 | 63/100 | PR and journalist platform. |
-| [Maven](https://maven.com) | 47 | mixed | medium | ✅ Open | 73/100 | Expert teaching platform. |
+| [MuckRack](https://muckrack.com) | 54 | mixed | medium | ⚠️ 2/5 | 61/100 | PR and journalist platform. |
+| [Maven](https://maven.com) | 47 | dofollow | low | ✅ Open | 74/100 | Expert teaching platform. |
 | [Clarity.fm](https://clarity.fm) | 46 | mixed | medium | ✅ Open | 73/100 | Expert call marketplace. |
-| [Gun.io](https://gun.io) | 45 | mixed | medium | ✅ Open | 70/100 | Developer freelance platform. |
+| [Gun.io](https://gun.io) | 45 | dofollow | low | ✅ Open | 71/100 | Developer freelance platform. |
 | [Arc.dev](https://arc.dev) | 42 | mixed | medium | ✅ Open | 73/100 | Remote developer jobs. |
-| [Featured.com](https://featured.com) | 40 | mixed | medium | ✅ Open | 60/100 | Expert source for journalists. |
-| [SourceBottle](https://www.sourcebottle.com) | 39 | mixed | medium | ✅ Open | 64/100 | Journalist query platform. |
-| [MentionMatch](https://mentionmatch.com) | 38 | mixed | medium | ✅ Open | 64/100 | B2B content expert matching, formerly Help a B2B Writer. |
+| [Featured.com](https://featured.com) | 40 | mixed | medium | ✅ Open | 70/100 | Expert source for journalists. |
+| [SourceBottle](https://www.sourcebottle.com) | 39 | dofollow | low | ✅ Open | 65/100 | Journalist query platform. |
+| [MentionMatch](https://mentionmatch.com) | 38 | nofollow | hard | ✅ Open | 63/100 | B2B content expert matching, formerly Help a B2B Writer. |
 | [Qwoted](https://app.qwoted.com) | 37 | dofollow | low | ⚠️ 2/5 | 54/100 | Expert quote platform. |
-| [HARO](https://www.helpareporter.com) | 36 | mixed | medium | ✅ Open | 54/100 | Free daily journalist source requests, now run by Featured. |
+| [HARO](https://www.helpareporter.com) | 36 | dofollow | low | ✅ Open | 72/100 | Free daily journalist source requests, now run by Featured. |
 </details>
 
 ### Social Bookmarking
@@ -416,16 +416,16 @@ Environment:
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [Digg](https://digg.com) | 61 | mixed | medium | ✅ Open | 79/100 | News aggregator. |
-| [Pearltrees](https://www.pearltrees.com) | 56 | mixed | medium | ✅ Open | 76/100 | Visual bookmarking platform. |
-| [Wakelet](https://wakelet.com) | 52 | mixed | medium | ✅ Open | 76/100 | Content curation platform. |
+| [Raindrop.io](https://raindrop.io) | 52 | dofollow | low | ✅ Open | 75/100 | Bookmark manager with public collections. |
+| [Wakelet](https://wakelet.com) | 52 | dofollow | low | ✅ Open | 75/100 | Content curation platform. |
 
 <details>
 <summary>🟡 Medium GEO Value (3 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Flipboard](https://flipboard.com) | 56 | mixed | medium | ⚠️ 3/5 | 61/100 | Content curation magazines. |
-| [Raindrop.io](https://raindrop.io) | 52 | mixed | medium | ✅ Open | 74/100 | Bookmark manager with public collections. |
+| [Flipboard](https://flipboard.com) | 56 | nofollow | hard | ⚠️ 3/5 | 60/100 | Content curation magazines. |
+| [Pearltrees](https://www.pearltrees.com) | 56 | mixed | medium | ✅ Open | 74/100 | Visual bookmarking platform. |
 | [Start.me](https://start.me) | 49 | mixed | medium | ✅ Open | 62/100 | Start page with public bookmarks. |
 </details>
 
@@ -434,7 +434,7 @@ Environment:
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
-| [Diigo](https://www.diigo.com) | 66 | mixed | medium | ❌ Blocked | 48/100 | Social bookmarking and annotation. |
+| [Diigo](https://www.diigo.com) | 66 | mixed | medium | ❌ Blocked | 38/100 | Social bookmarking and annotation. |
 | [StumbleUpon / Mix](https://mix.com) | 47 | mixed | medium | ❌ Blocked | 42/100 | Content discovery platform. |
 </details>
 

@@ -6,11 +6,11 @@
   category: content-syndication
   sampleProfile: ""
   dr: 38
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Article directory.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -40,7 +40,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 54
+  geoScore: 55
   geoTier: medium
   geoSignals:
     crawlAccessScore: 19
@@ -48,8 +48,8 @@
     popularityScore: 5
     queryFitScore: 12
     authorityScore: 4
-    linkValueScore: 4
-  trancoRank: 416404
+    linkValueScore: 5
+  trancoRank: 350430
 - name: Blogger
   url: https://www.blogger.com
   category: content-syndication
@@ -59,7 +59,7 @@
   effort: medium
   description: Google blogging platform.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -98,115 +98,17 @@
     queryFitScore: 12
     authorityScore: 12
     linkValueScore: 4
-  trancoRank: 511
+  trancoRank: 520
 - name: CSS-Tricks
   url: https://css-tricks.com
   category: content-syndication
   sampleProfile: https://css-tricks.com/almanac/
   dr: 60
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Frontend dev resource.
   verified: true
-  lastVerified: 2026-11-11
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: allowed
-    chatgptUser: allowed
-    oaiAdsBot: allowed
-    claudeBot: allowed
-    claudeSearchBot: allowed
-    claudeUser: allowed
-    googleExtended: allowed
-    googleCloudVertexBot: allowed
-    googleAgent: allowed
-    bingbot: allowed
-    perplexityBot: allowed
-    perplexityUser: allowed
-    applebot: allowed
-    applebotExtended: allowed
-    metaExternalAgent: allowed
-    metaWebindexer: allowed
-    metaExternalFetcher: allowed
-    amazonbot: allowed
-    amznSearchBot: allowed
-    amznUser: allowed
-    mistralaiUser: allowed
-    duckAssistBot: allowed
-    ccBot: allowed
-    bytespider: allowed
-  indexable: true
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 81
-  geoTier: high
-  geoSignals:
-    crawlAccessScore: 30
-    indexabilityScore: 10
-    popularityScore: 15
-    queryFitScore: 12
-    authorityScore: 10
-    linkValueScore: 4
-  trancoRank: 10174
-- name: freeCodeCamp
-  url: https://www.freecodecamp.org
-  category: content-syndication
-  sampleProfile: https://www.freecodecamp.org/news/tag/openai/
-  dr: 58
-  linkType: mixed
-  effort: medium
-  description: Coding education with contributor profiles.
-  verified: true
-  lastVerified: 2026-11-11
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: allowed
-    chatgptUser: allowed
-    oaiAdsBot: allowed
-    claudeBot: allowed
-    claudeSearchBot: allowed
-    claudeUser: allowed
-    googleExtended: allowed
-    googleCloudVertexBot: allowed
-    googleAgent: allowed
-    bingbot: allowed
-    perplexityBot: allowed
-    perplexityUser: allowed
-    applebot: allowed
-    applebotExtended: allowed
-    metaExternalAgent: allowed
-    metaWebindexer: allowed
-    metaExternalFetcher: allowed
-    amazonbot: allowed
-    amznSearchBot: allowed
-    amznUser: allowed
-    mistralaiUser: allowed
-    duckAssistBot: allowed
-    ccBot: allowed
-    bytespider: allowed
-  indexable: true
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 81
-  geoTier: high
-  geoSignals:
-    crawlAccessScore: 30
-    indexabilityScore: 10
-    popularityScore: 17
-    queryFitScore: 12
-    authorityScore: 8
-    linkValueScore: 4
-  trancoRank: 6712
-- name: Ghost
-  url: https://ghost.org
-  category: content-syndication
-  sampleProfile: https://ghost.org/resources/
-  dr: 57
-  linkType: mixed
-  effort: medium
-  description: Modern publishing platform.
-  verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -241,17 +143,115 @@
   geoSignals:
     crawlAccessScore: 30
     indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 12
+    authorityScore: 10
+    linkValueScore: 5
+  trancoRank: 10667
+- name: freeCodeCamp
+  url: https://www.freecodecamp.org
+  category: content-syndication
+  sampleProfile: https://www.freecodecamp.org/news/tag/openai/
+  dr: 58
+  linkType: dofollow
+  effort: low
+  description: Coding education with contributor profiles.
+  verified: true
+  lastVerified: 2026-11-16
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    bingbot: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 82
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 17
+    queryFitScore: 12
+    authorityScore: 8
+    linkValueScore: 5
+  trancoRank: 6539
+- name: Ghost
+  url: https://ghost.org
+  category: content-syndication
+  sampleProfile: https://ghost.org/resources/
+  dr: 57
+  linkType: dofollow
+  effort: low
+  description: Modern publishing platform.
+  verified: true
+  lastVerified: 2026-11-16
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    bingbot: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 83
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
     popularityScore: 18
     queryFitScore: 12
     authorityScore: 8
-    linkValueScore: 4
-  trancoRank: 4338
+    linkValueScore: 5
+  trancoRank: 4288
 - name: Hacker News
   url: https://news.ycombinator.com
   category: content-syndication
   dr: 54
-  linkType: nofollow
-  effort: low
+  linkType: mixed
+  effort: medium
   aiCrawled: true
   description: Tech audience, very high impact if frontpaged.
   aiAccess:
@@ -282,8 +282,8 @@
     bytespider: allowed
   indexable: false
   verified: true
-  lastVerified: 2026-11-11
-  geoScore: 73
+  lastVerified: 2026-11-16
+  geoScore: 74
   geoTier: medium
   geoSignals:
     crawlAccessScore: 30
@@ -291,8 +291,9 @@
     popularityScore: 20
     queryFitScore: 12
     authorityScore: 8
-    linkValueScore: 3
+    linkValueScore: 4
   sampleProfile: https://news.ycombinator.com/user?id=pg
+  profileLinkDofollow: null
 - name: Hacker Noon
   url: https://hackernoon.com
   category: content-syndication
@@ -302,7 +303,7 @@
   effort: medium
   description: Tech blog platform with author profiles.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -341,17 +342,17 @@
     queryFitScore: 12
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 6365
+  trancoRank: 7124
 - name: Issuu
   url: https://issuu.com
   category: content-syndication
   sampleProfile: ""
   dr: 69
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Digital publication platform.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -381,7 +382,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 85
+  geoScore: 86
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
@@ -389,14 +390,14 @@
     popularityScore: 19
     queryFitScore: 12
     authorityScore: 10
-    linkValueScore: 4
-  trancoRank: 321
+    linkValueScore: 5
+  trancoRank: 402
 - name: LinkedIn Articles
   url: https://linkedin.com
   category: content-syndication
   dr: 100
-  linkType: nofollow
-  effort: low
+  linkType: mixed
+  effort: medium
   aiCrawled: true
   description: Professional audience, high authority domain.
   aiAccess:
@@ -427,8 +428,8 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-11
-  geoScore: 98
+  lastVerified: 2026-11-16
+  geoScore: 99
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
@@ -436,19 +437,20 @@
     popularityScore: 20
     queryFitScore: 20
     authorityScore: 15
-    linkValueScore: 3
-  trancoRank: 18
+    linkValueScore: 4
+  trancoRank: 17
   sampleProfile: ""
+  profileLinkDofollow: null
 - name: LogRocket Blog
   url: https://blog.logrocket.com
   category: content-syndication
   sampleProfile: ""
   dr: 48
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Frontend monitoring blog accepting posts.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -478,7 +480,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 63
+  geoScore: 64
   geoTier: medium
   geoSignals:
     crawlAccessScore: 30
@@ -486,13 +488,13 @@
     popularityScore: 1
     queryFitScore: 12
     authorityScore: 6
-    linkValueScore: 4
+    linkValueScore: 5
 - name: Medium
   url: https://medium.com
   category: content-syndication
   dr: 76
-  linkType: nofollow
-  effort: low
+  linkType: mixed
+  effort: medium
   aiCrawled: true
   description: Set canonical URL to your original post.
   aiAccess:
@@ -523,8 +525,8 @@
     bytespider: blocked
   indexable: false
   verified: true
-  lastVerified: 2026-11-11
-  geoScore: 70
+  lastVerified: 2026-11-16
+  geoScore: 71
   geoTier: medium
   geoSignals:
     crawlAccessScore: 22
@@ -532,19 +534,20 @@
     popularityScore: 20
     queryFitScore: 13
     authorityScore: 12
-    linkValueScore: 3
-  trancoRank: 187
+    linkValueScore: 4
+  trancoRank: 209
   sampleProfile: https://medium.com/@OpenAI
+  profileLinkDofollow: null
 - name: Newsbreak
   url: https://www.newsbreak.com
   category: content-syndication
   sampleProfile: ""
   dr: 51
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Local news content platform.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -574,7 +577,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 82
+  geoScore: 83
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
@@ -582,18 +585,18 @@
     popularityScore: 18
     queryFitScore: 12
     authorityScore: 8
-    linkValueScore: 4
-  trancoRank: 2029
+    linkValueScore: 5
+  trancoRank: 2762
 - name: Notion
   url: https://www.notion.com
   category: content-syndication
   sampleProfile: https://www.notion.com/product
   dr: 65
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Published Notion pages.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -623,7 +626,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 84
+  geoScore: 85
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
@@ -631,8 +634,8 @@
     popularityScore: 18
     queryFitScore: 12
     authorityScore: 10
-    linkValueScore: 4
-  trancoRank: 1061
+    linkValueScore: 5
+  trancoRank: 1359
 - name: Quora Spaces
   url: https://www.quora.com
   category: content-syndication
@@ -642,7 +645,7 @@
   effort: medium
   description: Q&A platform with content spaces.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -681,7 +684,7 @@
     queryFitScore: 12
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 446
+  trancoRank: 504
 - name: Scribd
   url: https://www.scribd.com
   category: content-syndication
@@ -691,13 +694,13 @@
   effort: medium
   description: Document sharing platform.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
     oaiAdsBot: allowed
-    claudeBot: blocked
+    claudeBot: allowed
     claudeSearchBot: allowed
     claudeUser: allowed
     googleExtended: allowed
@@ -716,21 +719,21 @@
     amznUser: allowed
     mistralaiUser: allowed
     duckAssistBot: allowed
-    ccBot: blocked
-    bytespider: blocked
+    ccBot: allowed
+    bytespider: allowed
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 81
+  geoScore: 85
   geoTier: high
   geoSignals:
-    crawlAccessScore: 26
+    crawlAccessScore: 30
     indexabilityScore: 10
     popularityScore: 19
     queryFitScore: 12
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 478
+  trancoRank: 500
 - name: SitePoint
   url: https://www.sitepoint.com
   category: content-syndication
@@ -740,7 +743,7 @@
   effort: medium
   description: Web dev articles platform.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -779,7 +782,7 @@
     queryFitScore: 12
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 11455
+  trancoRank: 11693
 - name: SlideShare
   url: https://www.slideshare.net
   category: content-syndication
@@ -789,56 +792,7 @@
   effort: medium
   description: Presentation sharing platform.
   verified: true
-  lastVerified: 2026-11-11
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: allowed
-    chatgptUser: allowed
-    oaiAdsBot: allowed
-    claudeBot: blocked
-    claudeSearchBot: allowed
-    claudeUser: allowed
-    googleExtended: allowed
-    googleCloudVertexBot: allowed
-    googleAgent: allowed
-    bingbot: allowed
-    perplexityBot: allowed
-    perplexityUser: allowed
-    applebot: allowed
-    applebotExtended: allowed
-    metaExternalAgent: allowed
-    metaWebindexer: allowed
-    metaExternalFetcher: allowed
-    amazonbot: allowed
-    amznSearchBot: allowed
-    amznUser: allowed
-    mistralaiUser: allowed
-    duckAssistBot: allowed
-    ccBot: blocked
-    bytespider: blocked
-  indexable: true
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 81
-  geoTier: high
-  geoSignals:
-    crawlAccessScore: 26
-    indexabilityScore: 10
-    popularityScore: 19
-    queryFitScore: 12
-    authorityScore: 10
-    linkValueScore: 4
-  trancoRank: 497
-- name: Smashing Magazine
-  url: https://www.smashingmagazine.com
-  category: content-syndication
-  sampleProfile: ""
-  dr: 60
-  linkType: mixed
-  effort: medium
-  description: Web dev publication accepting articles.
-  verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -868,7 +822,56 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 83
+  geoScore: 85
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 19
+    queryFitScore: 12
+    authorityScore: 10
+    linkValueScore: 4
+  trancoRank: 568
+- name: Smashing Magazine
+  url: https://www.smashingmagazine.com
+  category: content-syndication
+  sampleProfile: ""
+  dr: 60
+  linkType: dofollow
+  effort: low
+  description: Web dev publication accepting articles.
+  verified: true
+  lastVerified: 2026-11-16
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    bingbot: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 84
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
@@ -876,8 +879,8 @@
     popularityScore: 17
     queryFitScore: 12
     authorityScore: 10
-    linkValueScore: 4
-  trancoRank: 5318
+    linkValueScore: 5
+  trancoRank: 5854
 - name: Substack
   url: https://substack.com
   category: content-syndication
@@ -914,7 +917,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   geoScore: 88
   geoTier: high
   geoSignals:
@@ -924,8 +927,9 @@
     queryFitScore: 13
     authorityScore: 10
     linkValueScore: 5
-  trancoRank: 544
+  trancoRank: 426
   sampleProfile: https://www.oneusefulthing.org/
+  profileLinkDofollow: null
 - name: Telegraph
   url: https://telegra.ph
   category: content-syndication
@@ -935,7 +939,7 @@
   effort: medium
   description: Instant publishing by Telegram.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -974,13 +978,13 @@
     queryFitScore: 12
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 1900
+  trancoRank: 2332
 - name: Thinkers360
   url: https://thinkers360.com
   category: content-syndication
   dr: 43
   linkType: dofollow
-  effort: medium
+  effort: low
   aiCrawled: true
   description: Thought leadership platform with rankings.
   aiAccess:
@@ -1011,7 +1015,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   geoScore: 66
   geoTier: medium
   geoSignals:
@@ -1021,8 +1025,9 @@
     queryFitScore: 12
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 736193
+  trancoRank: 725015
   sampleProfile: ""
+  profileLinkDofollow: null
 - name: Tumblr
   url: https://www.tumblr.com
   category: content-syndication
@@ -1032,14 +1037,32 @@
   effort: medium
   description: Microblogging platform.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
     chatgptUser: allowed
-    googleExtended: blocked
+    oaiAdsBot: allowed
     claudeBot: blocked
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: blocked
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    bingbot: allowed
     perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: blocked
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: blocked
     bytespider: allowed
   indexable: true
   profileLinkDofollow: null
@@ -1053,17 +1076,17 @@
     queryFitScore: 12
     authorityScore: 12
     linkValueScore: 4
-  trancoRank: 152
+  trancoRank: 153
 - name: Vocal.media
   url: https://vocal.media
   category: content-syndication
   sampleProfile: ""
   dr: 54
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: General content platform with payouts.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1093,7 +1116,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 79
+  geoScore: 80
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
@@ -1101,18 +1124,18 @@
     popularityScore: 15
     queryFitScore: 12
     authorityScore: 8
-    linkValueScore: 4
-  trancoRank: 11128
+    linkValueScore: 5
+  trancoRank: 14773
 - name: WordPress.com
   url: https://wordpress.com
   category: content-syndication
   sampleProfile: https://wordpress.com/blog/
   dr: 66
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Hosted WordPress blogs.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-16
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1142,7 +1165,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 86
+  geoScore: 87
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
@@ -1150,5 +1173,5 @@
     popularityScore: 20
     queryFitScore: 12
     authorityScore: 10
-    linkValueScore: 4
-  trancoRank: 94
+    linkValueScore: 5
+  trancoRank: 100

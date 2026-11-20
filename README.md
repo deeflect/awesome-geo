@@ -506,6 +506,7 @@ Environment:
 | [gego](https://github.com/AI2HU/gego) | ⭐ 109 | 🔧 Tool | Go | Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time. |
 | [AiCMO](https://github.com/AICMO/ai-cmo) | ⭐ 57 | 🔧 Tool | Vue | Open-source AI SEO platform. Monitor brand visibility across ChatGPT, Claude, Perplexity, Gemini. Self-hostable. |
 | [SEO & AI Search Dashboard](https://github.com/codyschneiderx/seo-ai-search-dashboard) | ⭐ 32 | 🔧 Tool | HTML | Open-source dashboard template for SEO and AI-search performance, with GA4, Search Console, Ads, and AI referral panels. |
+| [OpenGEO](https://github.com/cooleryu/opengeo) | - | 🔧 Tool | TypeScript | Local-first AI search visibility workbench. Captures real ChatGPT and Google AI Overview answers and cited pages in your browser, turns gaps into ready-to-publish content drafts and outreach actions, then re-runs the same prompts to verify changes. |
 
 ### Structured Data & Schema
 

@@ -155,3 +155,15 @@
   maintained: true
   license: MIT
   pushedAt: 2026-10-18
+
+- name: Ilias Ism's SEO Skills
+  repo: Illyism/seo-skills
+  url: https://github.com/Illyism/seo-skills
+  category: agent-skills
+  description: 30 skills for Claude Code, Cursor, and Codex covering technical SEO audits, keyword research, backlinks, and AI search visibility.
+  stars: 1809
+  language: JavaScript
+  type: skill
+  maintained: true
+  license: null
+  pushedAt: 2026-11-20

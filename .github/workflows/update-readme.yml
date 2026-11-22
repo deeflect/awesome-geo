@@ -22,10 +22,8 @@ jobs:
         with:
           node-version: '22'
       - run: npm ci
-      - run: npm run typecheck
-      - run: npm run check-data
-      - name: Regenerate README
-        run: npx tsx scripts/generate-readme.ts
+      - name: Validate and regenerate README
+        run: npm run validate
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"

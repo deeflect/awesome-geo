@@ -10,7 +10,7 @@
   effort: medium
   description: Web design awards directory.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -49,17 +49,17 @@
     queryFitScore: 11
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 11098
+  trancoRank: 12595
 - name: Carbonmade
   url: https://carbonmade.com
   category: design-portfolios
   sampleProfile: ""
   dr: 41
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Online portfolio builder.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -86,19 +86,19 @@
     duckAssistBot: allowed
     ccBot: allowed
     bytespider: allowed
-  indexable: false
+  indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 66
-  geoTier: medium
+  geoScore: 77
+  geoTier: high
   geoSignals:
     crawlAccessScore: 30
-    indexabilityScore: 0
+    indexabilityScore: 10
     popularityScore: 15
     queryFitScore: 11
     authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 21340
+    linkValueScore: 5
+  trancoRank: 22145
 - name: Cargo
   url: https://cargo.site
   category: design-portfolios
@@ -108,7 +108,7 @@
   effort: medium
   description: Designer portfolio platform.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -147,7 +147,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 17553
+  trancoRank: 17064
 - name: Coroflot
   url: https://www.coroflot.com
   category: design-portfolios
@@ -196,7 +196,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 32376
+  trancoRank: 38859
 - name: CSS Design Awards
   url: https://www.cssdesignawards.com
   category: design-portfolios
@@ -206,7 +206,7 @@
   effort: medium
   description: CSS/web design awards.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -245,17 +245,17 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 105000
+  trancoRank: 109292
 - name: Dunked
   url: https://dunked.com
   category: design-portfolios
   sampleProfile: ""
   dr: 39
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Portfolio hosting for creatives.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -285,7 +285,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 64
+  geoScore: 65
   geoTier: medium
   geoSignals:
     crawlAccessScore: 30
@@ -293,8 +293,8 @@
     popularityScore: 5
     queryFitScore: 11
     authorityScore: 4
-    linkValueScore: 4
-  trancoRank: 312531
+    linkValueScore: 5
+  trancoRank: 307750
 - name: Figma Community
   url: https://figma.com/community
   category: design-portfolios
@@ -343,17 +343,17 @@
     queryFitScore: 11
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 846
+  trancoRank: 891
 - name: Muzli
   url: https://muz.li
   category: design-portfolios
   sampleProfile: ""
   dr: 45
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Design inspiration platform.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -383,16 +383,16 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 74
-  geoTier: medium
+  geoScore: 75
+  geoTier: high
   geoSignals:
     crawlAccessScore: 30
     indexabilityScore: 10
     popularityScore: 13
     queryFitScore: 11
     authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 46790
+    linkValueScore: 5
+  trancoRank: 46380
 - name: SiteInspire
   url: https://www.siteinspire.com
   category: design-portfolios
@@ -441,4 +441,4 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 156609
+  trancoRank: 142417

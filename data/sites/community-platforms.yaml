@@ -10,7 +10,7 @@
   effort: medium
   description: Webmaster forum.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -40,16 +40,16 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 75
+  geoScore: 77
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
     indexabilityScore: 10
-    popularityScore: 11
+    popularityScore: 13
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 60621
+  trancoRank: 38715
 - name: DZone
   url: https://dzone.com
   category: community-platforms
@@ -89,26 +89,26 @@
   indexable: false
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 73
+  geoScore: 71
   geoTier: medium
   geoSignals:
     crawlAccessScore: 30
     indexabilityScore: 0
-    popularityScore: 17
+    popularityScore: 15
     queryFitScore: 14
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 9508
+  trancoRank: 11985
 - name: GrowthHackers
   url: https://growthhackers.com
   category: community-platforms
   sampleProfile: ""
   dr: 47
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Growth marketing community.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -138,7 +138,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 72
+  geoScore: 73
   geoTier: medium
   geoSignals:
     crawlAccessScore: 30
@@ -146,8 +146,8 @@
     popularityScore: 8
     queryFitScore: 14
     authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 105787
+    linkValueScore: 5
+  trancoRank: 126101
 - name: IndieHackers
   url: https://www.indiehackers.com
   category: community-platforms
@@ -196,17 +196,17 @@
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 47451
+  trancoRank: 36521
 - name: Lobsters
   url: https://lobste.rs
   category: community-platforms
   sampleProfile: https://lobste.rs/~jcs
   dr: 42
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Invite-only tech link aggregator.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -236,16 +236,16 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: false
-  geoScore: 45
+  geoScore: 48
   geoTier: low
   geoSignals:
     crawlAccessScore: 0
     indexabilityScore: 10
-    popularityScore: 11
+    popularityScore: 13
     queryFitScore: 14
     authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 60398
+    linkValueScore: 5
+  trancoRank: 36074
 - name: Quora
   url: https://quora.com
   category: community-platforms
@@ -292,7 +292,7 @@
     queryFitScore: 14
     authorityScore: 10
     linkValueScore: 3
-  trancoRank: 446
+  trancoRank: 500
   sampleProfile: https://www.quora.com/topic/OpenAI
 - name: Reddit
   url: https://reddit.com
@@ -340,7 +340,7 @@
     queryFitScore: 13
     authorityScore: 13
     linkValueScore: 3
-  trancoRank: 104
+  trancoRank: 110
   sampleProfile: https://www.reddit.com/r/OpenAI/
 - name: SitePoint
   url: https://community.sitepoint.com
@@ -399,7 +399,7 @@
   effort: medium
   description: Tech news discussion.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -426,29 +426,29 @@
     duckAssistBot: allowed
     ccBot: allowed
     bytespider: allowed
-  indexable: true
+  indexable: false
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 84
-  geoTier: high
+  geoScore: 74
+  geoTier: medium
   geoSignals:
     crawlAccessScore: 30
-    indexabilityScore: 10
+    indexabilityScore: 0
     popularityScore: 18
     queryFitScore: 14
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 2562
+  trancoRank: 2693
 - name: Spiceworks
   url: https://community.spiceworks.com
   category: community-platforms
   sampleProfile: ""
   dr: 48
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: IT professional community.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -478,7 +478,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 54
+  geoScore: 55
   geoTier: medium
   geoSignals:
     crawlAccessScore: 19
@@ -486,7 +486,7 @@
     popularityScore: 1
     queryFitScore: 14
     authorityScore: 6
-    linkValueScore: 4
+    linkValueScore: 5
 - name: Warrior Forum
   url: https://www.warriorforum.com
   category: community-platforms
@@ -496,7 +496,7 @@
   effort: medium
   description: Digital marketing forum.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -535,7 +535,7 @@
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 32081
+  trancoRank: 37493
 - name: WebmasterWorld
   url: https://www.webmasterworld.com
   category: community-platforms
@@ -584,7 +584,7 @@
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 54510
+  trancoRank: 52851
 - name: XenForo Community
   url: https://xenforo.com/community
   category: community-platforms
@@ -606,13 +606,13 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 79
+  geoScore: 77
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
     indexabilityScore: 10
-    popularityScore: 15
+    popularityScore: 13
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 21181
+  trancoRank: 28149

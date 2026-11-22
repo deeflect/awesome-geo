@@ -10,7 +10,7 @@
   effort: medium
   description: News aggregator.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -49,7 +49,7 @@
     queryFitScore: 7
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 2260
+  trancoRank: 2595
 - name: Diigo
   url: https://www.diigo.com
   category: social-bookmarking
@@ -98,17 +98,17 @@
     queryFitScore: 7
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 5034
+  trancoRank: 6665
 - name: Flipboard
   url: https://flipboard.com
   category: social-bookmarking
   sampleProfile: https://flipboard.com/@openai
   dr: 56
-  linkType: mixed
-  effort: medium
+  linkType: nofollow
+  effort: hard
   description: Content curation magazines.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -138,7 +138,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 61
+  geoScore: 60
   geoTier: medium
   geoSignals:
     crawlAccessScore: 14
@@ -146,7 +146,7 @@
     popularityScore: 18
     queryFitScore: 7
     authorityScore: 8
-    linkValueScore: 4
+    linkValueScore: 3
   trancoRank: 3202
 - name: Pearltrees
   url: https://www.pearltrees.com
@@ -157,56 +157,7 @@
   effort: medium
   description: Visual bookmarking platform.
   verified: true
-  lastVerified: 2026-11-11
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: allowed
-    chatgptUser: allowed
-    oaiAdsBot: allowed
-    claudeBot: allowed
-    claudeSearchBot: allowed
-    claudeUser: allowed
-    googleExtended: allowed
-    googleCloudVertexBot: allowed
-    googleAgent: allowed
-    bingbot: allowed
-    perplexityBot: allowed
-    perplexityUser: allowed
-    applebot: allowed
-    applebotExtended: allowed
-    metaExternalAgent: allowed
-    metaWebindexer: allowed
-    metaExternalFetcher: allowed
-    amazonbot: allowed
-    amznSearchBot: allowed
-    amznUser: allowed
-    mistralaiUser: allowed
-    duckAssistBot: allowed
-    ccBot: allowed
-    bytespider: allowed
-  indexable: true
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 76
-  geoTier: high
-  geoSignals:
-    crawlAccessScore: 30
-    indexabilityScore: 10
-    popularityScore: 17
-    queryFitScore: 7
-    authorityScore: 8
-    linkValueScore: 4
-  trancoRank: 7216
-- name: Raindrop.io
-  url: https://raindrop.io
-  category: social-bookmarking
-  sampleProfile: ""
-  dr: 52
-  linkType: mixed
-  effort: medium
-  description: Bookmark manager with public collections.
-  verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -245,7 +196,56 @@
     queryFitScore: 7
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 15977
+  trancoRank: 12561
+- name: Raindrop.io
+  url: https://raindrop.io
+  category: social-bookmarking
+  sampleProfile: ""
+  dr: 52
+  linkType: dofollow
+  effort: low
+  description: Bookmark manager with public collections.
+  verified: true
+  lastVerified: 2026-11-22
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    bingbot: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 75
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 15
+    queryFitScore: 7
+    authorityScore: 8
+    linkValueScore: 5
+  trancoRank: 20670
 - name: Start.me
   url: https://start.me
   category: social-bookmarking
@@ -294,7 +294,7 @@
     queryFitScore: 7
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 17349
+  trancoRank: 17925
 - name: StumbleUpon / Mix
   url: https://mix.com
   category: social-bookmarking
@@ -304,7 +304,7 @@
   effort: medium
   description: Content discovery platform.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -343,17 +343,17 @@
     queryFitScore: 7
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 13429
+  trancoRank: 12886
 - name: Wakelet
   url: https://wakelet.com
   category: social-bookmarking
   sampleProfile: ""
   dr: 52
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Content curation platform.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -383,13 +383,13 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 76
+  geoScore: 75
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
     indexabilityScore: 10
-    popularityScore: 17
+    popularityScore: 15
     queryFitScore: 7
     authorityScore: 8
-    linkValueScore: 4
-  trancoRank: 6792
+    linkValueScore: 5
+  trancoRank: 10800

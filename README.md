@@ -489,6 +489,7 @@ This list helps you build that foundation — for free.
 | [gego](https://github.com/AI2HU/gego) | ⭐ 109 | 🔧 Tool | Go | Open-source GEO tracker — schedules prompts across LLMs, extracts keywords, tracks visibility over time. |
 | [AiCMO](https://github.com/AICMO/ai-cmo) | ⭐ 57 | 🔧 Tool | Vue | Open-source AI SEO platform. Monitor brand visibility across ChatGPT, Claude, Perplexity, Gemini. Self-hostable. |
 | [SEO & AI Search Dashboard](https://github.com/codyschneiderx/seo-ai-search-dashboard) | ⭐ 32 | 🔧 Tool | HTML | Open-source dashboard template for SEO and AI-search performance, with GA4, Search Console, Ads, and AI referral panels. |
+| [OpenGEO](https://github.com/cooleryu/opengeo) | - | 🔧 Tool | TypeScript | Local-first GEO workbench for open-source projects and indie SaaS. Runs buyer prompts in your own browser on ChatGPT and Google AI Overviews, saves the real answers and cited URLs, drafts the page/outreach fixes, and re-tests after you ship. |
 
 ### Structured Data & Schema
 

@@ -59,12 +59,19 @@ for (const [, list] of repoGrouped) {
   list.sort((a: any, b: any) => (b.stars ?? 0) - (a.stars ?? 0));
 }
 const repoCategoryOrder = repoCategories.map((c: any) => c.id);
+const issueChooserUrl = 'https://github.com/deeflect/awesome-geo/issues/new/choose';
+
+function headingAnchor(heading: string): string {
+  return heading.toLowerCase().replace(/ /g, '-').replace(/[^\p{L}\p{M}\p{N}_-]/gu, '');
+}
 
 let md = `# Awesome GEO [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of **${totalSites} free platforms** and **${totalRepos} open-source repos & tools** for **Generative Engine Optimization (GEO)** — SEO for the AI era.
 >
 > Browse it with scores, search and free tools at **[geo.deeflect.com](https://geo.deeflect.com)**.
+
+[Browse platforms](#platforms) · [Find tools](#open-source-repos--tools) · [Suggest a resource](${issueChooserUrl})
 
 ## Why GEO?
 
@@ -95,26 +102,6 @@ This list helps you build that foundation — for free.
 | 🟡 Medium GEO value (50-74) | ${medCount} |
 | 🔴 Low GEO value (<50) | ${lowCount} |
 
-## Quick Start
-
-\`\`\`bash
-npm install
-npm run validate
-\`\`\`
-
-This repo is data-first: \`data/sites/*.yaml\` and \`data/repos/*.yaml\` are the source of truth, and \`README.md\` is generated from them.
-
-Useful commands:
-
-- \`npm run validate\` — typecheck, validate YAML data integrity, regenerate \`README.md\`
-- \`npm run verify-all\` — re-check all platform entries live
-- \`npm run refresh-authority\` — refresh Open PageRank and Tranco metrics
-- \`npm run refresh-ai-access\` — refresh robots.txt crawler access signals
-
-Environment:
-
-- \`OPENPAGERANK_API_KEY\` is required for authority verification workflows
-
 ## Contents
 
 `;
@@ -124,7 +111,7 @@ for (const catId of categoryOrder) {
   const cat = catMap.get(catId);
   const list = grouped.get(catId);
   if (!cat || !list || list.length === 0) continue;
-  const anchor = cat.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
+  const anchor = headingAnchor(cat.name);
   md += `- [${cat.name}](#${anchor}) (${list.length})\n`;
 }
 
@@ -133,7 +120,7 @@ for (const catId of repoCategoryOrder) {
   const cat = repoCatMap.get(catId);
   const list = repoGrouped.get(catId);
   if (!cat || !list || list.length === 0) continue;
-  const anchor = cat.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-$/, '');
+  const anchor = headingAnchor(cat.name);
   md += `  - [${cat.name}](#${anchor}) (${list.length})\n`;
 }
 md += `- [AI Discoverability](#ai-discoverability)
@@ -400,6 +387,8 @@ Small first-party tests on a single site; read them as anecdotes, not benchmarks
 
 Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
 
+Make listing changes in the YAML files under [\`data/\`](data/). The README is generated from those files.
+
 ### Add a platform
 
 Add an entry to the appropriate \`data/sites/*.yaml\` file and submit a PR. CI automatically verifies authority, AI crawler access, link type, and calculates a GEO score.
@@ -410,7 +399,21 @@ Add an entry to the appropriate \`data/repos/*.yaml\` file and submit a PR. CI v
 
 ### Or just open an issue
 
-Use our [issue templates](https://github.com/deeflect/awesome-geo/issues/new/choose) to submit a platform or repo — no YAML editing required.
+Use our [issue templates](${issueChooserUrl}) to submit a platform or repo — no YAML editing required.
+
+### Contributor quick start
+
+\`\`\`bash
+npm ci
+npm run validate
+\`\`\`
+
+- \`npm run validate\` — typecheck, validate YAML data integrity, regenerate \`README.md\`, and check section links
+- \`npm run verify-all\` — re-check all platform entries live
+- \`npm run refresh-authority\` — refresh Open PageRank and Tranco metrics
+- \`npm run refresh-ai-access\` — refresh robots.txt crawler access signals
+
+\`OPENPAGERANK_API_KEY\` is required for authority verification workflows.
 
 ---
 

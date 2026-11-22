@@ -29,6 +29,7 @@
   "scripts": {
     "check-site": "tsx scripts/check-site.ts",
     "check-data": "tsx scripts/check-data.ts",
+    "check-readme-anchors": "tsx scripts/check-readme-anchors.ts",
     "add-site": "tsx scripts/add-site.ts",
     "bulk-add": "tsx scripts/bulk-add.ts",
     "verify-all": "tsx scripts/verify-all.ts",
@@ -42,7 +43,7 @@
     "generate-readme": "tsx scripts/generate-readme.ts",
     "split-data": "tsx scripts/split-data.ts",
     "typecheck": "tsc --noEmit",
-    "validate": "npm run typecheck && npm run check-data && npm run generate-readme"
+    "validate": "npm run typecheck && npm run check-data && npm run generate-readme && npm run check-readme-anchors"
   },
   "dependencies": {
     "cheerio": "^1.1.2",

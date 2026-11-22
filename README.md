@@ -4,6 +4,8 @@
 >
 > Browse it with scores, search and free tools at **[geo.deeflect.com](https://geo.deeflect.com)**.
 
+[Browse platforms](#platforms) · [Find tools](#open-source-repos--tools) · [Suggest a resource](https://github.com/deeflect/awesome-geo/issues/new/choose)
+
 ## Why GEO?
 
 **Generative Engine Optimization** is SEO for the AI era. ChatGPT, Perplexity, Gemini, and Google's AI Overviews and AI Mode now answer many queries directly, so your online presence needs to be discoverable by machines — not just humans.
@@ -33,26 +35,6 @@ This list helps you build that foundation — for free.
 | 🟡 Medium GEO value (50-74) | 68 |
 | 🔴 Low GEO value (<50) | 14 |
 
-## Quick Start
-
-```bash
-npm install
-npm run validate
-```
-
-This repo is data-first: `data/sites/*.yaml` and `data/repos/*.yaml` are the source of truth, and `README.md` is generated from them.
-
-Useful commands:
-
-- `npm run validate` — typecheck, validate YAML data integrity, regenerate `README.md`
-- `npm run verify-all` — re-check all platform entries live
-- `npm run refresh-authority` — refresh Open PageRank and Tranco metrics
-- `npm run refresh-ai-access` — refresh robots.txt crawler access signals
-
-Environment:
-
-- `OPENPAGERANK_API_KEY` is required for authority verification workflows
-
 ## Contents
 
 - [Developer Profiles](#developer-profiles) (29)
@@ -65,14 +47,14 @@ Environment:
 - [Niche Directories](#niche-directories) (12)
 - [Social Bookmarking](#social-bookmarking) (8)
 - [Open-Source Repos & Tools](#open-source-repos--tools)
-  - [Research & Frameworks](#research-frameworks) (10)
-  - [llms.txt Ecosystem](#llms-txt-ecosystem) (12)
+  - [Research & Frameworks](#research--frameworks) (10)
+  - [llms.txt Ecosystem](#llmstxt-ecosystem) (12)
   - [AI Crawler Management](#ai-crawler-management) (4)
-  - [GEO Monitoring & Tracking](#geo-monitoring-tracking) (9)
-  - [Structured Data & Schema](#structured-data-schema) (6)
+  - [GEO Monitoring & Tracking](#geo-monitoring--tracking) (9)
+  - [Structured Data & Schema](#structured-data--schema) (6)
   - [GEO Toolkits](#geo-toolkits) (9)
   - [Agent-Readable Content](#agent-readable-content) (2)
-  - [Agent Skills & MCP Servers](#agent-skills-mcp-servers) (13)
+  - [Agent Skills & MCP Servers](#agent-skills--mcp-servers) (13)
 - [AI Discoverability](#ai-discoverability)
 - [Research & Reading](#research--reading)
 - [Contributing](#contributing)
@@ -745,6 +727,8 @@ Small first-party tests on a single site; read them as anecdotes, not benchmarks
 
 Contributions welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
 
+Make listing changes in the YAML files under [`data/`](data/). The README is generated from those files.
+
 ### Add a platform
 
 Add an entry to the appropriate `data/sites/*.yaml` file and submit a PR. CI automatically verifies authority, AI crawler access, link type, and calculates a GEO score.
@@ -756,6 +740,20 @@ Add an entry to the appropriate `data/repos/*.yaml` file and submit a PR. CI ver
 ### Or just open an issue
 
 Use our [issue templates](https://github.com/deeflect/awesome-geo/issues/new/choose) to submit a platform or repo — no YAML editing required.
+
+### Contributor quick start
+
+```bash
+npm ci
+npm run validate
+```
+
+- `npm run validate` — typecheck, validate YAML data integrity, regenerate `README.md`, and check section links
+- `npm run verify-all` — re-check all platform entries live
+- `npm run refresh-authority` — refresh Open PageRank and Tranco metrics
+- `npm run refresh-ai-access` — refresh robots.txt crawler access signals
+
+`OPENPAGERANK_API_KEY` is required for authority verification workflows.
 
 ---
 

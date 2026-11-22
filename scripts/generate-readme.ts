@@ -260,6 +260,7 @@ md += `---
 - [LLMO Citation Matrix](docs/llmo-citation-matrix.md) — how each AI engine finds and cites pages, the crawler controls, and what 2026 research found
 - [Answer-First Content](docs/answer-first-content.md) — structure pages so humans and answer engines can extract claims cleanly
 - [Schema sameAs Quality](docs/schema-sameas.md) — choose identity links that improve disambiguation instead of inflating profile count
+- [How to use and chain 30 open-source SEO skills](https://il.ly/blog/seo-skills) — Ilias Ism walks through SEO and AI visibility workflows for Claude Code, Cursor, and Codex. Some integrations use paid tools.
 
 More guides on [geo.deeflect.com/guides](https://geo.deeflect.com/guides/):
 
@@ -290,6 +291,7 @@ More guides on [geo.deeflect.com/guides](https://geo.deeflect.com/guides/):
 ### Free Hosted Tools (not open source)
 
 - [Ahrefs AI Visibility Checker](https://ahrefs.com/ai-visibility-checker): one-time snapshot of brand mentions in ChatGPT, Gemini, Perplexity, Copilot, AI Overviews and AI Mode; no signup, top 5 results per section
+- [AI SEO Tracker Visibility Checker](https://aiseotracker.com/ai-visibility-checker) — check whether ChatGPT mentions your brand in response to one buyer question for free. Full reports and ongoing tracking are paid.
 - [LLM Pulse Brand Mention Checker](https://llmpulse.ai/brand-mention-checker): one free report per email covering mentions, citations and sentiment in ChatGPT, Perplexity, Gemini, AI Mode and AI Overviews; submitting also subscribes you to its newsletter
 - [Bing Webmaster Tools](https://www.bing.com/webmasters): free account; the AI Performance report shows citations in Copilot and Bing AI answers
 - [Google Search Console generative AI reports](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports): impressions by page, country, device and date in AI Overviews and AI Mode, for all websites since August 31, 2026

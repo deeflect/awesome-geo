@@ -1,6 +1,6 @@
 # Awesome GEO [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of **157 free platforms** and **65 open-source repos & tools** for **Generative Engine Optimization (GEO)** — SEO for the AI era.
+> A curated list of **158 free platforms** and **66 open-source repos & tools** for **Generative Engine Optimization (GEO)** — SEO for the AI era.
 >
 > Browse it with scores, search and free tools at **[geo.deeflect.com](https://geo.deeflect.com)**.
 
@@ -25,14 +25,14 @@ This list helps you build that foundation — for free.
 
 | Metric | Count |
 |--------|-------|
-| Total platforms | 157 |
-| Open-source repos & tools | 65 |
-| Automated checks completed | 157 |
-| Representative public pages seeded | 98 |
+| Total platforms | 158 |
+| Open-source repos & tools | 66 |
+| Automated checks completed | 158 |
+| Representative public pages seeded | 99 |
 | Root-fallback checks | 59 |
-| AI-discoverable (at least 1 major crawler allowed) | 137 |
+| AI-discoverable (at least 1 major crawler allowed) | 138 |
 | 🟢 High GEO value (75+) | 81 |
-| 🟡 Medium GEO value (50-74) | 63 |
+| 🟡 Medium GEO value (50-74) | 64 |
 | 🔴 Low GEO value (<50) | 13 |
 
 ## Contents
@@ -44,7 +44,7 @@ This list helps you build that foundation — for free.
 - [Social Profiles](#social-profiles) (27)
 - [Knowledge Bases](#knowledge-bases) (8)
 - [Design Portfolios](#design-portfolios) (9)
-- [Niche Directories](#niche-directories) (12)
+- [Niche Directories](#niche-directories) (13)
 - [Social Bookmarking](#social-bookmarking) (8)
 - [Open-Source Repos & Tools](#open-source-repos--tools)
   - [Research & Frameworks](#research--frameworks) (10)
@@ -54,7 +54,7 @@ This list helps you build that foundation — for free.
   - [Structured Data & Schema](#structured-data--schema) (6)
   - [GEO Toolkits](#geo-toolkits) (9)
   - [Agent-Readable Content](#agent-readable-content) (2)
-  - [Agent Skills & MCP Servers](#agent-skills--mcp-servers) (13)
+  - [Agent Skills & MCP Servers](#agent-skills--mcp-servers) (14)
 - [AI Discoverability](#ai-discoverability)
 - [Research & Reading](#research--reading)
 - [Contributing](#contributing)
@@ -66,7 +66,7 @@ This list helps you build that foundation — for free.
 
 > Core signals are checked automatically. Authority is a normalized Open PageRank score, and popularity is based on Tranco rank. GEO score is a reference-likelihood model weighted toward crawl access, popularity, query fit, indexability, authority, and link value.
 >
-> Representative public pages are currently seeded for **98/157** platforms. Remaining entries fall back to the platform root until a better public page is sourced.
+> Representative public pages are currently seeded for **99/158** platforms. Remaining entries fall back to the platform root until a better public page is sourced.
 > 
 > Legend: ✅ Open (all major crawlers checked) · ⚠️ Partial · ❌ Blocked
 
@@ -372,7 +372,7 @@ This list helps you build that foundation — for free.
 | [Contra](https://contra.com) | 46 | dofollow | low | ✅ Open | 79/100 | Freelance portfolio platform. |
 
 <details>
-<summary>🟡 Medium GEO Value (11 platforms)</summary>
+<summary>🟡 Medium GEO Value (12 platforms)</summary>
 
 | Platform | Authority | Link Type | Effort | AI Access | GEO Score | Notes |
 |----------|-----------|-----------|--------|-----------|-----------|-------|
@@ -387,6 +387,7 @@ This list helps you build that foundation — for free.
 | [MentionMatch](https://mentionmatch.com) | 38 | nofollow | hard | ✅ Open | 63/100 | B2B content expert matching, formerly Help a B2B Writer. |
 | [Qwoted](https://app.qwoted.com) | 37 | dofollow | low | ⚠️ 2/5 | 54/100 | Expert quote platform. |
 | [HARO](https://www.helpareporter.com) | 36 | dofollow | low | ✅ Open | 72/100 | Free daily journalist source requests, now run by Featured. |
+| [Awesome Tools](https://awesome.tools) | — | mixed | medium | ✅ Open | 60/100 | Software and AI tool directory. Free listings require a domain rating of 20+ and a visible backlink badge. |
 </details>
 
 ### Social Bookmarking
@@ -536,6 +537,7 @@ This list helps you build that foundation — for free.
 | [claude-seo](https://github.com/AgriciDaniel/claude-seo) | ⭐ 28.2k | 🤖 Skill | Python | 13 sub-skills, 7 subagents for Claude Code — technical SEO, E-E-A-T, GEO/AEO, DataForSEO integration. |
 | [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | ⭐ 11.6k | 🤖 Skill | Python | GEO-first SEO skill for Claude Code — citability scoring, AI crawler analysis, schema markup, PDF reports. |
 | [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) | ⭐ 4.1k | 🤖 Skill | — | Open-source SEO, GEO, and marketing skills for AI agents, formerly toprank. |
+| [Ilias Ism's SEO Skills](https://github.com/Illyism/seo-skills) | ⭐ 1.8k | 🤖 Skill | JavaScript | 30 skills for Claude Code, Cursor, and Codex covering technical SEO audits, keyword research, backlinks, and AI search visibility. |
 | [GTM Engineer Skills](https://github.com/onvoyage-ai/gtm-engineer-skills) | ⭐ 1.4k | 🤖 Skill | HTML | Claude Code skill for website AEO/GEO audits with foundational checks, intelligence dimensions, and framework-specific fixes. |
 | [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) | ⭐ 1.3k | 🤖 Skill | Python | GEO audit and optimization skill for making websites visible to ChatGPT, Perplexity, Claude, and Gemini. |
 | [seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) | ⭐ 242 | 🤖 Skill | — | 20 SEO & GEO skills for Claude Code, Cursor, Codex. CORE-EEAT + CITE frameworks. |
@@ -576,6 +578,7 @@ This list helps you build that foundation — for free.
 - [LLMO Citation Matrix](docs/llmo-citation-matrix.md) — how each AI engine finds and cites pages, the crawler controls, and what 2026 research found
 - [Answer-First Content](docs/answer-first-content.md) — structure pages so humans and answer engines can extract claims cleanly
 - [Schema sameAs Quality](docs/schema-sameas.md) — choose identity links that improve disambiguation instead of inflating profile count
+- [How to use and chain 30 open-source SEO skills](https://il.ly/blog/seo-skills) — Ilias Ism walks through SEO and AI visibility workflows for Claude Code, Cursor, and Codex. Some integrations use paid tools.
 
 More guides on [geo.deeflect.com/guides](https://geo.deeflect.com/guides/):
 
@@ -606,6 +609,7 @@ More guides on [geo.deeflect.com/guides](https://geo.deeflect.com/guides/):
 ### Free Hosted Tools (not open source)
 
 - [Ahrefs AI Visibility Checker](https://ahrefs.com/ai-visibility-checker): one-time snapshot of brand mentions in ChatGPT, Gemini, Perplexity, Copilot, AI Overviews and AI Mode; no signup, top 5 results per section
+- [AI SEO Tracker Visibility Checker](https://aiseotracker.com/ai-visibility-checker) — check whether ChatGPT mentions your brand in response to one buyer question for free. Full reports and ongoing tracking are paid.
 - [LLM Pulse Brand Mention Checker](https://llmpulse.ai/brand-mention-checker): one free report per email covering mentions, citations and sentiment in ChatGPT, Perplexity, Gemini, AI Mode and AI Overviews; submitting also subscribes you to its newsletter
 - [Bing Webmaster Tools](https://www.bing.com/webmasters): free account; the AI Performance report shows citations in Copilot and Bing AI answers
 - [Google Search Console generative AI reports](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports): impressions by page, country, device and date in AI Overviews and AI Mode, for all websites since August 31, 2026

@@ -52,7 +52,7 @@ You don't need to fill these — CI calculates them automatically.
 | Indexability | HTTP status, noindex tags, meta robots |
 | GEO Score | Composite score calculated (0-100) |
 
-CI posts a verification report as a PR comment. Results: ✅ Verified, ⚠️ Low GEO value, ❌ Failed.
+The GitHub Actions job summary includes the verification report. Results include ✅ Verified, ⚠️ Low GEO value, and ❌ Failed.
 
 ### Platform guidelines
 
@@ -125,7 +125,7 @@ CI posts a verification report as a PR comment. Results: ✅ Verified, ⚠️ Lo
 | Activity | Warns if no commits in 365+ days |
 | Star accuracy | Flags if claimed stars are wildly off |
 
-CI posts a verification report as a PR comment. Results: ✅ Verified, ⚠️ Review, ❌ Failed.
+The GitHub Actions job summary includes the verification report. Results include ✅ Verified, ⚠️ Review, and ❌ Failed.
 
 ### Repo guidelines
 

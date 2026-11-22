@@ -21,7 +21,7 @@ The companion website (https://geo.deeflect.com, listed as `homepage` in `packag
 
 ## CI (`.github/workflows/`)
 - `update-readme.yml` — on push to `main` touching data or the generator: typecheck, check-data, regenerate README, commit it if changed
-- `verify-pr.yml` — on PRs touching `data/`: verifies changed sites and repos and comments the reports on the PR
+- `verify-pr.yml` — verifies changed sites and repos on data PRs and writes reports to the GitHub Actions job summaries
 - `weekly-verify.yml` — Mondays 06:00 UTC: `verify-all`, `score-sites`, regenerate README, open a PR on `auto/weekly-verify`
 
 ## Key Files

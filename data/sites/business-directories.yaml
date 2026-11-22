@@ -6,11 +6,11 @@
   category: business-directories
   sampleProfile: ""
   dr: 47
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Small business networking.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -40,22 +40,22 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: false
-  geoScore: 51
+  geoScore: 54
   geoTier: medium
   geoSignals:
     crawlAccessScore: 0
     indexabilityScore: 10
-    popularityScore: 13
+    popularityScore: 15
     queryFitScore: 18
     authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 25676
+    linkValueScore: 5
+  trancoRank: 20061
 - name: AngelList / Wellfound
   url: https://wellfound.com
   category: business-directories
   dr: 50
   linkType: dofollow
-  effort: medium
+  effort: low
   aiCrawled: true
   description: Startup ecosystem profiles.
   aiAccess:
@@ -86,7 +86,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   geoScore: 88
   geoTier: high
   geoSignals:
@@ -96,18 +96,18 @@
     queryFitScore: 20
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 14870
+  trancoRank: 18735
   sampleProfile: ""
 - name: AppFutura
   url: https://www.appfutura.com
   category: business-directories
   sampleProfile: ""
   dr: 37
-  linkType: mixed
-  effort: medium
+  linkType: nofollow
+  effort: hard
   description: App development directory.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -137,7 +137,7 @@
   indexable: false
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 59
+  geoScore: 58
   geoTier: medium
   geoSignals:
     crawlAccessScore: 30
@@ -145,18 +145,18 @@
     popularityScore: 3
     queryFitScore: 18
     authorityScore: 4
-    linkValueScore: 4
-  trancoRank: 640799
+    linkValueScore: 3
+  trancoRank: 614041
 - name: Apple Business Connect
   url: https://business.apple.com
   category: business-directories
   sampleProfile: ""
   dr: 46
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Apple Maps business listings.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -186,7 +186,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 69
+  geoScore: 70
   geoTier: medium
   geoSignals:
     crawlAccessScore: 30
@@ -194,17 +194,66 @@
     popularityScore: 1
     queryFitScore: 18
     authorityScore: 6
-    linkValueScore: 4
+    linkValueScore: 5
 - name: Better Business Bureau
   url: https://www.bbb.org
   category: business-directories
   sampleProfile: ""
   dr: 58
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Business accreditation directory.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    bingbot: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: allowed
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 89
+  geoTier: high
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 18
+    queryFitScore: 18
+    authorityScore: 8
+    linkValueScore: 5
+  trancoRank: 1367
+- name: Bing Places
+  url: https://www.bing.com/forbusiness
+  category: business-directories
+  sampleProfile: ""
+  dr: 48
+  linkType: mixed
+  effort: medium
+  description: Bing business listings.
+  verified: true
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -239,70 +288,21 @@
   geoSignals:
     crawlAccessScore: 30
     indexabilityScore: 10
-    popularityScore: 18
-    queryFitScore: 18
-    authorityScore: 8
-    linkValueScore: 4
-  trancoRank: 1944
-- name: Bing Places
-  url: https://www.bing.com/forbusiness
-  category: business-directories
-  sampleProfile: ""
-  dr: 48
-  linkType: mixed
-  effort: medium
-  description: Bing business listings.
-  verified: true
-  lastVerified: 2026-11-11
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: allowed
-    chatgptUser: allowed
-    oaiAdsBot: allowed
-    claudeBot: allowed
-    claudeSearchBot: allowed
-    claudeUser: allowed
-    googleExtended: allowed
-    googleCloudVertexBot: allowed
-    googleAgent: allowed
-    bingbot: allowed
-    perplexityBot: allowed
-    perplexityUser: allowed
-    applebot: allowed
-    applebotExtended: allowed
-    metaExternalAgent: allowed
-    metaWebindexer: allowed
-    metaExternalFetcher: allowed
-    amazonbot: allowed
-    amznSearchBot: allowed
-    amznUser: allowed
-    mistralaiUser: allowed
-    duckAssistBot: allowed
-    ccBot: allowed
-    bytespider: allowed
-  indexable: true
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 76
-  geoTier: high
-  geoSignals:
-    crawlAccessScore: 30
-    indexabilityScore: 10
-    popularityScore: 8
+    popularityScore: 20
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 112050
+  trancoRank: 45
 - name: BizSugar
   url: https://bizsugar.com
   category: business-directories
   sampleProfile: ""
   dr: 42
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Small business content sharing.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -332,7 +332,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 73
+  geoScore: 74
   geoTier: medium
   geoSignals:
     crawlAccessScore: 30
@@ -340,8 +340,8 @@
     popularityScore: 5
     queryFitScore: 18
     authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 275583
+    linkValueScore: 5
+  trancoRank: 305228
 - name: Capterra
   url: https://www.capterra.com
   category: business-directories
@@ -390,17 +390,17 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 5704
+  trancoRank: 5941
 - name: Chamber of Commerce
   url: https://www.chamberofcommerce.com
   category: business-directories
   sampleProfile: ""
   dr: 47
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Business membership directory.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -412,16 +412,16 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 81
+  geoScore: 84
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
     indexabilityScore: 10
-    popularityScore: 13
+    popularityScore: 15
     queryFitScore: 18
     authorityScore: 6
-    linkValueScore: 4
-  trancoRank: 27535
+    linkValueScore: 5
+  trancoRank: 23548
 - name: Clutch
   url: https://clutch.co
   category: business-directories
@@ -450,7 +450,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 8932
+  trancoRank: 7355
   sampleProfile: https://clutch.co/profile/toptal
 - name: Crunchbase
   url: https://crunchbase.com
@@ -498,7 +498,7 @@
     queryFitScore: 20
     authorityScore: 8
     linkValueScore: 3
-  trancoRank: 3099
+  trancoRank: 3162
   sampleProfile: https://www.crunchbase.com/person/dmitry-kargaev
 - name: DesignRush
   url: https://www.designrush.com
@@ -548,7 +548,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 14960
+  trancoRank: 15115
 - name: F6S
   url: https://f6s.com
   category: business-directories
@@ -585,7 +585,7 @@
     bytespider: blocked
   indexable: false
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   geoScore: 63
   geoTier: medium
   geoSignals:
@@ -595,18 +595,18 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 17226
+  trancoRank: 21463
   sampleProfile: https://www.f6s.com/deeflectcom
 - name: Foursquare
   url: https://foursquare.com
   category: business-directories
   sampleProfile: ""
   dr: 62
-  linkType: mixed
-  effort: medium
+  linkType: dofollow
+  effort: low
   description: Location-based business listings.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -636,7 +636,7 @@
   indexable: true
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 86
+  geoScore: 87
   geoTier: high
   geoSignals:
     crawlAccessScore: 26
@@ -644,8 +644,8 @@
     popularityScore: 18
     queryFitScore: 18
     authorityScore: 10
-    linkValueScore: 4
-  trancoRank: 3227
+    linkValueScore: 5
+  trancoRank: 3720
 - name: G2
   url: https://www.g2.com
   category: business-directories
@@ -694,7 +694,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 4306
+  trancoRank: 3628
 - name: Glassdoor
   url: https://www.glassdoor.com
   category: business-directories
@@ -743,7 +743,7 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 2565
+  trancoRank: 3120
 - name: GoodFirms
   url: https://goodfirms.co
   category: business-directories
@@ -790,14 +790,14 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 26277
+  trancoRank: 25619
   sampleProfile: https://www.goodfirms.co/company/toptal
 - name: Google Business
   url: https://business.google.com
   category: business-directories
   dr: 67
-  linkType: nofollow
-  effort: medium
+  linkType: dofollow
+  effort: low
   aiCrawled: true
   description: Local business listing in Google ecosystem.
   aiAccess:
@@ -826,18 +826,18 @@
     duckAssistBot: allowed
     ccBot: allowed
     bytespider: allowed
-  indexable: false
+  indexable: true
   verified: true
-  lastVerified: 2026-11-11
-  geoScore: 64
-  geoTier: medium
+  lastVerified: 2026-11-22
+  geoScore: 76
+  geoTier: high
   geoSignals:
     crawlAccessScore: 30
-    indexabilityScore: 0
+    indexabilityScore: 10
     popularityScore: 1
     queryFitScore: 20
     authorityScore: 10
-    linkValueScore: 3
+    linkValueScore: 5
 - name: Kompass
   url: https://www.kompass.com
   category: business-directories
@@ -877,16 +877,16 @@
   indexable: false
   profileLinkDofollow: null
   aiCrawled: true
-  geoScore: 67
+  geoScore: 65
   geoTier: medium
   geoSignals:
     crawlAccessScore: 26
     indexabilityScore: 0
-    popularityScore: 15
+    popularityScore: 13
     queryFitScore: 18
     authorityScore: 4
     linkValueScore: 4
-  trancoRank: 24268
+  trancoRank: 27635
 - name: LinkedIn Company
   url: https://linkedin.com
   category: business-directories
@@ -933,7 +933,7 @@
     queryFitScore: 20
     authorityScore: 15
     linkValueScore: 3
-  trancoRank: 18
+  trancoRank: 16
   sampleProfile: https://www.linkedin.com/company/openai
 - name: Manta
   url: https://www.manta.com
@@ -983,7 +983,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 14687
+  trancoRank: 15941
 - name: Product Hunt
   url: https://producthunt.com
   category: business-directories
@@ -1030,7 +1030,7 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 3
-  trancoRank: 4405
+  trancoRank: 4500
   sampleProfile: https://www.producthunt.com/@dkargaev
 - name: Sortlist
   url: https://www.sortlist.com
@@ -1080,7 +1080,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 81932
+  trancoRank: 71587
 - name: TopDevelopers
   url: https://www.topdevelopers.co
   category: business-directories
@@ -1090,7 +1090,7 @@
   effort: medium
   description: Developer company directory.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1129,7 +1129,7 @@
     queryFitScore: 18
     authorityScore: 4
     linkValueScore: 4
-  trancoRank: 283734
+  trancoRank: 334843
 - name: TrustPilot
   url: https://www.trustpilot.com
   category: business-directories
@@ -1178,7 +1178,7 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 368
+  trancoRank: 335
 - name: Yellow Pages
   url: https://www.yellowpages.com
   category: business-directories
@@ -1188,28 +1188,46 @@
   effort: medium
   description: Classic business directory.
   verified: true
-  lastVerified: 2026-03-26
+  lastVerified: 2026-11-22
   aiAccess:
-    oaiSearchBot: unknown
-    gptBot: unknown
-    chatgptUser: unknown
-    googleExtended: unknown
-    claudeBot: unknown
-    perplexityBot: unknown
-    bytespider: unknown
-  indexable: false
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    bingbot: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: allowed
+    metaExternalAgent: allowed
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: allowed
+    bytespider: allowed
+  indexable: true
   profileLinkDofollow: null
-  aiCrawled: false
-  geoScore: 47
-  geoTier: low
+  aiCrawled: true
+  geoScore: 85
+  geoTier: high
   geoSignals:
-    crawlAccessScore: 0
-    indexabilityScore: 0
-    popularityScore: 17
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 15
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 6296
+  trancoRank: 10405
 - name: Yelp
   url: https://www.yelp.com
   category: business-directories
@@ -1258,4 +1276,4 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 627
+  trancoRank: 700

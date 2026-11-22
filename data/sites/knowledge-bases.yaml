@@ -49,7 +49,7 @@
     queryFitScore: 16
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 825
+  trancoRank: 861
 - name: Google Scholar
   url: https://scholar.google.com
   category: knowledge-bases
@@ -107,7 +107,7 @@
   effort: medium
   description: Researcher identifier system.
   verified: true
-  lastVerified: 2026-11-11
+  lastVerified: 2026-11-22
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -146,7 +146,7 @@
     queryFitScore: 16
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 2120
+  trancoRank: 1865
 - name: ResearchGate
   url: https://www.researchgate.net
   category: knowledge-bases
@@ -195,7 +195,7 @@
     queryFitScore: 16
     authorityScore: 12
     linkValueScore: 4
-  trancoRank: 212
+  trancoRank: 241
 - name: Semantic Scholar
   url: https://www.semanticscholar.org
   category: knowledge-bases
@@ -244,12 +244,12 @@
     queryFitScore: 16
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 2321
+  trancoRank: 2023
 - name: Wikidata
   url: https://wikidata.org
   category: knowledge-bases
   dr: 54
-  linkType: nofollow
+  linkType: mixed
   effort: medium
   aiCrawled: true
   description: Create entity — directly feeds AI knowledge graphs.
@@ -281,23 +281,23 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-11
-  geoScore: 84
+  lastVerified: 2026-11-22
+  geoScore: 86
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
     indexabilityScore: 10
-    popularityScore: 17
+    popularityScore: 18
     queryFitScore: 16
     authorityScore: 8
-    linkValueScore: 3
-  trancoRank: 5793
+    linkValueScore: 4
+  trancoRank: 4009
   sampleProfile: https://www.wikidata.org/wiki/Q42
 - name: Wikimedia Commons
   url: https://commons.wikimedia.org
   category: knowledge-bases
   dr: 68
-  linkType: nofollow
+  linkType: mixed
   effort: medium
   aiCrawled: true
   description: Image hosting with attribution links.
@@ -329,8 +329,8 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-11
-  geoScore: 70
+  lastVerified: 2026-11-22
+  geoScore: 71
   geoTier: medium
   geoSignals:
     crawlAccessScore: 30
@@ -338,14 +338,14 @@
     popularityScore: 1
     queryFitScore: 16
     authorityScore: 10
-    linkValueScore: 3
+    linkValueScore: 4
   sampleProfile: https://commons.wikimedia.org/wiki/File:OpenAI_Logo.svg
 - name: Wikipedia
   url: https://wikipedia.org
   category: knowledge-bases
   dr: 61
-  linkType: nofollow
-  effort: hard
+  linkType: mixed
+  effort: medium
   aiCrawled: true
   description: Requires notability. Highest impact for AI.
   aiAccess:
@@ -376,8 +376,8 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-11
-  geoScore: 93
+  lastVerified: 2026-11-22
+  geoScore: 94
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
@@ -385,6 +385,6 @@
     popularityScore: 20
     queryFitScore: 20
     authorityScore: 10
-    linkValueScore: 3
-  trancoRank: 28
+    linkValueScore: 4
+  trancoRank: 39
   sampleProfile: https://en.wikipedia.org/wiki/OpenAI

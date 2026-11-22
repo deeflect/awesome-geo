@@ -13,8 +13,8 @@ import { runSiteChecks } from './check-site.js';
     const checks = await runSiteChecks(site.url, sampleProfile);
 
     const nextAiAccess = checks.robots.aiAccess;
-    const nextLinkType = checks.links.linkType === 'unknown' ? 'mixed' : checks.links.linkType;
-    const nextEffort = inferEffort(nextLinkType);
+    const nextLinkType = checks.links.linkType;
+    const nextIndexable = checks.indexability.indexable;
     const nextDr = checks.authority.dr;
     const nextTrancoRank = checks.authority.tranco.rank;
 
@@ -27,8 +27,8 @@ import { runSiteChecks } from './check-site.js';
       fields.push('aiAccess');
     }
 
-    if (site.indexable !== checks.indexability.indexable) {
-      site.indexable = checks.indexability.indexable;
+    if (nextIndexable != null && site.indexable !== nextIndexable) {
+      site.indexable = nextIndexable;
       fields.push('indexable');
     }
 
@@ -42,27 +42,32 @@ import { runSiteChecks } from './check-site.js';
       fields.push('trancoRank');
     }
 
-    if (site.linkType !== nextLinkType) {
-      site.linkType = nextLinkType;
-      fields.push('linkType');
+    if (nextLinkType !== 'unknown') {
+      if (site.linkType !== nextLinkType) {
+        site.linkType = nextLinkType;
+        fields.push('linkType');
+      }
+
+      const nextEffort = inferEffort(nextLinkType);
+      if (site.effort !== nextEffort) {
+        site.effort = nextEffort;
+        fields.push('effort');
+      }
     }
 
-    if (site.effort !== nextEffort) {
-      site.effort = nextEffort;
-      fields.push('effort');
-    }
-
-    if (site.profileLinkDofollow !== checks.links.profileLinkDofollow) {
-      site.profileLinkDofollow = checks.links.profileLinkDofollow;
+    const nextProfileLink = checks.links.profileLinkDofollow;
+    if (nextProfileLink != null && site.profileLinkDofollow !== nextProfileLink) {
+      site.profileLinkDofollow = nextProfileLink;
       fields.push('profileLinkDofollow');
     }
 
-    if (site.verified !== true) {
-      site.verified = true;
-      fields.push('verified');
+    if (checks.indexability.statusOk && nextIndexable != null) {
+      if (site.verified !== true) {
+        site.verified = true;
+        fields.push('verified');
+      }
+      site.lastVerified = toDateString();
     }
-
-    site.lastVerified = toDateString();
     const rescored = applyGeoScore(site);
     const previousGeo = JSON.stringify({
       aiCrawled: site.aiCrawled,

@@ -98,115 +98,78 @@ export async function fetchAiAccess(siteUrl: string, targetUrl: string) {
   return fetchRobotsCheckWithFetcher(siteUrl, targetUrl, fetchWithUserAgent);
 }
 
-async function fetchProfileLinks(sampleProfile: string) {
-  try {
-    const res = await rateLimitedFetch(sampleProfile);
-    if (!res.ok) throw new Error(`profile fetch status ${res.status}`);
-    const html = await res.text();
-    const $ = cheerio.load(html);
-    const base = new URL(sampleProfile);
+async function fetchProfileChecks(sampleProfile: string): Promise<Pick<CheckResult, 'links' | 'indexability'>> {
+  const links: CheckResult['links'] = {
+    outboundLinksFound: 0,
+    nofollowLinks: 0,
+    dofollowLinks: 0,
+    linkType: 'unknown',
+    profileLinkDofollow: null
+  };
+  const indexability: CheckResult['indexability'] = {
+    statusCode: null,
+    statusOk: null,
+    xRobotsTag: null,
+    metaRobots: null,
+    noindexDetected: null,
+    indexable: null
+  };
 
-    let outboundLinksFound = 0;
-    let nofollowLinks = 0;
-    let dofollowLinks = 0;
+  try {
+    const res = await rateLimitedFetch(sampleProfile, { signal: AbortSignal.timeout(10_000) });
+    indexability.statusCode = res.status;
+    indexability.statusOk = res.ok;
+    indexability.xRobotsTag = res.headers.get('x-robots-tag');
+
+    if (!res.ok) {
+      if (res.status === 404 || res.status === 410) indexability.indexable = false;
+      throw new Error(`profile fetch status ${res.status}`);
+    }
+
+    const contentType = res.headers.get('content-type')?.split(';')[0].trim().toLowerCase();
+    if (contentType && contentType !== 'text/html' && contentType !== 'application/xhtml+xml') {
+      throw new Error(`profile response is ${contentType}`);
+    }
+
+    const html = await res.text();
+    if (!html.trim()) throw new Error('empty profile response');
+    const $ = cheerio.load(html);
+    const base = new URL(res.url || sampleProfile);
 
     $('a[href]').each((_, el) => {
       const href = $(el).attr('href');
       if (!href) return;
       let absolute: URL;
       try {
-        absolute = new URL(href, sampleProfile);
+        absolute = new URL(href, base);
       } catch {
         return;
       }
       if (!['http:', 'https:'].includes(absolute.protocol)) return;
       if (absolute.hostname === base.hostname) return;
 
-      outboundLinksFound++;
+      links.outboundLinksFound++;
       const rel = ($(el).attr('rel') || '').toLowerCase();
-      const nofollow = rel.split(/\s+/).includes('nofollow');
-      if (nofollow) nofollowLinks++;
-      else dofollowLinks++;
+      if (rel.split(/\s+/).includes('nofollow')) links.nofollowLinks++;
+      else links.dofollowLinks++;
     });
 
-    let linkType: LinkType = 'unknown';
-    if (outboundLinksFound === 0) linkType = 'unknown';
-    else if (nofollowLinks === outboundLinksFound) linkType = 'nofollow';
-    else if (dofollowLinks === outboundLinksFound) linkType = 'dofollow';
-    else linkType = 'mixed';
+    if (links.nofollowLinks && links.dofollowLinks) links.linkType = 'mixed';
+    else if (links.nofollowLinks) links.linkType = 'nofollow';
+    else if (links.dofollowLinks) links.linkType = 'dofollow';
 
-    const profileLinkDofollow = outboundLinksFound === 1 ? dofollowLinks === 1 : null;
+    if (links.outboundLinksFound === 1) links.profileLinkDofollow = links.dofollowLinks === 1;
 
-    return {
-      html,
-      outboundLinksFound,
-      nofollowLinks,
-      dofollowLinks,
-      linkType,
-      profileLinkDofollow
-    };
+    indexability.metaRobots = $('meta[name="robots"]').attr('content') || null;
+    indexability.noindexDetected = [indexability.xRobotsTag, indexability.metaRobots]
+      .some((value) => value?.toLowerCase().includes('noindex'));
+    indexability.indexable = !indexability.noindexDetected;
   } catch (error: any) {
-    return {
-      html: null,
-      outboundLinksFound: 0,
-      nofollowLinks: 0,
-      dofollowLinks: 0,
-      linkType: 'unknown' as LinkType,
-      profileLinkDofollow: null,
-      error: error?.message || 'Unknown profile link check error'
-    };
-  }
-}
-
-async function checkIndexability(sampleProfile: string, html?: string | null) {
-  let statusCode: number | null = null;
-  let xRobotsTag: string | null = null;
-
-  try {
-    const head = await rateLimitedFetch(sampleProfile, { method: 'HEAD', redirect: 'follow' });
-    statusCode = head.status;
-    xRobotsTag = head.headers.get('x-robots-tag');
-  } catch {
-    // ignore and fallback
+    links.error = error?.message || 'Unknown profile check error';
+    indexability.error = links.error;
   }
 
-  try {
-    if (!html) {
-      const res = await rateLimitedFetch(sampleProfile);
-      if (statusCode == null) statusCode = res.status;
-      if (!xRobotsTag) xRobotsTag = res.headers.get('x-robots-tag');
-      html = await res.text();
-    }
-
-    let metaRobots: string | null = null;
-    if (html) {
-      const $ = cheerio.load(html);
-      metaRobots = $('meta[name="robots"]').attr('content') || null;
-    }
-
-    const noindexDetected = [xRobotsTag, metaRobots].some((v) => (v || '').toLowerCase().includes('noindex'));
-    const statusOk = statusCode != null ? statusCode >= 200 && statusCode < 400 : null;
-    const indexable = statusOk == null ? null : statusOk && !noindexDetected;
-
-    return {
-      statusCode,
-      statusOk,
-      xRobotsTag,
-      metaRobots,
-      noindexDetected,
-      indexable
-    };
-  } catch (error: any) {
-    return {
-      statusCode,
-      statusOk: statusCode != null ? statusCode >= 200 && statusCode < 400 : null,
-      xRobotsTag,
-      metaRobots: null,
-      noindexDetected: null,
-      indexable: null,
-      error: error?.message || 'Unknown indexability error'
-    };
-  }
+  return { links, indexability };
 }
 
 export async function fetchAuthority(siteUrl: string) {
@@ -260,8 +223,7 @@ export async function fetchAuthority(siteUrl: string) {
 export async function runSiteChecks(siteUrl: string, sampleProfile: string): Promise<CheckResult> {
   const publicSurfaceUrl = sampleProfile || siteUrl;
   const robots = await fetchRobotsCheck(siteUrl, publicSurfaceUrl);
-  const links = await fetchProfileLinks(publicSurfaceUrl);
-  const indexability = await checkIndexability(publicSurfaceUrl, links.html);
+  const page = await fetchProfileChecks(publicSurfaceUrl);
   const authority = await fetchAuthority(siteUrl);
 
   return {
@@ -269,15 +231,7 @@ export async function runSiteChecks(siteUrl: string, sampleProfile: string): Pro
     sampleProfile: publicSurfaceUrl,
     timestamp: new Date().toISOString(),
     robots: robots as CheckResult['robots'],
-    links: {
-      outboundLinksFound: links.outboundLinksFound,
-      nofollowLinks: links.nofollowLinks,
-      dofollowLinks: links.dofollowLinks,
-      linkType: links.linkType,
-      profileLinkDofollow: links.profileLinkDofollow,
-      ...(links.error ? { error: links.error } : {})
-    },
-    indexability,
+    ...page,
     authority
   };
 }

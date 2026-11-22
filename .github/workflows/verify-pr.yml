@@ -30,19 +30,12 @@ jobs:
         run: npx tsx scripts/verify-pr.ts
         env:
           OPENPAGERANK_API_KEY: ${{ secrets.OPENPAGERANK_API_KEY }}
-      - name: Comment site results
-        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7.1.0
+      - name: Summarize site results
         if: always()
-        with:
-          script: |
-            const fs = require('fs');
-            const report = fs.readFileSync('verify-report.md', 'utf8');
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: report
-            });
+        run: |
+          if [ -f verify-report.md ]; then
+            cat verify-report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
 
   verify-repos:
     runs-on: ubuntu-latest
@@ -64,16 +57,9 @@ jobs:
         run: npx tsx scripts/verify-repo-pr.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Comment repo results
-        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7.1.0
+      - name: Summarize repo results
         if: always()
-        with:
-          script: |
-            const fs = require('fs');
-            const report = fs.readFileSync('verify-repo-report.md', 'utf8');
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: report
-            });
+        run: |
+          if [ -f verify-repo-report.md ]; then
+            cat verify-repo-report.md >> "$GITHUB_STEP_SUMMARY"
+          fi

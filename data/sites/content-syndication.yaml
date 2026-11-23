@@ -10,7 +10,7 @@
   effort: medium
   description: Article directory.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -49,7 +49,7 @@
     queryFitScore: 12
     authorityScore: 4
     linkValueScore: 4
-  trancoRank: 354624
+  trancoRank: 355112
 - name: Blogger
   url: https://www.blogger.com
   category: content-syndication
@@ -98,7 +98,7 @@
     queryFitScore: 12
     authorityScore: 12
     linkValueScore: 5
-  trancoRank: 522
+  trancoRank: 521
 - name: CSS-Tricks
   url: https://css-tricks.com
   category: content-syndication
@@ -108,7 +108,7 @@
   effort: low
   description: Frontend dev resource.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -147,7 +147,7 @@
     queryFitScore: 12
     authorityScore: 10
     linkValueScore: 5
-  trancoRank: 10596
+  trancoRank: 10607
 - name: freeCodeCamp
   url: https://www.freecodecamp.org
   category: content-syndication
@@ -157,7 +157,7 @@
   effort: low
   description: Coding education with contributor profiles.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -206,7 +206,7 @@
   effort: low
   description: Modern publishing platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -245,7 +245,7 @@
     queryFitScore: 12
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 4240
+  trancoRank: 4243
 - name: Hacker News
   url: https://news.ycombinator.com
   category: content-syndication
@@ -282,7 +282,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 83
   geoTier: high
   geoSignals:
@@ -302,7 +302,7 @@
   effort: medium
   description: Tech blog platform with author profiles.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -341,7 +341,7 @@
     queryFitScore: 12
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 7200
+  trancoRank: 7198
 - name: Issuu
   url: https://issuu.com
   category: content-syndication
@@ -351,7 +351,7 @@
   effort: low
   description: Digital publication platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -390,7 +390,7 @@
     queryFitScore: 12
     authorityScore: 10
     linkValueScore: 5
-  trancoRank: 397
+  trancoRank: 393
 - name: LinkedIn Articles
   url: https://linkedin.com
   category: content-syndication
@@ -427,7 +427,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 98
   geoTier: high
   geoSignals:
@@ -448,7 +448,7 @@
   effort: low
   description: Frontend monitoring blog accepting posts.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -533,7 +533,7 @@
     queryFitScore: 13
     authorityScore: 12
     linkValueScore: 3
-  trancoRank: 202
+  trancoRank: 203
   sampleProfile: https://medium.com/@OpenAI
 - name: Newsbreak
   url: https://www.newsbreak.com
@@ -544,7 +544,7 @@
   effort: low
   description: Local news content platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -583,7 +583,7 @@
     queryFitScore: 12
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 2740
+  trancoRank: 2742
 - name: Notion
   url: https://www.notion.com
   category: content-syndication
@@ -593,7 +593,7 @@
   effort: low
   description: Published Notion pages.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -632,7 +632,7 @@
     queryFitScore: 12
     authorityScore: 10
     linkValueScore: 5
-  trancoRank: 1327
+  trancoRank: 1321
 - name: Quora Spaces
   url: https://www.quora.com
   category: content-syndication
@@ -691,7 +691,7 @@
   effort: medium
   description: Document sharing platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -730,7 +730,7 @@
     queryFitScore: 12
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 503
+  trancoRank: 504
 - name: SitePoint
   url: https://www.sitepoint.com
   category: content-syndication
@@ -779,7 +779,7 @@
     queryFitScore: 12
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 11685
+  trancoRank: 11698
 - name: SlideShare
   url: https://www.slideshare.net
   category: content-syndication
@@ -789,7 +789,7 @@
   effort: medium
   description: Presentation sharing platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -828,7 +828,7 @@
     queryFitScore: 12
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 577
+  trancoRank: 576
 - name: Smashing Magazine
   url: https://www.smashingmagazine.com
   category: content-syndication
@@ -838,7 +838,7 @@
   effort: low
   description: Web dev publication accepting articles.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -877,7 +877,7 @@
     queryFitScore: 12
     authorityScore: 10
     linkValueScore: 5
-  trancoRank: 5870
+  trancoRank: 5877
 - name: Substack
   url: https://substack.com
   category: content-syndication
@@ -914,7 +914,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 88
   geoTier: high
   geoSignals:
@@ -924,7 +924,7 @@
     queryFitScore: 13
     authorityScore: 10
     linkValueScore: 5
-  trancoRank: 423
+  trancoRank: 424
   sampleProfile: https://www.oneusefulthing.org/
 - name: Telegraph
   url: https://telegra.ph
@@ -935,7 +935,7 @@
   effort: medium
   description: Instant publishing by Telegram.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -974,7 +974,7 @@
     queryFitScore: 12
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 2293
+  trancoRank: 2280
 - name: Thinkers360
   url: https://thinkers360.com
   category: content-syndication
@@ -1011,7 +1011,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 66
   geoTier: medium
   geoSignals:
@@ -1021,7 +1021,7 @@
     queryFitScore: 12
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 880119
+  trancoRank: 880772
   sampleProfile: ""
 - name: Tumblr
   url: https://www.tumblr.com
@@ -1032,7 +1032,7 @@
   effort: medium
   description: Microblogging platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1081,7 +1081,7 @@
   effort: low
   description: General content platform with payouts.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1120,7 +1120,7 @@
     queryFitScore: 12
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 15149
+  trancoRank: 15180
 - name: WordPress.com
   url: https://wordpress.com
   category: content-syndication
@@ -1130,7 +1130,7 @@
   effort: low
   description: Hosted WordPress blogs.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1169,4 +1169,4 @@
     queryFitScore: 12
     authorityScore: 10
     linkValueScore: 5
-  trancoRank: 98
+  trancoRank: 99

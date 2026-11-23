@@ -49,7 +49,7 @@
     queryFitScore: 11
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 12595
+  trancoRank: 12557
 - name: Carbonmade
   url: https://carbonmade.com
   category: design-portfolios
@@ -59,7 +59,7 @@
   effort: low
   description: Online portfolio builder.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -98,7 +98,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 22145
+  trancoRank: 22131
 - name: Cargo
   url: https://cargo.site
   category: design-portfolios
@@ -108,7 +108,7 @@
   effort: medium
   description: Designer portfolio platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -147,7 +147,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 17064
+  trancoRank: 17046
 - name: Coroflot
   url: https://www.coroflot.com
   category: design-portfolios
@@ -196,7 +196,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 38859
+  trancoRank: 39103
 - name: CSS Design Awards
   url: https://www.cssdesignawards.com
   category: design-portfolios
@@ -206,7 +206,7 @@
   effort: medium
   description: CSS/web design awards.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -245,7 +245,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 109292
+  trancoRank: 109307
 - name: Dunked
   url: https://dunked.com
   category: design-portfolios
@@ -255,7 +255,7 @@
   effort: low
   description: Portfolio hosting for creatives.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -294,7 +294,7 @@
     queryFitScore: 11
     authorityScore: 4
     linkValueScore: 5
-  trancoRank: 307750
+  trancoRank: 307126
 - name: Figma Community
   url: https://figma.com/community
   category: design-portfolios
@@ -343,7 +343,7 @@
     queryFitScore: 11
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 891
+  trancoRank: 890
 - name: Muzli
   url: https://muz.li
   category: design-portfolios
@@ -353,7 +353,7 @@
   effort: low
   description: Design inspiration platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -392,7 +392,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 46380
+  trancoRank: 46467
 - name: SiteInspire
   url: https://www.siteinspire.com
   category: design-portfolios
@@ -441,4 +441,4 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 142417
+  trancoRank: 141754

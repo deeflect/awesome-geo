@@ -10,7 +10,7 @@
   effort: medium
   description: News aggregator.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -49,7 +49,7 @@
     queryFitScore: 7
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 2595
+  trancoRank: 2571
 - name: Diigo
   url: https://www.diigo.com
   category: social-bookmarking
@@ -98,7 +98,7 @@
     queryFitScore: 7
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 6665
+  trancoRank: 6627
 - name: Flipboard
   url: https://flipboard.com
   category: social-bookmarking
@@ -108,7 +108,7 @@
   effort: hard
   description: Content curation magazines.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -147,7 +147,7 @@
     queryFitScore: 7
     authorityScore: 8
     linkValueScore: 3
-  trancoRank: 3202
+  trancoRank: 3223
 - name: Pearltrees
   url: https://www.pearltrees.com
   category: social-bookmarking
@@ -157,7 +157,7 @@
   effort: medium
   description: Visual bookmarking platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -196,7 +196,7 @@
     queryFitScore: 7
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 12561
+  trancoRank: 12528
 - name: Raindrop.io
   url: https://raindrop.io
   category: social-bookmarking
@@ -206,7 +206,7 @@
   effort: low
   description: Bookmark manager with public collections.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -245,7 +245,7 @@
     queryFitScore: 7
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 20670
+  trancoRank: 20708
 - name: Start.me
   url: https://start.me
   category: social-bookmarking
@@ -294,7 +294,7 @@
     queryFitScore: 7
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 17925
+  trancoRank: 17908
 - name: StumbleUpon / Mix
   url: https://mix.com
   category: social-bookmarking
@@ -304,7 +304,7 @@
   effort: medium
   description: Content discovery platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -343,7 +343,7 @@
     queryFitScore: 7
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 12886
+  trancoRank: 12863
 - name: Wakelet
   url: https://wakelet.com
   category: social-bookmarking
@@ -353,7 +353,7 @@
   effort: low
   description: Content curation platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -392,4 +392,4 @@
     queryFitScore: 7
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 10800
+  trancoRank: 10812

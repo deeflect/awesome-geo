@@ -80,7 +80,7 @@ This list helps you build that foundation — for free.
 |----------|-----------|-----------|--------|-----------|-----------|-------|
 | [GitHub](https://github.com) | 86 | mixed | medium | ✅ Open | 97/100 | Profile README + pinned repos. Tier 1 asset for developers. |
 | [SourceForge](https://sourceforge.net) | 69 | nofollow | hard | ✅ Open | 90/100 | Open source project hosting. |
-| [HuggingFace](https://huggingface.co) | 63 | mixed | medium | ✅ Open | 90/100 | AI/ML model hosting with profile pages. |
+| [HuggingFace](https://huggingface.co) | 63 | mixed | medium | ✅ Open | 91/100 | AI/ML model hosting with profile pages. |
 | [Bitbucket](https://bitbucket.org) | 62 | dofollow | low | ✅ Open | 91/100 | Atlassian git hosting with public profiles. |
 | [GitLab](https://gitlab.com) | 62 | dofollow | low | ✅ Open | 87/100 | Alternative to GitHub with profile pages. |
 | [DEV.to](https://dev.to) | 61 | dofollow | low | ✅ Open | 91/100 | Publish articles with canonical URLs back to your site. |

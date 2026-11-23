@@ -49,7 +49,7 @@
     queryFitScore: 16
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 861
+  trancoRank: 862
 - name: Google Scholar
   url: https://scholar.google.com
   category: knowledge-bases
@@ -107,7 +107,7 @@
   effort: medium
   description: Researcher identifier system.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -146,7 +146,7 @@
     queryFitScore: 16
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 1865
+  trancoRank: 1864
 - name: ResearchGate
   url: https://www.researchgate.net
   category: knowledge-bases
@@ -195,7 +195,7 @@
     queryFitScore: 16
     authorityScore: 12
     linkValueScore: 4
-  trancoRank: 241
+  trancoRank: 242
 - name: Semantic Scholar
   url: https://www.semanticscholar.org
   category: knowledge-bases
@@ -244,7 +244,7 @@
     queryFitScore: 16
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 2023
+  trancoRank: 2014
 - name: Wikidata
   url: https://wikidata.org
   category: knowledge-bases
@@ -281,7 +281,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 86
   geoTier: high
   geoSignals:
@@ -291,7 +291,7 @@
     queryFitScore: 16
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 4009
+  trancoRank: 4022
   sampleProfile: https://www.wikidata.org/wiki/Q42
 - name: Wikimedia Commons
   url: https://commons.wikimedia.org
@@ -329,7 +329,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 71
   geoTier: medium
   geoSignals:
@@ -376,7 +376,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 94
   geoTier: high
   geoSignals:
@@ -386,5 +386,5 @@
     queryFitScore: 20
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 39
+  trancoRank: 38
   sampleProfile: https://en.wikipedia.org/wiki/OpenAI

@@ -37,7 +37,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 82
   geoTier: high
   geoSignals:
@@ -47,7 +47,7 @@
     queryFitScore: 11
     authorityScore: 10
     linkValueScore: 3
-  trancoRank: 3455
+  trancoRank: 3454
   sampleProfile: https://about.me/ev
 - name: Behance
   url: https://behance.net
@@ -95,7 +95,7 @@
     queryFitScore: 11
     authorityScore: 10
     linkValueScore: 3
-  trancoRank: 545
+  trancoRank: 547
   sampleProfile: https://behance.net/dkargaev
 - name: Bio.link
   url: https://bio.link
@@ -145,7 +145,7 @@
     queryFitScore: 11
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 28147
+  trancoRank: 28129
 - name: Bluesky
   url: https://bsky.app
   category: social-profiles
@@ -155,7 +155,7 @@
   effort: medium
   description: Decentralized microblogging.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -194,7 +194,7 @@
     queryFitScore: 11
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 363
+  trancoRank: 360
 - name: Carrd
   url: https://carrd.com
   category: social-profiles
@@ -204,7 +204,7 @@
   effort: low
   description: One-page personal sites.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -243,7 +243,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 36554
+  trancoRank: 36566
 - name: Daily.dev
   url: https://daily.dev
   category: social-profiles
@@ -253,7 +253,7 @@
   effort: medium
   description: Developer news with profiles.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -292,7 +292,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 28286
+  trancoRank: 28275
 - name: Discord
   url: https://discord.com
   category: social-profiles
@@ -302,7 +302,7 @@
   effort: low
   description: Community platform with server listings.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -341,7 +341,7 @@
     queryFitScore: 11
     authorityScore: 12
     linkValueScore: 5
-  trancoRank: 180
+  trancoRank: 178
 - name: Dribbble
   url: https://dribbble.com
   category: social-profiles
@@ -378,7 +378,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 84
   geoTier: high
   geoSignals:
@@ -388,7 +388,7 @@
     queryFitScore: 11
     authorityScore: 10
     linkValueScore: 5
-  trancoRank: 1571
+  trancoRank: 1580
   sampleProfile: https://dribbble.com/simplebits
 - name: Flickr
   url: https://flickr.com
@@ -399,7 +399,7 @@
   effort: low
   description: Photo sharing with profile links.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -438,7 +438,7 @@
     queryFitScore: 11
     authorityScore: 12
     linkValueScore: 5
-  trancoRank: 181
+  trancoRank: 180
 - name: Goodreads
   url: https://www.goodreads.com
   category: social-profiles
@@ -448,7 +448,7 @@
   effort: medium
   description: Book reviews with author profiles.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -487,7 +487,7 @@
     queryFitScore: 11
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 478
+  trancoRank: 474
 - name: Gravatar
   url: https://gravatar.com
   category: social-profiles
@@ -524,7 +524,7 @@
     bytespider: blocked
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 77
   geoTier: high
   geoSignals:
@@ -545,7 +545,7 @@
   effort: medium
   description: Photo/video with bio link.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -633,7 +633,7 @@
     queryFitScore: 11
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 1054
+  trancoRank: 1046
 - name: Linktree
   url: https://linktr.ee
   category: social-profiles
@@ -643,7 +643,7 @@
   effort: medium
   description: Link-in-bio platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -682,7 +682,7 @@
     queryFitScore: 11
     authorityScore: 12
     linkValueScore: 4
-  trancoRank: 270
+  trancoRank: 271
 - name: Mastodon
   url: https://mastodon.social
   category: social-profiles
@@ -692,7 +692,7 @@
   effort: medium
   description: Federated social profile
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -731,7 +731,7 @@
     queryFitScore: 11
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 2665
+  trancoRank: 2635
 - name: Mesh
   url: https://me.sh
   category: social-profiles
@@ -741,7 +741,7 @@
   effort: low
   description: Personal CRM, formerly Clay.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -780,7 +780,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 122473
+  trancoRank: 122478
 - name: Peerlist
   url: https://peerlist.io
   category: social-profiles
@@ -829,7 +829,7 @@
     queryFitScore: 11
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 198746
+  trancoRank: 199819
 - name: Pinterest
   url: https://pinterest.com
   category: social-profiles
@@ -839,7 +839,7 @@
   effort: medium
   description: Visual bookmarking with profile links.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -888,7 +888,7 @@
   effort: low
   description: Podcast hosting with profiles, formerly Spotify for Podcasters.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -936,7 +936,7 @@
   effort: low
   description: Messaging with public channels.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -975,7 +975,7 @@
     queryFitScore: 11
     authorityScore: 12
     linkValueScore: 5
-  trancoRank: 102
+  trancoRank: 101
 - name: Threads
   url: https://www.threads.com
   category: social-profiles
@@ -985,7 +985,7 @@
   effort: medium
   description: Meta microblogging platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -1024,7 +1024,7 @@
     queryFitScore: 11
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 561
+  trancoRank: 560
 - name: TikTok
   url: https://tiktok.com
   category: social-profiles
@@ -1034,7 +1034,7 @@
   effort: medium
   description: Short video with bio link.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -1083,7 +1083,7 @@
   effort: medium
   description: Streaming platform with bio links.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1132,7 +1132,7 @@
   effort: medium
   description: Video hosting with profiles.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -1181,7 +1181,7 @@
   effort: low
   description: Meta messaging channels.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -1305,7 +1305,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 91
   geoTier: high
   geoSignals:

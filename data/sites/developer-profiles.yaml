@@ -10,7 +10,7 @@
   effort: low
   description: Atlassian git hosting with public profiles.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -49,7 +49,7 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 5
-  trancoRank: 2044
+  trancoRank: 2043
 - name: Codeberg
   url: https://codeberg.org
   category: developer-profiles
@@ -59,7 +59,7 @@
   effort: medium
   description: Non-profit git hosting.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -98,7 +98,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 3415
+  trancoRank: 3402
 - name: CodePen
   url: https://codepen.io
   category: developer-profiles
@@ -145,7 +145,7 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 3
-  trancoRank: 4363
+  trancoRank: 4365
   sampleProfile: https://codepen.io/chriscoyier
 - name: CodeSandbox
   url: https://codesandbox.io
@@ -177,7 +177,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 24647
+  trancoRank: 24758
 - name: crates.io
   url: https://crates.io
   category: developer-profiles
@@ -224,7 +224,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 3
-  trancoRank: 7644
+  trancoRank: 7502
   sampleProfile: ""
 - name: DEV.to
   url: https://dev.to
@@ -262,7 +262,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 91
   geoTier: high
   geoSignals:
@@ -272,7 +272,7 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 5
-  trancoRank: 3772
+  trancoRank: 3803
   sampleProfile: https://dev.to/deeflect
 - name: Docker Hub
   url: https://hub.docker.com
@@ -283,7 +283,7 @@
   effort: low
   description: Container image registry with profiles.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -331,7 +331,7 @@
   effort: low
   description: Coding exercises with public profiles.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -370,7 +370,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 53858
+  trancoRank: 54372
 - name: Gitea
   url: https://gitea.com
   category: developer-profiles
@@ -380,7 +380,7 @@
   effort: low
   description: Self-hosted git with public instances.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -419,7 +419,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 3967
+  trancoRank: 3990
 - name: GitHub
   url: https://github.com
   category: developer-profiles
@@ -456,7 +456,7 @@
     bytespider: blocked
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 97
   geoTier: high
   geoSignals:
@@ -552,7 +552,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 72
   geoTier: medium
   geoSignals:
@@ -574,7 +574,7 @@
   effort: low
   description: Developer skills platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -613,7 +613,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 11186
+  trancoRank: 11224
 - name: Hashnode
   url: https://hashnode.com
   category: developer-profiles
@@ -650,7 +650,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 83
   geoTier: high
   geoSignals:
@@ -660,7 +660,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 23942
+  trancoRank: 24073
   sampleProfile: https://hashnode.com/@deeflect
 - name: HuggingFace
   url: https://huggingface.co
@@ -698,17 +698,17 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
-  geoScore: 90
+  lastVerified: 2026-11-23
+  geoScore: 91
   geoTier: high
   geoSignals:
     crawlAccessScore: 30
     indexabilityScore: 10
-    popularityScore: 18
+    popularityScore: 19
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 1002
+  trancoRank: 994
   sampleProfile: https://huggingface.co/openai
 - name: JSFiddle
   url: https://jsfiddle.net
@@ -758,7 +758,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 12451
+  trancoRank: 12412
 - name: Kaggle
   url: https://www.kaggle.com
   category: developer-profiles
@@ -768,7 +768,7 @@
   effort: medium
   description: Data science competition platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -807,7 +807,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 4599
+  trancoRank: 4603
 - name: Launchpad
   url: https://launchpad.net
   category: developer-profiles
@@ -817,7 +817,7 @@
   effort: medium
   description: Ubuntu/Canonical project hosting.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -856,7 +856,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 307
+  trancoRank: 308
 - name: LeetCode
   url: https://leetcode.com
   category: developer-profiles
@@ -905,7 +905,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 4384
+  trancoRank: 4387
 - name: npm
   url: https://www.npmjs.com
   category: developer-profiles
@@ -934,7 +934,7 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 3
-  trancoRank: 2003
+  trancoRank: 2000
   sampleProfile: https://www.npmjs.com/~sindresorhus
 - name: NuGet
   url: https://www.nuget.org
@@ -945,7 +945,7 @@
   effort: low
   description: .NET package registry.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1015,7 +1015,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 40673
+  trancoRank: 40783
 - name: Packagist
   url: https://packagist.org
   category: developer-profiles
@@ -1025,7 +1025,7 @@
   effort: medium
   description: PHP/Composer package registry.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1064,7 +1064,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 4476
+  trancoRank: 4475
 - name: PyPI
   url: https://pypi.org
   category: developer-profiles
@@ -1101,7 +1101,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 88
   geoTier: high
   geoSignals:
@@ -1111,7 +1111,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 2443
+  trancoRank: 2428
   sampleProfile: https://pypi.org/project/openai/
 - name: Read the Docs
   url: https://readthedocs.org
@@ -1122,7 +1122,7 @@
   effort: medium
   description: Documentation hosting platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1161,7 +1161,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 4413
+  trancoRank: 4414
 - name: Replit
   url: https://replit.com
   category: developer-profiles
@@ -1198,7 +1198,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 89
   geoTier: high
   geoSignals:
@@ -1208,7 +1208,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 3833
+  trancoRank: 3891
   sampleProfile: ""
 - name: RubyGems
   url: https://rubygems.org
@@ -1219,7 +1219,7 @@
   effort: low
   description: Ruby package registry with profile pages.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1258,7 +1258,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 12332
+  trancoRank: 12272
 - name: SourceForge
   url: https://sourceforge.net
   category: developer-profiles
@@ -1268,7 +1268,7 @@
   effort: hard
   description: Open source project hosting.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1326,7 +1326,7 @@
     bytespider: unknown
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 64
   geoTier: medium
   geoSignals:
@@ -1336,5 +1336,5 @@
     queryFitScore: 20
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 546
+  trancoRank: 544
   sampleProfile: https://stackoverflow.com/users/22656/jon-skeet

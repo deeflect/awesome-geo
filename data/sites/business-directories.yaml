@@ -10,7 +10,7 @@
   effort: low
   description: Small business networking.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -49,7 +49,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 20061
+  trancoRank: 20169
 - name: AngelList / Wellfound
   url: https://wellfound.com
   category: business-directories
@@ -86,7 +86,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 88
   geoTier: high
   geoSignals:
@@ -96,7 +96,7 @@
     queryFitScore: 20
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 18735
+  trancoRank: 18753
   sampleProfile: ""
 - name: AppFutura
   url: https://www.appfutura.com
@@ -107,7 +107,7 @@
   effort: hard
   description: App development directory.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -146,7 +146,7 @@
     queryFitScore: 18
     authorityScore: 4
     linkValueScore: 3
-  trancoRank: 614041
+  trancoRank: 615161
 - name: Apple Business Connect
   url: https://business.apple.com
   category: business-directories
@@ -156,7 +156,7 @@
   effort: low
   description: Apple Maps business listings.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -204,7 +204,7 @@
   effort: low
   description: Business accreditation directory.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -243,7 +243,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 1367
+  trancoRank: 1371
 - name: Bing Places
   url: https://www.bing.com/forbusiness
   category: business-directories
@@ -253,7 +253,7 @@
   effort: medium
   description: Bing business listings.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -302,7 +302,7 @@
   effort: low
   description: Small business content sharing.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -341,7 +341,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 305228
+  trancoRank: 305006
 - name: Capterra
   url: https://www.capterra.com
   category: business-directories
@@ -390,7 +390,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 5941
+  trancoRank: 5926
 - name: Chamber of Commerce
   url: https://www.chamberofcommerce.com
   category: business-directories
@@ -400,7 +400,7 @@
   effort: low
   description: Business membership directory.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -421,7 +421,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 23548
+  trancoRank: 23871
 - name: Clutch
   url: https://clutch.co
   category: business-directories
@@ -450,7 +450,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 5
-  trancoRank: 7355
+  trancoRank: 7335
   sampleProfile: https://clutch.co/profile/toptal
 - name: Crunchbase
   url: https://crunchbase.com
@@ -498,7 +498,7 @@
     queryFitScore: 20
     authorityScore: 8
     linkValueScore: 3
-  trancoRank: 3162
+  trancoRank: 3184
   sampleProfile: https://www.crunchbase.com/person/dmitry-kargaev
 - name: DesignRush
   url: https://www.designrush.com
@@ -548,7 +548,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 15115
+  trancoRank: 15168
 - name: F6S
   url: https://f6s.com
   category: business-directories
@@ -585,7 +585,7 @@
     bytespider: blocked
   indexable: false
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 63
   geoTier: medium
   geoSignals:
@@ -595,7 +595,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 21463
+  trancoRank: 21519
   sampleProfile: https://www.f6s.com/deeflectcom
 - name: Foursquare
   url: https://foursquare.com
@@ -606,7 +606,7 @@
   effort: low
   description: Location-based business listings.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -645,7 +645,7 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 5
-  trancoRank: 3720
+  trancoRank: 3732
 - name: G2
   url: https://www.g2.com
   category: business-directories
@@ -694,7 +694,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 3628
+  trancoRank: 3617
 - name: Glassdoor
   url: https://www.glassdoor.com
   category: business-directories
@@ -743,7 +743,7 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 3120
+  trancoRank: 3170
 - name: GoodFirms
   url: https://goodfirms.co
   category: business-directories
@@ -790,7 +790,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 25619
+  trancoRank: 25630
   sampleProfile: https://www.goodfirms.co/company/toptal
 - name: Google Business
   url: https://business.google.com
@@ -828,7 +828,7 @@
     bytespider: allowed
   indexable: true
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   geoScore: 76
   geoTier: high
   geoSignals:
@@ -886,7 +886,7 @@
     queryFitScore: 18
     authorityScore: 4
     linkValueScore: 4
-  trancoRank: 27635
+  trancoRank: 27818
 - name: LinkedIn Company
   url: https://linkedin.com
   category: business-directories
@@ -983,7 +983,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 15941
+  trancoRank: 15736
 - name: Product Hunt
   url: https://producthunt.com
   category: business-directories
@@ -1030,7 +1030,7 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 3
-  trancoRank: 4500
+  trancoRank: 4505
   sampleProfile: https://www.producthunt.com/@dkargaev
 - name: Sortlist
   url: https://www.sortlist.com
@@ -1080,7 +1080,7 @@
     queryFitScore: 18
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 71587
+  trancoRank: 72163
 - name: TopDevelopers
   url: https://www.topdevelopers.co
   category: business-directories
@@ -1090,7 +1090,7 @@
   effort: medium
   description: Developer company directory.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1129,7 +1129,7 @@
     queryFitScore: 18
     authorityScore: 4
     linkValueScore: 4
-  trancoRank: 334843
+  trancoRank: 332864
 - name: TrustPilot
   url: https://www.trustpilot.com
   category: business-directories
@@ -1178,7 +1178,7 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 335
+  trancoRank: 334
 - name: Yellow Pages
   url: https://www.yellowpages.com
   category: business-directories
@@ -1188,7 +1188,7 @@
   effort: medium
   description: Classic business directory.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -1227,7 +1227,7 @@
     queryFitScore: 18
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 10405
+  trancoRank: 10373
 - name: Yelp
   url: https://www.yelp.com
   category: business-directories
@@ -1276,4 +1276,4 @@
     queryFitScore: 18
     authorityScore: 10
     linkValueScore: 4
-  trancoRank: 700
+  trancoRank: 703

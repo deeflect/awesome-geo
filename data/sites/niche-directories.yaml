@@ -10,7 +10,7 @@
   effort: medium
   description: Remote developer jobs.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -49,7 +49,57 @@
     queryFitScore: 15
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 146165
+  trancoRank: 143808
+- name: Awesome Tools
+  url: https://awesome.tools
+  category: niche-directories
+  sampleProfile: https://awesome.tools/apps/claude
+  dr: null
+  linkType: mixed
+  effort: medium
+  description: Software and AI tool directory. Free listings require a domain
+    rating of 20+ and a visible backlink badge.
+  verified: true
+  lastVerified: 2026-11-23
+  aiAccess:
+    oaiSearchBot: allowed
+    gptBot: allowed
+    chatgptUser: allowed
+    oaiAdsBot: allowed
+    claudeBot: allowed
+    claudeSearchBot: allowed
+    claudeUser: allowed
+    googleExtended: allowed
+    googleCloudVertexBot: allowed
+    googleAgent: allowed
+    bingbot: allowed
+    perplexityBot: allowed
+    perplexityUser: allowed
+    applebot: allowed
+    applebotExtended: blocked
+    metaExternalAgent: blocked
+    metaWebindexer: allowed
+    metaExternalFetcher: allowed
+    amazonbot: allowed
+    amznSearchBot: allowed
+    amznUser: allowed
+    mistralaiUser: allowed
+    duckAssistBot: allowed
+    ccBot: blocked
+    bytespider: blocked
+  indexable: true
+  profileLinkDofollow: null
+  aiCrawled: true
+  geoScore: 60
+  geoTier: medium
+  geoSignals:
+    crawlAccessScore: 30
+    indexabilityScore: 10
+    popularityScore: 1
+    queryFitScore: 15
+    authorityScore: 0
+    linkValueScore: 4
+  trancoRank: null
 - name: Clarity.fm
   url: https://clarity.fm
   category: niche-directories
@@ -59,7 +109,7 @@
   effort: medium
   description: Expert call marketplace.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -98,7 +148,7 @@
     queryFitScore: 15
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 180813
+  trancoRank: 180237
 - name: Contra
   url: https://contra.com
   category: niche-directories
@@ -108,7 +158,7 @@
   effort: low
   description: Freelance portfolio platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -147,7 +197,7 @@
     queryFitScore: 15
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 43807
+  trancoRank: 43744
 - name: Featured.com
   url: https://featured.com
   category: niche-directories
@@ -157,7 +207,7 @@
   effort: medium
   description: Expert source for journalists.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -196,7 +246,7 @@
     queryFitScore: 15
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 365403
+  trancoRank: 368674
 - name: Gun.io
   url: https://gun.io
   category: niche-directories
@@ -206,7 +256,7 @@
   effort: low
   description: Developer freelance platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -245,7 +295,7 @@
     queryFitScore: 15
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 341129
+  trancoRank: 340553
 - name: HARO
   url: https://www.helpareporter.com
   category: niche-directories
@@ -255,7 +305,7 @@
   effort: low
   description: Free daily journalist source requests, now run by Featured.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -294,7 +344,7 @@
     queryFitScore: 15
     authorityScore: 4
     linkValueScore: 5
-  trancoRank: 105967
+  trancoRank: 105997
 - name: Maven
   url: https://maven.com
   category: niche-directories
@@ -304,7 +354,7 @@
   effort: low
   description: Expert teaching platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -343,7 +393,7 @@
     queryFitScore: 15
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 121073
+  trancoRank: 120992
 - name: MentionMatch
   url: https://mentionmatch.com
   category: niche-directories
@@ -353,7 +403,7 @@
   effort: hard
   description: B2B content expert matching, formerly Help a B2B Writer.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -392,7 +442,7 @@
     queryFitScore: 15
     authorityScore: 4
     linkValueScore: 3
-  trancoRank: 1867956
+  trancoRank: 1872934
 - name: MuckRack
   url: https://muckrack.com
   category: niche-directories
@@ -423,7 +473,7 @@
     queryFitScore: 15
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 11270
+  trancoRank: 11332
 - name: Qwoted
   url: https://app.qwoted.com
   category: niche-directories
@@ -433,7 +483,7 @@
   effort: low
   description: Expert quote platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -481,7 +531,7 @@
   effort: low
   description: Journalist query platform.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -520,7 +570,7 @@
     queryFitScore: 15
     authorityScore: 4
     linkValueScore: 5
-  trancoRank: 945245
+  trancoRank: 927506
 - name: Toptal
   url: https://www.toptal.com
   category: niche-directories
@@ -569,54 +619,4 @@
     queryFitScore: 15
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 7314
-# Free listing requirements: https://awesome.tools/mcp
-- name: Awesome Tools
-  url: https://awesome.tools
-  category: niche-directories
-  sampleProfile: https://awesome.tools/apps/claude
-  dr: null
-  linkType: mixed
-  effort: medium
-  description: Software and AI tool directory. Free listings require a domain rating of 20+ and a visible backlink badge.
-  verified: true
-  lastVerified: 2026-11-22
-  aiAccess:
-    oaiSearchBot: allowed
-    gptBot: allowed
-    chatgptUser: allowed
-    oaiAdsBot: allowed
-    claudeBot: allowed
-    claudeSearchBot: allowed
-    claudeUser: allowed
-    googleExtended: allowed
-    googleCloudVertexBot: allowed
-    googleAgent: allowed
-    bingbot: allowed
-    perplexityBot: allowed
-    perplexityUser: allowed
-    applebot: allowed
-    applebotExtended: blocked
-    metaExternalAgent: blocked
-    metaWebindexer: allowed
-    metaExternalFetcher: allowed
-    amazonbot: allowed
-    amznSearchBot: allowed
-    amznUser: allowed
-    mistralaiUser: allowed
-    duckAssistBot: allowed
-    ccBot: blocked
-    bytespider: blocked
-  indexable: true
-  profileLinkDofollow: null
-  aiCrawled: true
-  geoScore: 60
-  geoTier: medium
-  geoSignals:
-    crawlAccessScore: 30
-    indexabilityScore: 10
-    popularityScore: 1
-    queryFitScore: 15
-    authorityScore: 0
-    linkValueScore: 4
-  trancoRank: null
+  trancoRank: 7324

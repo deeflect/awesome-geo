@@ -10,7 +10,7 @@
   effort: medium
   description: Webmaster forum.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -49,7 +49,7 @@
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 38715
+  trancoRank: 38264
 - name: DZone
   url: https://dzone.com
   category: community-platforms
@@ -98,7 +98,7 @@
     queryFitScore: 14
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 11985
+  trancoRank: 11991
 - name: GrowthHackers
   url: https://growthhackers.com
   category: community-platforms
@@ -108,7 +108,7 @@
   effort: low
   description: Growth marketing community.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -147,7 +147,7 @@
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 126101
+  trancoRank: 125832
 - name: IndieHackers
   url: https://www.indiehackers.com
   category: community-platforms
@@ -196,7 +196,7 @@
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 36521
+  trancoRank: 36722
 - name: Lobsters
   url: https://lobste.rs
   category: community-platforms
@@ -206,7 +206,7 @@
   effort: low
   description: Invite-only tech link aggregator.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: blocked
     gptBot: blocked
@@ -245,7 +245,7 @@
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 5
-  trancoRank: 36074
+  trancoRank: 35917
 - name: Quora
   url: https://quora.com
   category: community-platforms
@@ -399,7 +399,7 @@
   effort: medium
   description: Tech news discussion.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -438,7 +438,7 @@
     queryFitScore: 14
     authorityScore: 8
     linkValueScore: 4
-  trancoRank: 2693
+  trancoRank: 2699
 - name: Spiceworks
   url: https://community.spiceworks.com
   category: community-platforms
@@ -448,7 +448,7 @@
   effort: low
   description: IT professional community.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: blocked
@@ -496,7 +496,7 @@
   effort: medium
   description: Digital marketing forum.
   verified: true
-  lastVerified: 2026-11-22
+  lastVerified: 2026-11-23
   aiAccess:
     oaiSearchBot: allowed
     gptBot: allowed
@@ -535,7 +535,7 @@
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 37493
+  trancoRank: 37577
 - name: WebmasterWorld
   url: https://www.webmasterworld.com
   category: community-platforms
@@ -584,7 +584,7 @@
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 52851
+  trancoRank: 52903
 - name: XenForo Community
   url: https://xenforo.com/community
   category: community-platforms
@@ -615,4 +615,4 @@
     queryFitScore: 14
     authorityScore: 6
     linkValueScore: 4
-  trancoRank: 28149
+  trancoRank: 28136

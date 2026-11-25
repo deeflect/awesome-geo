@@ -295,6 +295,7 @@ More guides on [geo.deeflect.com/guides](https://geo.deeflect.com/guides/):
 - [LLM Pulse Brand Mention Checker](https://llmpulse.ai/brand-mention-checker): one free report per email covering mentions, citations and sentiment in ChatGPT, Perplexity, Gemini, AI Mode and AI Overviews; submitting also subscribes you to its newsletter
 - [Bing Webmaster Tools](https://www.bing.com/webmasters): free account; the AI Performance report shows citations in Copilot and Bing AI answers
 - [Google Search Console generative AI reports](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports): impressions by page, country, device and date in AI Overviews and AI Mode, for all websites since August 31, 2026
+- [SagBot](https://sagbot.app/): free AI-readiness scan of one domain: robots.txt rules for 24 AI crawlers, Content-Signal, llms.txt, Markdown for agents, JSON-LD entity and sameAs, with a fix for each failed check; 3 scans a day without an account. AI visibility checks are paid
 
 ### AI Crawler User-Agents
 

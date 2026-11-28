@@ -613,6 +613,9 @@ More guides on [geo.deeflect.com/guides](https://geo.deeflect.com/guides/):
 - [LLM Pulse Brand Mention Checker](https://llmpulse.ai/brand-mention-checker): one free report per email covering mentions, citations and sentiment in ChatGPT, Perplexity, Gemini, AI Mode and AI Overviews; submitting also subscribes you to its newsletter
 - [Bing Webmaster Tools](https://www.bing.com/webmasters): free account; the AI Performance report shows citations in Copilot and Bing AI answers
 - [Google Search Console generative AI reports](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports): impressions by page, country, device and date in AI Overviews and AI Mode, for all websites since August 31, 2026
+- [Generative Engine Optimization Checker](https://generativeengineoptimizationservice.com/): free rule-based site checker auditing robots.txt AI crawlers, structured data, and answer-readiness facts with no signup
+- [AI Prompt Tracking](https://aiprompttracking.com/): free local browser prompt sheet and manual visibility scorer for tracking brand citations across AI assistants without signup
+- [AI Mention Tracking](https://aimentiontracking.com/): free guides and benchmarks for auditing brand mentions across ChatGPT, Perplexity, Claude, and AI Overviews
 
 ### AI Crawler User-Agents
 
